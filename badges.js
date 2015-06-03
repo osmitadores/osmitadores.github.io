@@ -238,7 +238,7 @@ function writeBadges(myth){
         kanaFest,
         programeiro,
         _3dsPlay,
-        lendsClub
+        lendsClub,
     ];
     var mGarland = [
         'garland',
