@@ -1,6 +1,6 @@
 /*
 *   > MITHYBOARD SCRIPT
-*   > VERSION: 1.2.0
+*   > VERSION: 1.2.1
 *   > BUILD: 0605-21
 *   > ALTERAÇÕES:
 *       > Criação do pseudo-DB.
@@ -61,78 +61,78 @@ function createBadge(title, imgName) {
 
 
 //Tier
-    var mythUnicorn = '<img class="badgeicon title="Mitador Unicorn: Raros porém participativos" src="http://os-mitadores.lucasflicky.com/files/theme/BADGES/uni.png">';
-    var mythPlatinum = '<img class="badgeicon" title="Mitador Platinum" src="http://os-mitadores.lucasflicky.com/files/theme/BADGES/plat.png">';
-    var mythSilver = '<img class="badgeicon" title="Mitador Silver" src="http://os-mitadores.lucasflicky.com/files/theme/BADGES/silver.png">';
-    var mythLegacy = '<img class="badgeicon" title="Mitador Legacy: Veterano dos primórdios!" src="http://os-mitadores.lucasflicky.com/files/theme/BADGES/legacy.png">';
-    var mythFresh = '<img class="badgeicon" title="Freshman: Mitadores Trainee" src="http://os-mitadores.lucasflicky.com/files/theme/BADGES/fresh.png">';
-    var mythGuest = '<img class="badgeicon" title="Guest: Não-mitador que convive na casa." src="http://os-mitadores.lucasflicky.com/files/theme/BADGES/guest.png">';
-    var mythHonorary = '<img class="badgeicon" title="Mitador Honorary: Protegido pessoal de um Prime ou Platinum" src="http://os-mitadores.lucasflicky.com/files/theme/BADGES/honor.png">';
-    var mythLurker = '<img class="badgeicon" title="Lurker: Sempre nas sombras, eventualmente se pronuncia." src="http://os-mitadores.lucasflicky.com/files/theme/BADGES/lurk.png">';
-    var mythGold = '<img class="badgeicon" title="Mitador Gold" src="http://os-mitadores.lucasflicky.com/files/theme/BADGES/gold.png">';
-    var mythGhost = '<img class="badgeicon" title="Mitador Ghost: Inativo há mais de um mês." src="http://os-mitadores.lucasflicky.com/files/theme/BADGES/ghost.png">';
-    var mythPrime = '<img class="badgeicon" title="Mitador Prime: Os primeiros Mitadores, criadores da porra toda." src="http://os-mitadores.lucasflicky.com/files/theme/BADGES/prime.png">';
+    var mythUnicorn = createBadge('Mitador Unicorn: Raros porém participativos', 'uni');
+    var mythPlatinum = createBadge('Mitador Platinum', 'plat');
+    var mythSilver = createBadge('Mitador Silver', 'silver');
+    var mythLegacy = createBadge('Mitador Legacy: Veterano dos primórdios!', 'legacy');
+    var mythFresh = createBadge('Freshman: Mitadores Trainee', 'fresh');
+    var mythGuest = createBadge('Guest: Não-mitador que convive na casa.', 'guest');
+    var mythHonorary = createBadge('Mitador Honorary: Protegido pessoal de um Prime ou Platinum', 'honor');
+    var mythLurker = createBadge('Lurker: Sempre nas sombras, eventualmente se pronuncia.', 'lurk');
+    var mythGold = createBadge('Mitador Gold', 'gold');
+    var mythGhost = createBadge('Mitador Ghost: Inativo há mais de um mês.', 'ghost');
+    var mythPrime = createBadge('Mitador Prime: Os primeiros Mitadores, criadores da porra toda.', 'prime');
 
 
 //Badges    
-    var jogueiro = '<img class="badgeicon" title="Jogueiros: Sempre presentes nas jogatinas míticas" src="http://os-mitadores.lucasflicky.com/files/theme/BADGES/joy.png">';
-    var hangouteiro = '<img class="badgeicon" title="Hangouteiro: Sempre marcando presença nos Hangouts!" src="http://os-mitadores.lucasflicky.com/files/theme/BADGES/hang.png">';
-    var desenheiro = '<img class="badgeicon" title="Desenheiro: Depictador dos melhores momentos." src="http://os-mitadores.lucasflicky.com/files/theme/BADGES/pen.png">';
-    var vassouraWielder = ' <img class="badgeicon" title="Vassoura Wielder: Já vassourou alguém em uma situação realmente necessária" src="http://os-mitadores.lucasflicky.com/files/theme/BADGES/broom.png">';
-    var _3dsPlay = '<img class="badgeicon" title="3DS Teamplay: Jogou com mitadores via Nintendo 3DS" src="http://os-mitadores.lucasflicky.com/files/theme/BADGES/3ds.png">';
-    var defiance = '<img class="badgeicon" title="Defiance: Sem medo de umas vassouradas" src="http://os-mitadores.lucasflicky.com/files/theme/BADGES/defiance.png">';
-    var pipoqueiro = '<img class="badgeicon" title="Arthur exclusive \'Pipoqueiro Badge\'" src="http://os-mitadores.lucasflicky.com/files/theme/BADGES/pop.png">';
-    var encontroMyth = '<img class="badgeicon" title="Encontro Mitador: eu fui!" src="http://os-mitadores.lucasflicky.com/files/theme/BADGES/group.png">';
-    var smashFesteiro = '<img class="badgeicon" title="Smashfesteiro" src="http://os-mitadores.lucasflicky.com/files/theme/BADGES/ssb.png">';
-    var smashFest2014 = '<img class="badgeicon" title="Newyear 2014: Smashfest - Eu fui!" src="http://os-mitadores.lucasflicky.com/files/theme/BADGES/2014.png">';
-    var mechanicPunch = '<img class="badgeicon" title="Claro exclusive \'Mechanic Punch\' Badge" src="http://os-mitadores.lucasflicky.com/files/theme/BADGES/soc.png">';
-    var programeiro = '<img class="badgeicon" title="Programeiro: Ajuda a codar paradas mitadoras" src="http://os-mitadores.lucasflicky.com/files/theme/BADGES/code.png">';
-    var frukiFest = '<img class="badgeicon" title="Newyear 2013: Frukifest - Eu fui!" src="http://os-mitadores.lucasflicky.com/files/theme/BADGES/2013.png">';
-    var streameiro = '<img class="badgeicon" title="Streameiro: Ocasionalmente promove Livestreams" src="http://os-mitadores.lucasflicky.com/files/theme/BADGES/live.png">';
-    var gardevoa = '<img class="badgeicon" title="Flicky exclusive \'Gardevobadge\' " src="http://os-mitadores.lucasflicky.com/files/theme/BADGES/garde.png">';
-    var mitamores = '<img class="badgeicon" title="Os Mitamores: Espalhando amor entre os Mitos" src="http://os-mitadores.lucasflicky.com/files/theme/BADGES/mitamores.png">';
-    var doisPotes = '<img class="badgeicon" title="Luana exclusive \'Doooois Pooootes\' Badge" src="http://os-mitadores.lucasflicky.com/files/theme/BADGES/pots.png">';
+    var jogueiro = createBadge('Jogueiros: Sempre presentes nas jogatinas míticas', 'joy');
+    var hangouteiro = createBadge('Hangouteiro: Sempre marcando presença nos Hangouts!', 'hang');
+    var desenheiro = createBadge('Desenheiro: Depictador dos melhores momentos.', 'pen');
+    var vassouraWielder = createBadge('Vassoura Wielder: Já vassourou alguém em uma situação realmente necessária', 'broom');
+    var _3dsPlay = createBadge('3DS Teamplay: Jogou com mitadores via Nintendo 3DS', '3ds');
+    var defiance = createBadge('Defiance: Sem medo de umas vassouradas', 'defiance');
+    var pipoqueiro = createBadge('Arthur exclusive \'Pipoqueiro Badge\'', 'pop');
+    var encontroMyth = createBadge('Encontro Mitador: eu fui!', 'group');
+    var smashFesteiro = createBadge('Smashfesteiro', 'ssb');
+    var smashFest2014 = createBadge('Newyear 2014: Smashfest - Eu fui!', '2014');
+    var mechanicPunch = createBadge('Claro exclusive \'Mechanic Punch\' Badge', 'soc');
+    var programeiro = createBadge('Programeiro: Ajuda a codar paradas mitadoras', 'code');
+    var frukiFest = createBadge('Newyear 2013: Frukifest - Eu fui!', '2013');
+    var streameiro = createBadge('Streameiro: Ocasionalmente promove Livestreams', 'live');
+    var gardevoa = createBadge('Flicky exclusive \'Gardevobadge\' ', 'garde');
+    var mitamores = createBadge('Os Mitamores: Espalhando amor entre os Mitos', 'mitamores');
+    var doisPotes = createBadge('Luana exclusive \'Doooois Pooootes\' Badge', 'pots');
    
    
    
-    var lendsClub = '<img class="badgeicon" title="Lends Club: Board Games com Mitadores" src="http://os-mitadores.lucasflicky.com/files/theme/BADGES/lends.png">';
-    var badgeWhore = '<img class="badgeicon" title="Badge Whore - Faço tudo por badges!" src="http://os-mitadores.lucasflicky.com/files/theme/BADGES/badwho.png">';
-    var kanaFest = '<img class="badgeicon" title="Kanafester - Gênios do Pseudo-Japonês" src="http://os-mitadores.lucasflicky.com/files/theme/BADGES/kana.png">';
-    var cupidRab = '<img class="badgeicon" title="Coelho exclusive \'Official Cupid\' Badge" src="http://os-mitadores.lucasflicky.com/files/theme/BADGES/placejolder.png">';
-    var pauHd = '<img class="badgeicon" title="Aragão exclusive \'Pau em HD\' Badge" src="http://os-mitadores.lucasflicky.com/files/theme/BADGES/placejolder.png">';
-    var likeBomb = '<img class="badgeicon" title="Like Bomb - Top da balada" src="http://os-mitadores.lucasflicky.com/files/theme/BADGES/placejolder.png">';
-    var vidalGt = '<img class="badgeicon" title="Vidal exclusive \'Greentext\' Badge" src="http://os-mitadores.lucasflicky.com/files/theme/BADGES/placejolder.png">';
-    var vidalFdp = '<img class="badgeicon" title="Vidal exclusive \'Filhadaputópolis\' Badge" src="http://os-mitadores.lucasflicky.com/files/theme/BADGES/placejolder.png">';
-    var miauCaralho = '<img class="badgeicon" title="Ana exclusive \'MIAO CARALHO\' Badge" src="http://os-mitadores.lucasflicky.com/files/theme/BADGES/placejolder.png">';
-    var ajudeiro = '<img class="badgeicon" title="Ajudeiro - Ele não é o Luciano, mas também ajuda pra caramba!" src="http://os-mitadores.lucasflicky.com/files/theme/BADGES/placejolder.png">';
-    var redCoder = '<img class="badgeicon" title="Red Coder: Coder Lendário" src="http://os-mitadores.lucasflicky.com/files/theme/BADGES/placejolder.png">';
-    var goldenPen = '<img class="badgeicon" title="Golden Pen: Desenheiro Lendário" src="http://os-mitadores.lucasflicky.com/files/theme/BADGES/placejolder.png">';
-    var tunelaa = '<img class="badgeicon" title="Tumeo exclusive \'???\' Badge" src="http://os-mitadores.lucasflicky.com/files/theme/BADGES/placejolder.png">';
-    var wataZomb = '<img class="badgeicon" title="Watanabe Exclusive \'Japanese Horror Movie\' Badge" src="http://os-mitadores.lucasflicky.com/files/theme/BADGES/placejolder.png">';
-    var preHistoric = '<img class="badgeicon" title="Mitador Jurássico - Os Mitadores Pré-Históricos" src="http://os-mitadores.lucasflicky.com/files/theme/BADGES/placejolder.png">';
-    var musicist = '<img class="badgeicon" title="Musiqueiro" src="http://os-mitadores.lucasflicky.com/files/theme/BADGES/placejolder.png">';
-    var keidiPint = '<img class="badgeicon" title="Keidi exclusive \'Pinteiro\' Badge" src="http://os-mitadores.lucasflicky.com/files/theme/BADGES/placejolder.png">';
-    var merito = '<img class="badgeicon" title="Mitador por mérito - Admin/Community pick" src="http://os-mitadores.lucasflicky.com/files/theme/BADGES/placejolder.png">';
-    var matricialPrint = '<img class="badgeicon" title="Vidal exclusive \'Impressora Matricial\' Badge" src="http://os-mitadores.lucasflicky.com/files/theme/BADGES/placejolder.png">';
-    var happyDoor = '<img class="badgeicon" title="Karen exclusive \'Porta Feliz\' Badge" src="http://os-mitadores.lucasflicky.com/files/theme/BADGES/placejolder.png">';
-    var satanicat = '<img class="badgeicon" title="Matsuna exclusive \'Satanicat\' Badge" src="http://os-mitadores.lucasflicky.com/files/theme/BADGES/placejolder.png">';
-    var karaoke = '<img class="badgeicon" title="Karaokê Mitador: Eu fui!" src="http://os-mitadores.lucasflicky.com/files/theme/BADGES/placejolder.png">';
-    var nennys = '<img class="badgeicon" title="Mitador Nennys: o mais novo" src="http://os-mitadores.lucasflicky.com/files/theme/BADGES/placejolder.png">';
-    var elder = '<img class="badgeicon" title="Mitador Ancião: o mais velho" src="http://os-mitadores.lucasflicky.com/files/theme/BADGES/placejolder.png">';
-    var mariEx = '<img class="badgeicon" title="Pall exclusive \'!!!\' Badge" src="http://os-mitadores.lucasflicky.com/files/theme/BADGES/placejolder.png">';
-    var fuQuest = '<img class="badgeicon" title="Fuquest/OsMitadores the Game: Devteam" src="http://os-mitadores.lucasflicky.com/files/theme/BADGES/placejolder.png">';
-    var radiant = '<img class="badgeicon" title="Radiant Historia 11k" src="http://os-mitadores.lucasflicky.com/files/theme/BADGES/placejolder.png">';
-    var nonethless = '<img class="badgeicon" title="nodesc" src="http://os-mitadores.lucasflicky.com/files/theme/BADGES/placejolder.png">';
+    var lendsClub = createBadge('Lends Club: Board Games com Mitadores', 'lends');
+    var badgeWhore = createBadge('Badge Whore - Faço tudo por badges!', 'badwho');
+    var kanaFest = createBadge('Kanafester - Gênios do Pseudo-Japonês', 'kana');
+    var cupidRab = createBadge('Coelho exclusive \'Official Cupid\' Badge');
+    var pauHd = createBadge('Aragão exclusive \'Pau em HD\' Badge');
+    var likeBomb = createBadge('Like Bomb - Top da balada');
+    var vidalGt = createBadge('Vidal exclusive \'Greentext\' Badge');
+    var vidalFdp = createBadge('Vidal exclusive \'Filhadaputópolis\' Badge');
+    var miauCaralho = createBadge('Ana exclusive \'MIAO CARALHO\' Badge');
+    var ajudeiro = createBadge('Ajudeiro - Ele não é o Luciano, mas também ajuda pra caramba!');
+    var redCoder = createBadge('Red Coder: Coder Lendário');
+    var goldenPen = createBadge('Golden Pen: Desenheiro Lendário');
+    var tunelaa = createBadge('Tumeo exclusive \'???\' Badge');
+    var wataZomb = createBadge('Watanabe Exclusive \'Japanese Horror Movie\' Badge');
+    var preHistoric = createBadge('Mitador Jurássico - Os Mitadores Pré-Históricos');
+    var musicist = createBadge('Musiqueiro');
+    var keidiPint = createBadge('Keidi exclusive \'Pinteiro\' Badge');
+    var merito = createBadge('Mitador por mérito - Admin/Community pick');
+    var matricialPrint = createBadge('Vidal exclusive \'Impressora Matricial\' Badge');
+    var happyDoor = createBadge('Karen exclusive \'Porta Feliz\' Badge');
+    var satanicat = createBadge('Matsuna exclusive \'Satanicat\' Badge');
+    var karaoke = createBadge('Karaokê Mitador: Eu fui!');
+    var nennys = createBadge('Mitador Nennys: o mais novo');
+    var elder = createBadge('Mitador Ancião: o mais velho');
+    var mariEx = createBadge('Pall exclusive \'!!!\' Badge');
+    var fuQuest = createBadge('Fuquest/OsMitadores the Game: Devteam');
+    var radiant = createBadge('Radiant Historia 11k');
+    var nonethless = createBadge('nodesc');
     
 //Crests
-    var cVinicius = '<img class="badgeicon" title=\'"The Piano Key": Vinicius Crest\' src=\"http://os-mitadores.lucasflicky.com/files/theme/BADGES/vkps.png">';
-    var cFlicky = '<img class="badgeicon" title=\'"The Mighy Red Hood": Flicky Crest\' src="http://os-mitadores.lucasflicky.com/files/theme/BADGES/hood.png">';
-    var cGors = '<img class="badgeicon" title=\'"The Bullet Head": Gors Crest\' src="http://os-mitadores.lucasflicky.com/files/theme/BADGES/gors.png">';
-    var cAna = '<img class="badgeicon" title=\'"Yomiell Hankerchief": Ana Crest\' src="http://os-mitadores.lucasflicky.com/files/theme/BADGES/yomi.png">';
-    var cPall = '<img class="badgeicon" title=\'"The Kawaii Stick" Pall Crest\' src="http://os-mitadores.lucasflicky.com/files/theme/BADGES/pall.png">';
-    var cClaro = '<img class="badgeicon" title=\'"Com o Claro você fala ilimitado!" Claro Crest\' src="http://os-mitadores.lucasflicky.com/files/theme/BADGES/claro.png">';
-    var cHerbe = '<img class="badgeicon" title=\'"A Erva da Alegria": Herbe Crest\' src="http://os-mitadores.lucasflicky.com/files/theme/BADGES/herb.png">';
-    var cCesar = '<img class="badgeicon" title=\'"The Rockstar Sneakers": Rasec Crest\' src="http://os-mitadores.lucasflicky.com/files/theme/BADGES/rasec.png">';
+    var cVinicius = createBadge('\"The Piano Key\": Vinicius Crest', 'vkps');
+    var cFlicky = createBadge('\"The Mighy Red Hood\": Flicky Crest', 'hood');
+    var cGors = createBadge('\"The Bullet Head\": Gors Crest', 'gors');
+    var cAna = createBadge('\"Yomiell Hankerchief\": Ana Crest', 'yomi');
+    var cPall = createBadge('\"The Kawaii Stick\" Pall Crest', 'pall');
+    var cClaro = createBadge('\"Com o Claro você fala ilimitado!\" Claro Crest', 'claro');
+    var cHerbe = createBadge('\"A Erva da Alegria\": Herbe Crest', 'herb');
+    var cCesar = createBadge('\"The Rockstar Sneakers\": Rasec Crest', 'rasec');
 
 
     var mAlex = [
