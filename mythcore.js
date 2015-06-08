@@ -63,8 +63,14 @@ function indexMyth(osMitos){
 *   Args: 1. Os Mitadores (object). **apesar de não ter um 
 *   outro argumento válido**
 */
+
     for (var i in osMitos){
-        writeBadges(osMitos[i]);
+
+        document.writeln(createTable(osMitos[i]));
+    }
+
+    for (var x in osMitos){
+        writeBadges(osMitos[x]);
     }
 }
 
