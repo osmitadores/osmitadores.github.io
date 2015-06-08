@@ -89,14 +89,21 @@ function createBadge(title, imgName) {
     var cHerbe = createBadge('\"A Erva da Alegria\": Herbe Crest', 'herb');
     var cCesar = createBadge('\"The Rockstar Sneakers\": Rasec Crest', 'rasec');
 
-    var myth = {};
+    var Myth = {};
 
-    myth.Alex = [
-        'foffano',
-        mythUnicorn,
-        preHistoric
-    ];
-    myth.Ana = [
+    Myth.alex = {
+        nome: null,
+        tagId: 'foffano',
+        tagId1: 'foffano1',
+        faceId: null,
+        tier: null,
+        ano: null,
+        badges: [
+            mythUnicorn,
+            preHistoric
+        ]
+    }
+    Myth.Ana = [
         'yomiell',
         mythPlatinum,
         preHistoric,
@@ -108,12 +115,12 @@ function createBadge(title, imgName) {
         defiance,
         miauCaralho
     ];
-    myth.AnaErrada = [
+    Myth.AnaErrada = [
         'anaerrada',
         mythUnicorn,
         cVinicius
     ];
-    myth.Aragao = [
+    Myth.Aragao = [
         'aragao',
         mythLegacy,
         mythSilver,
@@ -124,19 +131,19 @@ function createBadge(title, imgName) {
         pauHd,
         badgeWhore
     ];
-    myth.Arthur = [
+    Myth.Arthur = [
         'arthur',
         mythFresh,
         cFlicky,
         jogueiro,
         pipoqueiro
     ];
-    myth.Bruna = [
+    Myth.Bruna = [
         'bruna',
         mythGuest,
         cFlicky
     ];
-    myth.Cesar = [
+    Myth.Cesar = [
         'rasec',
         mythHonorary,
         cFlicky,
@@ -148,7 +155,7 @@ function createBadge(title, imgName) {
         lendsClub
         
     ];
-    myth.Claro = [
+    Myth.Claro = [
         'claro',
         mythGold,
         mechanicPunch,
@@ -158,7 +165,7 @@ function createBadge(title, imgName) {
         cGors,
         programeiro
     ];
-    myth.Coelho = [
+    Myth.Coelho = [
         'coelho',
         mythLegacy,
         mythGhost,
@@ -170,12 +177,12 @@ function createBadge(title, imgName) {
         _3dsPlay,
         elder
     ];
-    myth.Douglas = [
+    Myth.Douglas = [
         'douglas',
         mythFresh,
         merito,     
     ];
-    myth.Fernando = [
+    Myth.Fernando = [
         'duodyn',
         mythHonorary,
         mythGhost,
@@ -183,7 +190,7 @@ function createBadge(title, imgName) {
         hangouteiro,
         karaoke
     ];
-    myth.Flicky = [
+    Myth.Flicky = [
         'flike',
         mythPrime,
         desenheiro,
@@ -205,7 +212,7 @@ function createBadge(title, imgName) {
         _3dsPlay,
         lendsClub,
     ];
-    myth.Garland = [
+    Myth.Garland = [
         'garland',
         mythHonorary,
         encontroMyth,
@@ -213,7 +220,7 @@ function createBadge(title, imgName) {
         cFlicky,
         smashFest2014
     ];
-    myth.Herbe = [
+    Myth.Herbe = [
         'herbe',
         mythPrime,
         frukiFest,
@@ -226,7 +233,7 @@ function createBadge(title, imgName) {
         lendsClub,
         nennys
     ];
-    myth.Karen = [
+    Myth.Karen = [
         'karen',
         mythLurker,
         preHistoric,
@@ -236,7 +243,7 @@ function createBadge(title, imgName) {
         encontroMyth,
         smashFest2014
     ];
-    myth.Keidi = [
+    Myth.Keidi = [
         'keidi',
         mythUnicorn,
         cAna,
@@ -244,14 +251,14 @@ function createBadge(title, imgName) {
         streameiro,
         kanaFest
     ];
-    myth.Laise = [
+    Myth.Laise = [
         'laise',
         mythHonorary,
         mythGhost,
         mythGuest,
         cFlicky
     ];
-    myth.Luana = [
+    Myth.Luana = [
         'luana',
         mythHonorary,
         encontroMyth,
@@ -262,18 +269,18 @@ function createBadge(title, imgName) {
         mitamores,
         lendsClub
     ];
-    myth.Marcela = [
+    Myth.Marcela = [
         'marcela',
         mythLurker,
         cFlicky
     ];
-    myth.Matsuna = [
+    Myth.Matsuna = [
         'matsuna',
         mythPrime,
         mythGhost,
         satanicat
     ];
-    myth.Pall = [
+    Myth.Pall = [
         'pall',
         mythLegacy,
         mythLurker,
@@ -287,20 +294,20 @@ function createBadge(title, imgName) {
         likeBomb,
         mariEx
     ];
-    myth.Pam = [
+    Myth.Pam = [
         'pam',
         mythFresh,
         cPall,
         defiance,
         badgeWhore
     ];
-    myth.Rubens = [
+    Myth.Rubens = [
         'rubens',
         mythUnicorn,
         cClaro,
         kanaFest
     ];
-    myth.Tumeo = [
+    Myth.Tumeo = [
         'tunel',
         mythGold,
         merito,
@@ -308,7 +315,7 @@ function createBadge(title, imgName) {
         kanaFest,
         redCoder
     ];
-    myth.Vidal = [
+    Myth.Vidal = [
         'vidal',
         mythSilver,
         encontroMyth,
@@ -322,7 +329,7 @@ function createBadge(title, imgName) {
         vidalFdp
         
     ];
-    myth.Vinicius = [
+    Myth.Vinicius = [
         'vinicius',
         mythLegacy,
         mythUnicorn,
@@ -338,7 +345,7 @@ function createBadge(title, imgName) {
         smashFest2014,
         _3dsPlay
     ];
-    myth.Gors = [
+    Myth.Gors = [
         'gors',
         mythLegacy,
         mythPlatinum,
@@ -359,7 +366,7 @@ function createBadge(title, imgName) {
         musicist,
         likeBomb
     ];
-    myth.Wolvie = [
+    Myth.Wolvie = [
         'wolvie',
         mythFresh,
         cCesar

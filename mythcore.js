@@ -28,7 +28,20 @@
 *       > Exemplo: var pauHd = createBadge('Aragão exclusive \'Pau em HD\' Badge');
 */
 
-
+/*
+function writeBadges(myth){
+/*
+*   Descrição: Função que escreve no #document as imagens 
+*   das badges e e a quantidade delas (a quantidade é cal-
+*   culada a partir do array.length e não dos filhos da tag).
+*   Args: 1. O array do mitador.
+*
+    for (var i = 1; i < myth.length; i++) {
+        document.getElementById(myth.id).innerHTML += " " + myth[i] + " ";
+    }
+    document.getElementById(myth[0] + "1").innerHTML += (myth.length - 1); 
+}
+*/
 function writeBadges(myth){
 /*
 *   Descrição: Função que escreve no #document as imagens 
@@ -36,10 +49,10 @@ function writeBadges(myth){
 *   culada a partir do array.length e não dos filhos da tag).
 *   Args: 1. O array do mitador.
 */
-    for (var i = 1; i < myth.length; i++) {
-        document.getElementById(myth[0]).innerHTML += " " + myth[i] + " ";
+    for (var i in myth.badges) {
+        document.getElementById(myth.tagId).innerHTML += " " + myth.badges[i] + " ";
     }
-    document.getElementById(myth[0] + "1").innerHTML += (myth.length - 1); 
+    document.getElementById(myth.tagId1).innerHTML += myth.badges.length; 
 }
 
 
@@ -55,5 +68,5 @@ function indexMyth(osMitos){
     }
 }
 
-indexMyth(myth);
+indexMyth(Myth);
 
