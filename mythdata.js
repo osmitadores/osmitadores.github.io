@@ -15,7 +15,6 @@ function createBadge(title, imgName) {
 }
 
 
-
 //Tier
     var mythUnicorn = createBadge('Mitador Unicorn: Raros porém participativos', 'uni');
     var mythPlatinum = createBadge('Mitador Platinum', 'plat');
@@ -93,19 +92,25 @@ function createBadge(title, imgName) {
     var Myth = {};
 
     Myth.alex = {
-        nome: null,
+        nome: 'Alex',
         tagId: 'foffano',
         tagId1: 'foffano1',
-        faceId: null,
-        tier: null,
-        ano: null,
+        faceId: 'alexfoffano',
+        tier: 'Unicorn',
+        ano: '2013',
         badges: [
             mythUnicorn,
             preHistoric
         ]
     }
-    Myth.Ana = [
-        'yomiell',
+    Myth.Ana = {
+        nome: 'Ana',
+        tagId: 'yomiell',
+        tagId1: 'yomiell1',
+        faceId: 'anabeatriz.s.oliveira',
+        tier: 'Platinum',
+        ano: '2014',
+        badges: [
         mythPlatinum,
         preHistoric,
         jogueiro,
@@ -116,13 +121,26 @@ function createBadge(title, imgName) {
         defiance,
         miauCaralho
     ];
-    Myth.AnaErrada = [
-        'anaerrada',
+    Myth.AnaErrada = {
+        nome: 'Ana Errada',
+        tagId: 'anaerrada',
+        tagId1: 'anaerrada1',
+        faceId: '100007384087758',
+        tier: 'Unicorn',
+        ano: '2015',
+        badges: [
         mythUnicorn,
         cVinicius
     ];
-    Myth.Aragao = [
-        'aragao',
+    Myth.Aragao = {
+        nome: 'Aragão',
+        tagId: 'aragao',
+        tagId1: 'aragao1',
+        faceId: 'paulosergio.aragao.5',
+        tier: 'Silver',
+        ano: '2013',
+        badges: [
+        
         mythLegacy,
         mythSilver,
         hangouteiro,
@@ -132,20 +150,41 @@ function createBadge(title, imgName) {
         pauHd,
         badgeWhore
     ];
-    Myth.Arthur = [
-        'arthur',
+    Myth.Arthur = {
+        nome: 'Arthur Zero',
+        tagId: 'arthur',
+        tagId1: 'arthur1',
+        faceId: 'ArthurLimaT',
+        tier: 'Freshman',
+        ano: '2015',
+        badges: [
+        
         mythFresh,
         cFlicky,
         jogueiro,
         pipoqueiro
     ];
-    Myth.Bruna = [
-        'bruna',
+    Myth.Bruna = {
+        nome: 'Bruna',
+        tagId: 'bruna',
+        tagId1: 'bruna1',
+        faceId: '100004056698492',
+        tier: 'Guest',
+        ano: '2015',
+        badges: [
+  
         mythGuest,
         cFlicky
     ];
-    Myth.Cesar = [
-        'rasec',
+    Myth.Cesar = {
+        nome: 'Cesar',
+        tagId: 'rasec',
+        tagId1: 'rasec1',
+        faceId: 'cesar.augusto.184007',
+        tier: 'Honorary',
+        ano: '2014',
+        badges: [
+
         mythHonorary,
         cFlicky,
         mythLurker,
@@ -156,8 +195,15 @@ function createBadge(title, imgName) {
         lendsClub
         
     ];
-    Myth.Claro = [
-        'claro',
+    Myth.Claro = {
+        nome: 'Claro',
+        tagId: 'claro',
+        tagId1: 'claro1',
+        faceId: 'MatheusOClaro',
+        tier: 'Gold',
+        ano: '2014',
+        badges: [
+        
         mythGold,
         mechanicPunch,
         hangouteiro,
@@ -166,8 +212,15 @@ function createBadge(title, imgName) {
         cGors,
         programeiro
     ];
-    Myth.Coelho = [
-        'coelho',
+    Myth.Coelho = {
+        nome: 'Coelho',
+        tagId: 'coelho',
+        tagId1: 'coelho1',
+        faceId: 'BlackLabHorus',
+        tier: 'Legacy Lurker',
+        ano: '2013',
+        badges: [
+        
         mythLegacy,
         mythGhost,
         cupidRab,
@@ -178,21 +231,42 @@ function createBadge(title, imgName) {
         _3dsPlay,
         elder
     ];
-    Myth.Douglas = [
-        'douglas',
+    Myth.Douglas = {
+        nome: 'Douglas',
+        tagId: 'douglas',
+        tagId1: 'douglas1',
+        faceId: 'oekintarokun',
+        tier: 'Freshman',
+        ano: '2015',
+        badges: [
+        
         mythFresh,
         merito,     
     ];
-    Myth.Fernando = [
-        'duodyn',
+    Myth.Fernando = {
+        nome: 'Fernando',
+        tagId: 'duodyn',
+        tagId1: 'duodyn1',
+        faceId: 'fernando.lopes.7927',
+        tier: 'Honorary',
+        ano: '2014',
+        badges: [
+        
         mythHonorary,
         mythGhost,
         cGors,
         hangouteiro,
         karaoke
     ];
-    Myth.Flicky = [
-        'flike',
+    Myth.Flicky = {
+        nome: 'Flicky',
+        tagId: 'flike',
+        tagId1: 'flike1',
+        faceId: 'lucasflicky',
+        tier: 'Prime',
+        ano: '2013',
+        badges: [
+        
         mythPrime,
         desenheiro,
         preHistoric,
@@ -213,16 +287,30 @@ function createBadge(title, imgName) {
         _3dsPlay,
         lendsClub,
     ];
-    Myth.Garland = [
-        'garland',
+    Myth.Garland = {
+        nome: 'Garland',
+        tagId: 'garland',
+        tagId1: 'garland1',
+        faceId: 'GarlandtheChaos',
+        tier: 'Honorary',
+        ano: '2014',
+        badges: [
+        
         mythHonorary,
         encontroMyth,
         mythLurker,
         cFlicky,
         smashFest2014
     ];
-    Myth.Herbe = [
-        'herbe',
+    Myth.Herbe = {
+        nome: 'Herbe',
+        tagId: 'herbe',
+        tagId1: 'herbe1',
+        faceId: '100000980181670',
+        tier: 'Prime',
+        ano: '2013',
+        badges: [
+        
         mythPrime,
         frukiFest,
         encontroMyth,
@@ -234,8 +322,15 @@ function createBadge(title, imgName) {
         lendsClub,
         nennys
     ];
-    Myth.Karen = [
-        'karen',
+    Myth.Karen = {
+        nome: 'Karen',
+        tagId: 'karen',
+        tagId1: 'karen1',
+        faceId: 'karen.sama.25',
+        tier: 'Lurker',
+        ano: '2014',
+        badges: [
+        
         mythLurker,
         preHistoric,
         happyDoor,
@@ -244,23 +339,44 @@ function createBadge(title, imgName) {
         encontroMyth,
         smashFest2014
     ];
-    Myth.Keidi = [
-        'keidi',
+    Myth.Keidi = {
+        nome: 'Keidi',
+        tagId: 'keidi',
+        tagId1: 'keidi1',
+        faceId: 'Edukeidi',
+        tier: 'Freshman',
+        ano: '2015',
+        badges: [
+        
         mythUnicorn,
         cAna,
         keidiPint,
         streameiro,
         kanaFest
     ];
-    Myth.Laise = [
-        'laise',
+    Myth.Laise = {
+        nome: 'Laíse',
+        tagId: 'laise',
+        tagId1: 'laise1',
+        faceId: 'laise.dosanjosfailace',
+        tier: 'Guest',
+        ano: '2015',
+        badges: [
+        
         mythHonorary,
         mythGhost,
         mythGuest,
         cFlicky
     ];
-    Myth.Luana = [
-        'luana',
+    Myth.Luana = {
+        nome: 'Luana',
+        tagId: 'luana',
+        tagId1: 'luana1',
+        faceId: 'lreisluana',
+        tier: 'Honorary',
+        ano: '2014',
+        badges: [
+        
         mythHonorary,
         encontroMyth,
         doisPotes,
@@ -270,19 +386,40 @@ function createBadge(title, imgName) {
         mitamores,
         lendsClub
     ];
-    Myth.Marcela = [
-        'marcela',
+    Myth.Marcela = {
+        nome: 'Marcela',
+        tagId: 'marcela',
+        tagId1: 'marcela1',
+        faceId: 'MaahMarceline',
+        tier: 'Lurker',
+        ano: '2014',
+        badges: [
+        
         mythLurker,
         cFlicky
     ];
-    Myth.Matsuna = [
-        'matsuna',
+    Myth.Matsuna = {
+        nome: 'Matsuna',
+        tagId: 'matsuna',
+        tagId1: 'matsuna1',
+        faceId: 'matheus.melo.184',
+        tier: 'Prime',
+        ano: '2013',
+        badges: [
+        
         mythPrime,
         mythGhost,
         satanicat
     ];
-    Myth.Pall = [
-        'pall',
+    Myth.Pall = {
+        nome: 'Pall',
+        tagId: 'pall',
+        tagId1: 'pall1',
+        faceId: 'mariana.pall',
+        tier: 'Legacy',
+        ano: '2013',
+        badges: [
+        
         mythLegacy,
         mythLurker,
         desenheiro,
@@ -295,29 +432,57 @@ function createBadge(title, imgName) {
         likeBomb,
         mariEx
     ];
-    Myth.Pam = [
-        'pam',
+    Myth.Pam = {
+        nome: 'PamGrether',
+        tagId: 'pam',
+        tagId1: 'pam1',
+        faceId: 'pamela.machadogrether',
+        tier: 'Freshman',
+        ano: '2015',
+        badges: [
+        
         mythFresh,
         cPall,
         defiance,
         badgeWhore
     ];
-    Myth.Rubens = [
-        'rubens',
+    Myth.Rubens = {
+        nome: 'Switch',
+        tagId: 'rubens',
+        tagId1: 'rubens1',
+        faceId: 'switch.zetto',
+        tier: 'Unicorn',
+        ano: '2015',
+        badges: [
+        
         mythUnicorn,
         cClaro,
         kanaFest
     ];
-    Myth.Tumeo = [
-        'tunel',
+    Myth.Tumeo = {
+        nome: 'Tumeo',
+        tagId: 'tunel',
+        tagId1: 'tunel1',
+        faceId: 'williamd1k0',
+        tier: 'Gold',
+        ano: '2015',
+        badges: [
+
         mythGold,
         merito,
         programeiro,
         kanaFest,
         redCoder
     ];
-    Myth.Vidal = [
-        'vidal',
+    Myth.Vidal = {
+        nome: 'Vidal',
+        tagId: 'vidal',
+        tagId1: 'vidal1',
+        faceId: 'rics.vida',
+        tier: 'Silver',
+        ano: '2015',
+        badges: [
+
         mythSilver,
         encontroMyth,
         cHerbe,
@@ -330,8 +495,15 @@ function createBadge(title, imgName) {
         vidalFdp
         
     ];
-    Myth.Vinicius = [
-        'vinicius',
+    Myth.Vinicius = {
+        nome: 'Vinicius',
+        tagId: 'vinicius',
+        tagId1: 'vinicius1',
+        faceId: 'viniciuskps',
+        tier: 'Legacy Unicorn',
+        ano: '2013',
+        badges: [
+        
         mythLegacy,
         mythUnicorn,
         preHistoric,
@@ -346,8 +518,15 @@ function createBadge(title, imgName) {
         smashFest2014,
         _3dsPlay
     ];
-    Myth.Gors = [
-        'gors',
+    Myth.Gors = {
+        nome: 'Watanabe',
+        tagId: 'gors',
+        tagId1: 'gors1',
+        faceId: 'william.watanabe.90',
+        tier: 'Legacy Platinum',
+        ano: '2013',
+        badges: [
+        
         mythLegacy,
         mythPlatinum,
         preHistoric,
@@ -367,45 +546,15 @@ function createBadge(title, imgName) {
         musicist,
         likeBomb
     ];
-    Myth.Wolvie = [
-        'wolvie',
+    Myth.Wolvie = {
+        nome: 'Wolvie',
+        tagId: 'wolvie',
+        tagId1: 'wolvie1',
+        faceId: 'wolviie.medeiros',
+        tier: 'Freshman',
+        ano: '2015',
+        badges: [
+
         mythFresh,
         cCesar
     ];
-
-
-function createTable(mito) {    
-    
-
-    return ('<table  class="tg" style="table-layout: margin-bottom: 10px; fixed; width: 100%"> \
-  <colgroup>\
-  <col style="width: 50px"><col style="width: 150px">\
-</colgroup>\
-<tr>\
-  <!-- CREST ICON -->\
-  <th class="crest">\
-    <img class="crestpic" title="Este Mitador ainda não possui Crest própria" src="http://os-mitadores.lucasflicky.com/files/theme/BADGES/none.png">\
-  </th>\
-  <!-- NAME -->\
-  <th align="left" class="name" colspan="2">'+ mito.nome +'</th>  <th align="left" class="tiername"></th> <!-- Espacinho -->\
-  <!-- TIER -->\
-  <th align="left" class="tiername">Tier: <strong>' + mito.tier + '</strong></th>\
-  <th align="right" class="tiericon"><img class="tier" title="Mitador Unicorn: Raros porém participativos" src="http://os-mitadores.lucasflicky.com/files/theme/BADGES/uni.png"></th>\
-</tr>\
-<tr>\
-  <!-- PROFILE PIC -->\
-  <td align="center" class="profilepic" colspan="2" rowspan="5"><a target="_blank" href="https://www.facebook.com/' + mito.faceId + '"><img class="profile" src="http://graph.facebook.com/' + mito.faceId + '/picture?width=150&height=150"></a></td><tr><td HEIGHT="1px" colspan="2" ></td></tr>\
-  <td class="tg-e3zv"> Badges\
-  </td>\
-  <td class="tg-031e"></td>\
-  <td class="since" align="right"  colspan="3" >Mitando since  <strong>' + mito.ano + '</strong></td>\
-</tr>\
-<tr>\
-  <!-- BADGES -->\
-  <td class="badges" id="' + mito.tagId + '" colspan="4">\
-  </td>\
-</tr>\
-<tr><td class="badges"><td class="badges"><td colspan="2" align="right" class="badges2">  <i>Badges Coletadas:</i> <b id="' + mito.tagId1 + '"></b> </td></tr>\
-</table>');
-    
-}
