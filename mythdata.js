@@ -1,5 +1,4 @@
-
-function createBadge(title, imgName) {
+function createBadge(title, imgName, extra) {
 /*
 *   Descrição: Função que simplifica a criação das variáveis
 *   das badges a partir do título da imagem e nome do arquivo
@@ -10,10 +9,20 @@ function createBadge(title, imgName) {
         imgName = 'placejolder';
     }
     var path = 'http://os-mitadores.lucasflicky.com/files/theme/BADGES/';
-    return '<img class="badgeicon" ' + 'title="' + title + '" src="' + path + imgName + '.png">';
+    return '<img class="badgeicon" title="' + title + '" src="' + path + imgName + '.png">';
     
-}
+};
 
+
+function dualTier(tierA, tierB) {
+
+  var titleA = tierA[1];
+  var path = 'http://os-mitadores.lucasflicky.com/files/theme/BADGES/';
+  var imgNameA = tierB;
+
+return ' ' + titleA + '<img class="subtier"  src="' + path + imgNameA + '.png">';
+}
+ 
 
 //Tier
     var mythUnicorn = createBadge('Mitador Unicorn: Raros porém participativos', 'uni');
@@ -27,6 +36,22 @@ function createBadge(title, imgName) {
     var mythGold = createBadge('Mitador Gold', 'gold');
     var mythGhost = createBadge('Mitador Ghost: Inativo há mais de um mês.', 'ghost');
     var mythPrime = createBadge('Mitador Prime: Os primeiros Mitadores, criadores da porra toda.', 'prime');
+
+
+
+    var tierUnicorn   =   ["Unicorn",mythUnicorn];
+    var tierPlatinum  =   ["Platinum",mythPlatinum];
+    var tierSilver    =   ["Silver",mythSilver];
+    var tierLegacy    =   ["Legacy",mythLegacy];
+    var tierFreshman  =   ["Freshman",mythFresh];
+    var tierGuest     =   ["Guest",mythGuest];
+    var tierHonorary  =   ["Honorary",mythHonorary];
+    var tierLurker    =   ["Lurker",mythLurker];
+    var tierGold      =   ["Gold",mythGold];
+    var tierGhost     =   ["Ghost",mythGhost];
+    var tierPrime     =   ["Prime",mythPrime];
+ 
+
 
 
 //Badges    
@@ -77,28 +102,38 @@ function createBadge(title, imgName) {
     var mariEx = createBadge('Pall exclusive \'!!!\' Badge');
     var fuQuest = createBadge('Fuquest/OsMitadores the Game: Devteam');
     var radiant = createBadge('Radiant Historia 11k');
+
+    var genesis = createBadge('Anfitrião de SEGA Genesis');
+    var n64 = createBadge('Anfitrião de Nintendo 64');
+    var ps2 = createBadge('Anfitrião de Playstation 2');
+    var ps3 = createBadge('Anfitrião de Playstation 3');
+    var ps4 = createBadge('Anfitrião de Playstation 4');
+    var wii = createBadge('Anfitrião de Nintendo Wii');
+
     var nonethless = createBadge('nodesc');
     
 //Crests
-    var cVinicius = createBadge('\"The Piano Key\": Vinicius Crest', 'vkps');
-    var cFlicky = createBadge('\"The Mighy Red Hood\": Flicky Crest', 'hood');
-    var cGors = createBadge('\"The Bullet Head\": Gors Crest', 'gors');
-    var cAna = createBadge('\"Yomiell Hankerchief\": Ana Crest', 'yomi');
-    var cPall = createBadge('\"The Kawaii Stick\" Pall Crest', 'pall');
-    var cClaro = createBadge('\"Com o Claro você fala ilimitado!\" Claro Crest', 'claro');
-    var cHerbe = createBadge('\"A Erva da Alegria\": Herbe Crest', 'herb');
-    var cCesar = createBadge('\"The Rockstar Sneakers\": Rasec Crest', 'rasec');
+    var cVinicius = createBadge('The Piano Key: Vinicius Crest', 'vkps');
+    var cFlicky = createBadge('The Mighy Red Hood: Flicky Crest', 'hood');
+    var cGors = createBadge('The Bullet Head: Gors Crest', 'gors');
+    var cAna = createBadge('Yomiell Hankerchief: Ana Crest', 'yomi');
+    var cPall = createBadge('The Kawaii Stick Pall Crest', 'pall');
+    var cClaro = createBadge('Com o Claro você fala ilimitado! Claro Crest', 'claro');
+    var cHerbe = createBadge('A Erva da Alegria: Herbe Crest', 'herb');
+    var cCesar = createBadge('The Rockstar Sneakers: Rasec Crest', 'rasec');
+
+
+
+
 
     var Myth = {};
-
-     var Myth = {};
 
     Myth.alex = {
         nome: 'Alex',
         tagId: 'foffano',
         tagId1: 'foffano1',
         faceId: 'alexfoffano',
-        tier: 'Unicorn',
+        tier: tierUnicorn,
         ano: '2013',
         badges: [
         mythUnicorn,
@@ -110,8 +145,9 @@ function createBadge(title, imgName) {
         tagId: 'yomiell',
         tagId1: 'yomiell1',
         faceId: 'anabeatriz.s.oliveira',
-        tier: 'Platinum',
+        tier: tierPlatinum,
         ano: '2014',
+        crest:['Yomiell Hankerchief: Ana Crest', 'yomi'],
         badges: [
         mythPlatinum,
         preHistoric,
@@ -129,7 +165,7 @@ function createBadge(title, imgName) {
         tagId: 'anaerrada',
         tagId1: 'anaerrada1',
         faceId: '100007384087758',
-        tier: 'Unicorn',
+        tier: tierUnicorn,
         ano: '2015',
         badges: [
         mythUnicorn,
@@ -141,7 +177,7 @@ function createBadge(title, imgName) {
         tagId: 'aragao',
         tagId1: 'aragao1',
         faceId: 'paulosergio.aragao.5',
-        tier: 'Silver',
+        tier: tierSilver,
         ano: '2013',
         badges: [
         
@@ -160,7 +196,7 @@ function createBadge(title, imgName) {
         tagId: 'arthur',
         tagId1: 'arthur1',
         faceId: 'ArthurLimaT',
-        tier: 'Freshman',
+        tier: tierFreshman,
         ano: '2015',
         badges: [
         
@@ -175,7 +211,7 @@ function createBadge(title, imgName) {
         tagId: 'bruna',
         tagId1: 'bruna1',
         faceId: '100004056698492',
-        tier: 'Guest',
+        tier: tierGuest,
         ano: '2015',
         badges: [
         
@@ -188,8 +224,9 @@ function createBadge(title, imgName) {
         tagId: 'rasec',
         tagId1: 'rasec1',
         faceId: 'cesar.augusto.184007',
-        tier: 'Honorary',
+        tier: tierHonorary,
         ano: '2014',
+        crest: ['The Rockstar Sneakers: Rasec Crest', 'rasec'],
         badges: [
 
         mythHonorary,
@@ -208,8 +245,9 @@ function createBadge(title, imgName) {
         tagId: 'claro',
         tagId1: 'claro1',
         faceId: 'MatheusOClaro',
-        tier: 'Gold',
+        tier: tierGold,
         ano: '2014',
+        crest:['Com o Claro você fala ilimitado! Claro Crest', 'claro'],
         badges: [
         
         mythGold,
@@ -226,13 +264,15 @@ function createBadge(title, imgName) {
         tagId: 'coelho',
         tagId1: 'coelho1',
         faceId: 'BlackLabHorus',
-        tier: 'Legacy Lurker',
+        tier: tierLegacy,
         ano: '2013',
         badges: [
         
         mythLegacy,
         mythGhost,
         cupidRab,
+        ps2,
+        ps3,
         frukiFest,
         streameiro,
         karaoke,
@@ -246,7 +286,7 @@ function createBadge(title, imgName) {
         tagId: 'douglas',
         tagId1: 'douglas1',
         faceId: 'oekintarokun',
-        tier: 'Freshman',
+        tier: tierFreshman,
         ano: '2015',
         badges: [
         
@@ -259,7 +299,7 @@ function createBadge(title, imgName) {
         tagId: 'duodyn',
         tagId1: 'duodyn1',
         faceId: 'fernando.lopes.7927',
-        tier: 'Honorary',
+        tier: tierHonorary,
         ano: '2014',
         badges: [
         
@@ -275,8 +315,9 @@ function createBadge(title, imgName) {
         tagId: 'flike',
         tagId1: 'flike1',
         faceId: 'lucasflicky',
-        tier: 'Prime',
+        tier: tierPrime,
         ano: '2013',
+        crest:['The Mighy Red Hood: Flicky Crest', 'hood'],
         badges: [
         
         mythPrime,
@@ -286,6 +327,7 @@ function createBadge(title, imgName) {
         radiant,
         fuQuest,
         hangouteiro,
+        genesis,
         frukiFest,
         vassouraWielder,
         encontroMyth,
@@ -305,7 +347,7 @@ function createBadge(title, imgName) {
         tagId: 'garland',
         tagId1: 'garland1',
         faceId: 'GarlandtheChaos',
-        tier: 'Honorary',
+        tier: tierHonorary,
         ano: '2014',
         badges: [
         
@@ -321,8 +363,9 @@ function createBadge(title, imgName) {
         tagId: 'herbe',
         tagId1: 'herbe1',
         faceId: '100000980181670',
-        tier: 'Prime',
+        tier: tierPrime,
         ano: '2013',
+        crest:['A Erva da Alegria: Herbe Crest', 'herb'],
         badges: [
         
         mythPrime,
@@ -342,12 +385,13 @@ function createBadge(title, imgName) {
         tagId: 'karen',
         tagId1: 'karen1',
         faceId: 'karen.sama.25',
-        tier: 'Lurker',
+        tier: tierLurker,
         ano: '2014',
         badges: [
         
         mythLurker,
         preHistoric,
+        n64,
         happyDoor,
         radiant,
         smashFesteiro,
@@ -360,7 +404,7 @@ function createBadge(title, imgName) {
         tagId: 'keidi',
         tagId1: 'keidi1',
         faceId: 'Edukeidi',
-        tier: 'Freshman',
+        tier: tierFreshman,
         ano: '2015',
         badges: [
         
@@ -376,7 +420,7 @@ function createBadge(title, imgName) {
         tagId: 'laise',
         tagId1: 'laise1',
         faceId: 'laise.dosanjosfailace',
-        tier: 'Guest',
+        tier: tierGuest,
         ano: '2015',
         badges: [
         
@@ -391,7 +435,7 @@ function createBadge(title, imgName) {
         tagId: 'luana',
         tagId1: 'luana1',
         faceId: 'lreisluana',
-        tier: 'Honorary',
+        tier: tierHonorary,
         ano: '2014',
         badges: [
         
@@ -410,7 +454,7 @@ function createBadge(title, imgName) {
         tagId: 'marcela',
         tagId1: 'marcela1',
         faceId: 'MaahMarceline',
-        tier: 'Lurker',
+        tier: tierLurker,
         ano: '2014',
         badges: [
         
@@ -423,7 +467,7 @@ function createBadge(title, imgName) {
         tagId: 'matsuna',
         tagId1: 'matsuna1',
         faceId: 'matheus.melo.184',
-        tier: 'Prime',
+        tier: tierPrime,
         ano: '2013',
         badges: [
         
@@ -437,8 +481,9 @@ function createBadge(title, imgName) {
         tagId: 'pall',
         tagId1: 'pall1',
         faceId: 'mariana.pall',
-        tier: 'Legacy',
+        tier: tierLegacy,
         ano: '2013',
+        crest:['The Kawaii Stick Pall Crest', 'pall'],
         badges: [
         
         mythLegacy,
@@ -447,10 +492,12 @@ function createBadge(title, imgName) {
         mitamores,
         karaoke,
         jogueiro,
+        ps3,
         hangouteiro,
         streameiro,
         _3dsPlay,
         likeBomb,
+        ps4,
         mariEx
         ]
     };
@@ -459,7 +506,7 @@ function createBadge(title, imgName) {
         tagId: 'pam',
         tagId1: 'pam1',
         faceId: 'pamela.machadogrether',
-        tier: 'Freshman',
+        tier: tierFreshman,
         ano: '2015',
         badges: [
         
@@ -474,7 +521,7 @@ function createBadge(title, imgName) {
         tagId: 'rubens',
         tagId1: 'rubens1',
         faceId: 'switch.zetto',
-        tier: 'Unicorn',
+        tier: tierUnicorn,
         ano: '2015',
         badges: [
         
@@ -488,7 +535,7 @@ function createBadge(title, imgName) {
         tagId: 'tunel',
         tagId1: 'tunel1',
         faceId: 'williamd1k0',
-        tier: 'Gold',
+        tier: tierGold,
         ano: '2015',
         badges: [
 
@@ -503,8 +550,8 @@ function createBadge(title, imgName) {
         nome: 'Vidal',
         tagId: 'vidal',
         tagId1: 'vidal1',
-        faceId: 'rics.vida',
-        tier: 'Silver',
+        faceId: 'rics.vidal',
+        tier: tierSilver,
         ano: '2015',
         badges: [
 
@@ -523,10 +570,11 @@ function createBadge(title, imgName) {
     };
     Myth.Vinicius = {
         nome: 'Vinicius',
+        crest: ['The Piano Key: Vinicius Crest', 'vkps'],
         tagId: 'vinicius',
         tagId1: 'vinicius1',
         faceId: 'viniciuskps',
-        tier: 'Legacy Unicorn',
+        tier: tierUnicorn,
         ano: '2013',
         badges: [
         
@@ -535,6 +583,7 @@ function createBadge(title, imgName) {
         preHistoric,
         jogueiro,
         fuQuest,
+        wii,
         radiant,
         frukiFest,
         hangouteiro,
@@ -550,8 +599,9 @@ function createBadge(title, imgName) {
         tagId: 'gors',
         tagId1: 'gors1',
         faceId: 'william.watanabe.90',
-        tier: 'Legacy Platinum',
+        tier: tierPlatinum,
         ano: '2013',
+        crest:['The Bullet Head: Gors Crest', 'gors'],
         badges: [
         
         mythLegacy,
@@ -579,7 +629,7 @@ function createBadge(title, imgName) {
         tagId: 'wolvie',
         tagId1: 'wolvie1',
         faceId: 'wolviie.medeiros',
-        tier: 'Freshman',
+        tier: tierFreshman,
         ano: '2015',
         badges: [
 
@@ -587,9 +637,26 @@ function createBadge(title, imgName) {
         cCesar
         ]
     };
+
+
+
+
+
+
+
+
+
+
+
 function createTable(mito) {    
     
+    var crest = mito.crest;
 
+     if (!mito.crest){
+        crest = ['Este Mitador ainda não possui Crest própria','none'];
+    }
+
+ var path = 'http://os-mitadores.lucasflicky.com/files/theme/BADGES/';
     return ('<table  class="tg" style="table-layout: margin-bottom: 10px; fixed; width: 100%"> \
   <colgroup>\
   <col style="width: 50px"><col style="width: 150px">\
@@ -597,13 +664,13 @@ function createTable(mito) {
 <tr>\
   <!-- CREST ICON -->\
   <th class="crest">\
-    <img class="crestpic" title="Este Mitador ainda não possui Crest própria" src="http://os-mitadores.lucasflicky.com/files/theme/BADGES/none.png">\
+    <img class="crestpic" title="'+ crest[0] + '" src="http://os-mitadores.lucasflicky.com/files/theme/BADGES/' + crest[1] + '.png">\
   </th>\
   <!-- NAME -->\
   <th align="left" class="name" colspan="2">'+ mito.nome +'</th>  <th align="left" class="tiername"></th> <!-- Espacinho -->\
   <!-- TIER -->\
-  <th align="left" class="tiername">Tier: <strong>' + mito.tier + '</strong></th>\
-  <th align="right" class="tiericon"><img class="tier" title="Mitador Unicorn: Raros porém participativos" src="http://os-mitadores.lucasflicky.com/files/theme/BADGES/uni.png"></th>\
+  <th align="left" class="tiername">Tier: <strong>' + mito.tier[0] + '</strong></th>\
+  <th align="right" class="tiericon"> <div align="right" style="overflow:hidden; border-style:solid; align:right ;border-width:2px;width:24px;height:24px;background:#FFF;border-radius:105px;" >' + mito.tier[1] + '</th>\
 </tr>\
 <tr>\
   <!-- PROFILE PIC -->\
