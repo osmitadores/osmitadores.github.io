@@ -91,6 +91,8 @@ function createBadge(title, imgName) {
 
     var Myth = {};
 
+     var Myth = {};
+
     Myth.alex = {
         nome: 'Alex',
         tagId: 'foffano',
@@ -99,8 +101,8 @@ function createBadge(title, imgName) {
         tier: 'Unicorn',
         ano: '2013',
         badges: [
-            mythUnicorn,
-            preHistoric
+        mythUnicorn,
+        preHistoric
         ]
     }
     Myth.Ana = {
@@ -120,7 +122,8 @@ function createBadge(title, imgName) {
         _3dsPlay,
         defiance,
         miauCaralho
-    ];
+        ]
+    };
     Myth.AnaErrada = {
         nome: 'Ana Errada',
         tagId: 'anaerrada',
@@ -131,7 +134,8 @@ function createBadge(title, imgName) {
         badges: [
         mythUnicorn,
         cVinicius
-    ];
+        ]
+    };
     Myth.Aragao = {
         nome: 'Aragão',
         tagId: 'aragao',
@@ -149,7 +153,8 @@ function createBadge(title, imgName) {
         streameiro,
         pauHd,
         badgeWhore
-    ];
+        ]
+    };
     Myth.Arthur = {
         nome: 'Arthur Zero',
         tagId: 'arthur',
@@ -163,7 +168,8 @@ function createBadge(title, imgName) {
         cFlicky,
         jogueiro,
         pipoqueiro
-    ];
+        ]
+    };
     Myth.Bruna = {
         nome: 'Bruna',
         tagId: 'bruna',
@@ -172,10 +178,11 @@ function createBadge(title, imgName) {
         tier: 'Guest',
         ano: '2015',
         badges: [
-  
+        
         mythGuest,
         cFlicky
-    ];
+        ]
+    };
     Myth.Cesar = {
         nome: 'Cesar',
         tagId: 'rasec',
@@ -194,7 +201,8 @@ function createBadge(title, imgName) {
         smashFest2014,
         lendsClub
         
-    ];
+        ]
+    };
     Myth.Claro = {
         nome: 'Claro',
         tagId: 'claro',
@@ -211,7 +219,8 @@ function createBadge(title, imgName) {
         vassouraWielder,
         cGors,
         programeiro
-    ];
+        ]
+    };
     Myth.Coelho = {
         nome: 'Coelho',
         tagId: 'coelho',
@@ -230,7 +239,8 @@ function createBadge(title, imgName) {
         smashFest2014,
         _3dsPlay,
         elder
-    ];
+        ]
+    };
     Myth.Douglas = {
         nome: 'Douglas',
         tagId: 'douglas',
@@ -242,7 +252,8 @@ function createBadge(title, imgName) {
         
         mythFresh,
         merito,     
-    ];
+        ]
+    };
     Myth.Fernando = {
         nome: 'Fernando',
         tagId: 'duodyn',
@@ -257,7 +268,8 @@ function createBadge(title, imgName) {
         cGors,
         hangouteiro,
         karaoke
-    ];
+        ]
+    };
     Myth.Flicky = {
         nome: 'Flicky',
         tagId: 'flike',
@@ -286,7 +298,8 @@ function createBadge(title, imgName) {
         programeiro,
         _3dsPlay,
         lendsClub,
-    ];
+        ]
+    };
     Myth.Garland = {
         nome: 'Garland',
         tagId: 'garland',
@@ -301,7 +314,8 @@ function createBadge(title, imgName) {
         mythLurker,
         cFlicky,
         smashFest2014
-    ];
+        ]
+    };
     Myth.Herbe = {
         nome: 'Herbe',
         tagId: 'herbe',
@@ -321,7 +335,8 @@ function createBadge(title, imgName) {
         mitamores,
         lendsClub,
         nennys
-    ];
+        ]
+    };
     Myth.Karen = {
         nome: 'Karen',
         tagId: 'karen',
@@ -338,7 +353,8 @@ function createBadge(title, imgName) {
         smashFesteiro,
         encontroMyth,
         smashFest2014
-    ];
+        ]
+    };
     Myth.Keidi = {
         nome: 'Keidi',
         tagId: 'keidi',
@@ -353,7 +369,8 @@ function createBadge(title, imgName) {
         keidiPint,
         streameiro,
         kanaFest
-    ];
+        ]
+    };
     Myth.Laise = {
         nome: 'Laíse',
         tagId: 'laise',
@@ -367,7 +384,8 @@ function createBadge(title, imgName) {
         mythGhost,
         mythGuest,
         cFlicky
-    ];
+        ]
+    };
     Myth.Luana = {
         nome: 'Luana',
         tagId: 'luana',
@@ -385,7 +403,8 @@ function createBadge(title, imgName) {
         frukiFest,
         mitamores,
         lendsClub
-    ];
+        ]
+    };
     Myth.Marcela = {
         nome: 'Marcela',
         tagId: 'marcela',
@@ -397,7 +416,8 @@ function createBadge(title, imgName) {
         
         mythLurker,
         cFlicky
-    ];
+        ]
+    };
     Myth.Matsuna = {
         nome: 'Matsuna',
         tagId: 'matsuna',
@@ -410,7 +430,8 @@ function createBadge(title, imgName) {
         mythPrime,
         mythGhost,
         satanicat
-    ];
+        ]
+    };
     Myth.Pall = {
         nome: 'Pall',
         tagId: 'pall',
@@ -431,7 +452,8 @@ function createBadge(title, imgName) {
         _3dsPlay,
         likeBomb,
         mariEx
-    ];
+        ]
+    };
     Myth.Pam = {
         nome: 'PamGrether',
         tagId: 'pam',
@@ -445,7 +467,8 @@ function createBadge(title, imgName) {
         cPall,
         defiance,
         badgeWhore
-    ];
+        ]
+    };
     Myth.Rubens = {
         nome: 'Switch',
         tagId: 'rubens',
@@ -458,7 +481,8 @@ function createBadge(title, imgName) {
         mythUnicorn,
         cClaro,
         kanaFest
-    ];
+        ]
+    };
     Myth.Tumeo = {
         nome: 'Tumeo',
         tagId: 'tunel',
@@ -473,7 +497,8 @@ function createBadge(title, imgName) {
         programeiro,
         kanaFest,
         redCoder
-    ];
+        ]
+    };
     Myth.Vidal = {
         nome: 'Vidal',
         tagId: 'vidal',
@@ -494,7 +519,8 @@ function createBadge(title, imgName) {
         vidalGt,
         vidalFdp
         
-    ];
+        ]
+    };
     Myth.Vinicius = {
         nome: 'Vinicius',
         tagId: 'vinicius',
@@ -517,7 +543,8 @@ function createBadge(title, imgName) {
         smashFesteiro,
         smashFest2014,
         _3dsPlay
-    ];
+        ]
+    };
     Myth.Gors = {
         nome: 'Watanabe',
         tagId: 'gors',
@@ -545,7 +572,8 @@ function createBadge(title, imgName) {
         kanaFest,
         musicist,
         likeBomb
-    ];
+        ]
+    };
     Myth.Wolvie = {
         nome: 'Wolvie',
         tagId: 'wolvie',
@@ -557,7 +585,8 @@ function createBadge(title, imgName) {
 
         mythFresh,
         cCesar
-    ];
+        ]
+    };
 function createTable(mito) {    
     
 
