@@ -1,0 +1,31 @@
+<!--
+> MITHYBOARD
+> VERSION: 2.0.0
+> BUILD: 0608-19
+> ALTERAÇÕES: 
+    > Mitadores separados por comentários; 
+    > Addeados links para o perfil do mitador; 
+    > Addeado <meta>;
+    > Tabelas reestruturadas
+    > Adicionado contador de badges <- Deprecated!
+    > Fotos giram on Hover
+    > Hover animation em badges
+    > Scripts adicionados!!!
+    > Flike pegou o arquivo errado sem o Matsuna :V
+    > Agora o script é externo!
+    > Automatizando todo o sistema
+    
+-->
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  
+</head>
+    <script type="text/javascript" src="mythdata.js"></script>
+    <script type="text/javascript" src="mythcore.js"></script>
+
+
+<!-- **************************************************************************************************** -->
+
+

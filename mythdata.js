@@ -11,7 +11,7 @@ function createBadge(title, imgName, extra) {
     var path = 'http://os-mitadores.lucasflicky.com/files/theme/BADGES/';
     return '<img class="badgeicon" title="' + title + '" src="' + path + imgName + '.png">';
     
-};
+}
 
 
 function dualTier(tierA, tierB) {
@@ -688,4 +688,9 @@ function createTable(mito) {
 <tr><td class="badges"><td class="badges"><td colspan="2" align="right" class="badges2">  <i>Badges Coletadas:</i> <b id="' + mito.tagId1 + '"></b> </td></tr>\
 </table>');
     
+}
+
+function mitar(MITO){
+    MITO = ('\n ▓▓▓▓▓▓▓▓  ▓▓▓▓▓▓▓▓  ▓▓▓   ▓▓  ▓▓▓▓▓▓▓▓  ▓▓▓▓▓▓▓▓ \n ▓▓    ▓▓  ▓▓        ▓▓▓▓  ▓▓  ▓▓        ▓▓    ▓▓ \n ▓▓    ▓▓  ▓▓        ▓▓▓▓  ▓▓  ▓▓        ▓▓    ▓▓ \n ▓▓▓▓▓▓▓▓  ▓▓▓▓▓▓▓▓  ▓▓ ▓▓ ▓▓  ▓▓▓▓▓▓▓▓  ▓▓    ▓▓ \n ▓▓        ▓▓        ▓▓  ▓▓▓▓        ▓▓  ▓▓    ▓▓ \n ▓▓        ▓▓        ▓▓  ▓▓▓▓        ▓▓  ▓▓    ▓▓ \n ▓▓        ▓▓▓▓▓▓▓▓  ▓▓   ▓▓▓  ▓▓▓▓▓▓▓▓  ▓▓▓▓▓▓▓▓ \n\n\n ▓▓        ▓▓▓▓▓▓▓▓  ▓▓▓▓▓▓▓▓  ▓▓▓▓▓▓▓▓ \n ▓▓        ▓▓    ▓▓  ▓▓        ▓▓    ▓▓ \n ▓▓        ▓▓    ▓▓  ▓▓        ▓▓    ▓▓ \n ▓▓        ▓▓    ▓▓  ▓▓  ▓▓▓▓  ▓▓    ▓▓ \n ▓▓        ▓▓    ▓▓  ▓▓    ▓▓  ▓▓    ▓▓ \n ▓▓        ▓▓    ▓▓  ▓▓    ▓▓  ▓▓    ▓▓ \n ▓▓▓▓▓▓▓▓  ▓▓▓▓▓▓▓▓  ▓▓▓▓▓▓▓▓  ▓▓▓▓▓▓▓▓ \n\n\n ▓▓    ▓▓     ▓▓     ▓▓▓▓▓▓▓▓  ▓▓▓▓▓▓▓▓ \n ▓▓▓  ▓▓▓               ▓▓     ▓▓    ▓▓ \n ▓▓▓▓▓▓▓▓     ▓▓        ▓▓     ▓▓    ▓▓ \n ▓▓ ▓▓ ▓▓     ▓▓        ▓▓     ▓▓    ▓▓ \n ▓▓    ▓▓     ▓▓        ▓▓     ▓▓    ▓▓ \n ▓▓    ▓▓     ▓▓        ▓▓     ▓▓    ▓▓ \n ▓▓    ▓▓     ▓▓        ▓▓     ▓▓▓▓▓▓▓▓ \n ');
+    console.log(MITO);
 }
