@@ -564,7 +564,8 @@ return ' ' + titleA + '<img class="subtier"  src="' + path + imgNameA + '.png">'
         _3dsPlay,
         likeBomb,
         vidalGt,
-        vidalFdp
+        vidalFdp,
+        lends
         
         ]
     };
@@ -591,7 +592,8 @@ return ' ' + titleA + '<img class="subtier"  src="' + path + imgNameA + '.png">'
         encontroMyth,
         smashFesteiro,
         smashFest2014,
-        _3dsPlay
+        _3dsPlay,
+        lends,
         ]
     };
     Myth.Gors = {
