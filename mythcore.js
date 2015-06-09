@@ -65,4 +65,3 @@ function indexMyth(osMitos){
 }
 
 indexMyth(Myth);
-mitar();
