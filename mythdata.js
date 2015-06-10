@@ -127,7 +127,19 @@ return ' ' + titleA + '<img class="subtier"  src="' + path + imgNameA + '.png">'
 
 
     var Myth = {};
-
+    
+    Myth.raptor = {
+        nome: 'Raptor, O Mascote',
+        tagId: 'raptor',
+        tagId1: 'raptor1',
+        faceId: 'poring.raptor',
+        tier: tierFreshman,
+        ano: '2015',
+        badges: [
+            mythFresh,
+            cHerbe
+        ]
+    }
     Myth.alex = {
         nome: 'Alex',
         tagId: 'foffano',
