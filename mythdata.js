@@ -381,6 +381,7 @@ return ' ' + titleA + '<img class="subtier"  src="' + path + imgNameA + '.png">'
         badges: [
         
         mythPrime,
+        preHistoric,
         frukiFest,
         encontroMyth,
         smashFesteiro,
