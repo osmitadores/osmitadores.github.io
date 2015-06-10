@@ -1,7 +1,7 @@
 /*
 *   > MITHYBOARD SCRIPT
-*   > VERSION: 1.4.0
-*   > BUILD: 0608-19
+*   > VERSION: 1.6.0
+*   > BUILD: 0610-20
 *   > ALTERAÇÕES:
 *       > Criação do pseudo-DB.
 *       > Função que auto-escreve os badges e a quantidade.
@@ -11,6 +11,8 @@
 *       > Mitadores agora são arrays de um objeto.
 *       > Miadores agora são objetos com atributos.
 *       > Inserido a escrita do documento inteiro via script.
+*       > Arrumando método de escrita no documento.
+*       > Limpeza no código e criação de sort alfabético.
 *
 *   > WARNINGS:
 *       > NÃO ALTERAR O MÉTODO "writeBadges(myth)", ELE É O CORE QUE FAZ A PORA TODA.
@@ -39,7 +41,7 @@ function writeBadges(myth){
 *   Args: 1. O array do mitador.
 */
     for (var i in myth.badges) {
-        document.getElementById(myth.tagId).innerHTML += " " + myth.badges[i] + " ";
+        document.getElementById(myth.tagId).innerHTML += ' <img class="badgeicon" title="' + myth.badges[i][0] + '" src="' + PATH + myth.badges[i][1] + '.png"> ';
     }
     document.getElementById(myth.tagId1).innerHTML += myth.badges.length; 
 }
@@ -52,16 +54,49 @@ function indexMyth(osMitos){
 *   Agora simplifica a escrita do documento todo.
 *   Args: 1. Os Mitadores (object). **apesar de não ter um 
 *   outro argumento válido**
-*/
+*/  
+    
 
     for (var i in osMitos){
 
-        document.writeln(createTable(osMitos[i]));
+        document.getElementById('tabelas').innerHTML += createTable(osMitos[i]);
     }
 
     for (var x in osMitos){
         writeBadges(osMitos[x]);
     }
+}
+
+
+var mitadores = [];
+var checkAlfa = true; 
+for (var i in Myth){
+    
+    mitadores[mitadores.length] = [Myth[i].nome, Myth[i]];
+}
+
+
+
+function toggleAlfabetic(){
+
+    if (checkAlfa) {
+        mitadores.sort();
+        checkAlfa = false;
+    }else{
+        mitadores.reverse();
+        checkAlfa = true;
+    }
+
+
+    document.getElementById('tabelas').innerHTML = '';
+    for (var i in mitadores){
+
+        document.getElementById('tabelas').innerHTML += createTable(mitadores[i][1]);
+    }
+    for (var x in Myth){
+        writeBadges(Myth[x]);
+    }
+
 }
 
 indexMyth(Myth);

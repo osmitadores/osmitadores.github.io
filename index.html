@@ -1,7 +1,7 @@
 <!--
 > MITHYBOARD
-> VERSION: 2.0.0
-> BUILD: 0608-19
+> VERSION: 2.1.0
+> BUILD: 0610-20
 > ALTERAÇÕES: 
     > Mitadores separados por comentários; 
     > Addeados links para o perfil do mitador; 
@@ -14,6 +14,8 @@
     > Flike pegou o arquivo errado sem o Matsuna :V
     > Agora o script é externo!
     > Automatizando todo o sistema
+    > Arrumado escrita via DOM
+    > Nova função de ordenar por alfabetic
     
 -->
 
@@ -22,10 +24,12 @@
     <link rel="stylesheet" type="text/css" href="style.css">
   
 </head>
+<div id="tabelas"></div>
     <script type="text/javascript" src="mythdata.js"></script>
+    <script type="text/javascript" src="mythmitos.js"></script>
     <script type="text/javascript" src="mythcore.js"></script>
 
-
+<div id="buttalfa" onclick="toggleAlfabetic()">Alfabético</div>
 <!-- **************************************************************************************************** -->
 
 
