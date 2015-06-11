@@ -157,7 +157,24 @@ img.badgeicon{
     width:24px; 
     height:24px; 
   }
-
+.tit{
+	    position: fixed;
+        cursor: pointer;
+        font-family: Arial, sans-serif;
+        bottom: 0%;
+        width: 120%; 
+        height: 30px; 
+		padding-left:30px;
+        padding-top: 10px;
+		border-style:solid;
+		border-color:#225;
+		border-width:2px;
+        border-radius: 20px 300px 20px 30px;
+        color: #FFF;
+        background-color: #113;
+        text-align: left; 
+        z-index: 900;	
+}
 .button {
         position: fixed;
         cursor: pointer;
@@ -168,18 +185,34 @@ img.badgeicon{
         margin-left: -150px;
         margin-top: -125px;
         padding-top: 10px;
-        border-radius: 10px 10px 0px 10px;
-        background-color: #FFF;
+		border-color:#225;
+		border-style:solid;
+		border-width:2px;
+        border-radius: 20px 100px 20px 100px;
         color: #FFF;
-        background-color: #666;
+        background-color: #224;
         text-align: center; 
-        z-index: 1000;
+        z-index: 1000;		
+		}
+.button:hover{
+background-color: #600;
 }
-
+.button:active{
+background-color: #000;
+}
+.button:checked{
+background-color: #0FF;
+}
+.button:focus{
+background-color: #00F;
+}
 #buttalfa {
         right: 0%; 
 }
 
 #buttbadge {
         right: 102px; 
+}
+#butttier{
+        right: 204px; 
 }
