@@ -1,7 +1,7 @@
 <!--
 > MITHYBOARD
-> VERSION: 2.1.0
-> BUILD: 0610-20
+> VERSION: 2.2.0
+> BUILD: 0610-21
 > ALTERAÇÕES: 
     > Mitadores separados por comentários; 
     > Addeados links para o perfil do mitador; 
@@ -16,6 +16,7 @@
     > Automatizando todo o sistema
     > Arrumado escrita via DOM
     > Nova função de ordenar por alfabetic
+    > Added ordenar por quantidade de badges
     
 -->
 
@@ -29,7 +30,8 @@
     <script type="text/javascript" src="mythmitos.js"></script>
     <script type="text/javascript" src="mythcore.js"></script>
 
-<div id="buttalfa" onclick="toggleAlfabetic()">Alfabético</div>
+<div id="buttalfa" class="button" onclick="toggleAlfabetic()">Alfabético</div>
+<div id="buttbadge" class="button" onclick="toggleBadge()">Badges</div>
 <!-- **************************************************************************************************** -->
 
 

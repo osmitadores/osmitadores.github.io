@@ -158,11 +158,10 @@ img.badgeicon{
     height:24px; 
   }
 
-#buttalfa {
+.button {
         position: fixed;
         cursor: pointer;
         font-family: Arial, sans-serif;
-        right: 0%; 
         bottom: 0%;
         width: 100px; 
         height: 30px; 
@@ -174,4 +173,13 @@ img.badgeicon{
         color: #FFF;
         background-color: #666;
         text-align: center; 
-        z-index: 1000; 
+        z-index: 1000;
+}
+
+#buttalfa {
+        right: 0%; 
+}
+
+#buttbadge {
+        right: 102px; 
+}

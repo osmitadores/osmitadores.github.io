@@ -1,7 +1,7 @@
 /*
 *   > MITHYBOARD SCRIPT
-*   > VERSION: 1.6.0
-*   > BUILD: 0610-20
+*   > VERSION: 1.7.0
+*   > BUILD: 0610-21
 *   > ALTERAÇÕES:
 *       > Criação do pseudo-DB.
 *       > Função que auto-escreve os badges e a quantidade.
@@ -13,6 +13,7 @@
 *       > Inserido a escrita do documento inteiro via script.
 *       > Arrumando método de escrita no documento.
 *       > Limpeza no código e criação de sort alfabético.
+*       > Added ordenar por quantidade de badges.
 *
 *   > WARNINGS:
 *       > NÃO ALTERAR O MÉTODO "writeBadges(myth)", ELE É O CORE QUE FAZ A PORA TODA.
@@ -67,15 +68,22 @@ function indexMyth(osMitos){
     }
 }
 
+//////////////////////////////
 
 var mitadores = [];
-var checkAlfa = true; 
+var badges = [];
+var checkAlfa = true;
+var checkBadge = true;
 for (var i in Myth){
     
     mitadores[mitadores.length] = [Myth[i].nome, Myth[i]];
 }
+for (var i in Myth){
+    
+    badges[badges.length] = [Myth[i].badges.length, Myth[i]];
+}
 
-
+//////////////////////////////////
 
 function toggleAlfabetic(){
 
@@ -96,7 +104,29 @@ function toggleAlfabetic(){
     for (var x in Myth){
         writeBadges(Myth[x]);
     }
-
 }
+
+
+function toggleBadge(){
+
+    if (checkBadge) {
+       badges.sort(function(a,b){return a[0]-b[0];});
+        checkBadge = false;
+    }else{
+        badges.sort(function(a,b){return b[0]-a[0];});
+        checkBadge = true;
+    }
+
+
+    document.getElementById('tabelas').innerHTML = '';
+    for (var i in badges){
+
+        document.getElementById('tabelas').innerHTML += createTable(badges[i][1]);
+    }
+    for (var x in Myth){
+        writeBadges(Myth[x]);
+    }
+}
+
 
 indexMyth(Myth);
