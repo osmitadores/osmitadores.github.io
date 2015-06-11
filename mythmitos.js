@@ -14,7 +14,8 @@
         ano: '2015',
         badges: [
             mythFresh,
-            cHerbe
+            cHerbe,
+            nennys
         ]
     }
     Myth.alex = {
@@ -254,8 +255,7 @@
             smashFest2014,
             _3dsPlay,
             mitamores,
-            lendsClub,
-            nennys
+            lendsClub
         ]
     };
     Myth.karen = {
