@@ -5,19 +5,7 @@
 
     var Myth = {};
     
-    Myth.raptor = {
-        nome: 'Raptor, O Mascote',
-        tagId: 'raptor',
-        tagId1: 'raptor1',
-        faceId: 'poring.raptor',
-        tier: tierFreshman,
-        ano: '2015',
-        badges: [
-            mythFresh,
-            cHerbe,
-            nennys
-        ]
-    }
+
     Myth.alex = {
         nome: 'Alex',
         tagId: 'foffano',
@@ -63,7 +51,7 @@
         ]
     };
     Myth.aragao = {
-        nome: 'Aragão',
+        nome: 'AragÃ£o',
         tagId: 'aragao',
         tagId1: 'aragao1',
         faceId: 'paulosergio.aragao.5',
@@ -132,7 +120,7 @@
         faceId: 'MatheusOClaro',
         tier: tierGold,
         ano: '2014',
-        crest:['Com o Claro você fala ilimitado! Claro Crest', 'claro'],
+        crest:['Com o Claro vocÃª fala ilimitado! Claro Crest', 'claro'],
         badges: [
             mythGold,
             mechanicPunch,
@@ -292,7 +280,7 @@
         ]
     };
     Myth.laise = {
-        nome: 'Laíse',
+        nome: 'LaÃ­se',
         tagId: 'laise',
         tagId1: 'laise1',
         faceId: 'laise.dosanjosfailace',
@@ -386,6 +374,19 @@
             badgeWhore
         ]
     };
+	    Myth.raptor = {
+        nome: 'Raptor',
+        tagId: 'raptor',
+        tagId1: 'raptor1',
+        faceId: 'poring.raptor',
+        tier: tierFreshman,
+        ano: '2015',
+        badges: [
+            mythFresh,
+            cHerbe,
+            nennys
+        ]
+    }
     Myth.rubens = {
         nome: 'Switch',
         tagId: 'rubens',
