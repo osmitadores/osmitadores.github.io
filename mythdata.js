@@ -127,15 +127,6 @@ function createBadge(title, imgName) {
 }
 
 
-function dualTier(title, imgName) {
-
- 
-
-return ' ' + title + '<img class="subtier"  src="' + PATH + imgName + '.png">';
-}
-
-
-
 
 function createTable(mito) {    
     

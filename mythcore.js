@@ -1,7 +1,7 @@
 /*
 *   > MITHYBOARD SCRIPT
-*   > VERSION: 1.7.0
-*   > BUILD: 0610-21
+*   > VERSION: 1.8.0
+*   > BUILD: 0611-12
 *   > ALTERAÇÕES:
 *       > Criação do pseudo-DB.
 *       > Função que auto-escreve os badges e a quantidade.

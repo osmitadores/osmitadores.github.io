@@ -14,8 +14,8 @@
         tier: tierUnicorn,
         ano: '2013',
         badges: [
-        mythUnicorn,
-        preHistoric
+            mythUnicorn,
+            preHistoric
         ]
     }
     Myth.ana = {
@@ -375,7 +375,7 @@
         ]
     };
 	    Myth.raptor = {
-        nome: 'Raptor',
+        nome: 'Raptor, O Mascote',
         tagId: 'raptor',
         tagId1: 'raptor1',
         faceId: 'poring.raptor',
