@@ -2,43 +2,44 @@
 *   > MITHYBOARD SCRIPT
 *   > VERSION: 1.7.0
 *   > BUILD: 0610-21
-*   > ALTERAÇÕES:
-*       > Criação do pseudo-DB.
-*       > Função que auto-escreve os badges e a quantidade.
-*       > Correção no hover animation das badges.
-*       > Mais Badges adicionadas e correção NA IDENTAÇÃO DO FLIKE!
-*       > Novo sistema de criação de badges.
-*       > Mitadores agora são arrays de um objeto.
-*       > Miadores agora são objetos com atributos.
+*   > ALTERAÃ‡Ã•ES:
+*       > CriaÃ§Ã£o do pseudo-DB.
+*       > FunÃ§Ã£o que auto-escreve os badges e a quantidade.
+*       > CorreÃ§Ã£o no hover animation das badges.
+*       > Mais Badges adicionadas e correÃ§Ã£o NA IDENTAÃ‡ÃƒO DO FLIKE!
+*       > Novo sistema de criaÃ§Ã£o de badges.
+*       > Mitadores agora sÃ£o arrays de um objeto.
+*       > Miadores agora sÃ£o objetos com atributos.
 *       > Inserido a escrita do documento inteiro via script.
-*       > Arrumando método de escrita no documento.
-*       > Limpeza no código e criação de sort alfabético.
+*       > Arrumando mÃ©todo de escrita no documento.
+*       > Limpeza no cÃ³digo e criaÃ§Ã£o de sort alfabÃ©tico.
 *       > Added ordenar por quantidade de badges.
 *
 *   > WARNINGS:
-*       > NÃO ALTERAR O MÉTODO "writeBadges(myth)", ELE É O CORE QUE FAZ A PORA TODA.
-*       > NÃO ALTERAR A PRIMEIRA POSIÇÃO DOS ARRAYS (0), A MENOS QUE O ID DO MITADOR SEJA ALTERADO.
-*       > CLARO, NÃO FUÇE.
+*       > NÃƒO ALTERAR O MÃ‰TODO "writeBadges(myth)", ELE Ã‰ O CORE QUE FAZ A PORA TODA.
+*       > NÃƒO ALTERAR A PRIMEIRA POSIÃ‡ÃƒO DOS ARRAYS (0), A MENOS QUE O ID DO MITADOR SEJA ALTERADO.
+*       > CLARO, NÃƒO FUÃ‡E.
 *          
 *   > NOMENCLATURAS:
-*       > VARIÁVEIS DE BADGES COMUNS: NOMES SUGESTIVOS COM NO MÁXIMO DUAS PALAVRAS (EX: doisPotes).
-*       > VARIÁVEIS DE BADGES TIPO TIER: UMA PALAVRA SEGUIDA DE "myth" (EX: mythLegacy).
-*       > VARIÁVEIS DE BADGES TIPO CREST: NOME DO MITADOR SEGUIDO DE "c" (EX: cFlicky).
-*       > NOVO SISTEMA DE CRIAÇÃO DE BADGES! CRIAR VAR CHAMANDO A FUNÇÃO createBadge(title,imgName).
+*       > VARIÃVEIS DE BADGES COMUNS: NOMES SUGESTIVOS COM NO MÃXIMO DUAS PALAVRAS (EX: doisPotes).
+*       > VARIÃVEIS DE BADGES TIPO TIER: UMA PALAVRA SEGUIDA DE "myth" (EX: mythLegacy).
+*       > VARIÃVEIS DE BADGES TIPO CREST: NOME DO MITADOR SEGUIDO DE "c" (EX: cFlicky).
+*       > NOVO SISTEMA DE CRIAÃ‡ÃƒO DE BADGES! CRIAR VAR CHAMANDO A FUNÃ‡ÃƒO createBadge(title,imgName).
 *
-*   > CRIAÇÃO DE BADGES:
-*       > var nomeDaBadge = createBadge('Título da Badge', 'nome do arquivo da imagem sem extensão');
+*   > CRIAÃ‡ÃƒO DE BADGES:
+*       > var nomeDaBadge = createBadge('TÃ­tulo da Badge', 'nome do arquivo da imagem sem extensÃ£o');
 *       > Exemplo: var doisPotes = createBadge('Luana exclusive \'Doooois Pooootes\' Badge', 'pots');
-*       > Caso a badge não tenha imagem, é só ignorar o segundo argumento, a imagem será automaticamente adicionada.
-*       > Exemplo: var pauHd = createBadge('Aragão exclusive \'Pau em HD\' Badge');
+*       > Caso a badge nÃ£o tenha imagem, Ã© sÃ³ ignorar o segundo argumento, a imagem serÃ¡ automaticamente adicionada.
+*       > Exemplo: var pauHd = createBadge('AragÃ£o exclusive \'Pau em HD\' Badge');
 */
 
-
+   document.getElementById('titl').innerHTML = "Mostrando lista na ordem default";
+ 
 function writeBadges(myth){
 /*
-*   Descrição: Função que escreve no #document as imagens 
-*   das badges e e a quantidade delas (a quantidade é cal-
-*   culada a partir do array.length e não dos filhos da tag).
+*   DescriÃ§Ã£o: FunÃ§Ã£o que escreve no #document as imagens 
+*   das badges e e a quantidade delas (a quantidade Ã© cal-
+*   culada a partir do array.length e nÃ£o dos filhos da tag).
 *   Args: 1. O array do mitador.
 */
     for (var i in myth.badges) {
@@ -50,11 +51,11 @@ function writeBadges(myth){
 
 function indexMyth(osMitos){
 /*
-*   Descrição: Função que simplifica a escrita das badges
+*   DescriÃ§Ã£o: FunÃ§Ã£o que simplifica a escrita das badges
 *   no #document.
 *   Agora simplifica a escrita do documento todo.
-*   Args: 1. Os Mitadores (object). **apesar de não ter um 
-*   outro argumento válido**
+*   Args: 1. Os Mitadores (object). **apesar de nÃ£o ter um 
+*   outro argumento vÃ¡lido**
 */  
     
 
@@ -72,17 +73,25 @@ function indexMyth(osMitos){
 
 var mitadores = [];
 var badges = [];
+var tier = [];
 var checkAlfa = true;
-var checkBadge = true;
+var checkBadge = false;
+var checkTier = true;
 for (var i in Myth){
     
     mitadores[mitadores.length] = [Myth[i].nome, Myth[i]];
+
 }
 for (var i in Myth){
     
     badges[badges.length] = [Myth[i].badges.length, Myth[i]];
+	
 }
-
+for (var i in Myth){
+    
+    tier[tier.length] = [Myth[i].tier[2], Myth[i], Myth[i].badges.length];
+	console.log(Myth[i].badges.length);
+}
 //////////////////////////////////
 
 function toggleAlfabetic(){
@@ -90,9 +99,11 @@ function toggleAlfabetic(){
     if (checkAlfa) {
         mitadores.sort();
         checkAlfa = false;
+		document.getElementById('titl').innerHTML = "Mostrando lista em ordem alfabÃ©tica (A-Z)";
     }else{
         mitadores.reverse();
         checkAlfa = true;
+		document.getElementById('titl').innerHTML = "Mostrando lista em ordem alfabÃ©tica (Z-A)";
     }
 
 
@@ -112,9 +123,12 @@ function toggleBadge(){
     if (checkBadge) {
        badges.sort(function(a,b){return a[0]-b[0];});
         checkBadge = false;
+		document.getElementById('titl').innerHTML = "Mostrando lista por quantidade de badges (Crescente)";
+	
     }else{
         badges.sort(function(a,b){return b[0]-a[0];});
         checkBadge = true;
+			document.getElementById('titl').innerHTML = "Mostrando lista por quantidade de badges (Decrescente)";
     }
 
 
@@ -128,5 +142,57 @@ function toggleBadge(){
     }
 }
 
+function toggleTier(){
+
+
+
+
+    if (checkTier) {
+		
+       tier.sort(function(a,b)
+	   {
+		   
+		   if (a[0] === b[0])
+		   {
+			   var x = a[2], y = b[2];
+			   return x < y ? 1 : 0;
+			   
+		   }
+		   return a[0]-b[0];
+		   		   
+		});
+	  
+        checkTier = false;
+			document.getElementById('titl').innerHTML = "Mostrando lista por Tier(Decrescente)";
+    }else{
+		
+  tier.sort(function(a,b)
+	   {
+		   
+		   if (a[0] === b[0])
+		   {
+			   var x = a[2], y = b[2];
+			   return x < y ? 1 : 0;
+			   
+		   }
+		   return a[0]-b[0];
+		   		   
+		});
+	  tier.reverse();
+	
+        checkTier = true;
+			document.getElementById('titl').innerHTML = "Mostrando lista por Tier (Crescente)";
+    }
+
+
+    document.getElementById('tabelas').innerHTML = '';
+    for (var i in tier){
+
+        document.getElementById('tabelas').innerHTML += createTable(tier[i][1]);
+    }
+    for (var x in Myth){
+        writeBadges(Myth[x]);
+    }
+}
 
 indexMyth(Myth);
