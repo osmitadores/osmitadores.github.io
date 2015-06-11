@@ -2,44 +2,44 @@
 *   > MITHYBOARD SCRIPT
 *   > VERSION: 1.7.0
 *   > BUILD: 0610-21
-*   > ALTERAÃ‡Ã•ES:
-*       > CriaÃ§Ã£o do pseudo-DB.
-*       > FunÃ§Ã£o que auto-escreve os badges e a quantidade.
-*       > CorreÃ§Ã£o no hover animation das badges.
-*       > Mais Badges adicionadas e correÃ§Ã£o NA IDENTAÃ‡ÃƒO DO FLIKE!
-*       > Novo sistema de criaÃ§Ã£o de badges.
-*       > Mitadores agora sÃ£o arrays de um objeto.
-*       > Miadores agora sÃ£o objetos com atributos.
+*   > ALTERAÇÕES:
+*       > Criação do pseudo-DB.
+*       > Função que auto-escreve os badges e a quantidade.
+*       > Correção no hover animation das badges.
+*       > Mais Badges adicionadas e correção NA IDENTAÇÃO DO FLIKE!
+*       > Novo sistema de criação de badges.
+*       > Mitadores agora são arrays de um objeto.
+*       > Miadores agora são objetos com atributos.
 *       > Inserido a escrita do documento inteiro via script.
-*       > Arrumando mÃ©todo de escrita no documento.
-*       > Limpeza no cÃ³digo e criaÃ§Ã£o de sort alfabÃ©tico.
+*       > Arrumando método de escrita no documento.
+*       > Limpeza no código e criação de sort alfabético.
 *       > Added ordenar por quantidade de badges.
 *
 *   > WARNINGS:
-*       > NÃƒO ALTERAR O MÃ‰TODO "writeBadges(myth)", ELE Ã‰ O CORE QUE FAZ A PORA TODA.
-*       > NÃƒO ALTERAR A PRIMEIRA POSIÃ‡ÃƒO DOS ARRAYS (0), A MENOS QUE O ID DO MITADOR SEJA ALTERADO.
-*       > CLARO, NÃƒO FUÃ‡E.
+*       > NÃO ALTERAR O MÉTODO "writeBadges(myth)", ELE É O CORE QUE FAZ A PORA TODA.
+*       > NÃO ALTERAR A PRIMEIRA POSIÇÃO DOS ARRAYS (0), A MENOS QUE O ID DO MITADOR SEJA ALTERADO.
+*       > CLARO, NÃO FUÇE.
 *          
 *   > NOMENCLATURAS:
-*       > VARIÃVEIS DE BADGES COMUNS: NOMES SUGESTIVOS COM NO MÃXIMO DUAS PALAVRAS (EX: doisPotes).
-*       > VARIÃVEIS DE BADGES TIPO TIER: UMA PALAVRA SEGUIDA DE "myth" (EX: mythLegacy).
-*       > VARIÃVEIS DE BADGES TIPO CREST: NOME DO MITADOR SEGUIDO DE "c" (EX: cFlicky).
-*       > NOVO SISTEMA DE CRIAÃ‡ÃƒO DE BADGES! CRIAR VAR CHAMANDO A FUNÃ‡ÃƒO createBadge(title,imgName).
+*       > VARIÁVEIS DE BADGES COMUNS: NOMES SUGESTIVOS COM NO MÁXIMO DUAS PALAVRAS (EX: doisPotes).
+*       > VARIÁVEIS DE BADGES TIPO TIER: UMA PALAVRA SEGUIDA DE "myth" (EX: mythLegacy).
+*       > VARIÁVEIS DE BADGES TIPO CREST: NOME DO MITADOR SEGUIDO DE "c" (EX: cFlicky).
+*       > NOVO SISTEMA DE CRIAÇÃO DE BADGES! CRIAR VAR CHAMANDO A FUNÇÃO createBadge(title,imgName).
 *
-*   > CRIAÃ‡ÃƒO DE BADGES:
-*       > var nomeDaBadge = createBadge('TÃ­tulo da Badge', 'nome do arquivo da imagem sem extensÃ£o');
+*   > CRIAÇÃO DE BADGES:
+*       > var nomeDaBadge = createBadge('Título da Badge', 'nome do arquivo da imagem sem extensão');
 *       > Exemplo: var doisPotes = createBadge('Luana exclusive \'Doooois Pooootes\' Badge', 'pots');
-*       > Caso a badge nÃ£o tenha imagem, Ã© sÃ³ ignorar o segundo argumento, a imagem serÃ¡ automaticamente adicionada.
-*       > Exemplo: var pauHd = createBadge('AragÃ£o exclusive \'Pau em HD\' Badge');
+*       > Caso a badge não tenha imagem, é só ignorar o segundo argumento, a imagem será automaticamente adicionada.
+*       > Exemplo: var pauHd = createBadge('Aragão exclusive \'Pau em HD\' Badge');
 */
 
    document.getElementById('titl').innerHTML = "Mostrando lista na ordem default";
  
 function writeBadges(myth){
 /*
-*   DescriÃ§Ã£o: FunÃ§Ã£o que escreve no #document as imagens 
-*   das badges e e a quantidade delas (a quantidade Ã© cal-
-*   culada a partir do array.length e nÃ£o dos filhos da tag).
+*   Descrição: Função que escreve no #document as imagens 
+*   das badges e e a quantidade delas (a quantidade é cal-
+*   culada a partir do array.length e não dos filhos da tag).
 *   Args: 1. O array do mitador.
 */
     for (var i in myth.badges) {
@@ -51,11 +51,11 @@ function writeBadges(myth){
 
 function indexMyth(osMitos){
 /*
-*   DescriÃ§Ã£o: FunÃ§Ã£o que simplifica a escrita das badges
+*   Descrição: Função que simplifica a escrita das badges
 *   no #document.
 *   Agora simplifica a escrita do documento todo.
-*   Args: 1. Os Mitadores (object). **apesar de nÃ£o ter um 
-*   outro argumento vÃ¡lido**
+*   Args: 1. Os Mitadores (object). **apesar de não ter um 
+*   outro argumento válido**
 */  
     
 
@@ -99,11 +99,11 @@ function toggleAlfabetic(){
     if (checkAlfa) {
         mitadores.sort();
         checkAlfa = false;
-		document.getElementById('titl').innerHTML = "Mostrando lista em ordem alfabÃ©tica (A-Z)";
+		document.getElementById('titl').innerHTML = "Mostrando lista em ordem alfabética (A-Z)";
     }else{
         mitadores.reverse();
         checkAlfa = true;
-		document.getElementById('titl').innerHTML = "Mostrando lista em ordem alfabÃ©tica (Z-A)";
+		document.getElementById('titl').innerHTML = "Mostrando lista em ordem alfabética (Z-A)";
     }
 
 

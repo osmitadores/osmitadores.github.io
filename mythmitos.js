@@ -51,7 +51,7 @@
         ]
     };
     Myth.aragao = {
-        nome: 'AragÃ£o',
+        nome: 'Aragão',
         tagId: 'aragao',
         tagId1: 'aragao1',
         faceId: 'paulosergio.aragao.5',
@@ -120,7 +120,7 @@
         faceId: 'MatheusOClaro',
         tier: tierGold,
         ano: '2014',
-        crest:['Com o Claro vocÃª fala ilimitado! Claro Crest', 'claro'],
+        crest:['Com o Claro você fala ilimitado! Claro Crest', 'claro'],
         badges: [
             mythGold,
             mechanicPunch,
@@ -280,7 +280,7 @@
         ]
     };
     Myth.laise = {
-        nome: 'LaÃ­se',
+        nome: 'Laíse',
         tagId: 'laise',
         tagId1: 'laise1',
         faceId: 'laise.dosanjosfailace',

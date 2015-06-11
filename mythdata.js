@@ -1,3 +1,4 @@
+
 /*
 *   BADGES
 */
@@ -18,17 +19,17 @@
 
 
 
-    var tierUnicorn   =   ["Unicorn",mythUnicorn];
-    var tierPlatinum  =   ["Platinum",mythPlatinum];
-    var tierSilver    =   ["Silver",mythSilver];
-    var tierLegacy    =   ["Legacy",mythLegacy];
-    var tierFreshman  =   ["Freshman",mythFresh];
-    var tierGuest     =   ["Guest",mythGuest];
-    var tierHonorary  =   ["Honorary",mythHonorary];
-    var tierLurker    =   ["Lurker",mythLurker];
-    var tierGold      =   ["Gold",mythGold];
-    var tierGhost     =   ["Ghost",mythGhost];
-    var tierPrime     =   ["Prime",mythPrime];
+    var tierUnicorn   =   ["Unicorn",mythUnicorn,5];
+    var tierPlatinum  =   ["Platinum",mythPlatinum,2];
+    var tierSilver    =   ["Silver",mythSilver,4];
+    var tierLegacy    =   ["Legacy",mythLegacy,6];
+    var tierFreshman  =   ["Freshman",mythFresh,10];
+    var tierGuest     =   ["Guest",mythGuest,11];
+    var tierHonorary  =   ["Honorary",mythHonorary,9];
+    var tierLurker    =   ["Lurker",mythLurker,8];
+    var tierGold      =   ["Gold",mythGold,3];
+    var tierGhost     =   ["Ghost",mythGhost,];
+    var tierPrime     =   ["Prime",mythPrime,1];
  
 
 
