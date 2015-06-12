@@ -385,7 +385,7 @@
             mythFresh,
             cPall,
             defiance,
-            badgeWhore
+            badgeWhore,
             vassouraWielder,
         ]
     };
