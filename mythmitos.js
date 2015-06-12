@@ -219,7 +219,7 @@
         tier: tierFreshman,
         ano: '2014',
         badges: [
-            mythEvent,
+            event,
             mythFresh,
             hangouteiro,
         ]
