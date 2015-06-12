@@ -82,14 +82,14 @@
     var mariEx = createBadge('Pall exclusive \'!!!\' Badge','excla');
     var fuQuest = createBadge('Fuquest/OsMitadores the Game: Devteam','fq');
     var radiant = createBadge('Radiant Historia 11k','historia');
-
     var genesis = createBadge('Anfitrião de SEGA Genesis','genesis');
     var n64 = createBadge('Anfitrião de Nintendo 64','n64');
     var ps2 = createBadge('Anfitrião de Playstation 2','ps2');
     var ps3 = createBadge('Anfitrião de Playstation 3','ps3');
     var ps4 = createBadge('Anfitrião de Playstation 4','ps4');
     var wii = createBadge('Anfitrião de Nintendo Wii','wii');
-
+    
+    var event = createBadge('Mitador de Evento');
     var nonethless = createBadge('nodesc');
     
 //Crests
