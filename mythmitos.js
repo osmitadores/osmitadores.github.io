@@ -386,6 +386,7 @@
             cPall,
             defiance,
             badgeWhore
+            vassouraWielder,
         ]
     };
 	    Myth.raptor = {
@@ -441,7 +442,8 @@
             merito,
             programeiro,
             kanaFest,
-            redCoder
+            redCoder,
+            vassouraWielder,
         ]
     };
     Myth.vidal = {
