@@ -210,6 +210,20 @@
             lendsClub,
         ]
     };
+    
+       Myth.gabriel = {
+        nome: 'Gabriel',
+        tagId: 'gabriel',
+        tagId1: 'gabriel1',
+        faceId: 'gabriel.freire.315865',
+        tier: tierFreshman,
+        ano: '2014',
+        badges: [
+            mythEvent,
+            mythFresh,
+            hangouteiro,
+        ]
+    };
     Myth.garland = {
         nome: 'Garland',
         tagId: 'garland',
@@ -386,6 +400,21 @@
             cHerbe,
             nennys
         ]
+	    }
+     Myth.romulo = {
+        nome: 'Rômulo',
+        tagId: 'romulo',
+        tagId1: 'romulo1',
+        faceId: 'romulo.venturacesario',
+        tier: tierFreshman,
+        ano: '2015',
+        badges: [
+            mythFresh,
+            cClaro,
+            
+        ]
+        
+        
     }
     Myth.rubens = {
         nome: 'Switch',
