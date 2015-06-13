@@ -195,4 +195,25 @@ function toggleTier(){
     }
 }
 
+///////////////////////////////
 indexMyth(Myth);
+
+$(document).ready(function(){
+    
+    // fais slide inicial
+    $('#tabelas').hide(0, function(){
+        $('#tabelas').delay(1000).toggle('slow','linear');
+    });
+
+    // fais slide ao apertar o botão
+    $('#buttalfa').click(function(){
+        $('#tabelas').toggle(600, function(){
+            toggleAlfabetic();
+            $('#tabelas').toggle(950);
+        });
+    });
+
+});
+
+
+
