@@ -4,7 +4,7 @@
 */
 
     var Myth = {};
-    m
+    
 
     Myth.alex = {
         nome: 'Alex',
