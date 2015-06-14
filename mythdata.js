@@ -88,6 +88,7 @@
     var ps3 = createBadge('Anfitrião de Playstation 3','ps3');
     var ps4 = createBadge('Anfitrião de Playstation 4','ps4');
     var wii = createBadge('Anfitrião de Nintendo Wii','wii');
+    var rplay = createBadge('Roleplay Masters: *flies away*','rp');
     
     var event = createBadge('Mitador de Evento');
     var nonethless = createBadge('nodesc');
@@ -101,7 +102,7 @@
     var cClaro = createBadge('Com o Claro você fala ilimitado! Claro Crest', 'claro');
     var cHerbe = createBadge('A Erva da Alegria: Herbe Crest', 'herb');
     var cCesar = createBadge('The Rockstar Sneakers: Rasec Crest', 'rasec');
-    var cGarland = createBadge('Crest Title: Garland Crest');
+    var cGarland = createBadge('The Black Mage: Garland Crest', 'mage');
 
 
 
