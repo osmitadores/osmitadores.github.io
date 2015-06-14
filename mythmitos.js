@@ -4,7 +4,7 @@
 */
 
     var Myth = {};
-    
+    m
 
     Myth.alex = {
         nome: 'Alex',
@@ -361,7 +361,8 @@
         badges: [
             mythPrime,
             mythGhost,
-            satanicat
+            satanicat,
+            skullGirls,
         ]
     };
     Myth.pall = {
