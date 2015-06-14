@@ -90,6 +90,7 @@
     var wii = createBadge('Anfitrião de Nintendo Wii','wii');
     var rplay = createBadge('Roleplay Masters: *flies away*','rp');
     
+    var skullGirls = createBadge('Skull Girls Tournament - 1o Lugar!!!','skg');
     var event = createBadge('Mitador de Evento');
     var nonethless = createBadge('nodesc');
     
