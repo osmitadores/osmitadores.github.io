@@ -401,6 +401,7 @@
             defiance,
             badgeWhore,
             vassouraWielder,
+            desenheiro,
             rplay,
         ]
     };
