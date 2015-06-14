@@ -65,7 +65,8 @@
             vassouraWielder,
             streameiro,
             pauHd,
-            badgeWhore
+            badgeWhore,
+            skgPart,
         ]
     };
     Myth.arthur = {
@@ -110,7 +111,8 @@
             encontroMyth,
             smashFesteiro,
             smashFest2014,
-            lendsClub
+            lendsClub,
+            skgPart,
         ]
     };
     Myth.claro = {
@@ -128,7 +130,8 @@
             defiance,
             vassouraWielder,
             cGors,
-            programeiro
+            programeiro,
+            skgPart,
         ]
     };
     Myth.coelho = {
@@ -209,6 +212,7 @@
             _3dsPlay,
             lendsClub,
             rplay,
+            skgPart,
         ]
     };
     
@@ -292,7 +296,8 @@
             cAna,
             keidiPint,
             streameiro,
-            kanaFest
+            kanaFest,
+            skgPart,
         ]
     };
     Myth.laise = {
