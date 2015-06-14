@@ -90,110 +90,96 @@ for (var i in Myth){
 for (var i in Myth){
     
     tier[tier.length] = [Myth[i].tier[2], Myth[i], Myth[i].badges.length];
-	console.log(Myth[i].badges.length);
 }
 //////////////////////////////////
+function toggleSort(type){
 
-function toggleAlfabetic(){
+    if (type == 'alfa'){
 
-    if (checkAlfa) {
-        mitadores.sort();
-        checkAlfa = false;
-		document.getElementById('titl').innerHTML = "Mostrando lista em ordem alfabética (A-Z)";
-    }else{
-        mitadores.reverse();
-        checkAlfa = true;
-		document.getElementById('titl').innerHTML = "Mostrando lista em ordem alfabética (Z-A)";
+        if (checkAlfa) {
+            mitadores.sort();
+            checkAlfa = false;
+            document.getElementById('titl').innerHTML = "Mostrando lista em ordem alfabética (A-Z)";
+        }else{
+            mitadores.reverse();
+            checkAlfa = true;
+            document.getElementById('titl').innerHTML = "Mostrando lista em ordem alfabética (Z-A)";
+        }
+
+        document.getElementById('tabelas').innerHTML = '';
+    
+        for (var i in mitadores){
+
+            document.getElementById('tabelas').innerHTML += createTable(mitadores[i][1]);
+        }
+       
     }
 
+    if (type == 'badge') {
 
-    document.getElementById('tabelas').innerHTML = '';
-    for (var i in mitadores){
+        if (checkBadge) {
+            badges.sort(function(a,b){return a[0]-b[0];});
+            checkBadge = false;
+            document.getElementById('titl').innerHTML = "Mostrando lista por quantidade de badges (Crescente)";
+    
+        }else{
+            badges.sort(function(a,b){return b[0]-a[0];});
+            checkBadge = true;
+            document.getElementById('titl').innerHTML = "Mostrando lista por quantidade de badges (Decrescente)";
+        }
 
-        document.getElementById('tabelas').innerHTML += createTable(mitadores[i][1]);
+        document.getElementById('tabelas').innerHTML = '';
+        
+        for (var i in badges){
+            document.getElementById('tabelas').innerHTML += createTable(badges[i][1]);
+        }
+        
     }
+
+    if (type == 'tier') {
+
+        if (checkTier) {
+        
+            tier.sort(function(a,b){
+           
+                if (a[0] === b[0]){
+                    var x = a[2], y = b[2];
+                    return x < y ? 1 : 0;
+                }
+                return a[0]-b[0];
+            });
+      
+            checkTier = false;
+            document.getElementById('titl').innerHTML = "Mostrando lista por Tier(Decrescente)";
+        }else{
+            tier.sort(function(a,b){
+                if (a[0] === b[0]){
+                var x = a[2], y = b[2];
+                return x < y ? 1 : 0;   
+            }
+            return a[0]-b[0];        
+        });
+            tier.reverse();
+            
+            checkTier = true;
+            document.getElementById('titl').innerHTML = "Mostrando lista por Tier (Crescente)";
+        }
+
+
+        document.getElementById('tabelas').innerHTML = '';
+        for (var i in tier){
+            document.getElementById('tabelas').innerHTML += createTable(tier[i][1]);
+        }
+        
+    }
+
     for (var x in Myth){
-        writeBadges(Myth[x]);
+            writeBadges(Myth[x]);
     }
+
 }
 
 
-function toggleBadge(){
-
-    if (checkBadge) {
-       badges.sort(function(a,b){return a[0]-b[0];});
-        checkBadge = false;
-		document.getElementById('titl').innerHTML = "Mostrando lista por quantidade de badges (Crescente)";
-	
-    }else{
-        badges.sort(function(a,b){return b[0]-a[0];});
-        checkBadge = true;
-			document.getElementById('titl').innerHTML = "Mostrando lista por quantidade de badges (Decrescente)";
-    }
-
-
-    document.getElementById('tabelas').innerHTML = '';
-    for (var i in badges){
-
-        document.getElementById('tabelas').innerHTML += createTable(badges[i][1]);
-    }
-    for (var x in Myth){
-        writeBadges(Myth[x]);
-    }
-}
-
-function toggleTier(){
-
-
-
-
-    if (checkTier) {
-		
-       tier.sort(function(a,b)
-	   {
-		   
-		   if (a[0] === b[0])
-		   {
-			   var x = a[2], y = b[2];
-			   return x < y ? 1 : 0;
-			   
-		   }
-		   return a[0]-b[0];
-		   		   
-		});
-	  
-        checkTier = false;
-			document.getElementById('titl').innerHTML = "Mostrando lista por Tier(Decrescente)";
-    }else{
-		
-  tier.sort(function(a,b)
-	   {
-		   
-		   if (a[0] === b[0])
-		   {
-			   var x = a[2], y = b[2];
-			   return x < y ? 1 : 0;
-			   
-		   }
-		   return a[0]-b[0];
-		   		   
-		});
-	  tier.reverse();
-	
-        checkTier = true;
-			document.getElementById('titl').innerHTML = "Mostrando lista por Tier (Crescente)";
-    }
-
-
-    document.getElementById('tabelas').innerHTML = '';
-    for (var i in tier){
-
-        document.getElementById('tabelas').innerHTML += createTable(tier[i][1]);
-    }
-    for (var x in Myth){
-        writeBadges(Myth[x]);
-    }
-}
 
 ///////////////////////////////
 indexMyth(Myth);
@@ -208,11 +194,23 @@ $(document).ready(function(){
     // fais slide ao apertar o botão
     $('#buttalfa').click(function(){
         $('#tabelas').toggle(600, function(){
-            toggleAlfabetic();
+            toggleSort('alfa');
+            $('#tabelas').toggle(950);
+            
+        });
+    });
+    $('#buttbadge').click(function(){
+        $('#tabelas').toggle(600, function(){
+            toggleSort('badge');
             $('#tabelas').toggle(950);
         });
     });
-
+    $('#butttier').click(function(){
+        $('#tabelas').toggle(600, function(){
+            toggleSort('tier');
+            $('#tabelas').toggle(950);
+        });
+    });
 });
 
 
