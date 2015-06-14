@@ -208,6 +208,7 @@
             programeiro,
             _3dsPlay,
             lendsClub,
+            rplay,
         ]
     };
     
@@ -400,6 +401,7 @@
             defiance,
             badgeWhore,
             vassouraWielder,
+            rplay,
         ]
     };
 	    Myth.raptor = {
