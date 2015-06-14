@@ -112,6 +112,7 @@
             smashFesteiro,
             smashFest2014,
             lendsClub,
+            jogueiro,
             skgPart,
         ]
     };
@@ -131,6 +132,7 @@
             vassouraWielder,
             cGors,
             programeiro,
+            jogueiro,
             skgPart,
         ]
     };
@@ -226,6 +228,7 @@
         badges: [
             event,
             mythFresh,
+            jogueiro,
             hangouteiro,
         ]
     };
@@ -297,6 +300,7 @@
             keidiPint,
             streameiro,
             kanaFest,
+            jogueiro,
             skgPart,
         ]
     };
@@ -466,6 +470,8 @@
             kanaFest,
             redCoder,
             vassouraWielder,
+            jogueiro,
+        
         ]
     };
     Myth.vidal = {
