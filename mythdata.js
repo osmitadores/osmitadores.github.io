@@ -101,6 +101,7 @@
     var cClaro = createBadge('Com o Claro você fala ilimitado! Claro Crest', 'claro');
     var cHerbe = createBadge('A Erva da Alegria: Herbe Crest', 'herb');
     var cCesar = createBadge('The Rockstar Sneakers: Rasec Crest', 'rasec');
+    var cGarland = createBadge('Crest Title: Garland Crest');
 
 
 

@@ -231,6 +231,7 @@
         faceId: 'GarlandtheChaos',
         tier: tierHonorary,
         ano: '2014',
+        crest:['Crest Title: Garland Crest', 'placejolder'],
         badges: [
             mythHonorary,
             encontroMyth,
@@ -323,6 +324,18 @@
             frukiFest,
             mitamores,
             lendsClub
+        ]
+    };
+    Myth.luiggi = {
+        nome: 'Mario Verde',
+        tagId: 'luiggi',
+        tagId1: 'luiggi1',
+        faceId: 'luiggi.ligocky',
+        tier: tierFreshman,
+        ano: '2015',
+        badges: [
+            mythFresh,
+            cGarland
         ]
     };
     Myth.marcela = {
