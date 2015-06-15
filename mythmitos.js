@@ -226,7 +226,7 @@
         tier: tierFreshman,
         ano: '2014',
         badges: [
-            event,
+            mythEvent,
             mythFresh,
             jogueiro,
             hangouteiro,
@@ -427,7 +427,7 @@
             cHerbe,
             nennys
         ]
-	    }
+	};
      Myth.romulo = {
         nome: 'Rômulo',
         tagId: 'romulo',
@@ -437,12 +437,9 @@
         ano: '2015',
         badges: [
             mythFresh,
-            cClaro,
-            
+            cClaro,   
         ]
-        
-        
-    }
+    };
     Myth.rubens = {
         nome: 'Switch',
         tagId: 'rubens',

@@ -94,25 +94,22 @@ for (var i in Myth){
 //////////////////////////////////
 function toggleSort(type){
 
+    if (!type) {
+        tinysort('div#tabelas>table',{order:'rand'});
+        document.getElementById('titl').innerHTML = "Mostrando lista em ordem aleatória";
+    }
+
     if (type == 'alfa'){
 
         if (checkAlfa) {
-            mitadores.sort();
+            tinysort('div#tabelas>table');
             checkAlfa = false;
             document.getElementById('titl').innerHTML = "Mostrando lista em ordem alfabética (A-Z)";
         }else{
-            mitadores.reverse();
+            tinysort('div#tabelas>table',{order:'desc'});
             checkAlfa = true;
             document.getElementById('titl').innerHTML = "Mostrando lista em ordem alfabética (Z-A)";
         }
-
-        document.getElementById('tabelas').innerHTML = '';
-    
-        for (var i in mitadores){
-
-            document.getElementById('tabelas').innerHTML += createTable(mitadores[i][1]);
-        }
-       
     }
 
     if (type == 'badge') {
@@ -173,9 +170,6 @@ function toggleSort(type){
         
     }
 
-    for (var x in Myth){
-            writeBadges(Myth[x]);
-    }
 
 }
 
@@ -211,6 +205,23 @@ $(document).ready(function(){
             $('#tabelas').toggle(950);
         });
     });
+    $('#buttrandom').click(function(){
+        $('#tabelas').toggle(600, function(){
+            toggleSort();
+            $('#tabelas').toggle(950);
+        });
+    });
+
+    $('#hidden').hover(function(){
+        $('.button').toggle('slow','linear');
+        $('#hidden').toggle('slow','linear');
+        },function(){
+            $('.button').delay(7000).toggle('slow','linear',function(){
+                $('#hidden').toggle('slow','linear');
+            });
+        }
+    );
+
 });
 
 
