@@ -152,7 +152,7 @@ function createTable(mito) {
   <!-- NAME -->\
   <th align="left" class="name" colspan="2">'+ mito.nome +'</th>  <th align="left" class="tiername"></th> <!-- Espacinho -->\
   <!-- TIER -->\
-  <th align="left" class="tiername">Tier: <strong>' + mito.tier[0] + '</strong></th>\
+  <th align="left" class="tiername"><span class="tierlevel">' + mito.tier[2] + '</span>Tier: <strong>' + mito.tier[0] + '</strong></th>\
   <th align="right" class="tiericon"> <div>' + '<img class="tier" title="' + mito.tier[1][0] + '" src="' + PATH + mito.tier[1][1] + '.png"></th>\
 </tr>\
 <tr>\
@@ -161,7 +161,7 @@ function createTable(mito) {
   <td class="tg-e3zv"> Badges\
   </td>\
   <td class="tg-031e"></td>\
-  <td class="since" align="right"  colspan="3" >Mitando since  <strong>' + mito.ano + '</strong></td>\
+  <td class="since" align="right"  colspan="3" >Mitando since  <strong class="mythano">' + mito.ano + '</strong></td>\
 </tr>\
 <tr>\
   <!-- BADGES -->\

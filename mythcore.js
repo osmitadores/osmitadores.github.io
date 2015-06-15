@@ -71,26 +71,11 @@ function indexMyth(osMitos){
 
 //////////////////////////////
 
-var mitadores = [];
-var badges = [];
-var tier = [];
 var checkAlfa = true;
 var checkBadge = false;
 var checkTier = true;
-for (var i in Myth){
-    
-    mitadores[mitadores.length] = [Myth[i].nome, Myth[i]];
+var checkAno = true;
 
-}
-for (var i in Myth){
-    
-    badges[badges.length] = [Myth[i].badges.length, Myth[i]];
-	
-}
-for (var i in Myth){
-    
-    tier[tier.length] = [Myth[i].tier[2], Myth[i], Myth[i].badges.length];
-}
 //////////////////////////////////
 function toggleSort(type){
 
@@ -115,57 +100,44 @@ function toggleSort(type){
     if (type == 'badge') {
 
         if (checkBadge) {
-            badges.sort(function(a,b){return a[0]-b[0];});
+            tinysort('div#tabelas>table',{selector:'td.badges2'});
             checkBadge = false;
             document.getElementById('titl').innerHTML = "Mostrando lista por quantidade de badges (Crescente)";
     
         }else{
-            badges.sort(function(a,b){return b[0]-a[0];});
+            tinysort('div#tabelas>table',{selector:'td.badges2',order:'desc'});
             checkBadge = true;
             document.getElementById('titl').innerHTML = "Mostrando lista por quantidade de badges (Decrescente)";
         }
 
-        document.getElementById('tabelas').innerHTML = '';
-        
-        for (var i in badges){
-            document.getElementById('tabelas').innerHTML += createTable(badges[i][1]);
-        }
-        
+       
+       
     }
 
     if (type == 'tier') {
 
         if (checkTier) {
-        
-            tier.sort(function(a,b){
-           
-                if (a[0] === b[0]){
-                    var x = a[2], y = b[2];
-                    return x < y ? 1 : 0;
-                }
-                return a[0]-b[0];
-            });
-      
+            tinysort('div#tabelas>table',{selector:'span.tierlevel'});
             checkTier = false;
-            document.getElementById('titl').innerHTML = "Mostrando lista por Tier(Decrescente)";
+            document.getElementById('titl').innerHTML = "Mostrando lista por Tier (Decrescente)";
         }else{
-            tier.sort(function(a,b){
-                if (a[0] === b[0]){
-                var x = a[2], y = b[2];
-                return x < y ? 1 : 0;   
-            }
-            return a[0]-b[0];        
-        });
-            tier.reverse();
-            
+             tinysort('div#tabelas>table',{selector:'span.tierlevel',order:'desc'});
             checkTier = true;
             document.getElementById('titl').innerHTML = "Mostrando lista por Tier (Crescente)";
         }
+        
+    }
 
+    if (type == 'ano') {
 
-        document.getElementById('tabelas').innerHTML = '';
-        for (var i in tier){
-            document.getElementById('tabelas').innerHTML += createTable(tier[i][1]);
+        if (checkAno) {
+            tinysort('div#tabelas>table',{selector:'strong.mythano'});
+            checkTier = false;
+            document.getElementById('titl').innerHTML = "Mostrando lista por Ano (Decrescente)";
+        }else{
+             tinysort('div#tabelas>table',{selector:'strong.mythano',order:'desc'});
+            checkTier = true;
+            document.getElementById('titl').innerHTML = "Mostrando lista por Ano (Crescente)";
         }
         
     }
@@ -176,13 +148,15 @@ function toggleSort(type){
 function clickedButton(type){
 
     if(type == 'random'){
-        var unclick = ['alfa','tier','badge'];
+        var unclick = ['alfa','tier','badge','ano'];
     }else if (type == 'badge'){
-        var unclick = ['alfa','tier','random'];
+        var unclick = ['alfa','tier','random','ano'];
     }else if (type == 'alfa'){
-        var unclick = ['badge','tier','random'];
+        var unclick = ['badge','tier','random','ano'];
     }else if (type == 'tier'){
-        var unclick = ['alfa','badge','random'];
+        var unclick = ['alfa','badge','random','ano'];
+    }else if (type == 'ano'){
+        var unclick = ['alfa','badge','random','tier'];
     }
     for (var i in unclick){
         document.getElementById('butt'+unclick[i]).style.backgroundColor = '#224';
@@ -231,6 +205,13 @@ $(document).ready(function(){
         });
         clickedButton('random');
     });
+    $('#buttano').click(function(){
+        $('#tabelas').toggle(600, function(){
+            toggleSort('ano');
+            $('#tabelas').toggle(950);
+        });
+        clickedButton('ano');
+    });
 
     $('#tabelas').click(function(){
 
@@ -246,7 +227,9 @@ $(document).ready(function(){
         }
     );
 
-    
+    $('buttalfa').hover(function(){
+        document.getElementById('buttalfa').style.backgroundColor = '#600';
+    });
 
 });
 

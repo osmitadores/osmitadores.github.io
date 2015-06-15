@@ -246,8 +246,14 @@ background-color: #00F;
         right: 204px; 
 }
 #buttrandom{
+        right: 408px; 
+}
+#buttano{
         right: 306px; 
 }
 #tabelas{
   display: none;
+}
+.tierlevel{
+  color: rgba(0,0,0,0);
 }
