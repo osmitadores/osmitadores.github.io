@@ -212,13 +212,17 @@ $(document).ready(function(){
         });
     });
 
+    $('#tabelas').click(function(){
+
+            $('.button').delay(1).hide('slow','linear');
+            $('#titl').delay(1).hide('slow','linear');
+            $('#hidden').delay(1).show('slow','linear');
+        });
+
     $('#hidden').hover(function(){
-        $('.button').toggle('slow','linear');
-        $('#hidden').toggle('slow','linear');
-        },function(){
-            $('.button').delay(7000).toggle('slow','linear',function(){
-                $('#hidden').toggle('slow','linear');
-            });
+        $('.button').show('slow','linear');
+        $('#titl').show('slow','linear');
+        $('#hidden').hide('slow','linear');
         }
     );
 

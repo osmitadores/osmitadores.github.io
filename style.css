@@ -179,7 +179,12 @@ img.badgeicon{
         text-align: left; 
         z-index: 900;	
 }
-
+.tit:hover{
+  background-color: #113;
+}
+.button:hover .tit{
+  background-color: #113;
+}
 #hidden{
       position: fixed;
         cursor: pointer;
