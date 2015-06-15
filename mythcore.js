@@ -173,6 +173,22 @@ function toggleSort(type){
 
 }
 
+function clickedButton(type){
+
+    if(type == 'random'){
+        var unclick = ['alfa','tier','badge'];
+    }else if (type == 'badge'){
+        var unclick = ['alfa','tier','random'];
+    }else if (type == 'alfa'){
+        var unclick = ['badge','tier','random'];
+    }else if (type == 'tier'){
+        var unclick = ['alfa','badge','random'];
+    }
+    for (var i in unclick){
+        document.getElementById('butt'+unclick[i]).style.backgroundColor = '#224';
+    }
+    document.getElementById('butt'+type).style.backgroundColor = 'red';
+}
 
 
 ///////////////////////////////
@@ -192,24 +208,28 @@ $(document).ready(function(){
             $('#tabelas').toggle(950);
             
         });
+        clickedButton('alfa');
     });
     $('#buttbadge').click(function(){
         $('#tabelas').toggle(600, function(){
             toggleSort('badge');
             $('#tabelas').toggle(950);
         });
+        clickedButton('badge');
     });
     $('#butttier').click(function(){
         $('#tabelas').toggle(600, function(){
             toggleSort('tier');
             $('#tabelas').toggle(950);
         });
+        clickedButton('tier');
     });
     $('#buttrandom').click(function(){
         $('#tabelas').toggle(600, function(){
             toggleSort();
             $('#tabelas').toggle(950);
         });
+        clickedButton('random');
     });
 
     $('#tabelas').click(function(){
@@ -219,12 +239,14 @@ $(document).ready(function(){
             $('#hidden').delay(1).show('slow','linear');
         });
 
-    $('#hidden').hover(function(){
+    $('#hidden').click(function(){
         $('.button').show('slow','linear');
         $('#titl').show('slow','linear');
         $('#hidden').hide('slow','linear');
         }
     );
+
+    
 
 });
 
