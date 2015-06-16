@@ -4,7 +4,7 @@
 */
 
     var Myth = {};
-    
+
 
     Myth.alex = {
         nome: 'Alex',
@@ -121,11 +121,11 @@
         tagId: 'claro',
         tagId1: 'claro1',
         faceId: 'MatheusOClaro',
-        tier: tierGold,
+        tier: tierPlatinum,
         ano: '2014',
         crest:['Com o Claro você fala ilimitado! Claro Crest', 'claro'],
         badges: [
-            mythGold,
+            mythPlatinum,
             mechanicPunch,
             hangouteiro,
             defiance,
@@ -166,7 +166,7 @@
         ano: '2015',
         badges: [
             mythFresh,
-            merito,     
+            merito,
         ]
     };
     Myth.fernando = {
@@ -217,7 +217,7 @@
             skgPart,
         ]
     };
-    
+
        Myth.gabriel = {
         nome: 'Gabriel',
         tagId: 'gabriel',
@@ -437,7 +437,7 @@
         ano: '2015',
         badges: [
             mythFresh,
-            cClaro,   
+            cClaro,
         ]
     };
     Myth.rubens = {
@@ -457,7 +457,7 @@
         nome: 'Tumeo',
         tagId: 'tunel',
         tagId1: 'tunel1',
-        faceId: 'williamd1k0',
+        faceId: '100001156867316',
         tier: tierPlatinum,
         ano: '2015',
         badges: [
@@ -468,7 +468,7 @@
             redCoder,
             vassouraWielder,
             jogueiro,
-        
+
         ]
     };
     Myth.vidal = {

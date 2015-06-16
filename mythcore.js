@@ -1,7 +1,7 @@
 /*
 *   > MITHYBOARD SCRIPT
-*   > VERSION: 1.8.0
-*   > BUILD: 0611-12
+*   > VERSION: 1.9.0
+*   > BUILD: 0616-17
 *   > ALTERAÇÕES:
 *       > Criação do pseudo-DB.
 *       > Função que auto-escreve os badges e a quantidade.
@@ -14,12 +14,14 @@
 *       > Arrumando método de escrita no documento.
 *       > Limpeza no código e criação de sort alfabético.
 *       > Added ordenar por quantidade de badges.
+*       > Adicionado tinysort (novo método de sort).
+*       > Tentativas com o gayQuery.
 *
 *   > WARNINGS:
 *       > NÃO ALTERAR O MÉTODO "writeBadges(myth)", ELE É O CORE QUE FAZ A PORA TODA.
 *       > NÃO ALTERAR A PRIMEIRA POSIÇÃO DOS ARRAYS (0), A MENOS QUE O ID DO MITADOR SEJA ALTERADO.
 *       > CLARO, NÃO FUÇE.
-*          
+*
 *   > NOMENCLATURAS:
 *       > VARIÁVEIS DE BADGES COMUNS: NOMES SUGESTIVOS COM NO MÁXIMO DUAS PALAVRAS (EX: doisPotes).
 *       > VARIÁVEIS DE BADGES TIPO TIER: UMA PALAVRA SEGUIDA DE "myth" (EX: mythLegacy).
@@ -34,10 +36,10 @@
 */
 
    document.getElementById('titl').innerHTML = "Mostrando lista na ordem default";
- 
+
 function writeBadges(myth){
 /*
-*   Descrição: Função que escreve no #document as imagens 
+*   Descrição: Função que escreve no #document as imagens
 *   das badges e e a quantidade delas (a quantidade é cal-
 *   culada a partir do array.length e não dos filhos da tag).
 *   Args: 1. O array do mitador.
@@ -45,7 +47,7 @@ function writeBadges(myth){
     for (var i in myth.badges) {
         document.getElementById(myth.tagId).innerHTML += ' <img class="badgeicon" title="' + myth.badges[i][0] + '" src="' + PATH + myth.badges[i][1] + '.png"> ';
     }
-    document.getElementById(myth.tagId1).innerHTML += myth.badges.length; 
+    document.getElementById(myth.tagId1).innerHTML += myth.badges.length;
 }
 
 
@@ -54,10 +56,10 @@ function indexMyth(osMitos){
 *   Descrição: Função que simplifica a escrita das badges
 *   no #document.
 *   Agora simplifica a escrita do documento todo.
-*   Args: 1. Os Mitadores (object). **apesar de não ter um 
+*   Args: 1. Os Mitadores (object). **apesar de não ter um
 *   outro argumento válido**
-*/  
-    
+*/
+
 
     for (var i in osMitos){
 
@@ -100,46 +102,52 @@ function toggleSort(type){
     if (type == 'badge') {
 
         if (checkBadge) {
+            tinysort('div#tabelas>table');
             tinysort('div#tabelas>table',{selector:'td.badges2'});
             checkBadge = false;
             document.getElementById('titl').innerHTML = "Mostrando lista por quantidade de badges (Crescente)";
-    
+
         }else{
+            tinysort('div#tabelas>table',{order:'desc'});
             tinysort('div#tabelas>table',{selector:'td.badges2',order:'desc'});
             checkBadge = true;
             document.getElementById('titl').innerHTML = "Mostrando lista por quantidade de badges (Decrescente)";
         }
 
-       
-       
+
+
     }
 
     if (type == 'tier') {
 
         if (checkTier) {
+            tinysort('div#tabelas>table');
             tinysort('div#tabelas>table',{selector:'span.tierlevel'});
             checkTier = false;
             document.getElementById('titl').innerHTML = "Mostrando lista por Tier (Decrescente)";
         }else{
-             tinysort('div#tabelas>table',{selector:'span.tierlevel',order:'desc'});
+            tinysort('div#tabelas>table',{order:'desc'});
+            tinysort('div#tabelas>table',{selector:'span.tierlevel',order:'desc'});
             checkTier = true;
             document.getElementById('titl').innerHTML = "Mostrando lista por Tier (Crescente)";
         }
-        
+
     }
 
     if (type == 'ano') {
 
         if (checkAno) {
+            tinysort('div#tabelas>table');
             tinysort('div#tabelas>table',{selector:'strong.mythano'});
             checkTier = false;
             document.getElementById('titl').innerHTML = "Mostrando lista por Ano (Decrescente)";
         }else{
-             tinysort('div#tabelas>table',{selector:'strong.mythano',order:'desc'});
+            tinysort('div#tabelas>table',{order:'desc'});
+            tinysort('div#tabelas>table',{selector:'strong.mythano',order:'desc'});
             checkTier = true;
             document.getElementById('titl').innerHTML = "Mostrando lista por Ano (Crescente)";
         }
-        
+
     }
 
 
@@ -169,7 +177,7 @@ function clickedButton(type){
 indexMyth(Myth);
 
 $(document).ready(function(){
-    
+
     // fais slide inicial
     $('#tabelas').hide(0, function(){
         $('#tabelas').delay(1000).toggle('slow','linear');
@@ -180,7 +188,7 @@ $(document).ready(function(){
         $('#tabelas').toggle(600, function(){
             toggleSort('alfa');
             $('#tabelas').toggle(950);
-            
+
         });
         clickedButton('alfa');
     });
@@ -228,6 +236,3 @@ $(document).ready(function(){
     );
 
 });
-
-
-
