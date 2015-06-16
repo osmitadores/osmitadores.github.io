@@ -24,11 +24,11 @@
     var tierSilver    =   ["Silver",mythSilver,4];
     var tierLegacy    =   ["Legacy",mythLegacy,6];
     var tierFreshman  =   ["Freshman",mythFresh,10];
-    var tierGuest     =   ["Guest",mythGuest,11];
+    var tierGuest     =   ["Guest",mythGuest,12];
     var tierHonorary  =   ["Honorary",mythHonorary,9];
     var tierLurker    =   ["Lurker",mythLurker,8];
     var tierGold      =   ["Gold",mythGold,3];
-    var tierGhost     =   ["Ghost",mythGhost,];
+    var tierGhost     =   ["Ghost",mythGhost,11];
     var tierPrime     =   ["Prime",mythPrime,1];
  
 

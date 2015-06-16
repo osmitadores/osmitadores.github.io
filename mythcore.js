@@ -227,10 +227,6 @@ $(document).ready(function(){
         }
     );
 
-    $('buttalfa').hover(function(){
-        document.getElementById('buttalfa').style.backgroundColor = '#600';
-    });
-
 });
 
 

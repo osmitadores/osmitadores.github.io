@@ -23,11 +23,11 @@
         tagId: 'yomiell',
         tagId1: 'yomiell1',
         faceId: 'anabeatriz.s.oliveira',
-        tier: tierPlatinum,
+        tier: tierGold,
         ano: '2014',
         crest:['Yomiell Hankerchief: Ana Crest', 'yomi'],
         badges: [
-            mythPlatinum,
+            mythGold,
             preHistoric,
             jogueiro,
             hangouteiro,
@@ -55,11 +55,11 @@
         tagId: 'aragao',
         tagId1: 'aragao1',
         faceId: 'paulosergio.aragao.5',
-        tier: tierSilver,
+        tier: tierGold,
         ano: '2013',
         badges: [
             mythLegacy,
-            mythSilver,
+            mythGold,
             hangouteiro,
             jogueiro,
             vassouraWielder,
@@ -74,10 +74,10 @@
         tagId: 'arthur',
         tagId1: 'arthur1',
         faceId: 'ArthurLimaT',
-        tier: tierFreshman,
+        tier: tierSilver,
         ano: '2015',
         badges: [
-            mythFresh,
+            mythSilver,
             cFlicky,
             jogueiro,
             pipoqueiro
@@ -353,10 +353,10 @@
         tagId: 'marcela',
         tagId1: 'marcela1',
         faceId: 'MaahMarceline',
-        tier: tierLurker,
+        tier: tierGhost,
         ano: '2014',
         badges: [
-            mythLurker,
+            mythGhost,
             cFlicky
         ]
     };
@@ -384,7 +384,7 @@
         crest:['The Kawaii Stick Pall Crest', 'pall'],
         badges: [
             mythLegacy,
-            mythLurker,
+            mythSilver,
             desenheiro,
             mitamores,
             karaoke,
@@ -403,10 +403,10 @@
         tagId: 'pam',
         tagId1: 'pam1',
         faceId: 'pamela.machadogrether',
-        tier: tierFreshman,
+        tier: tierGold,
         ano: '2015',
         badges: [
-            mythFresh,
+            mythGold,
             cPall,
             defiance,
             badgeWhore,
@@ -458,10 +458,10 @@
         tagId: 'tunel',
         tagId1: 'tunel1',
         faceId: 'williamd1k0',
-        tier: tierGold,
+        tier: tierPlatinum,
         ano: '2015',
         badges: [
-            mythGold,
+            mythPlatinum,
             merito,
             programeiro,
             kanaFest,
@@ -523,12 +523,12 @@
         tagId: 'gors',
         tagId1: 'gors1',
         faceId: 'william.watanabe.90',
-        tier: tierPlatinum,
+        tier: tierGold,
         ano: '2013',
         crest:['The Bullet Head: Gors Crest', 'gors'],
         badges: [
             mythLegacy,
-            mythPlatinum,
+            mythGold,
             preHistoric,
             desenheiro,
             jogueiro,
@@ -552,10 +552,10 @@
         tagId: 'wolvie',
         tagId1: 'wolvie1',
         faceId: 'wolviie.medeiros',
-        tier: tierFreshman,
+        tier: tierLurker,
         ano: '2015',
         badges: [
-            mythFresh,
+            mythLurker,
             cCesar
         ]
     };
