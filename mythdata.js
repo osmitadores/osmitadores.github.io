@@ -3,6 +3,7 @@
 *   BADGES
 */
     var PATH = 'http://os-mitadores.lucasflicky.com/files/theme/BADGES/';
+    var semID = '457676144377257';
 
 //Tier
     var mythUnicorn = createBadge('Mitador Unicorn: Raros porém participativos', 'uni');
