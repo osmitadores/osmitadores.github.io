@@ -106,6 +106,7 @@
     var cHerbe = createBadge('A Erva da Alegria: Herbe Crest', 'herb');
     var cCesar = createBadge('The Rockstar Sneakers: Rasec Crest', 'rasec');
     var cGarland = createBadge('The Black Mage: Garland Crest', 'mage');
+    var cZero = createBadge('The Dimensional Zero: Arthur Crest', 'zero');
 
 
 
