@@ -103,7 +103,7 @@
         nome: 'Camila',
         tagId: 'cpaolucci',
         tagId1: 'cpaolucci1',
-        faceId: 'camila.paolucci.3',
+        faceId: semID,
         tier: tierFreshman,
         ano: '2015',
         badges: [
@@ -111,11 +111,6 @@
             cZero
         ]
     };
-    
-    
-    
-    
-    
     
   
     Myth.cesar = {
