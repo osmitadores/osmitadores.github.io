@@ -103,7 +103,7 @@
         nome: 'Camila',
         tagId: 'cpaolucci',
         tagId1: 'cpaolucci1',
-        faceId: '558835807587895',
+        faceId: 'camila.paolucci.3',
         tier: tierFreshman,
         ano: '2015',
         badges: [
