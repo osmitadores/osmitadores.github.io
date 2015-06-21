@@ -96,6 +96,27 @@
             cFlicky
         ]
     };
+    
+    
+    
+     Myth.cpaolluci = {
+        nome: 'Camila',
+        tagId: 'cpaolucci',
+        tagId1: 'cpaolucci1',
+        faceId: '558835807587895',
+        tier: tierFreshman,
+        ano: '2015',
+        badges: [
+            mythFresh,
+            cZero
+        ]
+    };
+    
+    
+    
+    
+    
+    
   
     Myth.cesar = {
         nome: 'Cesar',
