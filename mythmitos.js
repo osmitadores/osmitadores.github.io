@@ -76,6 +76,7 @@
         faceId: '100000504458978',
         tier: tierSilver,
         ano: '2015',
+         crest: ['The Dimensional Zero: Arthur Crest', 'zero'],
         badges: [
             mythSilver,
             cFlicky,
@@ -93,6 +94,18 @@
         badges: [
             mythGuest,
             cFlicky
+        ]
+    };
+   Myth.cpaolluci = {
+        nome: 'Camila',
+        tagId: 'cpaolucci',
+        tagId1: 'cpaolucci1',
+        faceId: '558835807587895',
+        tier: tierFresh,
+        ano: '2015',
+        badges: [
+            mythFresh,
+            cZero
         ]
     };
     Myth.cesar = {
