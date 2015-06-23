@@ -431,7 +431,8 @@
             vassouraWielder,
             desenheiro,
             rplay,
-                 jogueiro,
+            jogueiro,
+            hangouteiro,
         
 
        
