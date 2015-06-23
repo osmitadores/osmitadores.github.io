@@ -431,6 +431,10 @@
             vassouraWielder,
             desenheiro,
             rplay,
+            jogueiro,
+            hangouteiro,
+            mitamores,
+            
         ]
     };
 	    Myth.raptor = {
