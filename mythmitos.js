@@ -431,9 +431,7 @@
             vassouraWielder,
             desenheiro,
             rplay,
-            jogueiro,
-            hangouteiro,
-            mitamores,
+       
             
         ]
     };
