@@ -92,6 +92,8 @@
     var rplay = createBadge('Roleplay Masters: *flies away*','rp');
      var cah = createBadge('Mitadores Contra a Humanidade!','cah');
      var essetop = createBadge('[Evento] ESSE TÓPICO É PRA VOCÊ....','essetop');
+     var ygo = createBadge('Duelista','ygo');
+     var gartic = createBadge('Gartic',);
      
     var skgPart = createBadge('Skull Girls Tournament - Participei... mas não ganhei. Pq sou noob','skgpt');
     var skullGirls = createBadge('Skull Girls Tournament - 1o Lugar!!!','skg');
