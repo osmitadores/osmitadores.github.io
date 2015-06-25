@@ -147,11 +147,14 @@
             mechanicPunch,
             hangouteiro,
             defiance,
+            cah,
             vassouraWielder,
             cGors,
             programeiro,
             jogueiro,
             skgPart,
+            essetop,
+            
         ]
     };
     Myth.coelho = {
@@ -197,6 +200,7 @@
         badges: [
             mythHonorary,
             mythGhost,
+            essetopico,
             cGors,
             hangouteiro,
             karaoke
@@ -218,6 +222,7 @@
             radiant,
             fuQuest,
             hangouteiro,
+            cah,
             genesis,
             frukiFest,
             vassouraWielder,
@@ -226,6 +231,7 @@
             streameiro,
             mitamores,
             karaoke,
+            essetop,
             smashFest2014,
             kanaFest,
             programeiro,
@@ -281,6 +287,7 @@
             encontroMyth,
             smashFesteiro,
             vassouraWielder,
+            essetop,
             smashFest2014,
             _3dsPlay,
             mitamores,
@@ -431,6 +438,7 @@
             vassouraWielder,
             desenheiro,
             rplay,
+            essetop,
             jogueiro,
             hangouteiro,
         
@@ -489,6 +497,7 @@
             merito,
             programeiro,
             kanaFest,
+            essetop,
             redCoder,
             vassouraWielder,
             jogueiro,
