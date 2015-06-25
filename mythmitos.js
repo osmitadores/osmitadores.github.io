@@ -166,7 +166,8 @@
             idea,
             help,
             pepe,
-            gartic
+            gartic,
+            rplay
             
         ]
     };
