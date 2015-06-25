@@ -10,7 +10,6 @@
         nome: 'Alex',
         tagId: 'foffano',
         tagId1: 'foffano1',
-        faceId: '100003209675392',
         tier: tierUnicorn,
         ano: '2013',
         badges: [
@@ -202,7 +201,7 @@
         badges: [
             mythHonorary,
             mythGhost,
-            essetopico,
+            essetop,
             cGors,
             hangouteiro,
             karaoke
