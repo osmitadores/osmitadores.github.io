@@ -32,6 +32,7 @@
             jogueiro,
             hangouteiro,
             desenheiro,
+            cah,
             vassouraWielder,
             _3dsPlay,
             defiance,
@@ -81,7 +82,8 @@
             mythSilver,
             cFlicky,
             jogueiro,
-            pipoqueiro
+            pipoqueiro,
+            cah,
         ]
     };
     Myth.bruna = {
@@ -305,6 +307,7 @@
             mythLurker,
             preHistoric,
             n64,
+            cah,
             happyDoor,
             radiant,
             smashFesteiro,
@@ -416,6 +419,7 @@
             jogueiro,
             ps3,
             hangouteiro,
+            cah,
             streameiro,
             _3dsPlay,
             likeBomb,
@@ -549,6 +553,7 @@
             smashFest2014,
             _3dsPlay,
             lendsClub,
+            cah,
         ]
     };
     Myth.gors = {
@@ -572,6 +577,7 @@
             encontroMyth,
             streameiro,
             smashFesteiro,
+            cah,
             _3dsPlay,
             smashFest2014,
             wataZomb,
