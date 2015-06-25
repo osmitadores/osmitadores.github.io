@@ -51,7 +51,7 @@
     var frukiFest = createBadge('Newyear 2013: Frukifest - Eu fui!', '2013');
     var streameiro = createBadge('Streameiro: Ocasionalmente promove Livestreams', 'live');
     var gardevoa = createBadge('Flicky exclusive \'Gardevobadge\' ', 'garde');
-    var mitamores = createBadge('Os Mitamores: Espalhando amor entre os Mitos', 'mitamores');
+    var mitamores = createBadge('Os Mitamores: Casais Mitadores são lindos', 'mitamores');
     var doisPotes = createBadge('Luana exclusive \'Doooois Pooootes\' Badge', 'pots');
    
    
