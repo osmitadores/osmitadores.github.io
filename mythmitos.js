@@ -11,6 +11,7 @@
         tagId: 'foffano',
         tagId1: 'foffano1',
         tier: tierUnicorn,
+         faceId: '100003209675392',
         ano: '2013',
         badges: [
             mythUnicorn,
