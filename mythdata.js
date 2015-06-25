@@ -93,7 +93,15 @@
      var cah = createBadge('Mitadores Contra a Humanidade!','cah');
      var essetop = createBadge('[Evento] ESSE TÓPICO É PRA VOCÊ....','essetop');
      var ygo = createBadge('Duelista','ygo');
-     var gartic = createBadge('Gartic');
+     var gartic = createBadge('Círculo Mitador de Gartic','gartic');
+    var pepe = createBadge('Rare Pepe Trader Certificado','pepe');
+    var frog = createBadge('Romulo Exclusive Samango Frog Badge','frog');
+    var poke = createBadge('Pam Exclusive *poke poke* Badge','poke');
+    var idea = createBadge('Badger: Até eu criei uma Badge e você não!','badgeidea');
+    var help = createBadge('Ajudeiro: Resolver problemas é com eles!','ajudeiro');
+    var harass = createBadge('Harasser: Bulinadores Profissionais','harass');
+     var qqq = createBadge('Dogolas Exclusive Q Badge','qqq');
+     
      
     var skgPart = createBadge('Skull Girls Tournament - Participei... mas não ganhei. Pq sou noob','skgpt');
     var skullGirls = createBadge('Skull Girls Tournament - 1o Lugar!!!','skg');
@@ -129,7 +137,7 @@ function createBadge(title, imgName) {
 */  
 
     if (!imgName){
-        imgName = 'placejolder';
+        imgName = 'badge';
     }
     return [title, imgName];
     //return '<img class="badgeicon" title="' + title + '" src="' + PATH + imgName + '.png">';
