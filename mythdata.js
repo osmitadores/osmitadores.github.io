@@ -90,7 +90,9 @@
     var ps4 = createBadge('Anfitrião de Playstation 4','ps4');
     var wii = createBadge('Anfitrião de Nintendo Wii','wii');
     var rplay = createBadge('Roleplay Masters: *flies away*','rp');
-    
+     var cah = createBadge('Mitadores Contra a Humanidade!','cah');
+     var essetop = createBadge('[Evento] ESSE TÓPICO É PRA VOCÊ....','essetop');
+     
     var skgPart = createBadge('Skull Girls Tournament - Participei... mas não ganhei. Pq sou noob','skgpt');
     var skullGirls = createBadge('Skull Girls Tournament - 1o Lugar!!!','skg');
     var mythEvent = createBadge('Mitador de Evento');
