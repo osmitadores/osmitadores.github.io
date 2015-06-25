@@ -36,7 +36,9 @@
             vassouraWielder,
             _3dsPlay,
             defiance,
-            miauCaralho
+            miauCaralho,
+            idea,
+            gartic
         ]
     };
     Myth.anaErrada = {
@@ -48,7 +50,8 @@
         ano: '2015',
         badges: [
             mythUnicorn,
-            cVinicius
+            cVinicius,
+            gartic
         ]
     };
     Myth.aragao = {
@@ -63,6 +66,7 @@
             mythGold,
             hangouteiro,
             jogueiro,
+            gartic,
             vassouraWielder,
             streameiro,
             pauHd,
@@ -85,6 +89,7 @@
             jogueiro,
             pipoqueiro,
             cah,
+            idea,
         ]
     };
     Myth.bruna = {
@@ -158,6 +163,10 @@
             skgPart,
             essetop,
             ygo,
+            idea,
+            help,
+            pepe,
+            gartic
             
         ]
     };
@@ -194,6 +203,7 @@
             merito,
             hangouteiro,
             ygo,
+            qqq,
         ]
     };
     Myth.fernando = {
@@ -234,6 +244,7 @@
             vassouraWielder,
             encontroMyth,
             gardevoa,
+            gartic,
             streameiro,
             mitamores,
             karaoke,
@@ -259,6 +270,7 @@
         badges: [
             mythEvent,
             mythFresh,
+            gartic,
             jogueiro,
             hangouteiro,
         ]
@@ -296,6 +308,7 @@
             vassouraWielder,
             essetop,
             smashFest2014,
+            harass,
             _3dsPlay,
             mitamores,
             lendsClub
@@ -364,6 +377,7 @@
             doisPotes,
             cFlicky,
             radiant,
+            harass,
             frukiFest,
             mitamores,
             lendsClub
@@ -421,6 +435,7 @@
             desenheiro,
             mitamores,
             karaoke,
+            gartic,
             jogueiro,
             ps3,
             hangouteiro,
@@ -450,6 +465,9 @@
             essetop,
             jogueiro,
             hangouteiro,
+            harass,
+            gartic,
+            poke,
         
 
        
@@ -479,6 +497,8 @@
         badges: [
             mythFresh,
             cClaro,
+            pepe,
+            frog,
         ]
     };
     Myth.rubens = {
@@ -510,6 +530,8 @@
             redCoder,
             vassouraWielder,
             jogueiro,
+            help,
+            idea
 
         ]
     };
@@ -553,6 +575,7 @@
             frukiFest,
             hangouteiro,
             musicist,
+            gartic,
             encontroMyth,
             smashFesteiro,
             smashFest2014,
@@ -579,6 +602,7 @@
             frukiFest,
             radiant,
             hangouteiro,
+            gartic,
             encontroMyth,
             streameiro,
             smashFesteiro,
