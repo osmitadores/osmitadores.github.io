@@ -68,6 +68,7 @@
             pauHd,
             badgeWhore,
             skgPart,
+            ygo,
         ]
     };
     Myth.arthur = {
@@ -156,6 +157,7 @@
             jogueiro,
             skgPart,
             essetop,
+            ygo,
             
         ]
     };
@@ -190,6 +192,8 @@
         badges: [
             mythFresh,
             merito,
+            hangouteiro,
+            ygo,
         ]
     };
     Myth.fernando = {
@@ -241,6 +245,7 @@
             lendsClub,
             rplay,
             skgPart,
+            ygo,
         ]
     };
 
