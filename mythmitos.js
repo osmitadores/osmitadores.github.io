@@ -167,7 +167,8 @@
             help,
             pepe,
             gartic,
-            rplay
+            rplay,
+            likeBomb,
             
         ]
     };
