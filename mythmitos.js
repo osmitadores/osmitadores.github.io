@@ -284,7 +284,7 @@
         faceId: '100003138536144',
         tier: tierHonorary,
         ano: '2014',
-        crest:['Crest Title: Garland Crest', 'placejolder'],
+        crest:['Crest Title: Garland Crest', 'mage'],
         badges: [
             mythHonorary,
             encontroMyth,
