@@ -22,7 +22,7 @@
         nome: 'Ana',
         tagId: 'yomiell',
         tagId1: 'yomiell1',
-        faceId: semID,
+        faceId: '100002387089895',
         tier: tierGold,
         ano: '2014',
         crest:['Yomiell Hankerchief: Ana Crest', 'yomi'],
