@@ -189,8 +189,10 @@ function createBadge(title, imgName, badgename, badgetype,  obtain) {
         imgName = 'badge';
     }
 
+if !(!obtain){
 if (obtain.search("termo") !== -1){
 var obt = 'unob';
+}
 }
    return '  <tr>\
     <td class="badgeslot"> <img height="48" title="' + title + '" src="' + PATH + imgName + '.png"></td>\
