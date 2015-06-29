@@ -1,0 +1,230 @@
+<html>
+<head>
+<meta charset="utf-8">
+
+<script type="text/javascript" src="https://raw.githubusercontent.com/christianbach/tablesorter/master/jquery-latest.js"></script> 
+<script type="text/javascript" src="https://raw.githubusercontent.com/christianbach/tablesorter/master/jquery.tablesorter.js"></script> 
+
+
+
+<link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,900,700' rel='stylesheet' type='text/css'>
+<style type="text/css">
+body{font-family: 'Titillium Web', sans-serif;color:white;	}
+
+.tg  {}
+.tg td{padding:10px 5px; overflow:hidden;word-break:normal; background-color: #262b56}
+.tg th{;padding:10px 5px;overflow:hidden;word-break:normal;}
+
+.obtainslot
+{font-weight:normal; font-style:italic;}
+.nameslot
+{font-weight:700;font-size: 18;padding-left: 20px !important; width:30%;}
+.badgeslot
+{width:32px;}
+.type
+{width:10%;text-align: center;}
+.tabtit
+{color:white;font-size: 21; border-radius:15px,15px,15px,15px !important; background-color: #131623;}  
+.tabintro
+{color:white;font-weight:normal; background-color: #141934; font-style:italic;font-size: 12;padding-left: 20% !important;padding-right: 20% !important;}  
+table {
+	overflow: hidden;
+    background: #151a35;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+  }
+img
+{
+image-rendering: -moz-crisp-edges;
+image-rendering: -moz-crisp-edges;
+image-rendering: -o-crisp-edges;
+image-rendering: -webkit-optimize-contrast;
+-ms-interpolation-mode: nearest-neighbor;
+}
+
+th.headerSortUp { 
+    background-image: url(../img/small_asc.gif); 
+    background-color: #232569; 
+} 
+th.headerSortDown { 
+    background-image: url(../img/small_asc.gif); 
+    background-color: #232569; 
+} 
+
+th:hover.cliq { 
+cursor: pointer; 
+} 
+
+</style>
+</head>
+asd
+
+
+
+<table class="tg" style="width:100%" id="myTable">
+	
+<thead>
+<th colspan='4'class="tabtit">Os Mitadores - Sistema de Badges</th>
+<tr><th colspan='4' class="tabintro" >O sistema de badges foi feito pra apimentar ludicamente a interação dentro do círculo de Mitadores, ranks, classes, e tiers são meramente ferramenta de e-peen para zuação mútua, e não deve ser motivo de confusão.
+A maioria das Badges surgem no momento em que o achievement acontece, abaixo estão badges já criadas e qual o critério de obtenção delas. Lembrem-se que incentivamos a obtenção espontânea de badges.
+</th></tr>
+
+<tr><th class="cliq" >Badge</th><th class="cliq">Nome</th><th class="cliq">Tipo</th><th class="cliq">Como Obter</th></tr>
+</thead>
+<tbody id="asofe">
+
+<script>
+/*
+*   BADGES
+*/
+    var PATH = 'http://os-mitadores.lucasflicky.com/files/theme/BADGES/';
+    var semID = '457676144377257';
+
+     
+    var Badgelist = {};
+console.log(Badgelist);
+
+//Tier
+ 	 Badgelist.mythUnicorn = createBadge('Mitador Unicorn: Raros porém participativos', 'uni','Mitador Unicorn','Tier'
+ 	 	,'sfdsdfdsf');
+     Badgelist.mythPlatinum = createBadge('Mitador Platinum', 'plat','Mitador PLATINUM','Tier');
+     Badgelist.mythSilver = createBadge('Mitador Silver', 'silver','Mitador SILVER','Tier');
+     Badgelist.mythLegacy = createBadge('Mitador Legacy: Veterano dos primórdios!', 'legacy','Mitador Legacy','Tier');
+     Badgelist.mythFresh = createBadge('Freshman: Mitadores Trainee', 'fresh','Academy Freshman','Tier');
+     Badgelist.mythGuest = createBadge('Guest: Não-mitador que convive na casa.', 'guest','Convidado','Tier');
+     Badgelist.mythHonorary = createBadge('Mitador Honorary: Protegido pessoal de um Prime ou Platinum', 'honor','Mitador Honorário','Tier');
+     Badgelist.mythLurker = createBadge('Lurker: Sempre nas sombras, eventualmente se pronuncia.', 'lurk','Lurker','Tier');
+     Badgelist.mythGold = createBadge('Mitador Gold', 'gold','Mitador GOLD','Tier');
+     Badgelist.mythGhost = createBadge('Mitador Ghost: Inativo há mais de um mês.', 'ghost', 'Mitador Fantasma','Tier');
+     Badgelist.mythPrime = createBadge('Mitador Prime: Os primeiros Mitadores, criadores da porra toda.', 'prime','Mitador Prime','Tier');
+
+//Badges    
+     Badgelist.jogueiro = createBadge('Jogueiros: Sempre presentes nas jogatinas míticas', 'joy','Jogueiro','Participação');
+     Badgelist.hangouteiro = createBadge('Hangouteiro: Sempre marcando presença nos Hangouts!', 'hang','Hangouteiro','Participação');
+     Badgelist.desenheiro = createBadge('Desenheiro: Depictador dos melhores momentos.', 'pen', 'Desenheiro','Participação');
+     Badgelist.vassouraWielder = createBadge('Vassoura Wielder: Já vassourou alguém em uma situação realmente necessária', 'broom','Vassoureiro','Utilidade');
+     Badgelist._3dsPlay = createBadge('3DS Teamplay: Jogou com mitadores via Nintendo 3DS', '3ds','3DS Multiplayer','Social');
+     Badgelist.defiance = createBadge('Defiance: Sem medo de umas vassouradas', 'defiance','Defiance','Participação');
+     Badgelist.pipoqueiro = createBadge('Arthur exclusive \'Pipoqueiro Badge\'', 'pop','Pipoqueiro','Exclusiva');
+     Badgelist.encontroMyth = createBadge('Encontro Mitador: eu fui!', 'group','Encontro Mitador','Evento');
+     Badgelist.smashFesteiro = createBadge('Smashfesteiro', 'ssb','Smashfester','Evento');
+     Badgelist.smashFest2014 = createBadge('Newyear 2014: Smashfest - Eu fui!', '2014','Newyear 2014','Evento');
+     Badgelist.mechanicPunch = createBadge('Claro exclusive \'Mechanic Punch\' Badge', 'soc','Luva de Boxe','Exclusiva');
+     Badgelist.programeiro = createBadge('Programeiro: Ajuda a codar paradas mitadoras', 'code','Programeiro','Utilidade');
+     Badgelist.frukiFest = createBadge('Newyear 2013: Frukifest - Eu fui!', '2013','Newyear 2013','Evento');
+     Badgelist.streameiro = createBadge('Streameiro: Ocasionalmente promove Livestreams', 'live','Streameiro','Social');
+     Badgelist.gardevoa = createBadge('Flicky exclusive \'Gardevobadge\' ', 'garde','Gardevoir','Exclusiva');
+     Badgelist.mitamores = createBadge('Os Mitamores: Casais Mitadores são lindos', 'mitamores','Os Mitamores','Social');
+     Badgelist.doisPotes = createBadge('Luana exclusive \'Doooois Pooootes\' Badge', 'pots','DOIS POTES','Exclusiva');
+     Badgelist.lendsClub = createBadge('Lends Club: Board Games com Mitadores', 'lends','Lends Club','Evento');
+     Badgelist.badgeWhore = createBadge('Badge Whore - Faço tudo por badges!', 'badwho','Badgewhore','Participação');
+     Badgelist.kanaFest = createBadge('Kanafester - Gênios do Pseudo-Japonês', 'kana', 'Pseudo-Japonês','Evento');
+     Badgelist.cupidRab = createBadge('Coelho exclusive \'Official Cupid\' Badge','cupid','The Cupid','Exclusiva');
+     Badgelist.pauHd = createBadge('Aragão exclusive \'Pau em HD\' Badge','pauhd','Pau em HD','Exclusiva');
+     Badgelist.likeBomb = createBadge('Like Bomb - Top da balada','likebomb','Like Bomb Target','Social');
+     Badgelist.vidalGt = createBadge('Vidal exclusive \'Greentext\' Badge','greentxt','Greentext','Exclusiva');
+     Badgelist.vidalFdp = createBadge('Vidal exclusive \'Filhadaputópolis\' Badge','catan','Filhadaputópolis','Exclusiva');
+     Badgelist.miauCaralho = createBadge('Ana exclusive \'MIAO CARALHO\' Badge',undefined,'MIAO CARALHO','Exclusiva');
+     Badgelist.redCoder = createBadge('Red Coder: Coder Lendário','redcoder','The Red Coder','Patente de Fodisse');
+     Badgelist.goldenPen = createBadge('Golden Pen: Desenheiro Lendário',undefined,'The Golden Pen','Patente de Fodisse');
+     Badgelist.tunelaa = createBadge('Tumeo exclusive \'???\' Badge',undefined,'???');
+     Badgelist.wataZomb = createBadge('Watanabe Exclusive \'Japanese Horror Movie\' Badge','akuma','Japanese Horror Movie','Exclusiva');
+     Badgelist.preHistoric = createBadge('Mitador Jurássico - Os Mitadores Pré-Históricos','jurassic','Pré-Mitadores','Social');
+     Badgelist.musicist = createBadge('Musiqueiro','music','Musiqueiro','Participação');
+     Badgelist.keidiPint = createBadge('Keidi exclusive \'Pinteiro\' Badge','print','Pinteiro','Exclusiva');
+     Badgelist.merito = createBadge('Mitador por mérito - Admin/Community pick','merito','Mitador por Mérito','Entrada');
+     Badgelist.matricialPrint = createBadge('Vidal exclusive \'Impressora Matricial\' Badge','printer','Impressora Matricial','Exclusiva');
+     Badgelist.happyDoor = createBadge('Karen exclusive \'Porta Feliz\' Badge','hpydoa','Porta Feliz','Exclusiva');
+     Badgelist.satanicat = createBadge('Matsuna exclusive \'Satanicat\' Badge','satanicat','Satanicat','Exclusiva');
+     Badgelist.karaoke = createBadge('Karaokê Mitador: Eu fui!','karaoke','Karaoke','Evento');
+     Badgelist.nennys = createBadge('Mitador Nennys: o mais novo','nennys','Nennys','Single-Wielder');
+     Badgelist.elder = createBadge('Mitador Ancião: o mais velho','ancient','Ancião','Single-Wielder');
+     Badgelist.mariEx = createBadge('Pall exclusive \'!!!\' Badge','excla','!!!','Exclusiva');
+     Badgelist.fuQuest = createBadge('Fuquest/OsMitadores the Game: Devteam','fq','Fuquest','Projeto');
+     Badgelist.radiant = createBadge('Radiant Historia 11k','historia','Radiant Historia 11k','Evento');
+     Badgelist.genesis = createBadge('Anfitrião de SEGA Genesis','genesis','Genesis','Social');
+     Badgelist.n64 = createBadge('Anfitrião de Nintendo 64','n64','N64','Social');
+     Badgelist.ps2 = createBadge('Anfitrião de Playstation 2','ps2','PS2','Social');
+     Badgelist.ps3 = createBadge('Anfitrião de Playstation 3','ps3','PS3','Social');
+     Badgelist.ps4 = createBadge('Anfitrião de Playstation 4','ps4', 'PS4','Social');
+     Badgelist.wii = createBadge('Anfitrião de Nintendo Wii','wii', 'Wii','Social');
+     Badgelist.rplay = createBadge('Roleplay Masters: *flies away*','rp','RP Masters','Participação');
+     Badgelist.cah = createBadge('Mitadores Contra a Humanidade!','cah','Cards Against Humanity','Participação');
+     Badgelist.essetop = createBadge('[Evento] ESSE TÓPICO É PRA VOCÊ....','essetop','ESSE TÓPICO','Evento');
+     Badgelist.ygo = createBadge('Duelista','ygo','Duelista','Participação');
+     Badgelist.gartic = createBadge('Círculo Mitador de Gartic','gartic','Gartic','Participação');
+     Badgelist.pepe = createBadge('Rare Pepe Trader Certificado','pepe','Certified Pepe Trader','Participação');
+     Badgelist.frog = createBadge('Romulo Exclusive Samango Frog Badge','frog','Samango Frog','Exclusiva');
+     Badgelist.poke = createBadge('Pam Exclusive *poke poke* Badge','poke','*Poke Poke*','Exclusiva');
+     Badgelist.idea = createBadge('Badger: Até eu criei uma Badge e você não!','badgeidea','Badge Supporter','Utilidade');
+     Badgelist.help = createBadge('Ajudeiro:  Ele não é o Luciano, mas também ajuda pra caramba!','ajudeiro','Ajudeiro','Utilidade');
+     Badgelist.harass = createBadge('Harasser: Bulinadores Profissionais','harass','Harasser','Participação');
+     Badgelist.qqq = createBadge('Dogolas Exclusive Q Badge','qqq','Q','Exclusiva');
+     
+     
+     Badgelist.skgPart = createBadge('Skull Girls Tournament - Participei... mas não ganhei. Pq sou noob','skgpt','Torneio SkullGirls - Participante','Evento');
+     Badgelist.skullGirls = createBadge('Skull Girls Tournament - 1o Lugar!!!','skg','Torneio SkullGirls - Campeão','Evento');
+     Badgelist.mythEvent = createBadge('Mitador de Evento',undefined,'Mitador de Evento','Entrada');
+     Badgelist.nonethless = createBadge('nodesc');
+    
+//Crests
+    var cVinicius = createBadge('The Piano Key: Vinicius Crest', 'vkps');
+    var cFlicky = createBadge('The Mighy Red Hood: Flicky Crest', 'hood');
+    var cGors = createBadge('The Bullet Head: Gors Crest', 'gors');
+    var cAna = createBadge('Yomiell Hankerchief: Ana Crest', 'yomi');
+    var cPall = createBadge('The Kawaii Stick Pall Crest', 'pall');
+    var cClaro = createBadge('Com o Claro você fala ilimitado! Claro Crest', 'claro');
+    var cHerbe = createBadge('A Erva da Alegria: Herbe Crest', 'herb');
+    var cCesar = createBadge('The Rockstar Sneakers: Rasec Crest', 'rasec');
+    var cGarland = createBadge('The Black Mage: Garland Crest', 'mage');
+    var cZero = createBadge('The Dimensional Zero: Arthur Crest', 'zero');
+
+
+function createBadge(title, imgName, badgename, badgetype,  obtain) {
+
+    if (imgName===undefined){
+        imgName = 'badge';
+    }
+
+
+   return '  <tr>\
+    <td class="badgeslot"> <img height="48" title="' + title + '" src="' + PATH + imgName + '.png"></td>\
+    <td class="nameslot">' + badgename + ' </td>\
+     <td class="type"> ' + badgetype + ' </td>\
+    <td class="obtainslot">  ' + obtain + ' </td>\
+  </tr>';
+
+
+    
+}
+
+
+function indexMyth(mitabela){
+
+
+    for (var i in mitabela){
+
+        document.getElementById('asofe').innerHTML += mitabela[i];
+    }
+
+  
+}
+
+indexMyth(Badgelist);
+
+
+$(document).ready(function() 
+    { 
+        $("#myTable").tablesorter(); 
+    } 
+); 
+    
+
+</script>
+
+</tbody>
+</table>
+
+
+
+</html>
