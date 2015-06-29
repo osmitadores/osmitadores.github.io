@@ -221,6 +221,44 @@ img.badgeicon{
   background-color: rgba(10,10,30,1);
 }
 
+#xis{
+    display: none;
+    position: fixed;
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+    top: -5px;
+    right: -5px;
+    padding: 10px 15px 15px 15px;
+    color: white;
+    border-style:solid;
+    border-color: rgba(255,255,255,0.5);
+    border-width:2px;
+    border-radius: 0px 0px 0px 500px;
+    background-color: red;
+}
+
+#hidden2{
+      position: fixed;
+        cursor: pointer;
+        font-family: Arial, sans-serif;
+        bottom: -5px;
+        left: -5px;
+        width: 100px;
+        height: 30px;
+        padding-top: 10px;
+    border-style:solid;
+    border-color: rgba(255,255,255,0.5);
+    border-width:2px;
+        border-radius: 20px 500px 20px 20px;
+        color: rgba(255,255,255,0.5);
+        background-color: rgba(10,10,30,0.5);
+        text-align: center;
+        z-index: 900;
+}
+#hidden2:hover{
+    background-color: rgba(10,10,30,1);
+}
+
 .button {
         display: none;
         position: fixed;
@@ -276,4 +314,17 @@ background-color: #00F;
 }
 .tierlevel{
   color: rgba(0,0,0,0);
+}
+
+#gayframe{
+    overflow:hidden;
+    overflow-x:hidden;
+    overflow-y:hidden;
+    height:100%;
+    width:100%;
+    position:absolute;
+    top:0px;
+    left:0px;
+    right:0px;
+    bottom:0px
 }

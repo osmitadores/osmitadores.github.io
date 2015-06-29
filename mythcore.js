@@ -175,40 +175,44 @@ function toggleGay() {
     var randomNum = parseInt(10 * Math.random());
     console.log(randomNum);
     switch (randomNum) {
-        case 0: videoLink = videoPATH + 'Kz2WjqV9Dc8';
+        case 0: videoLink = [videoPATH + 'Kz2WjqV9Dc8', '「O lado bom de ser gay」'];
             break;
-        case 1: videoLink = videoPATH + 'lWqJTKdznaM';
+        case 1: videoLink = [videoPATH + 'lWqJTKdznaM', '「O lado bom de ser gay」'];
             break;
-        case 2: videoLink = videoPATH + '85ftfVUTzM4';
+        case 2: videoLink = [videoPATH + '85ftfVUTzM4', '「O lado bom de ser gay」'];
             break;
-        case 3: videoLink = videoPATH + 'geC2gHZ6m2g';
+        case 3: videoLink = [videoPATH + 'geC2gHZ6m2g', '「O lado bom de ser gay」'];
             break;
-        case 4: videoLink = videoPATH + 'AO43p2Wqc08';
+        case 4: videoLink = [videoPATH + 'AO43p2Wqc08', '「O lado bom de ser gay」'];
             break;
-        case 5: videoLink = videoPATH + 'f4Mc-NYPHaQ';
+        case 5: videoLink = [videoPATH + 'f4Mc-NYPHaQ', '「O lado bom de ser gay」'];
             break;
-        case 6: videoLink = videoPATH + 'lcOxhH8N3Bo';
+        case 6: videoLink = [videoPATH + 'lcOxhH8N3Bo', '「O lado bom de ser gay」'];
             break;
-        case 7: videoLink = videoPATH + 'ZBR2G-iI3-I';
+        case 7: videoLink = [videoPATH + 'ZBR2G-iI3-I', '「O lado bom de ser gay」'];
             break;
-        case 8: videoLink = videoPATH + 'CS9OO0S5w2k';
+        case 8: videoLink = [videoPATH + 'CS9OO0S5w2k', '「O lado bom de ser gay」'];
             break;
-        case 9: videoLink = videoPATH + 'lcOxhH8N3Bo';
+        case 9: videoLink = [videoPATH + 'lcOxhH8N3Bo', '「O lado bom de ser gay」'];
             break;
-        case 10: videoLink = videoPATH + '596qaxm-u4o';
+        case 10: videoLink = [videoPATH + '596qaxm-u4o', '「O lado bom de ser gay」'];
             break;
     }
     videoObject = '<object width="300" height="300"> \
-        <param name="movie" value="'+ videoLink +'?hd=1&amp;autoplay=1&amp;loop=1&amp;playlist=yzC4hFK5P3g"></param> \
+        <param name="movie" value="'+ videoLink[0] +'?hd=1&amp;autoplay=1&amp;loop=1&amp;playlist=yzC4hFK5P3g"></param> \
         <param name="allowscriptaccess" value="always"></param> \
-        <embed src="'+ videoLink +'?hd=1&amp;autoplay=1&amp;loop=1&amp;playlist=yzC4hFK5P3g" type="application/x-shockwave-flash" allowscriptaccess="always" width="300" height="300"> \
+        <embed src="'+ videoLink[0] +'?hd=1&amp;autoplay=1&amp;loop=1&amp;playlist=yzC4hFK5P3g" type="application/x-shockwave-flash" allowscriptaccess="always" width="300" height="300"> \
         </embed></object>';
     document.getElementById('videoobject').innerHTML = "";
     document.getElementById('videoobject').innerHTML = "" + videoObject;
 }
 ///////////////////////////////
-    
+
 indexMyth(Myth);
+
+function toggleTable() {
+    document.getElementById('tabelas').innerHTML = '<iframe frameborder="0" style="overflow:hidden;overflow-x:hidden;overflow-y:hidden;height:100%;width:100%;position:absolute;top:0px;left:0px;right:0px;bottom:0px" height="100%" width="100%" src="mitabela.html"></iframe>';
+}
 
 $(document).ready(function(){
 
@@ -218,10 +222,25 @@ $(document).ready(function(){
 
         $('#tabelas').delay(1000).toggle('slow','linear', function() {
             $('#flikegay').delay(9000).toggle('slow','linear',function() {
+                document.getElementById('flikegay'). innerHTML = 'Aprecie as músicas em homenagem ao Mitagay Flicky!';
                 $('#flikegay').delay(10000).toggle('slow','linear');
             });
         });
+    });
 
+    $('#hidden2').click(function() {
+        toggleTable();
+        $('#hidden').hide('slow','linear');
+        $('#hidden2').hide('slow','linear');
+        $('#xis').show('slow','linear');
+    });
+
+    $('#xis').click(function() {
+        document.getElementById('tabelas').innerHTML = '';
+        indexMyth(Myth);
+        $('#hidden').delay(1).show('slow','linear');
+        $('#hidden2').delay(1).show('slow','linear');
+        $('#xis').hide('slow','linear');
     });
 
     // fais slide ao apertar o botão
@@ -263,6 +282,11 @@ $(document).ready(function(){
     });
     $('#buttgay').click(function() {
         toggleGay();
+        document.getElementById('flikegay'). innerHTML = '';
+        $('#flikegay').delay(7000).toggle('slow','linear',function() {
+            document.getElementById('flikegay'). innerHTML = 'Você está ouvindo: ' + videoLink[1];
+            $('#flikegay').delay(7000).toggle('slow','linear');
+        });
     });
 
     $('#tabelas').click(function(){
@@ -270,12 +294,14 @@ $(document).ready(function(){
             $('.button').delay(1).hide('slow','linear');
             $('#titl').delay(1).hide('slow','linear');
             $('#hidden').delay(1).show('slow','linear');
+            $('#hidden2').delay(1).show('slow','linear');
         });
 
     $('#hidden').click(function(){
         $('.button').show('slow','linear');
         $('#titl').show('slow','linear');
         $('#hidden').hide('slow','linear');
+        $('#hidden2').hide('slow','linear');
         }
     );
 
