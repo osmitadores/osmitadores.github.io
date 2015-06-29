@@ -311,12 +311,13 @@ $(document).ready(function()
 
     function toggle_visibility(unobtr) {
        var e = document.getElementsByClassName(unobtr);
-         
-        if(e.style.display != 'none')
-         e.style.display = 'none';
+       
+      for ( var i=0; i < e.length; i++ ) {
+        if(e[i].style.display != 'none')
+         e[i].style.display = 'none';
        else
-         e.style.display = 'table-row';
-      
+         e[i].style.display = 'table-row';
+      }
     };    
 
 </script>
