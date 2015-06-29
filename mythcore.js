@@ -1,7 +1,7 @@
 /*
 *   > MITHYBOARD SCRIPT
-*   > VERSION: 1.9.0
-*   > BUILD: 0616-17
+*   > VERSION: 2.0.0
+*   > BUILD: 0629-20
 *   > ALTERAÇÕES:
 *       > Criação do pseudo-DB.
 *       > Função que auto-escreve os badges e a quantidade.
@@ -16,6 +16,7 @@
 *       > Added ordenar por quantidade de badges.
 *       > Adicionado tinysort (novo método de sort).
 *       > Tentativas com o gayQuery.
+*       > Adicionado músicas.
 *
 *   > WARNINGS:
 *       > NÃO ALTERAR O MÉTODO "writeBadges(myth)", ELE É O CORE QUE FAZ A PORA TODA.
@@ -77,7 +78,7 @@ var checkAlfa = true;
 var checkBadge = false;
 var checkTier = true;
 var checkAno = true;
-
+indexMyth(Myth);
 //////////////////////////////////
 function toggleSort(type){
 
@@ -207,12 +208,12 @@ function toggleGay() {
 }
 ///////////////////////////////
 
-indexMyth(Myth);
-
 function toggleTable() {
-    document.getElementById('tabelas').innerHTML = '<iframe frameborder="0" style="overflow:hidden;overflow-x:hidden;overflow-y:hidden;height:100%;width:100%;position:absolute;top:0px;left:0px;right:0px;bottom:0px" height="100%" width="100%" src="mitabela.html"></iframe>';
+    document.getElementById('tabelas').innerHTML = '<iframe id="gayframe" frameborder="0" height="100%" width="100%" src="mitabela.html"></iframe>';
 }
 
+///////////////////////////////
+// Gay Query
 $(document).ready(function(){
 
 

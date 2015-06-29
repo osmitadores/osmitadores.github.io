@@ -1,0 +1,88 @@
+
+body{font-family: 'Titillium Web', sans-serif;color:white;	}
+
+.tg  {}
+.tg td{padding:10px 5px; overflow:hidden;word-break:normal; background-color: #262b56}
+.tg th{;padding:10px 5px;overflow:hidden;word-break:noermal;}
+
+td.obtainslot
+{font-weight:normal; font-style:italic;font-size:14;color:#CCC;}
+.nameslot
+{font-weight:700;font-size: 18;padding-left: 20px !important; width:30%;}
+.badgeslot
+{width:50px;}
+.type
+{width:10%;text-align: center;}
+.tabtit
+{color:white;font-size: 21; border-radius:15px,15px,15px,15px !important; background-color: #131623;}
+.tabintro
+{color:white;font-weight:normal; background-color: #141934; font-style:italic;font-size: 12;padding-left: 20% !important;padding-right: 20% !important;}
+table {
+	overflow: hidden;
+    background: #151a35;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+  }
+img
+{
+    image-rendering: optimizeSpeed;             /* STOP SMOOTHING, GIVE ME SPEED  */
+    image-rendering: -moz-crisp-edges;          /* Firefox                        */
+    image-rendering: -o-crisp-edges;            /* Opera                          */
+    image-rendering: -webkit-optimize-contrast; /* Chrome (and eventually Safari) */
+    image-rendering: pixelated; 		/* Chrome */
+    image-rendering: optimize-contrast;         /* CSS3 Proposed                  */
+    -ms-interpolation-mode: nearest-neighbor;   /* IE8+                           */
+}
+
+th.headerSortUp {
+    background-image: url(../img/small_asc.gif);
+    background-color: #232569;
+}
+th.headerSortDown {
+    background-image: url(../img/small_asc.gif);
+    background-color: #232569;
+}
+
+th.cliq {
+cursor: pointer;
+}
+
+#Landmark, #Tier, #Exclusiva, #Entrada
+{color:red !important;font-weight:bold;}
+#unob
+{background-color:#a11 !important;}
+body
+{background:#000;}
+
+.button {
+
+        position: fixed;
+        cursor: pointer;
+        font-family: Arial, sans-serif;
+        top: 20px;
+        left: 15px;
+        width: 350px;
+        height: 30px;
+
+
+		border-color:#225;
+		border-style:solid;
+		border-width:2px;
+        border-radius: 20px 100px 20px 100px;
+        color: #FFF;
+        background-color: #224;
+        text-align: center;
+        z-index: 1000;
+		}
+.button:hover{
+background-color: #600;
+}
+.button:active{
+background-color: #000;
+}
+.button:checked{
+background-color: #0FF;
+}
+.button:focus{
+background-color: #00F;
+}
