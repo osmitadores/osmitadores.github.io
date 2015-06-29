@@ -171,31 +171,31 @@ function clickedButton(type){
 }
 
 function toggleGay() {
-    var videoPATH = 'https://www.youtube.com/v/'
+    var videoPATH = 'https://www.youtube.com/v/';
     var randomNum = parseInt(10 * Math.random());
     console.log(randomNum);
     switch (randomNum) {
         case 0: videoLink = [videoPATH + 'Kz2WjqV9Dc8', '「O lado bom de ser gay」'];
             break;
-        case 1: videoLink = [videoPATH + 'lWqJTKdznaM', '「O lado bom de ser gay」'];
+        case 1: videoLink = [videoPATH + 'lWqJTKdznaM', '「Erasure - Always」'];
             break;
-        case 2: videoLink = [videoPATH + '85ftfVUTzM4', '「O lado bom de ser gay」'];
+        case 2: videoLink = [videoPATH + '85ftfVUTzM4', '「Gayzão, garoto gay」'];
             break;
-        case 3: videoLink = [videoPATH + 'geC2gHZ6m2g', '「O lado bom de ser gay」'];
+        case 3: videoLink = [videoPATH + 'geC2gHZ6m2g', '「It\'s Raining men」'];
             break;
-        case 4: videoLink = [videoPATH + 'AO43p2Wqc08', '「O lado bom de ser gay」'];
+        case 4: videoLink = [videoPATH + 'AO43p2Wqc08', '「Macho man」'];
             break;
-        case 5: videoLink = [videoPATH + 'f4Mc-NYPHaQ', '「O lado bom de ser gay」'];
+        case 5: videoLink = [videoPATH + 'f4Mc-NYPHaQ', '「I want to break free」'];
             break;
-        case 6: videoLink = [videoPATH + 'lcOxhH8N3Bo', '「O lado bom de ser gay」'];
+        case 6: videoLink = [videoPATH + 'lcOxhH8N3Bo', '「Total eclipse of the heart」'];
             break;
-        case 7: videoLink = [videoPATH + 'ZBR2G-iI3-I', '「O lado bom de ser gay」'];
+        case 7: videoLink = [videoPATH + 'ZBR2G-iI3-I', '「I wil survive」'];
             break;
-        case 8: videoLink = [videoPATH + 'CS9OO0S5w2k', '「O lado bom de ser gay」'];
+        case 8: videoLink = [videoPATH + 'CS9OO0S5w2k', '「YMCA」'];
             break;
-        case 9: videoLink = [videoPATH + 'lcOxhH8N3Bo', '「O lado bom de ser gay」'];
+        case 9: videoLink = [videoPATH + 'lcOxhH8N3Bo', '「Total eclipse of the heart」'];
             break;
-        case 10: videoLink = [videoPATH + '596qaxm-u4o', '「O lado bom de ser gay」'];
+        case 10: videoLink = [videoPATH + '596qaxm-u4o', '「I will survive」'];
             break;
     }
     videoObject = '<object width="300" height="300"> \
@@ -203,7 +203,6 @@ function toggleGay() {
         <param name="allowscriptaccess" value="always"></param> \
         <embed src="'+ videoLink[0] +'?hd=1&amp;autoplay=1&amp;loop=1&amp;playlist=yzC4hFK5P3g" type="application/x-shockwave-flash" allowscriptaccess="always" width="300" height="300"> \
         </embed></object>';
-    document.getElementById('videoobject').innerHTML = "";
     document.getElementById('videoobject').innerHTML = "" + videoObject;
 }
 ///////////////////////////////
@@ -221,9 +220,9 @@ $(document).ready(function(){
     $('#tabelas').hide(0, function(){
 
         $('#tabelas').delay(1000).toggle('slow','linear', function() {
-            $('#flikegay').delay(9000).toggle('slow','linear',function() {
+            $('#flikegay').delay(7000).toggle('slow','linear',function() {
                 document.getElementById('flikegay'). innerHTML = 'Aprecie as músicas em homenagem ao Mitagay Flicky!';
-                $('#flikegay').delay(10000).toggle('slow','linear');
+                $('#flikegay').delay(8000).toggle('slow','linear');
             });
         });
     });
@@ -280,13 +279,13 @@ $(document).ready(function(){
         });
         clickedButton('ano');
     });
-    $('#buttgay').click(function() {
-        toggleGay();
-        document.getElementById('flikegay'). innerHTML = '';
+    $('#buttgay').click(function(){
+        document.getElementById('flikegay').innerHTML = '';
         $('#flikegay').delay(7000).toggle('slow','linear',function() {
-            document.getElementById('flikegay'). innerHTML = 'Você está ouvindo: ' + videoLink[1];
+            document.getElementById('flikegay').innerHTML = 'Você está ouvindo: ' + videoLink[1];
             $('#flikegay').delay(7000).toggle('slow','linear');
         });
+        toggleGay();
     });
 
     $('#tabelas').click(function(){
@@ -302,7 +301,6 @@ $(document).ready(function(){
         $('#titl').show('slow','linear');
         $('#hidden').hide('slow','linear');
         $('#hidden2').hide('slow','linear');
-        }
-    );
+    });
 
 });
