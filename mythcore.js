@@ -37,7 +37,6 @@
 
 document.getElementById('titl').innerHTML = "Mostrando lista na ordem default";
 document.getElementById('videoobject').innerHTML = "" + videoObject;
-
 function writeBadges(myth){
 /*
 *   Descrição: Função que escreve no #document as imagens
@@ -150,8 +149,6 @@ function toggleSort(type){
         }
 
     }
-
-
 }
 
 function clickedButton(type){
@@ -173,7 +170,42 @@ function clickedButton(type){
     document.getElementById('butt'+type).style.backgroundColor = 'red';
 }
 
-
+function toggleGay() {
+    var videoPATH = 'https://www.youtube.com/v/'
+    var randomNum = parseInt(10 * Math.random());
+    console.log(randomNum);
+    switch (randomNum) {
+        case 0: videoLink = videoPATH + 'Kz2WjqV9Dc8';
+            break;
+        case 1: videoLink = videoPATH + 'lWqJTKdznaM';
+            break;
+        case 2: videoLink = videoPATH + '85ftfVUTzM4';
+            break;
+        case 3: videoLink = videoPATH + 'geC2gHZ6m2g';
+            break;
+        case 4: videoLink = videoPATH + 'AO43p2Wqc08';
+            break;
+        case 5: videoLink = videoPATH + 'f4Mc-NYPHaQ';
+            break;
+        case 6: videoLink = videoPATH + 'lcOxhH8N3Bo';
+            break;
+        case 7: videoLink = videoPATH + 'ZBR2G-iI3-I';
+            break;
+        case 8: videoLink = videoPATH + 'CS9OO0S5w2k';
+            break;
+        case 9: videoLink = videoPATH + 'lcOxhH8N3Bo';
+            break;
+        case 10: videoLink = videoPATH + '596qaxm-u4o';
+            break;
+    }
+    videoObject = '<object width="300" height="300"> \
+        <param name="movie" value="'+ videoLink +'?hd=1&amp;autoplay=1&amp;loop=1&amp;playlist=yzC4hFK5P3g"></param> \
+        <param name="allowscriptaccess" value="always"></param> \
+        <embed src="'+ videoLink +'?hd=1&amp;autoplay=1&amp;loop=1&amp;playlist=yzC4hFK5P3g" type="application/x-shockwave-flash" allowscriptaccess="always" width="300" height="300"> \
+        </embed></object>';
+    document.getElementById('videoobject').innerHTML = "";
+    document.getElementById('videoobject').innerHTML = "" + videoObject;
+}
 ///////////////////////////////
 indexMyth(Myth);
 
@@ -220,6 +252,9 @@ $(document).ready(function(){
             $('#tabelas').toggle(950);
         });
         clickedButton('ano');
+    });
+    $('#buttgay').click(function() {
+        toggleGay();
     });
 
     $('#tabelas').click(function(){
