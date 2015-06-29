@@ -304,12 +304,20 @@ $(document).ready(function()
         $("#myTable").tablesorter(); 
     } 
 ); 
+
+
+
+
+
     function toggle_visibility(unobtr) {
-       var e = document.getElementById(unobtr);
-       if(e.style.display != 'none')
-          e.style.display = 'none';
+       var e = document.getElementsByClassName(unobtr);
+           for (var i = 0; i < e.length; i++){
+        if(e.style.display != 'none')
+         e.style.display = 'none';
        else
-          e.style.display = 'table-row';
+         e.style.display = 'table-row';
+    }
+      
     };    
 
 </script>
