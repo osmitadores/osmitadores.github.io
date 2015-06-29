@@ -57,7 +57,8 @@ cursor: pointer;
 
 #Landmark, #Tier, #Exclusiva
 {color:red !important;font-weight:bold;}
-
+#unob
+{background-color:#a11 !important;}
 </style>
 </head>
 asd
@@ -198,9 +199,9 @@ obt = '';
 }
    return '  <tr>\
     <td class="badgeslot"> <img height="48" title="' + title + '" src="' + PATH + imgName + '.png"></td>\
-    <td class="nameslot">' + obt + badgename + ' <br> <div style="font-size:10;color:#aaa;"> ' + title + ' </div></td>\
+    <td class="nameslot">' + badgename + ' <br> <div style="font-size:10;color:#aaa;"> ' + title + ' </div></td>\
      <td class="type" id="' + badgetype + '"> ' + badgetype + ' </td>\
-    <td class="obtainslot">  ' + obtain + ' </td>\
+    <td class="obtainslot" id="' + obt + '">  ' + obtain + ' </td>\
   </tr>';
 
 
