@@ -35,7 +35,8 @@
 *       > Exemplo: var pauHd = createBadge('Aragão exclusive \'Pau em HD\' Badge');
 */
 
-   document.getElementById('titl').innerHTML = "Mostrando lista na ordem default";
+document.getElementById('titl').innerHTML = "Mostrando lista na ordem default";
+document.getElementById('videoobject').innerHTML = "" + videoObject;
 
 function writeBadges(myth){
 /*

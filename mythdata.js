@@ -31,11 +31,11 @@
     var tierGold      =   ["Gold",mythGold,3];
     var tierGhost     =   ["Ghost",mythGhost,11];
     var tierPrime     =   ["Prime",mythPrime,1];
- 
 
 
 
-//Badges    
+
+//Badges
     var jogueiro = createBadge('Jogueiros: Sempre presentes nas jogatinas míticas', 'joy');
     var hangouteiro = createBadge('Hangouteiro: Sempre marcando presença nos Hangouts!', 'hang');
     var desenheiro = createBadge('Desenheiro: Depictador dos melhores momentos.', 'pen');
@@ -53,9 +53,9 @@
     var gardevoa = createBadge('Flicky exclusive \'Gardevobadge\' ', 'garde');
     var mitamores = createBadge('Os Mitamores: Casais Mitadores são lindos', 'mitamores');
     var doisPotes = createBadge('Luana exclusive \'Doooois Pooootes\' Badge', 'pots');
-   
-   
-   
+
+
+
     var lendsClub = createBadge('Lends Club: Board Games com Mitadores', 'lends');
     var badgeWhore = createBadge('Badge Whore - Faço tudo por badges!', 'badwho');
     var kanaFest = createBadge('Kanafester - Gênios do Pseudo-Japonês', 'kana');
@@ -101,13 +101,13 @@
     var help = createBadge('Ajudeiro: Resolver problemas é com eles!','ajudeiro');
     var harass = createBadge('Harasser: Bulinadores Profissionais','harass');
      var qqq = createBadge('Dogolas Exclusive Q Badge','qqq');
-     
-     
+
+
     var skgPart = createBadge('Skull Girls Tournament - Participei... mas não ganhei. Pq sou noob','skgpt');
     var skullGirls = createBadge('Skull Girls Tournament - 1o Lugar!!!','skg');
     var mythEvent = createBadge('Mitador de Evento');
     var nonethless = createBadge('nodesc');
-    
+
 //Crests
     var cVinicius = createBadge('The Piano Key: Vinicius Crest', 'vkps');
     var cFlicky = createBadge('The Mighy Red Hood: Flicky Crest', 'hood');
@@ -134,20 +134,20 @@ function createBadge(title, imgName) {
 *   das badges a partir do título da imagem e nome do arquivo
 *   sem a extensão.
 *   Args: 1. Título da imagem (string); 2. Nome do arquivo (string).
-*/  
+*/
 
     if (!imgName){
         imgName = 'badge';
     }
     return [title, imgName];
     //return '<img class="badgeicon" title="' + title + '" src="' + PATH + imgName + '.png">';
-    
+
 }
 
 
 
-function createTable(mito) {    
-    
+function createTable(mito) {
+
     var crest = mito.crest;
 
      if (!mito.crest){
@@ -184,8 +184,14 @@ function createTable(mito) {
 </tr>\
 <tr><td class="badges"><td class="badges"><td colspan="2" align="right" class="badges2">  <i>Badges Coletadas:</i> <b id="' + mito.tagId1 + '"></b> </td></tr>\
 </table>');
-    
+
 }
+var videoLink = 'https://www.youtube.com/v/x8O7ctmxp8s';
+var videoObject = '<object width="300" height="300"> \
+    <param name="movie" value="'+ videoLink +'?hd=1&amp;autoplay=1&amp;loop=1&amp;playlist=yzC4hFK5P3g"></param> \
+    <param name="allowscriptaccess" value="always"></param> \
+    <embed src="'+ videoLink +'?hd=1&amp;autoplay=1&amp;loop=1&amp;playlist=yzC4hFK5P3g" type="application/x-shockwave-flash" allowscriptaccess="always" width="300" height="300"> \
+    </embed></object>';
 
 function mitar(MITO){
     MITO = ('\n ▓▓▓▓▓▓▓▓  ▓▓▓▓▓▓▓▓  ▓▓▓   ▓▓  ▓▓▓▓▓▓▓▓  ▓▓▓▓▓▓▓▓ \n ▓▓    ▓▓  ▓▓        ▓▓▓▓  ▓▓  ▓▓        ▓▓    ▓▓ \n ▓▓    ▓▓  ▓▓        ▓▓▓▓  ▓▓  ▓▓        ▓▓    ▓▓ \n ▓▓▓▓▓▓▓▓  ▓▓▓▓▓▓▓▓  ▓▓ ▓▓ ▓▓  ▓▓▓▓▓▓▓▓  ▓▓    ▓▓ \n ▓▓        ▓▓        ▓▓  ▓▓▓▓        ▓▓  ▓▓    ▓▓ \n ▓▓        ▓▓        ▓▓  ▓▓▓▓        ▓▓  ▓▓    ▓▓ \n ▓▓        ▓▓▓▓▓▓▓▓  ▓▓   ▓▓▓  ▓▓▓▓▓▓▓▓  ▓▓▓▓▓▓▓▓ \n\n\n ▓▓        ▓▓▓▓▓▓▓▓  ▓▓▓▓▓▓▓▓  ▓▓▓▓▓▓▓▓ \n ▓▓        ▓▓    ▓▓  ▓▓        ▓▓    ▓▓ \n ▓▓        ▓▓    ▓▓  ▓▓        ▓▓    ▓▓ \n ▓▓        ▓▓    ▓▓  ▓▓  ▓▓▓▓  ▓▓    ▓▓ \n ▓▓        ▓▓    ▓▓  ▓▓    ▓▓  ▓▓    ▓▓ \n ▓▓        ▓▓    ▓▓  ▓▓    ▓▓  ▓▓    ▓▓ \n ▓▓▓▓▓▓▓▓  ▓▓▓▓▓▓▓▓  ▓▓▓▓▓▓▓▓  ▓▓▓▓▓▓▓▓ \n\n\n ▓▓    ▓▓     ▓▓     ▓▓▓▓▓▓▓▓  ▓▓▓▓▓▓▓▓ \n ▓▓▓  ▓▓▓               ▓▓     ▓▓    ▓▓ \n ▓▓▓▓▓▓▓▓     ▓▓        ▓▓     ▓▓    ▓▓ \n ▓▓ ▓▓ ▓▓     ▓▓        ▓▓     ▓▓    ▓▓ \n ▓▓    ▓▓     ▓▓        ▓▓     ▓▓    ▓▓ \n ▓▓    ▓▓     ▓▓        ▓▓     ▓▓    ▓▓ \n ▓▓    ▓▓     ▓▓        ▓▓     ▓▓▓▓▓▓▓▓ \n ');
