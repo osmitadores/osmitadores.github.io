@@ -207,7 +207,7 @@ function toggleGay() {
     document.getElementById('videoobject').innerHTML = "" + videoObject;
 }
 ///////////////////////////////
-    $('#flikegay').hide(0);
+    
 indexMyth(Myth);
 
 $(document).ready(function(){
