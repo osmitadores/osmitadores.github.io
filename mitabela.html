@@ -63,9 +63,44 @@ cursor: pointer;
 {background-color:#a11 !important;}
 body
 {background:#000;}
+
+.button {
+        display: none;
+        position: fixed;
+        cursor: pointer;
+        font-family: Arial, sans-serif;
+        bottom: 0%;
+        width: 100px;
+        height: 30px;
+        margin-left: -150px;
+        margin-top: -125px;
+        padding-top: 10px;
+		border-color:#225;
+		border-style:solid;
+		border-width:2px;
+        border-radius: 20px 100px 20px 100px;
+        color: #FFF;
+        background-color: #224;
+        text-align: center;
+        z-index: 1000;
+		}
+.button:hover{
+background-color: #600;
+}
+.button:active{
+background-color: #000;
+}
+.button:checked{
+background-color: #0FF;
+}
+.button:focus{
+background-color: #00F;
+}
+
+
 </style>
 </head>
-<button onclick="toggle_visibility('unobtr')"> AAAA </button>
+<div class="button" style="position:fixed;" onclick="toggle_visibility('unobtr')"> AAAA </button>
 <table class="tg" style="width:100%" id="myTable">
 	
 <thead>
