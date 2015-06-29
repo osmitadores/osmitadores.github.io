@@ -51,9 +51,12 @@ th.headerSortDown {
     background-color: #232569; 
 } 
 
-th:hover.cliq { 
+th.cliq { 
 cursor: pointer; 
 } 
+
+.td #Landmark
+{background-color:red;}
 
 </style>
 </head>
@@ -108,10 +111,10 @@ console.log(Badgelist);
      Badgelist.pipoqueiro = createBadge('Arthur exclusive \'Pipoqueiro Badge\'', 'pop','Pipoqueiro','Exclusiva');
      Badgelist.encontroMyth = createBadge('Encontro Mitador: eu fui!', 'group','Encontro Mitador','Evento');
      Badgelist.smashFesteiro = createBadge('Smashfesteiro', 'ssb','Smashfester','Evento');
-     Badgelist.smashFest2014 = createBadge('Newyear 2014: Smashfest - Eu fui!', '2014','Newyear 2014','Evento');
+     Badgelist.smashFest2014 = createBadge('Newyear 2014: Smashfest - Eu fui!', '2014','Newyear 2014','Landmark');
      Badgelist.mechanicPunch = createBadge('Claro exclusive \'Mechanic Punch\' Badge', 'soc','Luva de Boxe','Exclusiva');
      Badgelist.programeiro = createBadge('Programeiro: Ajuda a codar paradas mitadoras', 'code','Programeiro','Utilidade');
-     Badgelist.frukiFest = createBadge('Newyear 2013: Frukifest - Eu fui!', '2013','Newyear 2013','Evento');
+     Badgelist.frukiFest = createBadge('Newyear 2013: Frukifest - Eu fui!', '2013','Newyear 2013','Landmark');
      Badgelist.streameiro = createBadge('Streameiro: Ocasionalmente promove Livestreams', 'live','Streameiro','Social');
      Badgelist.gardevoa = createBadge('Flicky exclusive \'Gardevobadge\' ', 'garde','Gardevoir','Exclusiva');
      Badgelist.mitamores = createBadge('Os Mitamores: Casais Mitadores são lindos', 'mitamores','Os Mitamores','Social');
@@ -141,7 +144,7 @@ console.log(Badgelist);
      Badgelist.elder = createBadge('Mitador Ancião: o mais velho','ancient','Ancião','Single-Wielder');
      Badgelist.mariEx = createBadge('Pall exclusive \'!!!\' Badge','excla','!!!','Exclusiva');
      Badgelist.fuQuest = createBadge('Fuquest/OsMitadores the Game: Devteam','fq','Fuquest','Projeto');
-     Badgelist.radiant = createBadge('Radiant Historia 11k','historia','Radiant Historia 11k','Evento');
+     Badgelist.radiant = createBadge('Radiant Historia 11k','historia','Radiant Historia 11k','Landmark');
      Badgelist.genesis = createBadge('Anfitrião de SEGA Genesis','genesis','Genesis','Social');
      Badgelist.n64 = createBadge('Anfitrião de Nintendo 64','n64','N64','Social');
      Badgelist.ps2 = createBadge('Anfitrião de Playstation 2','ps2','PS2','Social');
@@ -150,7 +153,7 @@ console.log(Badgelist);
      Badgelist.wii = createBadge('Anfitrião de Nintendo Wii','wii', 'Wii','Social');
      Badgelist.rplay = createBadge('Roleplay Masters: *flies away*','rp','RP Masters','Participação');
      Badgelist.cah = createBadge('Mitadores Contra a Humanidade!','cah','Cards Against Humanity','Participação');
-     Badgelist.essetop = createBadge('[Evento] ESSE TÓPICO É PRA VOCÊ....','essetop','ESSE TÓPICO','Evento');
+     Badgelist.essetop = createBadge('[Evento] ESSE TÓPICO É PRA VOCÊ....','essetop','ESSE TÓPICO','Landmark');
      Badgelist.ygo = createBadge('Duelista','ygo','Duelista','Participação');
      Badgelist.gartic = createBadge('Círculo Mitador de Gartic','gartic','Gartic','Participação');
      Badgelist.pepe = createBadge('Rare Pepe Trader Certificado','pepe','Certified Pepe Trader','Participação');
@@ -190,7 +193,7 @@ function createBadge(title, imgName, badgename, badgetype,  obtain) {
    return '  <tr>\
     <td class="badgeslot"> <img height="48" title="' + title + '" src="' + PATH + imgName + '.png"></td>\
     <td class="nameslot">' + badgename + ' <br> <div style="font-size:10;color:#aaa;"> ' + title + ' </div></td>\
-     <td class="type"> ' + badgetype + ' </td>\
+     <td class="type" id="' + badgetype + '"> ' + badgetype + ' </td>\
     <td class="obtainslot">  ' + obtain + ' </td>\
   </tr>';
 
