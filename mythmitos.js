@@ -171,6 +171,7 @@
             rplay,
             likeBomb,
             plugDj,
+            harass,
             
         ]
     };
@@ -262,6 +263,7 @@
             skgPart,
             ygo,
             plugDj,
+            harass,
         ]
     };
 
@@ -278,6 +280,7 @@
             gartic,
             jogueiro,
             hangouteiro,
+            harass,
         ]
     };
     Myth.garland = {
