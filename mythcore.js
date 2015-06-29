@@ -211,9 +211,17 @@ indexMyth(Myth);
 
 $(document).ready(function(){
 
+    $('#flikegay').hide(0);
+
     // fais slide inicial
     $('#tabelas').hide(0, function(){
-        $('#tabelas').delay(1000).toggle('slow','linear');
+
+        $('#tabelas').delay(1000).toggle('slow','linear', function() {
+            $('#flikegay').delay(9000).toggle('slow','linear',function() {
+                $('#flikegay').delay(10000).toggle('slow','linear');
+            });
+        });
+
     });
 
     // fais slide ao apertar o botão
