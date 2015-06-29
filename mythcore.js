@@ -207,11 +207,11 @@ function toggleGay() {
     document.getElementById('videoobject').innerHTML = "" + videoObject;
 }
 ///////////////////////////////
+    $('#flikegay').hide(0);
 indexMyth(Myth);
 
 $(document).ready(function(){
 
-    $('#flikegay').hide(0);
 
     // fais slide inicial
     $('#tabelas').hide(0, function(){
