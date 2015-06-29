@@ -101,7 +101,7 @@
     var help = createBadge('Ajudeiro: Resolver problemas é com eles!','ajudeiro');
     var harass = createBadge('Harasser: Bulinadores Profissionais','harass');
      var qqq = createBadge('Dogolas Exclusive Q Badge','qqq');
-
+ var plugDj = createBadge('DJ assíduo nas pistas mitadoras','plugdj');
 
     var skgPart = createBadge('Skull Girls Tournament - Participei... mas não ganhei. Pq sou noob','skgpt');
     var skullGirls = createBadge('Skull Girls Tournament - 1o Lugar!!!','skg');
