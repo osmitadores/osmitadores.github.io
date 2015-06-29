@@ -90,6 +90,7 @@
             pipoqueiro,
             cah,
             idea,
+            plugDj,
         ]
     };
     Myth.bruna = {
@@ -169,6 +170,7 @@
             gartic,
             rplay,
             likeBomb,
+            plugDj,
             
         ]
     };
@@ -259,6 +261,7 @@
             rplay,
             skgPart,
             ygo,
+            plugDj,
         ]
     };
 
@@ -350,6 +353,7 @@
             kanaFest,
             jogueiro,
             skgPart,
+            plugDj,
         ]
     };
     Myth.laise = {
@@ -446,7 +450,8 @@
             _3dsPlay,
             likeBomb,
             ps4,
-            mariEx
+            mariEx,
+            plugDj,
         ]
     };
     Myth.pam = {
@@ -470,6 +475,7 @@
             harass,
             gartic,
             poke,
+            plugDj,
         
 
        
@@ -486,7 +492,8 @@
         badges: [
             mythFresh,
             cHerbe,
-            nennys
+            nennys,
+            defiance,
         ]
 	};
      Myth.romulo = {
@@ -556,6 +563,7 @@
             vidalGt,
             lendsClub,
             vidalFdp,
+            plugDj,
         ]
     };
     Myth.vinicius = {
