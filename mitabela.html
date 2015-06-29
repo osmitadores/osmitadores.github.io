@@ -273,7 +273,7 @@ var obt = 'unob';
 else{
 obt = '';
 }
-   return '  <tr>\
+   return '  <tr onclick="toggle_visibility('unobtr')>\
     <td class="badgeslot"> <img height="48" title="' + title + '" src="' + PATH + imgName + '.png"></td>\
     <td class="nameslot">' + badgename + ' <br> <div style="font-size:10;color:#aaa;"> ' + title + ' </div></td>\
      <td class="type" id="' + badgetype + '"> ' + badgetype + ' </td>\
@@ -305,7 +305,13 @@ $(document).ready(function()
     } 
 ); 
     
-
+    function toggle_visibility(unobtr) {
+       var e = document.getElementById(unobtr);
+       if(e.style.display == 'block')
+          e.style.display = 'none';
+       else
+          e.style.display = 'block';
+    }
 </script>
 
 </tbody>
