@@ -8,12 +8,87 @@
 <script type="text/javascript" src="mythdata.js"></script>
 <script type="text/javascript" src="mythmitos.js"></script>
 
-</head>
-<body>
+		<style>
+		.black_overlay{
+			display: none;
+			position: fixed;
+			top: 0%;
+			left: 0%;
+			width: 100%;
+			height: 100%;
+			background-color: black;
+			z-index:1001;
+			-moz-opacity: 0.8;
+			opacity:.80;
+			filter: alpha(opacity=80);
+		}
+		.white_content {
+			display: none;
+			position: fixed;
+			top: 15%;
+			left: 30%;
+			width: 40%;
+			height: 60%;
+			padding: 16px;
+			border: 16px solid #1E1E4A;
+			border-radius: 30px;
+			background-color: #262B56;
+			z-index:1002;
+			overflow: auto;
+		}
+		.xise {
+		width:32px;
+			position: fixed;
+			border-radius:100px;
+			text-align:center;
+	
+			top: 15%;
+			left: 73%;
+			background-color: #A11;
+		}
+		
+		.xise a{		
+			text-decoration: none;
+			color: white;
+			}
+		
+		.omito{ vertical-align:center;}
+		#lighter{
+		background-color: #262B56;
+			border-collapse: separate;
+    border-spacing: 1px;
+	}
+		#lighter img {border-radius100%;}
 
-<table class="tg" style="width:100%" id="myTable">
+	#header-fixed {
+    position: fixed;
+    top: 0px; display:none;
+	overflow:hidden
+	
+	
 
-<thead>
+}	
+		
+		</style>
+	</head>
+	<body>
+		<span align="right">
+		<div id="light" class="white_content">
+		
+		<table style="margin: auto;  border-spacing: 8px;">
+		<td id="lighticon"></td>
+		<td id="lititle"></td>
+		</table>
+		<div class="xise"><a  href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'">X</a></div>
+		<table id="lighter">
+		</table>
+		</div>
+		<div id="fade" class="black_overlay"></div>
+</span>
+
+<table   cellspacing="0"  class="tg" style=" overflow:hidden ; width:100%" id="myTable">
+
+<thead  style="background-color:#141934;">
 <th colspan='4'class="tabtit">Os Mitadores - Sistema de Badges</th>
 <tr>
 	<th colspan='4' class="tabintro" >O sistema de badges foi feito pra apimentar ludicamente a interação dentro do círculo de Mitadores, ranks, classes, e tiers são meramente ferramenta de e-peen para zuação mútua, e não deve ser motivo de confusão.
@@ -22,7 +97,7 @@ A maioria das Badges surgem no momento em que o achievement acontece, abaixo est
 </tr>
 
 <tr>
-	<th class="cliq" >Badge</th>
+	<th width="48" class="cliq" >Badge</th>
 	<th class="cliq">Nome</th>
 	<th class="cliq">Tipo</th>
 	<th class="cliq">Como Obter</th>
@@ -31,7 +106,9 @@ A maioria das Badges surgem no momento em que o achievement acontece, abaixo est
 <tbody id="asofe">
 </tbody>
 </table>
+
 <script type="text/javascript" src="mythtable.js"></script>
+
 <div class="button"  onclick="toggle_visibility('unobtr')"> Ocultar Badges Inobtíveis ou Reservadas </div>
 </body>
 

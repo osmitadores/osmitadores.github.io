@@ -244,6 +244,7 @@
             fuQuest,
             hangouteiro,
             cah,
+			help,
             genesis,
             frukiFest,
             vassouraWielder,
@@ -296,7 +297,8 @@
             encontroMyth,
             mythLurker,
             cFlicky,
-            smashFest2014
+            smashFest2014,
+			badgeWhore,
         ]
     };
     Myth.herbe = {
@@ -309,7 +311,6 @@
         crest:['A Erva da Alegria: Herbe Crest', 'herb'],
         badges: [
             mythPrime,
-            preHistoric,
             frukiFest,
             encontroMyth,
             smashFesteiro,
@@ -625,7 +626,8 @@
             wataZomb,
             kanaFest,
             musicist,
-            likeBomb
+            likeBomb,
+			help,
         ]
     };
     Myth.wolvie = {

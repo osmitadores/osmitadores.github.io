@@ -197,7 +197,7 @@ function createBadge(title, imgName, badgename, badgetype,  obtain) {
 
     return '  <tr class="' + unobit + '">\
     <td class="badgeslot"> <img height="48" title="' + title + '" src="' + PATH + imgName + '.png"></td> \
-    <td badge="'+ imgName +'" onclick="viewDesc(this.attributes.badge.value)" class="nameslot">' + badgename + ' <br> <div style="font-size:10;color:#aaa;"> ' + title + ' </div></td> \
+    <td badge="'+ imgName +'"  href = "javascript:void(0)" onclick="document.getElementById(\'light\').style.display=\'block\';document.getElementById(\'fade\').style.display=\'block\'; document.getElementById(\'lighter\').innerHTML = (\'\'); viewDesc(this.attributes.badge.value)" class="nameslot" ;">' + 	badgename + ' <br> <div style="font-size:10;color:#aaa;"> ' + title + ' </div></td> \
      <td onclick="viewDesc(this.attributes.id.value)" class="type" id="' + badgetype + '"> ' + badgetype + ' </td> \
     <td class="obtainslot" id="' + obt + '">  ' + obtain + ' </td></tr>';
 
@@ -213,6 +213,14 @@ function viewDesc(sttr) {
         for(var x in Myth[i].badges){
             if (Myth[i].badges[x][1] === sttr) {
                 console.log(Myth[i].nome + ' confere!');
+							document.getElementById('lighticon').innerHTML = ('<img src="' + PATH + sttr + '.png">');
+														document.getElementById('lititle').innerHTML = (Myth[i].badges[x][0]);
+
+				                document.getElementById('lighter').innerHTML += ('\
+               <div class="omito"><td class="lite"> <a target="_blank" href="https://www.facebook.com/' + Myth[i].faceId + '">\
+                 <img class="profile" src="http://graph.facebook.com/' + Myth[i].faceId + '/picture?width=50&height=50"></a></td>\
+				<td style="padding-left:20px;" class="lite">' + Myth[i].nome + ' Possui essa badge! </td></div><br>\
+ ');
             }
         }
     }
