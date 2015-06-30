@@ -26,30 +26,32 @@
 			display: none;
 			position: fixed;
 			top: 15%;
-			left: 30%;
-			width: 40%;
+			left: 25%;
+			right: 25%;
 			height: 60%;
 			padding: 16px;
-			border: 16px solid #1E1E4A;
-			border-radius: 30px;
+			border: solid #1E1E4A;
+			border-width: 30px 16px 16px 16px;
+			border-radius: 10px 10px 30px 30px;
 			background-color: #262B56;
 			z-index:1002;
 			overflow: auto;
 		}
 		.xise {
-		width:32px;
+			color: white;
+			cursor: pointer;
+			width:32px;
 			position: fixed;
-			border-radius:100px;
+			border-radius:0px 10px 0px 0px;
 			text-align:center;
-	
+			z-index: 1005;
 			top: 15%;
-			left: 73%;
+			right: 25%;
 			background-color: #A11;
 		}
 		
-		.xise a{		
-			text-decoration: none;
-			color: white;
+		.xise:hover{		
+			background-color: #b23;
 			}
 		
 		.omito{ vertical-align:center;}
@@ -79,7 +81,7 @@
 		<td id="lighticon"></td>
 		<td id="lititle"></td>
 		</table>
-		<div class="xise"><a  href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'">X</a></div>
+		<div class="xise" onclick="viewDesc('close')"> X </div>
 		<table id="lighter">
 		</table>
 		</div>

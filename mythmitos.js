@@ -224,6 +224,7 @@
             hangouteiro,
             ygo,
             qqq,
+            vassouraWielder
         ]
     };
     Myth.fernando = {

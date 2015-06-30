@@ -207,6 +207,15 @@ function createBadge(title, imgName, badgename, badgetype,  obtain) {
 indexMyth(Badgelist);
 
 function viewDesc(sttr) {
+
+    if (sttr === 'close') {
+       // document.getElementById('light').style.display='none';
+        //document.getElementById('fade').style.display='none';
+        
+        $('#light').hide('slow','linear');
+        $('#fade').hide();
+    }else{
+
     console.log('############### ' +sttr+ ' ###############');
     var aux = [];
     for(var i in Myth){
@@ -224,7 +233,7 @@ function viewDesc(sttr) {
             }
         }
     }
-}
+}}
 
 $(document).ready(function()
     {
