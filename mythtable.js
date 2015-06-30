@@ -2,9 +2,7 @@
     var PATH = 'http://os-mitadores.lucasflicky.com/files/theme/BADGES/';
     var semID = '457676144377257';
 
-
     var Badgelist = {};
-console.log(Badgelist);
 
 //Tier
  	 Badgelist.mythUnicorn = createBadge('Mitador Unicorn: Raros porém participativos', 'uni','Mitador Unicorn','Tier',
@@ -184,44 +182,41 @@ function createBadge(title, imgName, badgename, badgetype,  obtain) {
     if (imgName===undefined){
         imgName = 'badge';
     }
-var obt = '';
-var unobit = '';
+    var obt = '';
+    var unobit = '';
 
-if (obtain!==undefined){
-if (obtain.search("Unobtainable") !== -1){
-var obt = 'unob';
-var unobit = 'unobtr'
-}
-if (obtain.search("Reserved") !== -1){
-var unobit = 'unobtr'
-}
-};
-
-   return '  <tr class="' + unobit + '">\
-    <td class="badgeslot"> <img height="48" title="' + title + '" src="' + PATH + imgName + '.png"></td>\
-    <td class="nameslot">' + badgename + ' <br> <div style="font-size:10;color:#aaa;"> ' + title + ' </div></td>\
-     <td class="type" id="' + badgetype + '"> ' + badgetype + ' </td>\
-    <td class="obtainslot" id="' + obt + '">  ' + obtain + ' </td>\
-  </tr>';
-
-
-
-}
-
-
-function indexMyth(mitabela){
-
-
-    for (var i in mitabela){
-
-        document.getElementById('asofe').innerHTML += mitabela[i];
+    if (obtain!==undefined){
+        if (obtain.search("Unobtainable") !== -1){
+            var obt = 'unob';
+            var unobit = 'unobtr';
+        }
+        if (obtain.search("Reserved") !== -1){
+            var unobit = 'unobtr'
+        }
     }
 
+    return '  <tr class="' + unobit + '">\
+    <td class="badgeslot"> <img height="48" title="' + title + '" src="' + PATH + imgName + '.png"></td> \
+    <td badge="'+ imgName +'" onclick="viewDesc(this.attributes.badge.value)" class="nameslot">' + badgename + ' <br> <div style="font-size:10;color:#aaa;"> ' + title + ' </div></td> \
+     <td onclick="viewDesc(this.attributes.id.value)" class="type" id="' + badgetype + '"> ' + badgetype + ' </td> \
+    <td class="obtainslot" id="' + obt + '">  ' + obtain + ' </td></tr>';
 
 }
+
 
 indexMyth(Badgelist);
 
+function viewDesc(sttr) {
+    console.log('############### ' +sttr+ ' ###############');
+    var aux = [];
+    for(var i in Myth){
+        for(var x in Myth[i].badges){
+            if (Myth[i].badges[x][1] === sttr) {
+                console.log(Myth[i].nome + ' confere!');
+            }
+        }
+    }
+}
 
 $(document).ready(function()
     {
@@ -229,17 +224,22 @@ $(document).ready(function()
     }
 );
 
+function indexMyth(mitabela){
 
+    for (var i in mitabela){
 
+        document.getElementById('asofe').innerHTML += mitabela[i];
+    }
+}
 
+function toggle_visibility(unobtr) {
+   var e = document.getElementsByClassName(unobtr);
 
-    function toggle_visibility(unobtr) {
-       var e = document.getElementsByClassName(unobtr);
-
-      for ( var i=0; i < e.length; i++ ) {
-        if(e[i].style.display != 'none')
-         e[i].style.display = 'none';
-       else
-         e[i].style.display = 'table-row';
-      }
-    };
+    for ( var i=0; i < e.length; i++ ) {
+        if(e[i].style.display != 'none'){
+            e[i].style.display = 'none';
+        }else{
+            e[i].style.display = 'table-row';
+        }
+    }
+}

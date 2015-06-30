@@ -7,12 +7,23 @@ body{font-family: 'Titillium Web', sans-serif;color:white;	}
 
 td.obtainslot
 {font-weight:normal; font-style:italic;font-size:14;color:#CCC;}
-.nameslot
-{font-weight:700;font-size: 18;padding-left: 20px !important; width:30%;}
+.nameslot{
+	cursor: zoom-in;
+	font-weight:700;
+	font-size: 18;
+	padding-left: 20px !important;
+	width:30%
+}
+.nameslot:hover, .type:hover{
+	background-color: #12163C;
+}
 .badgeslot
 {width:50px;}
-.type
-{width:10%;text-align: center;}
+.type{
+	cursor: help;
+	width:10%;
+	text-align: center
+}
 .tabtit
 {color:white;font-size: 21; border-radius:15px,15px,15px,15px !important; background-color: #131623;}
 .tabintro
@@ -29,7 +40,7 @@ img
     image-rendering: -moz-crisp-edges;          /* Firefox                        */
     image-rendering: -o-crisp-edges;            /* Opera                          */
     image-rendering: -webkit-optimize-contrast; /* Chrome (and eventually Safari) */
-    image-rendering: pixelated; 		/* Chrome */
+    image-rendering: pixelated; 				/* Chrome */
     image-rendering: optimize-contrast;         /* CSS3 Proposed                  */
     -ms-interpolation-mode: nearest-neighbor;   /* IE8+                           */
 }
@@ -49,8 +60,9 @@ cursor: pointer;
 
 #Landmark, #Tier, #Exclusiva, #Entrada
 {color:red !important;font-weight:bold;}
-#unob
-{background-color:#a11 !important;}
+#unob{
+	cursor: not-allowed;
+	background-color:#a11 !important;}
 body
 {background:#000;}
 
@@ -59,11 +71,11 @@ body
         position: fixed;
         cursor: pointer;
         font-family: Arial, sans-serif;
-        top: 20px;
+        top: 13px;
         left: 15px;
         width: 350px;
         height: 30px;
-
+		padding-top: 10px;
 
 		border-color:#225;
 		border-style:solid;
