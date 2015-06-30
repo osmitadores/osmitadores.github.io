@@ -17,7 +17,22 @@
             mythUnicorn,
             preHistoric
         ]
-    }
+    };
+    Myth.agatha = {
+        nome: 'Agatha',
+        tagId: 'agatha',
+        tagId1: 'agatha1',
+        faceId: '100006709956847',
+        tier: tierFreshman,
+        ano: '2015',
+        badges: [
+            cClaro,
+            mythFresh,
+            mythHonorary,
+            vassouraWielder,
+            defiance
+        ]
+    };
     Myth.ana = {
         nome: 'Ana',
         tagId: 'yomiell',
