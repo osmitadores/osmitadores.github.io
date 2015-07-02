@@ -170,7 +170,7 @@ function clickedButton(type){
     }
     document.getElementById('butt'+type).style.backgroundColor = 'red';
 }
-
+/*
 function toggleGay() {
     var videoPATH = 'https://www.youtube.com/v/';
     var randomNum = parseInt(10 * Math.random());
@@ -206,7 +206,7 @@ function toggleGay() {
         </embed></object>';
     document.getElementById('videoobject').innerHTML = "" + videoObject;
 }
-///////////////////////////////
+*///////////////////////////////
 
 function toggleTable() {
     document.getElementById('tabelas').innerHTML = '<iframe id="gayframe" frameborder="0" height="100%" width="100%" src="mitabela.html"></iframe>';
@@ -221,10 +221,10 @@ $(document).ready(function(){
     $('#tabelas').hide(0, function(){
 
         $('#tabelas').delay(1000).toggle('slow','linear', function() {
-            $('#flikegay').delay(7000).toggle('slow','linear',function() {
-                document.getElementById('flikegay'). innerHTML = 'Aprecie as músicas em homenagem ao Mitagay Flicky!';
-                $('#flikegay').delay(8000).toggle('slow','linear');
-            });
+            //$('#flikegay').delay(7000).toggle('slow','linear',function() {
+             //   document.getElementById('flikegay'). innerHTML = 'Aprecie as músicas em homenagem ao Mitagay Flicky!';
+             //   $('#flikegay').delay(8000).toggle('slow','linear');
+            //});
         });
     });
 
@@ -280,6 +280,7 @@ $(document).ready(function(){
         });
         clickedButton('ano');
     });
+    /*
     $('#buttgay').click(function(){
         document.getElementById('flikegay').innerHTML = '';
         $('#flikegay').delay(7000).toggle('slow','linear',function() {
@@ -287,7 +288,7 @@ $(document).ready(function(){
             $('#flikegay').delay(7000).toggle('slow','linear');
         });
         toggleGay();
-    });
+    });*/
 
     $('#tabelas').click(function(){
 

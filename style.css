@@ -3,16 +3,17 @@
 	to { background-position: 10000 0; }
 }
   body{
-  background-image: url(gay.png);
+  background-image: url(http://desktop.freewallpaper4.me/view/original/7212/marvel-vs-dc.jpg);
   /*	background: -webkit-linear-gradient(left, red, orange, yellow, green, blue, indigo, violet); /* For Safari 5.1 to 6.0 */
   /*  background: -o-linear-gradient(left, red, orange, yellow, green, blue, indigo, violet); /* For Opera 11.1 to 12.0 */
     /*background: -moz-linear-gradient(left, red, orange, yellow, green, blue, indigo, violet); /* For Fx 3.6 to 15 */
     /*background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet); /* Standard syntax (must be last) */
-  	animation: animatedBackground 5s linear infinite;
+  	/*animation: animatedBackground 5s linear infinite;*/
   }
 
   table {
-    background: #262b56;
+    
+    background: rgba(38, 43, 86, 0.68); /*#262b56;*/
     -moz-border-radius: 15px;
     -webkit-border-radius: 15px;
   }
