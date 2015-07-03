@@ -56,7 +56,7 @@
             gartic
         ]
     };
-    Myth.anaErrada = {
+/*    Myth.anaErrada = {
         nome: 'Ana Errada',
         tagId: 'anaerrada',
         tagId1: 'anaerrada1',
@@ -68,7 +68,7 @@
             cVinicius,
             gartic
         ]
-    };
+    };*/
     Myth.aragao = {
         nome: 'Aragão',
         tagId: 'aragao',
@@ -320,7 +320,7 @@
 			
         ]
     };
-    Myth.herbe = {
+  /*  Myth.herbe = {
         nome: 'Herbe',
         tagId: 'herbe',
         tagId1: 'herbe1',
@@ -341,7 +341,7 @@
             mitamores,
             lendsClub
         ]
-    };
+    }; */
     Myth.karen = {
         nome: 'Karen',
         tagId: 'karen',
@@ -379,20 +379,7 @@
             plugDj,
         ]
     };
-    Myth.laise = {
-        nome: 'Laíse',
-        tagId: 'laise',
-        tagId1: 'laise1',
-        faceId: '100001494185391',
-        tier: tierGuest,
-        ano: '2015',
-        badges: [
-            mythHonorary,
-            mythGhost,
-            mythGuest,
-            cFlicky
-        ]
-    };
+
     Myth.luana = {
         nome: 'Luana',
         tagId: 'luana',
