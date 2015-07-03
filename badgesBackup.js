@@ -109,431 +109,431 @@ var Badges = {
 //Badges
 
      Badges.jogueiro = {
-         'Jogueiros: Sempre presentes nas jogatinas míticas',
-         'joy',
+        titulo: 'Jogueiros: Sempre presentes nas jogatinas míticas',
+        img: joy',
          'Jogueiro',
          'Participação',
          'Mitadores que participam regularmente de jogos com outros Mitadores, badge desbloqueada depois de 5 jogatinas.*'
      };
      Badges.hangouteiro = {
-         'Hangouteiro: Sempre marcando presença nos Hangouts!',
-         'hang',
+         titulo: 'Hangouteiro: Sempre marcando presença nos Hangouts!',
+        img: hang',
          'Hangouteiro',
          'Participação',
          'Mitadores que participam regularmente  dos Hangouts, badge desbloqueada após marcar presença em 10 hangouts ao longo do mês*'
      };
      Badges.desenheiro = {
-         'Desenheiro: Depictador dos melhores momentos.',
-         'pen',
+         titulo: 'Desenheiro: Depictador dos melhores momentos.',
+        img: pen',
          'Desenheiro',
          'Participação',
          'Badge dedicada a Mitadores que desenham, ilustram, e depictam, cenas e figuras do universo Mitador.'
      };
      Badges.vassouraWielder = {
-         'Vassoura Wielder: Já vassourou alguém em uma situação realmente necessária',
+         titulo: 'Vassoura Wielder: Já vassourou alguém em uma situação realmente necessária',
          'broom',
-         'Vassoureiro',
+        img: Vassoureiro',
          'Utilidade',
          'A Vassoura deve ser usada com responsabilidade, pra expulsar pessoas em rampage, mesmo que em roleplay, o uso bem encenado dela lhe condecora com esta badge. (Deprecated)'
      };
      Badges._3dsPlay = {
-         '3DS Teamplay: Jogou com mitadores via Nintendo 3DS',
-         '3ds',
+         titulo: '3DS Teamplay: Jogou com mitadores via Nintendo 3DS',
+         img: '3ds',
          '3DS Multiplayer',
          'Social',
          'Jogue com um Mitador num Nintendo3DS por Multiplayer Local ou Online'
      };
      Badges.defiance = {
-         'Defiance: Sem medo de umas vassouradas',
-         'defiance',
+         titulo: 'Defiance: Sem medo de umas vassouradas',
+         img: 'defiance',
          'Defiance',
          'Participação',
          'Seja novato e zoe com a cara de um veterano na maneira mais mitadora possivel'
      };
      Badges.pipoqueiro = {
-         'Arthur exclusive \'Pipoqueiro Badge\'',
+         titulo: 'Arthur exclusive \'Pipoqueiro Badge\'',
          'pop','Pipoqueiro',
          'Exclusiva',
          'Exclusiva do Arthur por ser um baita Pipoqueiro de Tretas (Unobtainable)'
      };
      Badges.encontroMyth = {
-         'Encontro Mitador: eu fui!',
+         titulo: 'Encontro Mitador: eu fui!',
          'group',
          'Encontro Mitador',
          'Evento',
          'Participe de pelo menos um encontro organizado entre Mitadores '
      };
      Badges.smashFesteiro = {
-         'Smashfesteiro',
+         titulo: 'Smashfesteiro',
          'ssb',
          'Smashfester',
          'Evento',
          'Smashfests são mini-eventos onde se joga Smash Bros durante a noite, jogadores assiduos de SSB que tenham participado de pelo menos uma, recebe esta badge.'
      };
      Badges.smashFest2014 = {
-         'Newyear 2014: Smashfest - Eu fui!',
+         titulo: 'Newyear 2014: Smashfest - Eu fui!',
          '2014',
          'Newyear 2014',
          'Landmark',
          'Badge exclusiva para quem frequentou o Ano Novo Mitador de 2014 - Smashfest (Unobtainable)'};
      Badges.mechanicPunch = {
-         'Claro exclusive \'Mechanic Punch\' Badge',
+        titulo: 'Claro exclusive \'Mechanic Punch\' Badge',
          'soc',
          'Luva de Boxe',
          'Exclusiva',
          'Exclusiva do Claro, porque a Luva de Boxe mecânica é sua trademark. (Unobtainable)'
          };
      Badges.programeiro = {
-         'Programeiro: Ajuda a codar paradas mitadoras',
+         titulo: 'Programeiro: Ajuda a codar paradas mitadoras',
          'code',
          'Programeiro',
          'Utilidade',
          'Ajude os Mitadores dando uma mão com qualquer tipo de edição de código pras paradas que criamos'
          };
      Badges.frukiFest = {
-         'Newyear 2013: Frukifest - Eu fui!',
+         titulo: 'Newyear 2013: Frukifest - Eu fui!',
          '2013',
          'Newyear 2013',
          'Landmark',
          'Badge exclusiva para quem frequentou o Ano Novo Mitador de 2013 - Frukifest (Unobtainable)'
          };
      Badges.streameiro = {
-         'Streameiro: Ocasionalmente promove Livestreams',
+         titulo: 'Streameiro: Ocasionalmente promove Livestreams',
          'live',
          'Streameiro',
          'Social',
          'Promova Livestreams, convide Mitadores'
          };
      Badges.gardevoa = {
-         'Flicky exclusive \'Gardevobadge\' ',
+         titulo: 'Flicky exclusive \'Gardevobadge\' ',
          'garde',
          'Gardevoir',
          'Exclusiva',
          'Exclusiva do Flicky por ter recebido da Taverna do Cogu o título de PhD em Gardevoir por maioria de votos. (Unobtainable)'
          };
      Badges.mitamores = {
-         'Os Mitamores: Casais Mitadores são lindos',
+         titulo: 'Os Mitamores: Casais Mitadores são lindos',
          'mitamores',
          'Os Mitamores',
          'Social',
          'Assuma publicamente relacionamento com um Mitador. Ambos devem fazer parte do grupo ANTES. Esta badge não expira com o término.'
          };
      Badges.doisPotes = {
-         'Luana exclusive \'Doooois Pooootes\' Badge',
+         titulo: 'Luana exclusive \'Doooois Pooootes\' Badge',
          'pots',
          'DOIS POTES',
          'Exclusiva',
          'Exclusiva da Luana porque ela acha um desaforo o Flicky usar dois potes pra fazer Miojo (Unobtainable) '
          };
      Badges.lendsClub = {
-         'Lends Club: Board Games com Mitadores',
+         titulo: 'Lends Club: Board Games com Mitadores',
          'lends',
          'Lends Club',
          'Evento',
          'Visite o clube de Board Games Lends Club acompanhado de Mitadores'
          };
      Badges.badgeWhore = {
-         'Badge Whore - Faço tudo por badges!',
+         titulo: 'Badge Whore - Faço tudo por badges!',
          'badwho',
          'Badgewhore',
          'Participação',
          'Seja um prick e fique pedindo por badges o tempo todo, essa badge não é uma boa badge, ela vale pontos negativos. (Deprecated)'
          };
      Badges.kanaFest = {
-         'Kanafester - Gênios do Pseudo-Japonês',
+         titulo: 'Kanafester - Gênios do Pseudo-Japonês',
          'kana',
          'Pseudo-Japonês',
          'Evento',
          'Seja figurinha carimbada no momento em que começar um papo aleatório em caracteres japoneses que não querem dizer nada em actual japonês'
          };
      Badges.cupidRab = {
-         'Coelho exclusive \'Official Cupid\' Badge',
+         titulo: 'Coelho exclusive \'Official Cupid\' Badge',
          'cupid',
          'The Cupid',
          'Exclusiva',
          'Exclusiva do Coelho por juntar casais since forever. (Unobtainable)'
          };
      Badges.pauHd = {
-         'Aragão exclusive \'Pau em HD\' Badge',
+         titulo: 'Aragão exclusive \'Pau em HD\' Badge',
          'pauhd',
          'Pau em HD',
          'Exclusiva',
          'Exclusiva do Aragão por acidentalmente enviar uma foto em 1080p do seu instrumento no chat. (Unobtainable)'
          };
      Badges.likeBomb = {
-         'Like Bomb - Top da balada',
+         titulo: 'Like Bomb - Top da balada',
          'likebomb',
          'Like Bomb Target',
          'Social',
          'Tenha uma postagem no Facebook com mais de 100 Likes. Puro aumentador de e-peen'
          };
      Badges.vidalGt = {
-         'Vidal exclusive \'Greentext\' Badge',
+        titulo: 'Vidal exclusive \'Greentext\' Badge',
          'greentxt',
          'Greentext',
          'Exclusiva',
          'Exclusiva do Vidal, por viralizar seu Greentext (Unobtainable)'
          };
      Badges.vidalFdp = {
-         'Vidal exclusive \'Filhadaputópolis\' Badge',
+         titulo: 'Vidal exclusive \'Filhadaputópolis\' Badge',
          'catan',
          'Filhadaputópolis',
          'Exclusiva',
          'Exclusiva do Vidal por fundar a maravilhosa cidade de Filhadaputópolis, cuja população é VOCÊ (Unobtainable)'
          };
      Badges.miauCaralho = {
-         'Ana exclusive \'MIAO CARALHO\' Badge',
+         titulo: 'Ana exclusive \'MIAO CARALHO\' Badge',
          undefined,
          'MIAO CARALHO',
          'Exclusiva',
          'Exclusiva da Ana por berrar MIAU CARALHO enquanto tentamos pescar Matsunas (Unobtainable)'
          };
      Badges.redCoder = {
-         'Red Coder: Coder Lendário',
+     titulo: 'Red Coder: Coder Lendário',
          'redcoder',
          'The Red Coder',
          'Patente de Fodisse',
          'Programadores lendários, que programam coisas absurdas e sensacionais, incansavelmente e voluntariamente, amor de pessoa.'
          };
      Badges.goldenPen = {
-         'Golden Pen: Desenheiro Lendário',
+     titulo: 'Golden Pen: Desenheiro Lendário',
          undefined,
          'The Golden Pen',
          'Patente de Fodisse',
          'Desenhistas que botam efforts magníficos nas piadas internas dos Mitadores e fazem delas Obras de Arte intensas.'
          };
      Badges.tunelaa = {
-         'Tumeo exclusive \'???\' Badge',
+     titulo: 'Tumeo exclusive \'???\' Badge',
          undefined,
          '???',
          'Sei lá'
          };
      Badges.wataZomb = {
-         'Watanabe Exclusive \'Japanese Horror Movie\' Badge',
+     titulo: 'Watanabe Exclusive \'Japanese Horror Movie\' Badge',
          'akuma',
          'Japanese Horror Movie',
          'Exclusiva',
          'Exclusiva do Watanabe por se rastejar e desaparecer enquanto dorme na madrugada. (Unobtainable)'
          };
      Badges.preHistoric = {
-         'Mitador Jurássico - Os Mitadores Pré-Históricos',
+         titulo: 'Mitador Jurássico - Os Mitadores Pré-Históricos',
          'jurassic',
          'Pré-Mitadores',
          'Social',
          'Mitadores dos primórdios, antes mesmo do chat oficial, essas pessoas já andavam juntas e se identificavam pelo nome de mitos (Unobtainable).'
          };
      Badges.musicist = {
-         'Musiqueiro',
+         titulo: 'Musiqueiro',
          'music',
          'Musiqueiro',
          'Participação',
          'Produza peças musicais especificamente para os Mitadores'
          };
      Badges.keidiPint = {
-         'Keidi exclusive \'Pinteiro\' Badge',
+        titulo: 'Keidi exclusive \'Pinteiro\' Badge',
          'print',
          'Pinteiro',
          'Exclusiva',
          'Exclusiva do Keidi por manter um acervo gigante de Prints inesperados de todos (Unobtainable)'
          };
      Badges.merito = {
-         'Mitador por mérito - Admin/Community pick',
+     titulo: 'Mitador por mérito - Admin/Community pick',
          'merito',
          'Mitador por Mérito',
          'Entrada',
          'Mitador que não é exatamente um bestie de ninguém dentro da casa, mas que desperta admiração de todos e por isso mereceu entrar. (Unobtainable)'
          };
      Badges.matricialPrint = {
-         'Vidal exclusive \'Impressora Matricial\' Badge',
+     titulo: 'Vidal exclusive \'Impressora Matricial\' Badge',
          'printer',
          'Impressora Matricial',
          'Exclusiva',
          'Exclusiva do Vidal por roncar igual uma impressora matricial durante um overnight entre Mitadores (Unobtainable)'
          };
      Badges.happyDoor = {
-         'Karen exclusive \'Porta Feliz\' Badge',
+     titulo: 'Karen exclusive \'Porta Feliz\' Badge',
          'hpydoa',
          'Porta Feliz',
          'Exclusiva',
          'Exclusiva da Karen por dizer que as coisas, incluindo portas, são felizes. Elas não são felizes. (Unobtainable)'
          };
      Badges.satanicat = {
-         'Matsuna exclusive \'Satanicat\' Badge',
+         titulo: 'Matsuna exclusive \'Satanicat\' Badge',
          'satanicat',
          'Satanicat',
          'Exclusiva',
          'Exclusiva do Matsuna por invocar gatos espiratânicos dos confins do inferno. (Unobtainable)'
          };
      Badges.karaoke = {
-         'Karaokê Mitador: Eu fui!',
+         titulo: 'Karaokê Mitador: Eu fui!',
          'karaoke',
          'Karaoke',
          'Evento',
          'Participe de um Karaoke Party com Mitadores'
          };
      Badges.nennys = {
-         'Mitador Nennys: o mais novo',
+         titulo: 'Mitador Nennys: o mais novo',
          'nennys',
          'Nennys',
          'Single-Wielder',
          'Seja o Mitador mais novo.'
          };
      Badges.elder = {
-         'Mitador Ancião: o mais velho',
+         titulo: 'Mitador Ancião: o mais velho',
          'ancient',
          'Ancião',
          'Single-Wielder',
          'Seja o Mitador mais velho.'
          };
      Badges.mariEx = {
-         'Pall exclusive \'!!!\' Badge',
+         titulo: 'Pall exclusive \'!!!\' Badge',
          'excla',
          '!!!',
          'Exclusiva',
          'Exclusiva da Pall por receber qualquer noticias com esse sinal gráfico (Unobtainable)'
          };
      Badges.fuQuest = {
-         'Fuquest/OsMitadores the Game: Devteam',
+         titulo: 'Fuquest/OsMitadores the Game: Devteam',
          'fq',
          'Fuquest',
          'Projeto',
          'Participe do desenvolvimento do nosso joguinho dos Mitadores, atualmente em Hiatus'
          };
      Badges.radiant = {
-         'Radiant Historia 11k',
+         titulo: 'Radiant Historia 11k',
          'historia',
          'Radiant Historia 11k',
          'Landmark',
          'Participantes do épico post de Radiant Historia de 2012 que recebeu mais de 11 mil comentários totalmente fora de nexo. (Unobtainable)'
          };
      Badges.genesis = {
-         'Anfitrião de SEGA Genesis',
+         titulo: 'Anfitrião de SEGA Genesis',
          'genesis',
          'Genesis',
          'Social',
          'Convide Mitadores pra jogar SEGA Genesis na sua casa'
          };
      Badges.n64 = {
-         'Anfitrião de Nintendo 64',
+         titulo: 'Anfitrião de Nintendo 64',
          'n64',
          'N64',
          'Social',
          'Convide Mitadores pra jogar Nintendo 64 na sua casa'
          };
      Badges.ps2 = {
-         'Anfitrião de Playstation 2',
+         titulo: 'Anfitrião de Playstation 2',
          'ps2',
          'PS2',
          'Social',
          'Convide Mitadores pra jogar PS2 na sua casa'
          };
      Badges.ps3 = {
-         'Anfitrião de Playstation 3',
+         titulo: 'Anfitrião de Playstation 3',
          'ps3',
          'PS3',
          'Social',
          'Convide Mitadores pra jogar PS3 na sua casa'
          };
      Badges.ps4 = {
-         'Anfitrião de Playstation 4',
+         titulo: 'Anfitrião de Playstation 4',
          'ps4',
          'PS4',
          'Social',
          'Convide Mitadores pra jogar PS4 na sua casa'
          };
      Badges.wii = {
-         'Anfitrião de Nintendo Wii',
+         titulo: 'Anfitrião de Nintendo Wii',
          'wii',
          'Wii',
          'Social',
          'Convide Mitadores pra jogar Wii na sua casa'
          };
      Badges.rplay = {
-         'Roleplay Masters: *flies away*',
+         titulo: 'Roleplay Masters: *flies away*',
          'rp',
          'RP Masters',
          'Participação',
          'Entre de cabeça nos roleplays sempre que um estiver rolando, intensamente, como se aquilo fosse realmente real, porque você é biruta, mas não liga.'
          };
      Badges.cah = {
-         'Mitadores Contra a Humanidade!',
+         titulo: 'Mitadores Contra a Humanidade!',
          'cah',
          'Cards Against Humanity',
          'Participação',
          'Seja jogador assíduo de Cards Against Humanity, 3 ou mais partidas valem a badge'
          };
      Badges.essetop = {
-         '[Evento] ESSE TÓPICO É PRA VOCÊ....',
+     titulo: '[Evento] ESSE TÓPICO É PRA VOCÊ....',
          'essetop',
          'ESSE TÓPICO',
          'Landmark',
          'Para quem participou do Evento "ESSE TÓPICO" de Junho de 2015, postando headlines. (Unobtainable) '
          };
      Badges.ygo = {
-         'Duelista',
+     titulo: 'Duelista',
          'ygo',
          'Duelista',
          'Participação',
          'Duele com Mitadores regularmente'
          };
      Badges.gartic = {
-         'Círculo Mitador de Gartic',
+         titulo: 'Círculo Mitador de Gartic',
          'gartic',
          'Gartic',
          'Participação',
          'Jogue Gartic com Mitadores regularmente'
          };
      Badges.pepe = {
-         'Rare Pepe Trader Certificado',
+         titulo: 'Rare Pepe Trader Certificado',
          'pepe',
          'Certified Pepe Trader',
          'Participação',
          'Para os que toda terça enriquecem o mercado de Rare Pepes dos Mitadores'
          };
      Badges.frog = {
-         'Romulo Exclusive Samango Frog Badge',
+         titulo: 'Romulo Exclusive Samango Frog Badge',
          'frog',
          'Samango Frog',
          'Exclusiva',
          'Exclusiva do Rômulo pelo seu deslize imenso na Taverna do Cogu (Unobtainable)'
          };
      Badges.poke = {
-         'Pam Exclusive *poke poke* Badge',
+        titulo: 'Pam Exclusive *poke poke* Badge',
          'poke',
          '*Poke Poke*',
          'Exclusiva',
          'Exclusiva da Pam por cutucar the hell out of todo mundo incessantemente. (Unobtainable)'
      };
      Badges.idea = {
-        'Badger: Até eu criei uma Badge e você não!',
+        titulo: 'Badger: Até eu criei uma Badge e você não!',
         'badgeidea',
         'Badge Supporter',
         'Utilidade',
         'Dê idéias de badge no tópico oficial de Badges'
      };
      Badges.help = {
-        'Ajudeiro:  Ele não é o Luciano, mas também ajuda pra caramba!',
+        titulo: 'Ajudeiro:  Ele não é o Luciano, mas também ajuda pra caramba!',
         'ajudeiro',
         'Ajudeiro',
         'Utilidade',
         'Ajude Mitadores novatos a compreender o ambiente, ou ajude Mitadores em qualquer sentido, com qualquer coisa que ele precise.'
      };
      Badges.harass = {
-        'Harasser: Bulinadores Profissionais',
+        titulo: 'Harasser: Bulinadores Profissionais',
         'harass',
         'Harasser',
         'Participação',
         'Seja um bulinador forte que deixa pessoas constrangidas'
      };
      Badges.qqq = {
-        'Dogolas Exclusive Q Badge',
+        titulo: 'Dogolas Exclusive Q Badge',
         'qqq',
         'Q',
         'Exclusiva',
         'Exclusiva do Douglas pela letra Trademark (Unobtainable)'
      };
      Badges.plugDJ = {
-        'DJ assíduo nas pistas mitadoras.',
+        titulo: 'DJ assíduo nas pistas mitadoras.',
         'plugdj',
         'Plug DJ',
         'Social',
@@ -542,21 +542,21 @@ var Badges = {
 
 
      Badges.skgPart = {
-        'Skull Girls Tournament - Participei... mas não ganhei. Pq sou noob',
+        titulo: 'Skull Girls Tournament - Participei... mas não ganhei. Pq sou noob',
         'skgpt',
         'Torneio SkullGirls - Participante',
         'Evento',
         'Participe de um torneio de Skullgirls'
      };
      Badges.skullGirls = {
-        'Skull Girls Tournament - 1o Lugar!!!',
+        titulo: 'Skull Girls Tournament - 1o Lugar!!!',
         'skg',
         'Torneio SkullGirls - Campeão',
         'Evento',
         'Vença um torneio de Skullgirls'
      };
      Badges.mythEvent = {
-         'Mitador de Evento',
+        titulo: 'Mitador de Evento',
          undefined,
          'Mitador de Evento',
          'Entrada',
@@ -564,7 +564,7 @@ var Badges = {
          'Entre nos Mitadores por meio de seleção aleatória de um Evento'
      };
      Badges.nonethless = {
-         'nodesc',
+     titulo: 'nodesc',
          '               '
      };
 
