@@ -5,6 +5,11 @@
     var Badgelist = {};
 
 //Tier
+
+Badgelist.mythMinister = createBadge('Mythnister: Leading the path of strife!', 'minister','Mythnister','Tier',
+'Badge reservada a Mitadores Ministers.<br> Assumem a bronca em horas de crise, e agitam a casa conforme podem. Conte sempre com eles. (Reserved) ');
+Badgelist.mythDiamond = createBadge('Mitador Diamond: Amor à camisa', 'diamond','Mitador Diamond','Tier',
+'Badge reservada a Mitadores de Tier Diamond.<br> Participam além do social. (Reserved) ');
  	 Badgelist.mythUnicorn = createBadge('Mitador Unicorn: Raros porém participativos', 'uni','Mitador Unicorn','Tier',
 'Badge reservada a Mitadores de Tier Unicorn.<br> Aparecem raramente mas são muito participativos. (Reserved) ');
      Badgelist.mythPlatinum = createBadge('Mitador Platinum', 'plat','Mitador PLATINUM','Tier',
@@ -36,7 +41,7 @@
      Badgelist.desenheiro = createBadge('Desenheiro: Depictador dos melhores momentos.', 'pen', 'Desenheiro','Participação',
 'Badge dedicada a Mitadores que desenham, ilustram, e depictam, cenas e figuras do universo Mitador.');
      Badgelist.vassouraWielder = createBadge('Vassoura Wielder: Já vassourou alguém em uma situação realmente necessária', 'broom','Vassoureiro','Utilidade',
-'A Vassoura deve ser usada com responsabilidade, pra expulsar pessoas em rampage, mesmo que em roleplay, o uso bem encenado dela lhe condecora com esta badge.');
+'A Vassoura deve ser usada com responsabilidade, pra expulsar pessoas em rampage, mesmo que em roleplay, o uso bem encenado dela lhe condecora com esta badge. (Deprecated)');
      Badgelist._3dsPlay = createBadge('3DS Teamplay: Jogou com mitadores via Nintendo 3DS', '3ds','3DS Multiplayer','Social',
 'Jogue com um Mitador num Nintendo3DS por Multiplayer Local ou Online');
      Badgelist.defiance = createBadge('Defiance: Sem medo de umas vassouradas', 'defiance','Defiance','Participação',
@@ -66,7 +71,7 @@
      Badgelist.lendsClub = createBadge('Lends Club: Board Games com Mitadores', 'lends','Lends Club','Evento',
 'Visite o clube de Board Games Lends Club acompanhado de Mitadores');
      Badgelist.badgeWhore = createBadge('Badge Whore - Faço tudo por badges!', 'badwho','Badgewhore','Participação',
-'Seja um prick e fique pedindo por badges o tempo todo, essa badge não é uma boa badge, ela vale pontos negativos.');
+'Seja um prick e fique pedindo por badges o tempo todo, essa badge não é uma boa badge, ela vale pontos negativos. (Deprecated)');
      Badgelist.kanaFest = createBadge('Kanafester - Gênios do Pseudo-Japonês', 'kana', 'Pseudo-Japonês','Evento',
 'Seja figurinha carimbada no momento em que começar um papo aleatório em caracteres japoneses que não querem dizer nada em actual japonês');
      Badgelist.cupidRab = createBadge('Coelho exclusive \'Official Cupid\' Badge','cupid','The Cupid','Exclusiva',
@@ -191,6 +196,10 @@ function createBadge(title, imgName, badgename, badgetype,  obtain) {
             var unobit = 'unobtr';
         }
         if (obtain.search("Reserved") !== -1){
+            var unobit = 'unobtr'
+        }
+         if (obtain.search("Deprecated") !== -1){
+             var obt = 'grey';
             var unobit = 'unobtr'
         }
     }

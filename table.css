@@ -18,11 +18,10 @@ td.obtainslot
 	background-color: #12163C;
 }
 .badgeslot
-{width:50px;}
+{width:50px;text-align: center !important;}
 .type{
-	cursor: help;
 	width:10%;
-	text-align: center
+	text-align: center !important;
 }
 .tabtit
 {color:white;font-size: 21; border-radius:15px,15px,15px,15px !important; background-color: #131623;}
@@ -65,6 +64,10 @@ cursor: pointer;
 #unob{
 	cursor: not-allowed;
 	background-color:#a11 !important;}
+#grey{
+	cursor: not-allowed;
+    color: antiquewhite;
+	background-color:#333 !important;}
 body
 {background:#000;}
 

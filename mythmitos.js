@@ -85,7 +85,7 @@
             vassouraWielder,
             streameiro,
             pauHd,
-            badgeWhore,
+            
             skgPart,
             ygo,
         ]
@@ -216,7 +216,7 @@
         tagId: 'douglas',
         tagId1: 'douglas1',
         faceId: '100002084300385',
-        tier: tierFreshman,
+        tier: tierGold,
         ano: '2015',
         badges: [
             mythFresh,
@@ -224,7 +224,8 @@
             hangouteiro,
             ygo,
             qqq,
-            vassouraWielder
+            vassouraWielder,
+            plugDj,
         ]
     };
     Myth.fernando = {
@@ -248,11 +249,12 @@
         tagId: 'flike',
         tagId1: 'flike1',
         faceId: '1489576273',
-        tier: tierPrime,
+        tier: tierMinister,
         ano: '2013',
         crest:['The Mighy Red Hood: Flicky Crest', 'hood'],
         badges: [
             mythPrime,
+            mythMinister,
             desenheiro,
             preHistoric,
             jogueiro,
@@ -289,15 +291,16 @@
         tagId: 'gabriel',
         tagId1: 'gabriel1',
         faceId: '100003090554200',
-        tier: tierFreshman,
+        tier: tierSilver,
         ano: '2014',
         badges: [
             mythEvent,
-            mythFresh,
+            mythSilver,
             gartic,
             jogueiro,
             hangouteiro,
             harass,
+            plugDj
         ]
     };
     Myth.garland = {
@@ -314,7 +317,7 @@
             mythLurker,
             cFlicky,
             smashFest2014,
-			badgeWhore,
+			
         ]
     };
     Myth.herbe = {
@@ -322,7 +325,7 @@
         tagId: 'herbe',
         tagId1: 'herbe1',
         faceId: '100000980181670',
-        tier: tierPrime,
+        tier: tierGhost,
         ano: '2013',
         crest:['A Erva da Alegria: Herbe Crest', 'herb'],
         badges: [
@@ -363,7 +366,7 @@
         tagId: 'keidi',
         tagId1: 'keidi1',
         faceId: '100000119298271',
-        tier: tierFreshman,
+        tier: tierUnicorn,
         ano: '2015',
         badges: [
             mythUnicorn,
@@ -438,11 +441,11 @@
         tagId: 'matsuna',
         tagId1: 'matsuna1',
         faceId: '100002087698140',
-        tier: tierPrime,
+        tier: tierUnicorn,
         ano: '2013',
         badges: [
             mythPrime,
-            mythGhost,
+            mythUnicorn,
             satanicat,
             skullGirls,
         ]
@@ -479,23 +482,26 @@
         tagId: 'pam',
         tagId1: 'pam1',
         faceId: '100003518568433',
-        tier: tierGold,
+        tier: tierMinister,
         ano: '2015',
         badges: [
-            mythGold,
+            mythDiamond,
+            mythMinister,
             cPall,
             defiance,
-            badgeWhore,
             vassouraWielder,
             desenheiro,
             rplay,
             essetop,
             jogueiro,
             hangouteiro,
+            idea,
             harass,
             gartic,
             poke,
             plugDj,
+            help,
+            
         
 
        
@@ -507,10 +513,10 @@
         tagId: 'raptor',
         tagId1: 'raptor1',
         faceId: '100002980734271',
-        tier: tierFreshman,
+        tier: tierSilver,
         ano: '2015',
         badges: [
-            mythFresh,
+            mythSilver,
             cHerbe,
             nennys,
             defiance,
@@ -521,10 +527,10 @@
         tagId: 'romulo',
         tagId1: 'romulo1',
         faceId: '100001228879580',
-        tier: tierFreshman,
+        tier: tierLurker,
         ano: '2015',
         badges: [
-            mythFresh,
+            mythLurker,
             cClaro,
             pepe,
             frog,
@@ -541,6 +547,24 @@
             mythUnicorn,
             cClaro,
             kanaFest
+        ]
+    };
+ Myth.toshiaki = {
+        nome: 'Toshiaki',
+        tagId: 'toshiaki',
+        tagId1: 'toshiaki1',
+        faceId: '100000410405406',
+        tier: tierUnicorn,
+        ano: '2015',
+        badges: [
+            mythUnicorn,
+            jogueiro,
+            likeBomb,
+            help,
+            karaoke,
+            encontroMyth,
+            
+            
         ]
     };
     Myth.tumeo = {
@@ -619,12 +643,12 @@
         tagId: 'gors',
         tagId1: 'gors1',
         faceId: '100003656546830',
-        tier: tierGold,
+        tier: tierDiamond,
         ano: '2013',
         crest:['The Bullet Head: Gors Crest', 'gors'],
         badges: [
             mythLegacy,
-            mythGold,
+            mythDiamond,
             preHistoric,
             desenheiro,
             jogueiro,

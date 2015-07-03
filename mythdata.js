@@ -8,6 +8,8 @@
 //Tier
     var mythUnicorn = createBadge('Mitador Unicorn: Raros porém participativos', 'uni');
     var mythPlatinum = createBadge('Mitador Platinum', 'plat');
+    var mythDiamond = createBadge('Mitador Diamond: Amor à camisa', 'diamond');
+    var mythMinister = createBadge('Mythnister: Leading the path of strife!', 'minister');
     var mythSilver = createBadge('Mitador Silver', 'silver');
     var mythLegacy = createBadge('Mitador Legacy: Veterano dos primórdios!', 'legacy');
     var mythFresh = createBadge('Freshman: Mitadores Trainee', 'fresh');
@@ -21,6 +23,8 @@
 
 
     var tierUnicorn   =   ["Unicorn",mythUnicorn,5];
+    var tierDiamond   =   ["Diamond",mythDiamond,2];
+    var tierMinister   =  ["Mythnister",mythMinister,1];
     var tierPlatinum  =   ["Platinum",mythPlatinum,2];
     var tierSilver    =   ["Silver",mythSilver,4];
     var tierLegacy    =   ["Legacy",mythLegacy,6];
@@ -30,7 +34,7 @@
     var tierLurker    =   ["Lurker",mythLurker,8];
     var tierGold      =   ["Gold",mythGold,3];
     var tierGhost     =   ["Ghost",mythGhost,11];
-    var tierPrime     =   ["Prime",mythPrime,1];
+    var tierPrime     =   ["Prime",mythPrime,2];
 
 
 
@@ -187,7 +191,7 @@ function createTable(mito) {
 
 }
 
-var videoLink = 'https://www.youtube.com/v/67bTpVQfB6U';
+var videoLink = 'https://www.youtube.com/v/rvkPJTF42us';
 var videoObject = '<object width="300" height="300"> \
     <param name="movie" value="'+ videoLink +'?hd=1&amp;autoplay=1&amp;loop=1&amp;playlist=yzC4hFK5P3g"></param> \
     <param name="allowscriptaccess" value="always"></param> \
