@@ -56,7 +56,7 @@
             gartic
         ]
     };
-/*    Myth.anaErrada = {
+    /*    Myth.anaErrada = {
         nome: 'Ana Errada',
         tagId: 'anaerrada',
         tagId1: 'anaerrada1',
