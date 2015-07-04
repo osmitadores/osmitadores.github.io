@@ -64,10 +64,24 @@ cursor: pointer;
 #unob{
 	cursor: not-allowed;
 	background-color:#a11 !important;}
+#reserva{
+	background-color:#0d351b !important;}
 #grey{
 	cursor: not-allowed;
     color: antiquewhite;
 	background-color:#333 !important;}
+#type{
+    box-shadow: 0px 0px 20px 7px black;
+    display: none;
+    padding: 15px;
+    border-radius: 20px;
+    position: fixed;
+    right: 10%;
+    top: 10%;
+    color:white;
+    font-size: 21;
+    background-color: #131623;
+}
 body
 {background:#000;}
 
