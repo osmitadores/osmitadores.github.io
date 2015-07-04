@@ -175,7 +175,7 @@ function createTable(mito) {
 </tr>\
 <tr>\
   <!-- PROFILE PIC -->\
-  <td align="center" class="profilepic" colspan="2" rowspan="5"><a target="_blank" href="https://www.facebook.com/' + mito.faceId + '"><img class="profile" src="http://graph.facebook.com/' + mito.faceId + '/picture?width=150&height=150"></a></td><tr><td HEIGHT="1px" colspan="2" ></td></tr>\
+  <td align="center" class="profilepic" colspan="2" rowspan="5"><a target="_blank" href="https://www.facebook.com/' + mito.faceId + '"><img class="profile" src="http://graph.facebook.com/' + mito.faceId + '/picture?width=151&height=151"></a></td><tr><td HEIGHT="1px" colspan="2" ></td></tr>\
   <td class="tg-e3zv"> Badges\
   </td>\
   <td class="tg-031e"></td>\
