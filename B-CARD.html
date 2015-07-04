@@ -1,25 +1,4 @@
 
-<!--
-> MITHYBOARD
-> VERSION: 2.4.1
-> BUILD: 0629-20
-> ALTERAÇÕES:
-    > Mitadores separados por comentários;
-    > Addeados links para o perfil do mitador;
-    > Addeado <meta>;
-    > Tabelas reestruturadas
-    > Adicionado contador de badges <- Deprecated!
-    > Fotos giram on Hover
-    > Hover animation em badges
-    > Scripts adicionados!!!
-    > Flike pegou o arquivo errado sem o Matsuna :V
-    > Agora o script é externo!
-    > Automatizando todo o sistema
-    > Arrumado escrita via DOM
-    > Nova função de ordenar por alfabetic
-    > Added ordenar por quantidade de badges
-    > Added tabela das badges
--->
 
 <head>
     <meta charset="utf-8">
@@ -34,11 +13,14 @@
     <script type="text/javascript" src="gayQuery.js"></script>
     <script type="text/javascript" src="mythdata.js"></script>
     <script type="text/javascript" src="mythmitos.js"></script>
+        <link href='http://fonts.googleapis.com/css?family=Share+Tech+Mono' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 
 </head>
     <style>
     
         #cardbkg{
+            background: url(MITCARD.png);
             position: relative;
             top: 5px;
             left: 6px;
@@ -53,7 +35,7 @@
             max-height: 49px;
             border-radius: 15px;
             background-color: white;
-            font-family: sans-serif;
+          font-family: 'Share Tech Mono', monospace;
             top: 28px;
             left: 354px;
             text-align: center;
@@ -66,77 +48,222 @@
         
         #infoplace{
             position: absolute;
-            left: 17px;
+            left: 24px;
             top:96px;
             width: 409px;
             height: 264px;
-            background-color: white;
+           /* background-color: #262a65;*/
             border-radius: 15px;
         }
         #name{
-            font-family: sans-serif;
+            font-family:'Montserrat', monospace;
             font-weight: 600;
             font-size: 30px;
             padding-left: 8px;
             padding-top: 8px;
             position: relative;
-            color:white;
+            color:#AAA;
             width: 386px;
             height: 42px;
-            background-color: black;
+           /* background-color: #060827;*/
             border-radius: 15px;
             top: 8px;   
             left: 7px;
         }
-          #alias, #malias, #age, #blood, #skill{
-            font-family: sans-serif;
+          #fullname, #aliases, #age, #blood, #skill{
+              
+            font-family: 'Montserrat', monospace;
             text-align: right;
-            font-size: 28px;
+            font-size: 20px;
             padding-left: 8px;
             padding-right: 8px;
             padding-top: 3px;
             position: relative;
-            color:black;
+            color:#AAA;
             width: 378px;
             height: 36px;
-            background-color: white;
+            
             border-radius: 15px;
-            top: 8px;   
-            left: 7px;
+            left: 8px;
+              top:20px;
         }
+        #aliases{top:22px;font-size: 16px !important;}
         
         #prophoto{
-            right: 42px;
-            top: 191px;
+            right: 30px;
+            top: 197px;
             position: absolute;
             background-color: white;
             border-radius: 100%;
             overflow: hidden;
             width: 260px;
             height: 260px;
+            z-index: 200;
+         
         }
         
-        #decorlabel{position: absolute;width: 100%;height: 98px;top: 372px;background-color: gray;}
+      
+        #cresticon{
+            bottom: 50px;
+            right: 24px;
+            width: 64px;
+            height: 64px;
+            position: absolute;
+            background-color: #162264;
+            border-radius: 100%;
+            overflow: hidden;
+            
+            z-index: 300;
+            
+            border-color: #12153b;
+            border-style: solid;
+            border-width: 5px;
+        }
+         #shitplacer{
+             
+            top: 143px;
+             text-align: center;
+             right: 26px;
+             align-content: center;
+            width: 260px;
+           
+            height: 96px;
+            position: absolute;
+            overflow: hidden;
+            z-index: 210;
+         
+        }
+           #tiericon{
+             height: 96px;
+           vertical-align: bottom;
+            z-index: 300;
+        }
+            #titulinho {
+                position: absolute;
+                color: #6a1010;
+                font: 900 30px 'Share Tech Mono';
+                top: 32px;
+                left: 37px;
+            }
+            #tiername {
+                position: absolute;
+                color: #ffffff;
+                width: 272px;
+                right: 25px;
+                
+                font: 900 24px'Montserrat' ;
+                
+               text-align:center;
+                top: 108px;
+            }
+        #joindate {right: 8px;bottom: 4px;position: absolute; color: #AAA;
+            font: 400 12px 'Share Tech Mono'; }
+    
+        .alias
+{
+    image-rendering: optimizeSpeed;             /* STOP SMOOTHING, GIVE ME SPEED  */
+    image-rendering: -moz-crisp-edges;          /* Firefox                        */
+    image-rendering: -o-crisp-edges;            /* Opera                          */
+    image-rendering: -webkit-optimize-contrast; /* Chrome (and eventually Safari) */
+    image-rendering: pixelated; 				/* Chrome */
+    image-rendering: optimize-contrast;         /* CSS3 Proposed                  */
+    -ms-interpolation-mode: nearest-neighbor;   /* IE8+                           */
+}
+        
+        #decorlabel{position: absolute;width: 100%;height: 98px;top: 372px;}
+        #logo{position: absolute; top: 8px; height:inherit; left:54px;}
     </style>
     <div class="card">
         <div id="cardbkg">
+            <div id="titulinho">Mitador ID Card</div>
             <div id="idslot">ID 	100009602507641 </div> 
             <div id="infoplace">
-                <div id="name"> Flicky</div>
-                <div id="alias"> Flicky</div>
-                <div id="malias"> Flike, Flocos</div>
+                <div id="name">
+                    Flicky
+                     <div id="joindate"> Join date: 2013 </div>
+                </div>
+                <div id="fullname">Lucas Flicky</div>
+                <div id="aliases"><i> Flike, Flocos </i> </div>
                 <div id="age"> 21 </div>
                 <div id="blood"> A+ </div>
-                <div id="skill"> sumir </div>
-                  
+                <div id="skill"> Sumir </div>
+                
+                
             </div>
-            <div id="decorlabel"> OsMita </div>
+            <div id="tiername">PRIME MINISTER</div>
+            <div id="shitplacer">            
+                <img class="alias" id="tiericon" src="http://os-mitadores.lucasflicky.com/files/theme/BADGES/minister.png"> 
+            </div>
+            
+            <img   class="alias" id="cresticon" src="http://os-mitadores.lucasflicky.com/files/theme/BADGES/hood.png"> 
+            <img id="prophoto" src="http://graph.facebook.com/100009602507641/picture?width=260&height=260"> 
+            
+            <div id="decorlabel">
+                <img id="logo" src="mitinho.png"> 
+            </div>
         </div></div>
-    
-    
+    <br>
+     <div class="card">
+        <div id="cardbkg">
+            <div id="titulinho">Mitador ID Card</div>
+            <div id="idslot">ID 	100003518568433 </div> 
+            <div id="infoplace">
+                <div id="name">
+                    Pam
+                     <div id="joindate"> Join date: 2015 </div>
+                </div>
+                <div id="fullname">Pamela Grether</div>
+                <div id="aliases"><i> Greta, Kerria </i> </div>
+                <div id="age"> 20 </div>
+                <div id="blood"> de barata </div>
+                <div id="skill"> cutucar </div>
+                
+                
+            </div>
+            <div id="tiername">DIAMOND MINISTER</div>
+            <div id="shitplacer">            
+                <img class="alias" id="tiericon" src="http://os-mitadores.lucasflicky.com/files/theme/BADGES/minister.png"> 
+            </div>
+            
+            <img   class="alias" id="cresticon" src="http://os-mitadores.lucasflicky.com/files/theme/BADGES/none.png"> 
+            <img id="prophoto" src="http://graph.facebook.com/100003518568433/picture?width=260&height=260"> 
+            
+            <div id="decorlabel">
+                <img id="logo" src="mitinho.png"> 
+            </div>
+        </div></div>
  
 
-    
+        <br>
+     <div class="card">
+        <div id="cardbkg">
+            <div id="titulinho">Mitador ID Card</div>
+            <div id="idslot">ID 	100001156867316 </div> 
+            <div id="infoplace">
+                <div id="name">
+                    Tumeo
+                     <div id="joindate"> Join date: 2015 </div>
+                </div>
+                <div id="fullname">William Tuméo</div>
+                <div id="aliases"><i> D1k0, Túnel </i> </div>
+                <div id="age"> acho que é 20 </div>
+                <div id="blood"> ruim </div>
+                <div id="skill"> Programeiro </div>
+                
+                
+            </div>
+            <div id="tiername">PLATINUM</div>
+            <div id="shitplacer">            
+                <img class="alias" id="tiericon" src="http://os-mitadores.lucasflicky.com/files/theme/BADGES/plat.png"> 
+            </div>
+            
+            <img   class="alias" id="cresticon" src="http://os-mitadores.lucasflicky.com/files/theme/BADGES/none.png"> 
+            <img id="prophoto" src="http://graph.facebook.com/100001156867316/picture?width=260&height=260"> 
+            
+            <div id="decorlabel">
+                <img id="logo" src="mitinho.png"> 
+            </div>
+        </div></div>
     
 
 
