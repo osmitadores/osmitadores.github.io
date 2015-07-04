@@ -12,7 +12,7 @@
         tagId1: 'foffano1',
         tier: tierUnicorn,
          faceId: '100003209675392',
-        ano: '2013',
+        ano: '2013 Novembro ',
         badges: [
             mythUnicorn,
             preHistoric
@@ -24,7 +24,7 @@
         tagId1: 'agatha1',
         faceId: '100006709956847',
         tier: tierFreshman,
-        ano: '2015',
+        ano: '2015 Julho ',
         badges: [
             cClaro,
             mythFresh,
@@ -39,7 +39,7 @@
         tagId1: 'yomiell1',
         faceId: '100002387089895',
         tier: tierGold,
-        ano: '2014',
+        ano: '2014 Novembro ',
         crest:['Yomiell Hankerchief: Ana Crest', 'yomi'],
         badges: [
             mythGold,
@@ -75,7 +75,7 @@
         tagId1: 'aragao1',
         faceId: '100002629782907',
         tier: tierGold,
-        ano: '2013',
+        ano: '2013 Setembro',
         badges: [
             mythLegacy,
             mythGold,
@@ -96,7 +96,7 @@
         tagId1: 'arthur1',
         faceId: '100000504458978',
         tier: tierSilver,
-        ano: '2015',
+        ano: '2015 Maio',
          crest: ['The Dimensional Zero: Arthur Crest', 'zero'],
         badges: [
             mythSilver,
@@ -114,7 +114,7 @@
         tagId1: 'bruna1',
         faceId: '100004056698492',
         tier: tierGuest,
-        ano: '2015',
+        ano: '2015 Abril ',
         badges: [
             mythGuest,
             cFlicky
@@ -129,7 +129,7 @@
         tagId1: 'cpaolucci1',
         faceId: '100003844416725',
         tier: tierFreshman,
-        ano: '2015',
+        ano: '2015 Junho ',
         badges: [
             mythFresh,
             cZero
@@ -143,7 +143,7 @@
         tagId1: 'rasec1',
         faceId: '100003053781282',
         tier: tierHonorary,
-        ano: '2014',
+        ano: '2014 Junho',
         crest: ['The Rockstar Sneakers: Rasec Crest', 'rasec'],
         badges: [
             mythHonorary,
@@ -164,7 +164,7 @@
         tagId1: 'claro1',
         faceId: '100000481675563',
         tier: tierPlatinum,
-        ano: '2014',
+        ano: '2014 Dezembro ',
         crest:['Com o Claro você fala ilimitado! Claro Crest', 'claro'],
         badges: [
             mythPlatinum,
@@ -196,7 +196,7 @@
         tagId1: 'coelho1',
         faceId: '741852426',
         tier: tierLegacy,
-        ano: '2013',
+        ano: '2013 Setembro',
             badges: [
             mythLegacy,
             mythGhost,
@@ -217,7 +217,7 @@
         tagId1: 'douglas1',
         faceId: '100002084300385',
         tier: tierGold,
-        ano: '2015',
+        ano: '2015 Maio',
         badges: [
             mythFresh,
             merito,
@@ -234,7 +234,7 @@
         tagId1: 'duodyn1',
         faceId: '100000141297181',
         tier: tierHonorary,
-        ano: '2014',
+        ano: '2014 Abril ',
         badges: [
             mythHonorary,
             mythGhost,
@@ -248,9 +248,10 @@
         nome: 'Flicky',
         tagId: 'flike',
         tagId1: 'flike1',
-        faceId: '1489576273',
+       // faceId: '1489576273',
+        faceId: '100009602507641',
         tier: tierMinister,
-        ano: '2013',
+        ano: '2013 Agosto',
         crest:['The Mighy Red Hood: Flicky Crest', 'hood'],
         badges: [
             mythPrime,
@@ -292,7 +293,7 @@
         tagId1: 'gabriel1',
         faceId: '100003090554200',
         tier: tierSilver,
-        ano: '2014',
+        ano: '2015 Junho ',
         badges: [
             mythEvent,
             mythSilver,
@@ -309,7 +310,7 @@
         tagId1: 'garland1',
         faceId: '100003138536144',
         tier: tierHonorary,
-        ano: '2014',
+        ano: ' 2014 Outubro',
         crest:['Crest Title: Garland Crest', 'mage'],
         badges: [
             mythHonorary,
@@ -348,7 +349,7 @@
         tagId1: 'karen1',
         faceId: '100002543640185',
         tier: tierLurker,
-        ano: '2014',
+        ano: '2014 Maio ',
         badges: [
             mythLurker,
             preHistoric,
@@ -367,7 +368,7 @@
         tagId1: 'keidi1',
         faceId: '100000119298271',
         tier: tierUnicorn,
-        ano: '2015',
+        ano: '2015 Maio ',
         badges: [
             mythUnicorn,
             cAna,
@@ -386,7 +387,7 @@
         tagId1: 'luana1',
         faceId: '100001019850664',
         tier: tierHonorary,
-        ano: '2014',
+        ano: ' 2014 Fevereiro',
         badges: [
             mythHonorary,
             encontroMyth,
@@ -405,7 +406,7 @@
         tagId1: 'luiggi1',
         faceId: '1413967158',
         tier: tierFreshman,
-        ano: '2015',
+        ano: '2015 Junho',
         badges: [
             mythFresh,
             cGarland
@@ -417,7 +418,7 @@
         tagId1: 'marcela1',
         faceId: '100002119416291',
         tier: tierGhost,
-        ano: '2014',
+        ano: ' 2014 Novembro',
         badges: [
             mythGhost,
             cFlicky
@@ -429,7 +430,7 @@
         tagId1: 'matsuna1',
         faceId: '100002087698140',
         tier: tierUnicorn,
-        ano: '2013',
+        ano: '  2013 Agosto',
         badges: [
             mythPrime,
             mythUnicorn,
@@ -443,7 +444,7 @@
         tagId1: 'pall1',
         faceId: '1591210799',
         tier: tierLegacy,
-        ano: '2013',
+        ano: ' 2013 Setembro',
         crest:['The Kawaii Stick Pall Crest', 'pall'],
         badges: [
             mythLegacy,
@@ -470,7 +471,7 @@
         tagId1: 'pam1',
         faceId: '100003518568433',
         tier: tierMinister,
-        ano: '2015',
+        ano: '2015 Maio ',
         badges: [
             mythDiamond,
             mythMinister,
@@ -501,7 +502,7 @@
         tagId1: 'raptor1',
         faceId: '100002980734271',
         tier: tierSilver,
-        ano: '2015',
+        ano: '2015 Junho ',
         badges: [
             mythSilver,
             cHerbe,
@@ -515,7 +516,7 @@
         tagId1: 'romulo1',
         faceId: '100001228879580',
         tier: tierLurker,
-        ano: '2015',
+        ano: ' 2015 Junho',
         badges: [
             mythLurker,
             cClaro,
@@ -529,7 +530,7 @@
         tagId1: 'rubens1',
         faceId: '100002312675503',
         tier: tierUnicorn,
-        ano: '2015',
+        ano: ' 2015 Março',
         badges: [
             mythUnicorn,
             cClaro,
@@ -542,7 +543,7 @@
         tagId1: 'toshiaki1',
         faceId: '100000410405406',
         tier: tierUnicorn,
-        ano: '2015',
+        ano: '2015 Março ',
         badges: [
             mythUnicorn,
             jogueiro,
@@ -560,7 +561,7 @@
         tagId1: 'tunel1',
         faceId: '100001156867316',
         tier: tierPlatinum,
-        ano: '2015',
+        ano: '2015 Abril ',
         badges: [
             mythPlatinum,
             merito,
@@ -581,7 +582,7 @@
         tagId1: 'vidal1',
         faceId: '100000652608528',
         tier: tierSilver,
-        ano: '2015',
+        ano: ' 2015 Janeiro',
         badges: [
             mythSilver,
             encontroMyth,
@@ -604,7 +605,7 @@
         tagId1: 'vinicius1',
         faceId: '100002623130922',
         tier: tierUnicorn,
-        ano: '2013',
+        ano: ' 2013 Outubro',
         badges: [
             mythLegacy,
             mythUnicorn,
@@ -631,7 +632,7 @@
         tagId1: 'gors1',
         faceId: '100003656546830',
         tier: tierDiamond,
-        ano: '2013',
+        ano: '2013 Outubro ',
         crest:['The Bullet Head: Gors Crest', 'gors'],
         badges: [
             mythLegacy,
@@ -663,7 +664,7 @@
         tagId1: 'wolvie1',
         faceId: '100003103308138',
         tier: tierLurker,
-        ano: '2015',
+        ano: '2015 Abril ',
         badges: [
             mythLurker,
             cCesar
