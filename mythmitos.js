@@ -90,8 +90,8 @@
         ano: '2013 Setembro',
 		race: "Human",
 		skill: "???",
-		fullname: "Agatha Klein",
-		alias: "AA",
+		fullname: "Sérgio Aragão",
+		alias: "Aragorness",
         badges: [
             mythLegacy,
             mythGold,
@@ -114,6 +114,10 @@
         tier: tierSilver,
         ano: '2015 Maio',
          crest: ['The Dimensional Zero: Arthur Crest', 'zero'],
+		 race: "Human",
+		skill: "Fazer Pipoca",
+		fullname: "Arthur Lima",
+		alias: "Zero",
         badges: [
             mythSilver,
             cFlicky,
@@ -131,6 +135,10 @@
         faceId: '100004056698492',
         tier: tierGuest,
         ano: '2015 Abril ',
+		race: "Tree",
+		skill: "Sou",
+		fullname: "Bruna Elias",
+		alias: "Yggydrasil",
         badges: [
             mythGuest,
             cFlicky
@@ -146,6 +154,10 @@
         faceId: '100003844416725',
         tier: tierFreshman,
         ano: '2015 Junho ',
+		race: "Human",
+		skill: "???",
+		fullname: "Camila Paolucci",
+		alias: "Milla, Lucci",
         badges: [
             mythFresh,
             cZero
@@ -161,6 +173,10 @@
         tier: tierHonorary,
         ano: '2014 Junho',
         crest: ['The Rockstar Sneakers: Rasec Crest', 'rasec'],
+		race: "Human",
+		skill: "???",
+		fullname: "César Augusto",
+		alias: "Rasecsyn",
         badges: [
             mythHonorary,
             cFlicky,
@@ -182,6 +198,10 @@
         tier: tierPlatinum,
         ano: '2014 Dezembro ',
         crest:['Com o Claro você fala ilimitado! Claro Crest', 'claro'],
+		race: "Titan",
+		skill: "Soco Mecânico",
+		fullname: "Matheus Claro",
+		alias: "Spyril4",
         badges: [
             mythPlatinum,
             mechanicPunch,
@@ -213,6 +233,10 @@
         faceId: '741852426',
         tier: tierLegacy,
         ano: '2013 Setembro',
+		race: "Fairy",
+		skill: "Cupid",
+		fullname: "Felipe Coelho",
+		alias: "BlackLabHorus, Estragaonofre",
             badges: [
             mythLegacy,
             mythGhost,
@@ -234,6 +258,10 @@
         faceId: '100002084300385',
         tier: tierGold,
         ano: '2015 Maio',
+		race: "Filho de Chocadeira",
+		skill: "Q",
+		fullname: "Douglas Savi Mondo Fogaça",
+		alias: "Dogolas",
         badges: [
             mythFresh,
             merito,
@@ -251,6 +279,10 @@
         faceId: '100000141297181',
         tier: tierHonorary,
         ano: '2014 Abril ',
+		race: "Maverick",
+		skill: "???",
+		fullname: "Fernando Lopes",
+		alias: "DuoDynamo",
         badges: [
             mythHonorary,
             mythGhost,
@@ -269,6 +301,10 @@
         tier: tierMinister,
         ano: '2013 Agosto',
         crest:['The Mighy Red Hood: Flicky Crest', 'hood'],
+		race: "Machine",
+		skill: "Todas menos Algumas",
+		fullname: "Lucas Flicky",
+		alias: "Flocos",
         badges: [
             mythPrime,
             mythMinister,
@@ -310,6 +346,10 @@
         faceId: '100003090554200',
         tier: tierSilver,
         ano: '2015 Junho ',
+		race: "Porteiro",
+		skill: "Mandar Nudes",
+		fullname: "Gabriel Freire",
+		alias: "Freire, Biel",
         badges: [
             mythEvent,
             mythSilver,
@@ -328,6 +368,10 @@
         tier: tierHonorary,
         ano: ' 2014 Outubro',
         crest:['Crest Title: Garland Crest', 'mage'],
+		race: "Mage",
+		skill: "Bruxaria",
+		fullname: "Bernardo Alvarez Braga",
+		alias: "Bê",
         badges: [
             mythHonorary,
             encontroMyth,
@@ -366,6 +410,10 @@
         faceId: '100002543640185',
         tier: tierLurker,
         ano: '2014 Maio ',
+		race: "Human",
+		skill: "???",
+		fullname: "Karen Sama",
+		alias: "Carem",
         badges: [
             mythLurker,
             preHistoric,
@@ -385,6 +433,10 @@
         faceId: '100000119298271',
         tier: tierUnicorn,
         ano: '2015 Maio ',
+		race: "Mijão",
+		skill: "Print",
+		fullname: "Keidi Hasegawa",
+		alias: "Keig",
         badges: [
             mythUnicorn,
             cAna,
@@ -404,6 +456,10 @@
         faceId: '100001019850664',
         tier: tierHonorary,
         ano: ' 2014 Fevereiro',
+		race: "Human",
+		skill: "Dois Potes",
+		fullname: "Luana Reis",
+		alias: "_reisluana",
         badges: [
             mythHonorary,
             encontroMyth,
@@ -423,6 +479,10 @@
         faceId: '1413967158',
         tier: tierFreshman,
         ano: '2015 Junho',
+		race: "Human",
+		skill: "???",
+		fullname: "Luiggi Ligocky",
+		alias: "Afro",
         badges: [
             mythFresh,
             cGarland
@@ -435,6 +495,10 @@
         faceId: '100002119416291',
         tier: tierGhost,
         ano: ' 2014 Novembro',
+		race: "Undead",
+		skill: "???",
+		fullname: "Marcela Marcelino",
+		alias: "Marceline",
         badges: [
             mythGhost,
             cFlicky
@@ -447,6 +511,10 @@
         faceId: '100002087698140',
         tier: tierUnicorn,
         ano: '  2013 Agosto',
+		race: "Demonho",
+		skill: "Sapirotagem",
+		fullname: "Matheus Melo",
+		alias: "Matsuna",
         badges: [
             mythPrime,
             mythUnicorn,
@@ -462,6 +530,10 @@
         tier: tierLegacy,
         ano: ' 2013 Setembro',
         crest:['The Kawaii Stick Pall Crest', 'pall'],
+		race: "Human",
+		skill: "!!!",
+		fullname: "Mariana Espinosa Pall",
+		alias: "Maripall",
         badges: [
             mythLegacy,
             mythSilver,
@@ -488,6 +560,10 @@
         faceId: '100003518568433',
         tier: tierMinister,
         ano: '2015 Maio ',
+		race: "Demi-Cat",
+		skill: "Poke",
+		fullname: "Pamela Grether",
+		alias: "PamGreta, Kerria",
         badges: [
             mythDiamond,
             mythMinister,
@@ -513,12 +589,16 @@
         ]
     };
 	    Myth.raptor = {
-        nome: 'Raptor, O Mascote',
+        nome: 'Raptor',
         tagId: 'raptor',
         tagId1: 'raptor1',
         faceId: '100002980734271',
         tier: tierSilver,
         ano: '2015 Junho ',
+		race: "Dinossauro",
+		skill: "Birutisse",
+		fullname: "David Raptor, O Mascote",
+		alias: "Raptor",
         badges: [
             mythSilver,
             cHerbe,
@@ -533,6 +613,10 @@
         faceId: '100001228879580',
         tier: tierLurker,
         ano: ' 2015 Junho',
+		race: "Human",
+		skill: "Samangada",
+		fullname: "Rômulo Ventura",
+		alias: "Romulosama",
         badges: [
             mythLurker,
             cClaro,
@@ -547,6 +631,10 @@
         faceId: '100002312675503',
         tier: tierUnicorn,
         ano: ' 2015 Março',
+		race: "Android",
+		skill: "???",
+		fullname: "Rubens Salvador",
+		alias: "Switch Z",
         badges: [
             mythUnicorn,
             cClaro,
@@ -560,6 +648,10 @@
         faceId: '100000410405406',
         tier: tierUnicorn,
         ano: '2015 Março ',
+		race: "Human",
+		skill: "Toshiakadas",
+		fullname: "Thiago Toshiaki",
+		alias: "ToshiakiBR, Teriyaki",
         badges: [
             mythUnicorn,
             jogueiro,
@@ -578,6 +670,10 @@
         faceId: '100001156867316',
         tier: tierPlatinum,
         ano: '2015 Abril ',
+		race: "Construção Pública",
+		skill: "???",
+		fullname: "William Tuméo",
+		alias: "Túnel",
         badges: [
             mythPlatinum,
             merito,
@@ -599,6 +695,10 @@
         faceId: '100000652608528',
         tier: tierSilver,
         ano: ' 2015 Janeiro',
+		race: "Relativista",
+		skill: "P-p-p-pessoas",
+		fullname: "Ricardo Vidal",
+		alias: "RicsVidal",
         badges: [
             mythSilver,
             encontroMyth,
@@ -622,6 +722,10 @@
         faceId: '100002623130922',
         tier: tierUnicorn,
         ano: ' 2013 Outubro',
+		race: "Human",
+		skill: "VSF",
+		fullname: "Vinicius Kleinsorgen",
+		alias: "Vinólia, Vinóculos, Vkps",
         badges: [
             mythLegacy,
             mythUnicorn,
@@ -650,6 +754,10 @@
         tier: tierDiamond,
         ano: '2013 Outubro ',
         crest:['The Bullet Head: Gors Crest', 'gors'],
+		race: "Projectile",
+		skill: "Overmito",
+		fullname: "William Watanabe",
+		alias: "Gorsal",
         badges: [
             mythLegacy,
             mythDiamond,
@@ -681,6 +789,10 @@
         faceId: '100003103308138',
         tier: tierLurker,
         ano: '2015 Abril ',
+		race: "Viking",
+		skill: "Batata",
+		fullname: "Douglas Medeiros",
+		alias: "Wolvie",
         badges: [
             mythLurker,
             cCesar

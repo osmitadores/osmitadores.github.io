@@ -236,13 +236,51 @@
 					case  'gold'		 :	 xtier = "PLATINUM MINISTER" ;
 					break;
 				};
+				
+			};
+			};
+	if (xtier == "LEGACY"){
+		for (var x in Myth[i].badges){
+				switch (Myth[i].badges[x][1]){
+					case "silver"	 :  xtier = "LEGACY SILVER" ;
+					break;
+					case  'gold' : 	 xtier = "LEGACY GOLD" ;
+					break;
+					case  'uni' :	 xtier = "LEGACY UNICORN" ;
+					break;
+					case  'ghost'		 :	 xtier = "LEGACY GHOST" ;
+					break;
+				};
+
 			};
 		};
+		
+	  for(var x in Myth[i].badges){
+            if (Myth[i].badges[x][1] === 'prime') {
+								console.log('prime all '+ Myth[i].badges[x][1] )
+			 for(var y in Myth[i].badges)
+				switch (Myth[i].badges[y][1]){
+					case "silver"	 :  xtier = "PRIME SILVER" ;
+					break;
+					case  'gold' : 	 xtier = "PRIME GOLD" ;
+					break;
+					case  'uni':	 xtier = "PRIME UNICORN" ;
+					
+					break;
+					case  'ghost'		 :	 xtier = "PRIME GHOST" ;
+					break;
+				};
+			};
+
+	
+
+		}
+		
         var   xtiericon = Myth[i].tier[1][1]
 		!Myth[i].crest ? xcrest = 'none' : xcrest = Myth[i].crest[1]
         
-        var   xfullname = Myth[i].nome
-        var   xage      = Myth[i].idade
+        var   xfullname = Myth[i].fullname
+       !Myth[i].age ? xage      = ' ? ' :  xage      = Myth[i].idade
         var   xrace     = Myth[i].race
         var   xskill    = Myth[i].skill
         var   xalias    = Myth[i].alias
@@ -253,7 +291,7 @@
            var leCard = createCard(xname, xfaceid, xtier, xtiericon,  xcrest, xfullname, xage, xrace, xskill, xalias, xdate)
 		   document.getElementById('cardhere').innerHTML += leCard ;
             
-        }
+        };
 		
 		
 
