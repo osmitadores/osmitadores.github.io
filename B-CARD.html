@@ -1,5 +1,3 @@
-
-
 <head>
     <meta charset="utf-8">
     <title>Os Mitadores - Mythboard</title>
@@ -9,263 +7,271 @@
     <meta property="og:image" content="myth.png">
     <meta property="og:site_name" content="Os Mitadores">
     <fb:like href="https://www.facebook.com/osmitadoresoficial" width="450" height="80">
-    <script type="text/javascript" src="tinysort.js"></script>
-    <script type="text/javascript" src="gayQuery.js"></script>
-    <script type="text/javascript" src="mythdata.js"></script>
-    <script type="text/javascript" src="mythmitos.js"></script>
+        <script type="text/javascript" src="tinysort.js"></script>
+        <script type="text/javascript" src="gayQuery.js"></script>
+        <script type="text/javascript" src="mythdata.js"></script>
+        <script type="text/javascript" src="mythmitos.js"></script>
         <link href='http://fonts.googleapis.com/css?family=Share+Tech+Mono' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 
 </head>
-    <style>
+<style>
+    #cardbkg {
+        background: url(MITCARD.png);
+        position: relative;
+        top: 5px;
+        left: 6px;
+        height: 507px;
+        width: 741px;
+        background-color: black;
+        border-radius: 15px;
+    }
     
-        #cardbkg{
-            background: url(MITCARD.png);
-            position: relative;
-            top: 5px;
-            left: 6px;
-            height: 507px;
-            width: 741px;
-            background-color: black;
-            border-radius: 15px;
-        }
-        #idslot{
-            position: absolute;
-            width: 366px;
-            max-height: 49px;
-            border-radius: 15px;
-            background-color: white;
-          font-family: 'Share Tech Mono', monospace;
-            top: 28px;
-            left: 354px;
-            text-align: center;
-            font-size: 30px;
-            padding-top: 4px;
-            padding-bottom: 4px;
-            overflow: hidden;
-            
-        }
-        
-        #infoplace{
-            position: absolute;
-            left: 24px;
-            top:96px;
-            width: 409px;
-            height: 264px;
-           /* background-color: #262a65;*/
-            border-radius: 15px;
-        }
-        #name{
-            font-family:'Montserrat', monospace;
-            font-weight: 600;
-            font-size: 30px;
-            padding-left: 8px;
-            padding-top: 8px;
-            position: relative;
-            color:#AAA;
-            width: 386px;
-            height: 42px;
-           /* background-color: #060827;*/
-            border-radius: 15px;
-            top: 8px;   
-            left: 7px;
-        }
-          #fullname, #aliases, #age, #blood, #skill{
-              
-            font-family: 'Montserrat', monospace;
-            text-align: right;
-            font-size: 20px;
-            padding-left: 8px;
-            padding-right: 8px;
-            padding-top: 3px;
-            position: relative;
-            color:#AAA;
-            width: 378px;
-            height: 36px;
-            
-            border-radius: 15px;
-            left: 8px;
-              top:20px;
-        }
-        #aliases{top:22px;font-size: 16px !important;}
-        
-        #prophoto{
-            right: 30px;
-            top: 197px;
-            position: absolute;
-            background-color: white;
-            border-radius: 100%;
-            overflow: hidden;
-            width: 260px;
-            height: 260px;
-            z-index: 200;
-         
-        }
-        
-      
-        #cresticon{
-            bottom: 50px;
-            right: 24px;
-            width: 64px;
-            height: 64px;
-            position: absolute;
-            background-color: #162264;
-            border-radius: 100%;
-            overflow: hidden;
-            
-            z-index: 300;
-            
-            border-color: #12153b;
-            border-style: solid;
-            border-width: 5px;
-        }
-         #shitplacer{
-             
-            top: 143px;
-             text-align: center;
-             right: 26px;
-             align-content: center;
-            width: 260px;
-           
-            height: 96px;
-            position: absolute;
-            overflow: hidden;
-            z-index: 210;
-         
-        }
-           #tiericon{
-             height: 96px;
-           vertical-align: bottom;
-            z-index: 300;
-        }
-            #titulinho {
-                position: absolute;
-                color: #6a1010;
-                font: 900 30px 'Share Tech Mono';
-                top: 32px;
-                left: 37px;
-            }
-            #tiername {
-                position: absolute;
-                color: #ffffff;
-                width: 272px;
-                right: 25px;
-                
-                font: 900 24px'Montserrat' ;
-                
-               text-align:center;
-                top: 108px;
-            }
-        #joindate {right: 8px;bottom: 4px;position: absolute; color: #AAA;
-            font: 400 12px 'Share Tech Mono'; }
+    #idslot {
+        position: absolute;
+        width: 366px;
+        max-height: 49px;
+        border-radius: 15px;
+        background-color: #4b0104;
+        color: #6A1010;
+        font-family: 'Share Tech Mono', monospace;
+        top: 28px;
+        left: 354px;
+        text-align: center;
+        font-size: 30px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        overflow: hidden;
+    }
     
-        .alias
-{
-    image-rendering: optimizeSpeed;             /* STOP SMOOTHING, GIVE ME SPEED  */
-    image-rendering: -moz-crisp-edges;          /* Firefox                        */
-    image-rendering: -o-crisp-edges;            /* Opera                          */
-    image-rendering: -webkit-optimize-contrast; /* Chrome (and eventually Safari) */
-    image-rendering: pixelated; 				/* Chrome */
-    image-rendering: optimize-contrast;         /* CSS3 Proposed                  */
-    -ms-interpolation-mode: nearest-neighbor;   /* IE8+                           */
-}
-        
-        #decorlabel{position: absolute;width: 100%;height: 98px;top: 372px;}
-        #logo{position: absolute; top: 8px; height:inherit; left:54px;}
-    </style>
-    <div class="card">
-        <div id="cardbkg">
-            <div id="titulinho">Mitador ID Card</div>
-            <div id="idslot">ID 	100009602507641 </div> 
-            <div id="infoplace">
-                <div id="name">
-                    Flicky
-                     <div id="joindate"> Join date: 2013 </div>
-                </div>
-                <div id="fullname">Lucas Flicky</div>
-                <div id="aliases"><i> Flike, Flocos </i> </div>
-                <div id="age"> 21 </div>
-                <div id="blood"> A+ </div>
-                <div id="skill"> Sumir </div>
-                
-                
-            </div>
-            <div id="tiername">PRIME MINISTER</div>
-            <div id="shitplacer">            
-                <img class="alias" id="tiericon" src="http://os-mitadores.lucasflicky.com/files/theme/BADGES/minister.png"> 
-            </div>
-            
-            <img   class="alias" id="cresticon" src="http://os-mitadores.lucasflicky.com/files/theme/BADGES/hood.png"> 
-            <img id="prophoto" src="http://graph.facebook.com/100009602507641/picture?width=260&height=260"> 
-            
-            <div id="decorlabel">
-                <img id="logo" src="mitinho.png"> 
-            </div>
-        </div></div>
-    <br>
-     <div class="card">
-        <div id="cardbkg">
-            <div id="titulinho">Mitador ID Card</div>
-            <div id="idslot">ID 	100003518568433 </div> 
-            <div id="infoplace">
-                <div id="name">
-                    Pam
-                     <div id="joindate"> Join date: 2015 </div>
-                </div>
-                <div id="fullname">Pamela Grether</div>
-                <div id="aliases"><i> Greta, Kerria </i> </div>
-                <div id="age"> 20 </div>
-                <div id="blood"> de barata </div>
-                <div id="skill"> cutucar </div>
-                
-                
-            </div>
-            <div id="tiername">DIAMOND MINISTER</div>
-            <div id="shitplacer">            
-                <img class="alias" id="tiericon" src="http://os-mitadores.lucasflicky.com/files/theme/BADGES/minister.png"> 
-            </div>
-            
-            <img   class="alias" id="cresticon" src="http://os-mitadores.lucasflicky.com/files/theme/BADGES/none.png"> 
-            <img id="prophoto" src="http://graph.facebook.com/100003518568433/picture?width=260&height=260"> 
-            
-            <div id="decorlabel">
-                <img id="logo" src="mitinho.png"> 
-            </div>
-        </div></div>
- 
-
-        <br>
-     <div class="card">
-        <div id="cardbkg">
-            <div id="titulinho">Mitador ID Card</div>
-            <div id="idslot">ID 	100001156867316 </div> 
-            <div id="infoplace">
-                <div id="name">
-                    Tumeo
-                     <div id="joindate"> Join date: 2015 </div>
-                </div>
-                <div id="fullname">William Tuméo</div>
-                <div id="aliases"><i> D1k0, Túnel </i> </div>
-                <div id="age"> acho que é 20 </div>
-                <div id="blood"> ruim </div>
-                <div id="skill"> Programeiro </div>
-                
-                
-            </div>
-            <div id="tiername">PLATINUM</div>
-            <div id="shitplacer">            
-                <img class="alias" id="tiericon" src="http://os-mitadores.lucasflicky.com/files/theme/BADGES/plat.png"> 
-            </div>
-            
-            <img   class="alias" id="cresticon" src="http://os-mitadores.lucasflicky.com/files/theme/BADGES/none.png"> 
-            <img id="prophoto" src="http://graph.facebook.com/100001156867316/picture?width=260&height=260"> 
-            
-            <div id="decorlabel">
-                <img id="logo" src="mitinho.png"> 
-            </div>
-        </div></div>
+    #infoplace {
+        position: absolute;
+        left: 24px;
+        top: 96px;
+        width: 409px;
+        height: 264px;
+        /* background-color: #262a65;*/
+        border-radius: 15px;
+    }
     
+    #name {
+        font-family: 'Montserrat', monospace;
+        font-weight: 600;
+        font-size: 30px;
+        padding-left: 8px;
+        padding-top: 8px;
+        position: relative;
+        color: #AAA;
+        width: 386px;
+        height: 42px;
+        /* background-color: #060827;*/
+        border-radius: 15px;
+        top: 8px;
+        left: 7px;
+    }
+    
+    #fullname,
+    #aliases,
+    #age,
+    #blood,
+    #skill {
+        font-family: 'Montserrat', monospace;
+        text-align: right;
+        font-size: 20px;
+        padding-left: 8px;
+        padding-right: 8px;
+        padding-top: 3px;
+        position: relative;
+        color: #AAA;
+        width: 378px;
+        height: 36px;
+        border-radius: 15px;
+        left: -18px;
+        top: 20px;
+    }
+    
+    #aliases {
+        top: 22px;
+        font-size: 16px !important;
+    }
+    
+    #prophoto {
+        right: 30px;
+        top: 197px;
+        position: absolute;
+        background-color: white;
+        border-radius: 100%;
+        overflow: hidden;
+        width: 260px;
+        height: 260px;
+        z-index: 200;
+    }
+    
+    #cresticon {
+        bottom: 50px;
+        right: 24px;
+        width: 64px;
+        height: 64px;
+        position: absolute;
+        background-color: #162264;
+        border-radius: 100%;
+        overflow: hidden;
+        z-index: 300;
+        border-color: #12153b;
+        border-style: solid;
+        border-width: 5px;
+    }
+    
+    #shitplacer {
+        top: 95px;
+        text-align: center;
+        right: 30px;
+        align-content: center;
+        width: 260px;
+        height: 96px;
+        position: absolute;
+        overflow: hidden;
+        z-index: 210;
+    }
+    
+    #tiericon {
+        height: 72px;
+        vertical-align: bottom;
+        z-index: 300;
+    }
+    
+    #titulinho {
+        position: absolute;
+        color: #6a1010;
+        font: 900 30px 'Share Tech Mono';
+        top: 38px;
+        left: 37px;
+    }
+    
+    #tiername {
+        position: absolute;
+        color: #ffffff;
+        width: 272px;
+        right: 25px;
+        font: 900 24px'Montserrat';
+        text-align: center;
+        top: 165px;
+    }
+    
+    #joindate {
+        right: 28px;
+        bottom: 4px;
+        position: absolute;
+        color: #777;
+        font: 400 12px 'Share Tech Mono';
+    }
+    
+    .alias {
+        image-rendering: optimizeSpeed;
+        /* STOP SMOOTHING, GIVE ME SPEED  */
+        image-rendering: -moz-crisp-edges;
+        /* Firefox                        */
+        image-rendering: -o-crisp-edges;
+        /* Opera                          */
+        image-rendering: -webkit-optimize-contrast;
+        /* Chrome (and eventually Safari) */
+        image-rendering: pixelated;
+        /* Chrome */
+        image-rendering: optimize-contrast;
+        /* CSS3 Proposed                  */
+        -ms-interpolation-mode: nearest-neighbor;
+        /* IE8+                           */
+    }
+    
+    #decorlabel {
+        position: absolute;
+        width: 100%;
+        height: 98px;
+        top: 372px;
+    }
+    
+    #logo {
+        position: absolute;
+        top: 8px;
+        height: inherit;
+        left: 54px;
+    }
+</style>
+
+<div id="cardhere"></div>
+<script>
+    function createCard(name, faceid, tier, tiericon, crest, fullname, age, race, skill, alias, date) {
+
+        if (crest === undefined) {
+            crest = 'none';
+        }
+
+        return '\
+    <div class="card">\
+        <div id="cardbkg">\
+            <div id="titulinho">Mitador ID Card</div>\
+            <div id="idslot">ID 	' + faceid + ' </div> \
+            <div id="infoplace">\
+                <div id="name">\
+                    ' + name + '\
+                     <div id="joindate"> Join date: ' + date + ' </div> </div>\
+                <div id="fullname">' + fullname + '</div>\
+                <div id="aliases"><i>' + alias + '</i> </div>\
+                <div id="age"> ' + age + ' </div>\
+                <div id="blood"> ' + race + ' </div>\
+                <div id="skill"> ' + skill + ' </div>\
+                </div>\
+            <div id="tiername">' + tier + '</div>\
+            <div id="shitplacer">\
+ <img class="alias" id="tiericon" src="http://os-mitadores.lucasflicky.com/files/theme/BADGES/' + tiericon + '.png">\
+            </div>\
+            <img   class="alias" id="cresticon" src="http://os-mitadores.lucasflicky.com/files/theme/BADGES/' + crest + '.png"> \
+            <img id="prophoto" src="http://graph.facebook.com/' + faceid + '/picture?width=260&height=260"> \
+<div id="decorlabel">\
+                <img id="logo" src="mitinho.png"> \
+            </div>\
+        </div></div> <br>'
+    }
+
+
+    for (var i in Myth) {
+
+        var xname = Myth[i].nome
+
+        var xfaceid = Myth[i].faceId
+        var xtier = Myth[i].tier[0].toUpperCase()
+
+        if (xtier == "MINISTER") {
+            for (var x in Myth[i].badges) {
+                switch (Myth[i].badges[x][1]) {
+                    case "prime":
+                        xtier = "PRIME MINISTER";
+                        break;
+                    case 'diamond':
+                        xtier = "DIAMOND MINISTER";
+                        break;
+                    case 'platinum':
+                        xtier = "PLATINUM MINISTER";
+                        break;
+                    case 'gold':
+                        xtier = "PLATINUM MINISTER";
+                        break;
+                };
+            };
+        };
+        var xtiericon = Myth[i].tier[1][1] !Myth[i].crest ? xcrest = 'none' : xcrest = Myth[i].crest[1]
+
+        var xfullname = Myth[i].nome
+        var xage = Myth[i].idade
+        var xrace = Myth[i].race
+        var xskill = Myth[i].skill
+        var xalias = Myth[i].alias
+        var xdate = Myth[i].ano
 
 
 
-<!-- **************************************************************************************************** -->
+        var leCard = createCard(xname, xfaceid, xtier, xtiericon, xcrest, xfullname, xage, xrace, xskill, xalias, xdate)
+        document.getElementById('cardhere').innerHTML += leCard;
+
+    }
+</script>

@@ -24,7 +24,7 @@
 
     var tierUnicorn   =   ["Unicorn",mythUnicorn,5];
     var tierDiamond   =   ["Diamond",mythDiamond,1];
-    var tierMinister   =  ["Mythnister",mythMinister,0];
+    var tierMinister   =  ["Minister",mythMinister,0];
     var tierPlatinum  =   ["Platinum",mythPlatinum,2];
     var tierSilver    =   ["Silver",mythSilver,4];
     var tierLegacy    =   ["Legacy",mythLegacy,6];
