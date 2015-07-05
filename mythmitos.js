@@ -558,6 +558,7 @@
         tagId: 'pam',
         tagId1: 'pam1',
         faceId: '100003518568433',
+		crest: ['The Whiskas Tin', 'pam'],
         tier: tierMinister,
         ano: '2015 Maio ',
 		race: "Demi-Cat",
