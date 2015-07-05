@@ -1,3 +1,5 @@
+
+
 <head>
     <meta charset="utf-8">
     <title>Os Mitadores - Mythboard</title>
@@ -7,206 +9,203 @@
     <meta property="og:image" content="myth.png">
     <meta property="og:site_name" content="Os Mitadores">
     <fb:like href="https://www.facebook.com/osmitadoresoficial" width="450" height="80">
-        <script type="text/javascript" src="tinysort.js"></script>
-        <script type="text/javascript" src="gayQuery.js"></script>
-        <script type="text/javascript" src="mythdata.js"></script>
-        <script type="text/javascript" src="mythmitos.js"></script>
+    <script type="text/javascript" src="tinysort.js"></script>
+    <script type="text/javascript" src="gayQuery.js"></script>
+    <script type="text/javascript" src="mythdata.js"></script>
+    <script type="text/javascript" src="mythmitos.js"></script>
         <link href='http://fonts.googleapis.com/css?family=Share+Tech+Mono' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 
 </head>
-<style>
-    #cardbkg {
-        background: url(MITCARD.png);
-        position: relative;
-        top: 5px;
-        left: 6px;
-        height: 507px;
-        width: 741px;
-        background-color: black;
-        border-radius: 15px;
-    }
-    
-    #idslot {
-        position: absolute;
-        width: 366px;
-        max-height: 49px;
-        border-radius: 15px;
-        background-color: #4b0104;
-        color: #6A1010;
-        font-family: 'Share Tech Mono', monospace;
-        top: 28px;
-        left: 354px;
-        text-align: center;
-        font-size: 30px;
-        padding-top: 4px;
-        padding-bottom: 4px;
-        overflow: hidden;
-    }
-    
-    #infoplace {
-        position: absolute;
-        left: 24px;
-        top: 96px;
-        width: 409px;
-        height: 264px;
-        /* background-color: #262a65;*/
-        border-radius: 15px;
-    }
-    
-    #name {
-        font-family: 'Montserrat', monospace;
-        font-weight: 600;
-        font-size: 30px;
-        padding-left: 8px;
-        padding-top: 8px;
-        position: relative;
-        color: #AAA;
-        width: 386px;
-        height: 42px;
-        /* background-color: #060827;*/
-        border-radius: 15px;
-        top: 8px;
-        left: 7px;
-    }
-    
-    #fullname,
-    #aliases,
-    #age,
-    #blood,
-    #skill {
-        font-family: 'Montserrat', monospace;
-        text-align: right;
-        font-size: 20px;
-        padding-left: 8px;
-        padding-right: 8px;
-        padding-top: 3px;
-        position: relative;
-        color: #AAA;
-        width: 378px;
-        height: 36px;
-        border-radius: 15px;
-        left: -18px;
-        top: 20px;
-    }
-    
-    #aliases {
-        top: 22px;
-        font-size: 16px !important;
-    }
-    
-    #prophoto {
-        right: 30px;
-        top: 197px;
-        position: absolute;
-        background-color: white;
-        border-radius: 100%;
-        overflow: hidden;
-        width: 260px;
-        height: 260px;
-        z-index: 200;
-    }
-    
-    #cresticon {
-        bottom: 50px;
-        right: 24px;
-        width: 64px;
-        height: 64px;
-        position: absolute;
-        background-color: #162264;
-        border-radius: 100%;
-        overflow: hidden;
-        z-index: 300;
-        border-color: #12153b;
-        border-style: solid;
-        border-width: 5px;
-    }
-    
-    #shitplacer {
-        top: 95px;
-        text-align: center;
-        right: 30px;
-        align-content: center;
-        width: 260px;
-        height: 96px;
-        position: absolute;
-        overflow: hidden;
-        z-index: 210;
-    }
-    
-    #tiericon {
-        height: 72px;
-        vertical-align: bottom;
-        z-index: 300;
-    }
-    
-    #titulinho {
-        position: absolute;
-        color: #6a1010;
-        font: 900 30px 'Share Tech Mono';
-        top: 38px;
-        left: 37px;
-    }
-    
-    #tiername {
-        position: absolute;
-        color: #ffffff;
-        width: 272px;
-        right: 25px;
-        font: 900 24px'Montserrat';
-        text-align: center;
-        top: 165px;
-    }
-    
-    #joindate {
-        right: 28px;
-        bottom: 4px;
-        position: absolute;
-        color: #777;
-        font: 400 12px 'Share Tech Mono';
-    }
-    
-    .alias {
-        image-rendering: optimizeSpeed;
-        /* STOP SMOOTHING, GIVE ME SPEED  */
-        image-rendering: -moz-crisp-edges;
-        /* Firefox                        */
-        image-rendering: -o-crisp-edges;
-        /* Opera                          */
-        image-rendering: -webkit-optimize-contrast;
-        /* Chrome (and eventually Safari) */
-        image-rendering: pixelated;
-        /* Chrome */
-        image-rendering: optimize-contrast;
-        /* CSS3 Proposed                  */
-        -ms-interpolation-mode: nearest-neighbor;
-        /* IE8+                           */
-    }
-    
-    #decorlabel {
-        position: absolute;
-        width: 100%;
-        height: 98px;
-        top: 372px;
-    }
-    
-    #logo {
-        position: absolute;
-        top: 8px;
-        height: inherit;
-        left: 54px;
-    }
-</style>
-
-<div id="cardhere"></div>
+<body>
 <script>
-    function createCard(name, faceid, tier, tiericon, crest, fullname, age, race, skill, alias, date) {
+      window.fbAsyncInit = function() {
+        FB.init({
+          appId      : 'your-app-id',
+          xfbml      : true,
+          version    : 'v2.3'
+        });
+      };
 
-        if (crest === undefined) {
-            crest = 'none';
+      (function(d, s, id){
+         var js, fjs = d.getElementsByTagName(s)[0];
+         if (d.getElementById(id)) {return;}
+         js = d.createElement(s); js.id = id;
+         js.src = "//connect.facebook.net/en_US/sdk.js";
+         fjs.parentNode.insertBefore(js, fjs);
+       }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+    <style>
+    
+        #cardbkg{
+            background: url(MITCARD.png);
+            position: relative;
+            top: 5px;
+            left: 6px;
+            height: 507px;
+            width: 741px;
+            background-color: black;
+            border-radius: 15px;
         }
+        #idslot{
+            position: absolute;
+            width: 366px;
+            max-height: 49px;
+            border-radius: 15px;
+            background-color: #4b0104;
+            color:#6A1010;
+          font-family: 'Share Tech Mono', monospace;
+            top: 28px;
+            left: 354px;
+            text-align: center;
+            font-size: 30px;
+            padding-top: 4px;
+            padding-bottom: 4px;
+            overflow: hidden;
+            
+        }
+        
+        #infoplace{
+            position: absolute;
+            left: 24px;
+            top:96px;
+            width: 409px;
+            height: 264px;
+           /* background-color: #262a65;*/
+            border-radius: 15px;
+        }
+        #name{
+            font-family:'Montserrat', monospace;
+            font-weight: 600;
+            font-size: 30px;
+            padding-left: 8px;
+            padding-top: 8px;
+            position: relative;
+            color:#AAA;
+            width: 386px;
+            height: 42px;
+           /* background-color: #060827;*/
+            border-radius: 15px;
+            top: 8px;   
+            left: 7px;
+        }
+          #fullname, #aliases, #age, #blood, #skill{
+              
+            font-family: 'Montserrat', monospace;
+            text-align: right;
+            font-size: 20px;
+            padding-left: 8px;
+            padding-right: 8px;
+            padding-top: 3px;
+            position: relative;
+            color:#AAA;
+            width: 378px;
+            height: 36px;
+            
+            border-radius: 15px;
+            left: -18px;
+              top:20px;
+        }
+        #aliases{top:22px;font-size: 16px !important;}
+        
+        #prophoto{
+            right: 30px;
+            top: 197px;
+            position: absolute;
+            background-color: white;
+            border-radius: 100%;
+            overflow: hidden;
+            width: 260px;
+            height: 260px;
+            z-index: 200;
+         
+        }
+        
+      
+        #cresticon{
+            bottom: 50px;
+            right: 24px;
+            width: 64px;
+            height: 64px;
+            position: absolute;
+            background-color: #162264;
+            border-radius: 100%;
+            overflow: hidden;
+            
+            z-index: 300;
+            
+            border-color: #12153b;
+            border-style: solid;
+            border-width: 5px;
+        }
+         #shitplacer{
+             
+            top: 95px;
+             text-align: center;
+             right: 30px;
+             align-content: center;
+            width: 260px;
+           
+            height: 96px;
+            position: absolute;
+            overflow: hidden;
+            z-index: 210;
+         
+        }
+           #tiericon{
+             height: 72px;
+	
+           vertical-align: bottom;
+            z-index: 300;
+		
+        }
+            #titulinho {
+                position: absolute;
+                color: #6a1010;
+                font: 900 30px 'Share Tech Mono';
+                top: 38px;
+                left: 37px;
+            }
+            #tiername {
+                position: absolute;
+                color: #ffffff;
+                width: 272px;
+                right: 25px;
+                
+                font: 900 24px'Montserrat' ;
+                
+               text-align:center;
+                top: 165px;
+            }
+        #joindate {right: 28px;bottom: 4px;position: absolute; color: #777;
+            font: 400 12px 'Share Tech Mono'; }
+    
+        .alias
+{
+    image-rendering: optimizeSpeed;             /* STOP SMOOTHING, GIVE ME SPEED  */
+    image-rendering: -moz-crisp-edges;          /* Firefox                        */
+    image-rendering: -o-crisp-edges;            /* Opera                          */
+    image-rendering: -webkit-optimize-contrast; /* Chrome (and eventually Safari) */
+    image-rendering: pixelated; 				/* Chrome */
+    image-rendering: optimize-contrast;         /* CSS3 Proposed                  */
+    -ms-interpolation-mode: nearest-neighbor;   /* IE8+                           */
+}
+        
+        #decorlabel{position: absolute;width: 100%;height: 98px;top: 372px;}
+        #logo{position: absolute; top: 8px; height:inherit; left:54px;}
+    </style>
+    
+    	<div id="cardhere"></div>
+    <script>
+        
+           function createCard(name, faceid, tier, tiericon,  crest, fullname, age, race, skill, alias, date) {
 
-        return '\
+    if (crest===undefined){
+        crest = 'none';
+    }
+            
+    return '\
     <div class="card">\
         <div id="cardbkg">\
             <div id="titulinho">Mitador ID Card</div>\
@@ -231,47 +230,53 @@
                 <img id="logo" src="mitinho.png"> \
             </div>\
         </div></div> <br>'
-    }
+           }
+        
+        
+        for (var i in Myth) {
+            
+        var   xname     = Myth[i].nome
+        
+        var   xfaceid   = Myth[i].faceId
+        var   xtier     = Myth[i].tier[0].toUpperCase()
+		
+		if (xtier == "MINISTER"){
+		for (var x in Myth[i].badges){
+				switch (Myth[i].badges[x][1]){
+					case "prime"	 :  xtier = "PRIME MINISTER" ;
+					break;
+					case  'diamond' : 	 xtier = "DIAMOND MINISTER" ;
+					break;
+					case  'platinum' :	 xtier = "PLATINUM MINISTER" ;
+					break;
+					case  'gold'		 :	 xtier = "PLATINUM MINISTER" ;
+					break;
+				};
+			};
+		};
+        var   xtiericon = Myth[i].tier[1][1]
+		!Myth[i].crest ? xcrest = 'none' : xcrest = Myth[i].crest[1]
+        
+        var   xfullname = Myth[i].nome
+        var   xage      = Myth[i].idade
+        var   xrace     = Myth[i].race
+        var   xskill    = Myth[i].skill
+        var   xalias    = Myth[i].alias
+        var   xdate     = Myth[i].ano
+            
 
-
-    for (var i in Myth) {
-
-        var xname = Myth[i].nome
-
-        var xfaceid = Myth[i].faceId
-        var xtier = Myth[i].tier[0].toUpperCase()
-
-        if (xtier == "MINISTER") {
-            for (var x in Myth[i].badges) {
-                switch (Myth[i].badges[x][1]) {
-                    case "prime":
-                        xtier = "PRIME MINISTER";
-                        break;
-                    case 'diamond':
-                        xtier = "DIAMOND MINISTER";
-                        break;
-                    case 'platinum':
-                        xtier = "PLATINUM MINISTER";
-                        break;
-                    case 'gold':
-                        xtier = "PLATINUM MINISTER";
-                        break;
-                };
-            };
-        };
-        var xtiericon = Myth[i].tier[1][1] !Myth[i].crest ? xcrest = 'none' : xcrest = Myth[i].crest[1]
-
-        var xfullname = Myth[i].nome
-        var xage = Myth[i].idade
-        var xrace = Myth[i].race
-        var xskill = Myth[i].skill
-        var xalias = Myth[i].alias
-        var xdate = Myth[i].ano
-
-
-
-        var leCard = createCard(xname, xfaceid, xtier, xtiericon, xcrest, xfullname, xage, xrace, xskill, xalias, xdate)
-        document.getElementById('cardhere').innerHTML += leCard;
-
-    }
-</script>
+            
+           var leCard = createCard(xname, xfaceid, xtier, xtiericon,  xcrest, xfullname, xage, xrace, xskill, xalias, xdate)
+		   document.getElementById('cardhere').innerHTML += leCard ;
+            
+        }
+		
+		
+FB.api('/me', function(response) {
+    alert("Name: "+ response.name + "\nFirst name: "+ response.first_name + "ID: "+response.id);
+    var img_link = "http://graph.facebook.com/"+response.id+"/picture"
+	    console.log(response.name)
+});
+    
+    </script>
+	</body>

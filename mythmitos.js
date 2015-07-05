@@ -13,6 +13,10 @@
         tier: tierUnicorn,
          faceId: '100003209675392',
         ano: '2013 Novembro ',
+		race: "Doge",
+		skill: "???",
+		fullname: "Alex Carvalho",
+		alias: "Foffano",
         badges: [
             mythUnicorn,
             preHistoric
@@ -25,6 +29,10 @@
         faceId: '100006709956847',
         tier: tierFreshman,
         ano: '2015 Julho ',
+		race: "Human",
+		skill: "???",
+		fullname: "Agatha Klein",
+		alias: "Gatha",
         badges: [
             cClaro,
             mythFresh,
@@ -40,6 +48,10 @@
         faceId: '100002387089895',
         tier: tierGold,
         ano: '2014 Novembro ',
+		race: "Cat",
+		skill: "Dormir",
+		fullname: "Ana Beatriz Silva Oliveira",
+		alias: "Yomiell",
         crest:['Yomiell Hankerchief: Ana Crest', 'yomi'],
         badges: [
             mythGold,
@@ -76,6 +88,10 @@
         faceId: '100002629782907',
         tier: tierGold,
         ano: '2013 Setembro',
+		race: "Human",
+		skill: "???",
+		fullname: "Agatha Klein",
+		alias: "AA",
         badges: [
             mythLegacy,
             mythGold,
