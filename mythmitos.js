@@ -129,14 +129,14 @@
     };
     
     Myth.barbara = {
-        nome: 'Bárbara',
+        nome: 'Bárbara Bárbara',
         tagId: 'barbara',
         tagId1: 'barbara1',
         faceId: '100002486446403',
         tier: tierFreshman,
         ano: '2015',
         badges: [
-            mythGuest,
+            mythFresh,
             cDouglas
         ]
     };
