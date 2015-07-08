@@ -123,7 +123,8 @@
     var cCesar = createBadge('The Rockstar Sneakers: Rasec Crest', 'rasec');
     var cGarland = createBadge('The Black Mage: Garland Crest', 'mage');
     var cZero = createBadge('The Dimensional Zero: Arthur Crest', 'zero');
-	var cPam = createBadge('The Whiskas Tin: Grether Crest', 'pam'); 
+    var cPam = createBadge('The Whiskas Tin: Grether Crest', 'pam');
+    var cDouglas = createBadge('#####: Douglas Crest');
 
 
 
