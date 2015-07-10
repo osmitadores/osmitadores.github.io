@@ -335,7 +335,7 @@
             gardevoa,
             gartic,
             streameiro,
-            mitamores,
+         
             karaoke,
             essetop,
             smashFest2014,
