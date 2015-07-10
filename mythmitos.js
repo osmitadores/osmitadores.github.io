@@ -348,7 +348,7 @@
             ygo,
             plugDj,
             harass,
-           mitamoresmk2
+           mitamores2k
         ]
     };
 
