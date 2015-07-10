@@ -347,7 +347,8 @@
             skgPart,
             ygo,
             plugDj,
-            harass
+            harass,
+           mitamoresmk2
         ]
     };
 
@@ -592,6 +593,7 @@
             gartic,
             poke,
             plugDj,
+            mitamores,
             help
         ]
     };
