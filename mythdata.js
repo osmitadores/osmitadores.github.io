@@ -58,7 +58,7 @@
     var mitamores = createBadge('Os Mitamores: Casais Mitadores são lindos', 'mitamores');
     var doisPotes = createBadge('Luana exclusive \'Doooois Pooootes\' Badge', 'pots');
 
-
+ var mitamores2k = createBadge('Os Mitamores MarkII: Casais Mitadores são lindos', 'mitamores2k');
 
     var lendsClub = createBadge('Lends Club: Board Games com Mitadores', 'lends');
     var badgeWhore = createBadge('Badge Whore - Faço tudo por badges!', 'badwho');
