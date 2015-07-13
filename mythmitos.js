@@ -54,7 +54,7 @@
 		alias: "Yomiell",
         crest:['Yomiell Hankerchief: Ana Crest', 'yomi'],
         badges: [
-            mythGold,
+            mythGhost,
             preHistoric,
             jogueiro,
             hangouteiro,
@@ -118,7 +118,7 @@
 		fullname: "Arthur Lima",
 		alias: "Zero",
         badges: [
-            mythSilver,
+            mythGold,
             cFlicky,
             jogueiro,
             pipoqueiro,
@@ -172,7 +172,7 @@
 		fullname: "Camila Paolucci",
 		alias: "Milla, Lucci",
         badges: [
-            mythFresh,
+            mythLurker,
             cZero
         ]
     };
@@ -246,6 +246,7 @@
         tier: tierLegacy,
         ano: '2013 Setembro',
 		race: "Fairy",
+		
 		skill: "Cupid",
 		fullname: "Felipe Coelho",
 		alias: "BlackLabHorus, Estragaonofre",
@@ -263,6 +264,26 @@
             elder
         ]
     };
+	
+    Myth.davi = {
+        nome: 'Davi',
+        tagId: 'davi',
+        tagId1: 'davi1',
+        faceId: '100000350561525',
+        tier: tierFreshman,
+        ano: '2015 Julho',
+		race: "Human",
+		skill: "???",
+		fullname: "Davi Carvalhido",
+		alias: "Liu Kang",
+        badges: [
+            mythFresh,
+            merito,
+     
+        ]
+    };	
+	
+	
     Myth.douglas = {
         nome: 'Douglas',
         tagId: 'douglas',
@@ -274,8 +295,9 @@
 		skill: "Q",
 		fullname: "Douglas Savi Mondo Fogaça",
 		alias: "Dogolas",
+      crest:['Q? Douglas Crest', 'qqq'],
         badges: [
-            mythFresh,
+            mythGold,
             merito,
             hangouteiro,
             ygo,
@@ -427,7 +449,7 @@
 		fullname: "Karen Sama",
 		alias: "Carem",
         badges: [
-            mythLurker,
+            mythGhost,
             preHistoric,
             n64,
             cah,
