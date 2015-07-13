@@ -278,7 +278,7 @@
 		alias: "Liu Kang",
         badges: [
             mythFresh,
-            merito,
+            cClaro,
      
         ]
     };	
