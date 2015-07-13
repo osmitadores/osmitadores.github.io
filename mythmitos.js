@@ -281,7 +281,8 @@
             ygo,
             qqq,
             vassouraWielder,
-            plugDj
+            plugDj,
+			desenheiro
         ]
     };
     Myth.fernando = {
@@ -531,7 +532,8 @@
             mythPrime,
             mythUnicorn,
             satanicat,
-            skullGirls
+            skullGirls,
+			desenheiro
         ]
     };
     Myth.pall = {
@@ -612,7 +614,8 @@
             mythSilver,
             cHerbe,
             nennys,
-            defiance
+            defiance,
+			desenheiro
         ]
 	};
      Myth.romulo = {
@@ -691,7 +694,8 @@
             vassouraWielder,
             jogueiro,
             help,
-            idea
+            idea,
+			gartic
         ]
     };
     Myth.vidal = {
@@ -801,6 +805,7 @@
 		alias: "Wolvie",
         badges: [
             mythLurker,
-            cCesar
+            cCesar,
+			encontroMyth,
         ]
     };
