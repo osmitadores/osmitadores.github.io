@@ -270,7 +270,7 @@
         faceId: '100002084300385',
         tier: tierGold,
         ano: '2015 Maio',
-		race: "Filho de Chocadeira",
+		race: "Human",
 		skill: "Q",
 		fullname: "Douglas Savi Mondo Fogaça",
 		alias: "Dogolas",
@@ -280,9 +280,8 @@
             hangouteiro,
             ygo,
             qqq,
-            vassouraWielder,
             plugDj,
-			desenheiro
+            desenheiro
         ]
     };
     Myth.fernando = {
