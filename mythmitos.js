@@ -65,7 +65,9 @@
             defiance,
             miauCaralho,
             idea,
-            gartic
+            gartic,
+			nekomimi,
+			
         ]
     };
     /*    Myth.anaErrada = {
@@ -102,7 +104,8 @@
             streameiro,
             pauHd,
             skgPart,
-            ygo
+            ygo,
+			steam
         ]
     };
     Myth.arthur = {
@@ -124,7 +127,10 @@
             pipoqueiro,
             cah,
             idea,
-            plugDj
+            plugDj,
+			mitopg,
+			drillsoura,
+			steam
         ]
     };
     
@@ -173,7 +179,8 @@
 		alias: "Milla, Lucci",
         badges: [
             mythLurker,
-            cZero
+            cZero,
+			mitopg
         ]
     };
     
@@ -235,7 +242,10 @@
             rplay,
             likeBomb,
             plugDj,
-            harass
+            harass,
+			mitopg,
+			mitrade,
+			steam,
         ]
     };
     Myth.coelho = {
@@ -303,7 +313,10 @@
             ygo,
             qqq,
             plugDj,
-            desenheiro
+			rplay,
+            desenheiro,
+			mitrade,
+			maid,
         ]
     };
     Myth.fernando = {
@@ -357,7 +370,7 @@
             gardevoa,
             gartic,
             streameiro,
-         
+         steam,
             karaoke,
             essetop,
             smashFest2014,
@@ -370,7 +383,9 @@
             ygo,
             plugDj,
             harass,
-           mitamores2k
+           mitamores2k,
+		   mitrade,
+		   mitopg,
         ]
     };
 
@@ -412,7 +427,8 @@
             encontroMyth,
             mythLurker,
             cFlicky,
-            smashFest2014
+            smashFest2014,
+			steam
         ]
     };
   /*  Myth.herbe = {
@@ -479,7 +495,8 @@
             kanaFest,
             jogueiro,
             skgPart,
-            plugDj
+            plugDj,
+			steam
         ]
     };
 
@@ -554,7 +571,9 @@
             mythUnicorn,
             satanicat,
             skullGirls,
-			desenheiro
+			desenheiro,
+			mitopg,
+			steam
         ]
     };
     Myth.pall = {
@@ -585,7 +604,9 @@
             likeBomb,
             ps4,
             mariEx,
-            plugDj
+            plugDj,
+			mitrade,
+			mitopg
         ]
     };
     Myth.pam = {
@@ -617,7 +638,11 @@
             poke,
             plugDj,
             mitamores,
-            help
+            help,
+			mitrade,
+			mitopg,
+			nekomimi,
+			steam,
         ]
     };
 	    Myth.raptor = {
@@ -636,7 +661,7 @@
             cHerbe,
             nennys,
             defiance,
-			desenheiro
+			desenheiro,
         ]
 	};
      Myth.romulo = {
@@ -691,7 +716,8 @@
             likeBomb,
             help,
             karaoke,
-            encontroMyth
+            encontroMyth,
+			steam
         ]
     };
     Myth.tumeo = {
@@ -716,7 +742,11 @@
             jogueiro,
             help,
             idea,
-			gartic
+			gartic,
+			tumeoEx,
+			tunelaa,
+			mitrade,
+			steam
         ]
     };
     Myth.vidal = {
@@ -742,7 +772,8 @@
             vidalGt,
             lendsClub,
             vidalFdp,
-            plugDj
+            plugDj,
+			mitopg,
         ]
     };
     Myth.vinicius = {
@@ -774,7 +805,10 @@
             smashFest2014,
             _3dsPlay,
             lendsClub,
-            cah
+            cah,
+			mitrade,
+			cleosvaldo,
+			steam
         ]
     };
     Myth.gors = {
@@ -811,7 +845,8 @@
             kanaFest,
             musicist,
             likeBomb,
-	    help
+	    help,
+		mitrade,
         ]
     };
     Myth.wolvie = {
@@ -829,5 +864,6 @@
             mythLurker,
             cCesar,
 			encontroMyth,
+			mitopg,
         ]
     };

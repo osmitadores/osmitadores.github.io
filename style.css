@@ -3,7 +3,7 @@
 	to { background-position: 10000 0; }
 }
   body{
-      background-color: cornflowerblue;
+      background-color: #113;
   /*background-image: url(http://desktop.freewallpaper4.me/view/original/7212/marvel-vs-dc.jpg);*/  
   /*	background: -webkit-linear-gradient(left, red, orange, yellow, green, blue, indigo, violet); /* For Safari 5.1 to 6.0 */
   /*  background: -o-linear-gradient(left, red, orange, yellow, green, blue, indigo, violet); /* For Opera 11.1 to 12.0 */
@@ -14,7 +14,7 @@
 
   table {
     
-    background: rgba(38, 43, 86, 0.68); /*#262b56;*/
+    background: #262b56; /*rgba(38, 43, 86, 0.68); */
     -moz-border-radius: 15px;
     -webkit-border-radius: 15px;
   }
@@ -87,7 +87,8 @@ img.badgeicon{
     word-break: normal;
   }
   .tg th {
-    font-family: Arial, sans-serif;
+    font-family: Mythosmeister, sans-serif;
+	letter-spacing: 5px;
     font-size: 14px;
     font-weight: normal;
     padding: 10px 5px;
@@ -102,7 +103,7 @@ img.badgeicon{
     max-height: 10px;
     min-width: 60px;
     width: 60px;
-    background: #404663;
+    background: #414f8f;
     overflow: hidden;
     border-radius: 20px 20px 0px 0px;
     font-weight: bold;
@@ -132,12 +133,12 @@ img.badgeicon{
   }
   .tg .badges {
     vertical-align: top;
-    background: #404663;
+    background: #414f8f;
     border-radius: 0px 0px 0px 0px;
   }
   .tg .badges2 {
     vertical-align: top;
-    background: #404663;
+    background: #414f8f;
     height:32px;
     font-size:10;
     color:#ccc;
@@ -150,6 +151,8 @@ img.badgeicon{
   .tg .tiername {
     min-width: 248px;
     text-align: right;
+	font-size:12px;
+	letter-spacing: 2px;
     background: #0c0f1d;
     color: #fff;
   }

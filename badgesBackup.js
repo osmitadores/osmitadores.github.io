@@ -655,6 +655,58 @@ Badges.plugDJ = {
 };
 
 
+
+Badges.tumeoEx = {
+ titulo: 'Tumeo Exclusive "Black&Purple for no Reason" Badge',
+ img:'tumeocoisa',
+ nome:' Black&Purple for no Reason',
+ tipo:' Exclusiva',
+ desc:' Exclusiva do Tumeo porque ele tá sempre com esse fundo roxo e preto sem razão aparente.(Unobtainable)' ,
+    obtain: 'inobtivel',
+};
+Badges.maid = {
+ titulo:'The Maid - Alguém tem que limpar essa bagaça',
+ img:'maid',
+ nome:' The Maid',
+ tipo:' Roleplay/Participação',
+ desc:' Responsável pela faxina da casa img: limpeza de porão, consertar letreiros, e outras pequenas ordens no lugar.',
+obtain: 'sim',
+};
+Badges.nekomimi = {
+ titulo:"Trust me, I'm a cat!",
+ img:'nekomimi',
+ nome:' I am a Cat',
+ tipo:' Roleplay',
+ desc:' Seja um gato... apenas isso....',
+    obtain: 'reserved',
+};
+Badges.mitrade = {
+ titulo:"Trader de Mitos Raros, compro e vendo",
+ img:'mitrade',
+ nome:' Trader de Mitos Raros',
+ tipo:' Evento',
+ desc:'  Guarde suas imagens e reactions de Mitadores, e unleashe elas durante Trades, enriquecendo o acervo dos demais.',
+    obtain: 'sim',
+};
+Badges.tunelaa = {
+ titulo:'Tumeo exclusive Golden Gear Badge',
+ img:'goldgear',
+ nome:' Shiny Golden Gear',
+ tipo:' Exclusiva',
+ desc: ' Exclusiva do Tumeo por trabalhar duro pra produzir coisas legais pra família.(Unobtainable) ',
+    obtain: 'inobtivel',
+};
+
+Badges.mitopg = {
+ titulo:'MitoPG - RPG com Mitadores',
+ img:'mitopg',
+ nome:' MitoPG',
+ tipo:' Evento/Participação',
+ desc: ' Participe das Mesas de RPG promovidas pela casa',
+    obtain: 'sim',
+};
+
+
 Badges.skgPart = {
     titulo: 'Skull Girls Tournament - Participei... mas não ganhei. Pq sou noob',
     img: 'skgpt',
@@ -679,6 +731,18 @@ Badges.mythEvent = {
     misc: 'Entre nos Mitadores por meio de seleção aleatória de um Evento',
     obtain: 'inobtivel'
 };
+Badges.steam = {
+    titulo: 'Steamitos',
+    nome: 'Steam Group Members',
+	    img: 'steam',
+    tipo: 'Social',
+    desc: 'Mitadores que porventura estão participando do grupo na Steam',
+    misc: 'Entre no grupo da Steam',
+    obtain: 'sim'
+};
+
+
+
 
 
 //Crests

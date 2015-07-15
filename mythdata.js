@@ -72,7 +72,6 @@
     var ajudeiro = createBadge('Ajudeiro - Ele não é o Luciano, mas também ajuda pra caramba!');
     var redCoder = createBadge('Red Coder: Coder Lendário','redcoder');
     var goldenPen = createBadge('Golden Pen: Desenheiro Lendário');
-    var tunelaa = createBadge('Tumeo exclusive \'???\' Badge');
     var wataZomb = createBadge('Watanabe Exclusive \'Japanese Horror Movie\' Badge','akuma');
     var preHistoric = createBadge('Mitador Jurássico - Os Mitadores Pré-Históricos','jurassic');
     var musicist = createBadge('Musiqueiro','music');
@@ -104,9 +103,20 @@
     var idea = createBadge('Badger: Até eu criei uma Badge e você não!','badgeidea');
     var help = createBadge('Ajudeiro: Resolver problemas é com eles!','ajudeiro');
     var harass = createBadge('Harasser: Bulinadores Profissionais','harass');
-     var qqq = createBadge('Dogolas Exclusive Q Badge','qqq');
- var plugDj = createBadge('DJ assíduo nas pistas mitadoras','plugdj');
-
+    var qqq = createBadge('Dogolas Exclusive Q Badge','qqq');
+	var plugDj = createBadge('DJ assíduo nas pistas mitadoras','plugdj');
+	var tumeoEx = createBadge('Tumeo Exclusive Black&Purple for no Reason Badge','tumeocoisa');
+	var maid = createBadge('The Maid - Alguém tem que limpar essa bagaça','maid');
+	var nekomimi = createBadge("Trust me, I'm a cat!",'nekomimi');
+	var mitrade = createBadge("Trader de Mitos Raros, compro e vendo",'mitrade');
+	var tunelaa = createBadge('Tumeo exclusive Golden Gears Badge','goldgear');
+	var mitopg = createBadge('MitoPG - RPG com Mitadores','mitopg');
+		var drillsoura = createBadge('Arthur Exclusive - Drillsoura that will Pierce the Heavens');
+				var steam = createBadge('Steamitos','steam');
+		
+		
+			var cleosvaldo = createBadge('Vinicius Exclusive - Cleosvaldo Badge');
+		
     var skgPart = createBadge('Skull Girls Tournament - Participei... mas não ganhei. Pq sou noob','skgpt');
     var skullGirls = createBadge('Skull Girls Tournament - 1o Lugar!!!','skg');
     var mythEvent = createBadge('Mitador de Evento');
@@ -159,6 +169,8 @@ function createTable(mito) {
         crest = ['Este Mitador ainda não possui Crest própria','none'];
     }
 
+mito.nome 
+	
     return ('<table  class="tg" style="table-layout: margin-bottom: 10px; fixed; width: 100%"> \
   <colgroup>\
   <col style="width: 50px"><col style="width: 150px">\
@@ -169,7 +181,7 @@ function createTable(mito) {
     <img class="crestpic" title="'+ crest[0] + '" src="' + PATH + crest[1] + '.png">\
   </th>\
   <!-- NAME -->\
-  <th align="left" class="name" colspan="2">'+ mito.nome +'</th>  <th align="left" class="tiername"></th> <!-- Espacinho -->\
+  <th align="left" class="name" colspan="3">'+ mito.nome.toUpperCase() +'</th> <!-- Espacinho -->\
   <!-- TIER -->\
   <th align="left" class="tiername"><span class="tierlevel">' + mito.tier[2] + '</span>Tier: <strong>' + mito.tier[0] + '</strong></th>\
   <th align="right" class="tiericon"> <div>' + '<img class="tier" title="' + mito.tier[1][0] + '" src="' + PATH + mito.tier[1][1] + '.png"></th>\

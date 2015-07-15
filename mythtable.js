@@ -90,8 +90,7 @@ Badgelist.mythDiamond = createBadge('Mitador Diamond: Amor à camisa', 'diamond'
 'Programadores lendários, que programam coisas absurdas e sensacionais, incansavelmente e voluntariamente, amor de pessoa.');
      Badgelist.goldenPen = createBadge('Golden Pen: Desenheiro Lendário',undefined,'The Golden Pen','Patente de Fodisse',
 'Desenhistas que botam efforts magníficos nas piadas internas dos Mitadores e fazem delas Obras de Arte intensas.');
-     Badgelist.tunelaa = createBadge('Tumeo exclusive \'???\' Badge',undefined,'???',
-'Sei lá');
+
      Badgelist.wataZomb = createBadge('Watanabe Exclusive \'Japanese Horror Movie\' Badge','akuma','Japanese Horror Movie','Exclusiva',
 'Exclusiva do Watanabe por se rastejar e desaparecer enquanto dorme na madrugada. (Unobtainable)');
      Badgelist.preHistoric = createBadge('Mitador Jurássico - Os Mitadores Pré-Históricos','jurassic','Pré-Mitadores','Social',
@@ -158,7 +157,16 @@ Badgelist.mythDiamond = createBadge('Mitador Diamond: Amor à camisa', 'diamond'
 'Exclusiva do Douglas pela letra Trademark (Unobtainable)');
      Badgelist.plugDJ = createBadge('DJ assíduo nas pistas mitadoras.','plugdj','Plug DJ','Social',
 'Participe regularmente adicionando playlists durante sessões no PlugDJ dos Mitadores');
-
+	Badgelist.tumeoEx = createBadge('Tumeo Exclusive "Black&Purple for no Reason" Badge','tumeocoisa',' Black&Purple for no Reason',' Exclusiva',
+' Exclusiva do Tumeo porque ele tá sempre com esse fundo roxo e preto sem razão aparente. (Unobtainable)'  );
+	Badgelist.maid = createBadge('The Maid - Alguém tem que limpar essa bagaça','maid',' The Maid',' Roleplay/Participação',
+' Responsável pela faxina da casa, limpeza de porão, consertar letreiros, e outras pequenas ordens no lugar.');
+	Badgelist.nekomimi = createBadge("Trust me, I'm a cat!",'nekomimi',' I am a Cat',' Roleplay',
+' Seja um gato... apenas isso....');
+	Badgelist.mitosraros = createBadge("Trader de Mitos Raros, compro e vendo",'mitrade',' Trader de Mitos Raros',' Evento',
+'  Guarde suas imagens e reactions de Mitadores, e unleashe elas durante Trades, enriquecendo o acervo dos demais. ');
+	Badgelist.tunelaa = createBadge('Tumeo exclusive Golden Gear Badge','goldgear',' Shiny Golden Gear',' Exclusiva',
+' Exclusiva do Tumeo por trabalhar duro pra produzir coisas legais pra família. (Unobtainable)  ');
 
      Badgelist.skgPart = createBadge('Skull Girls Tournament - Participei... mas não ganhei. Pq sou noob','skgpt','Torneio SkullGirls - Participante','Evento',
 'Participe de um torneio de Skullgirls');
