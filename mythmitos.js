@@ -362,7 +362,7 @@
             fuQuest,
             hangouteiro,
             cah,
-	    help,
+			help,
             genesis,
             frukiFest,
             vassouraWielder,
@@ -370,7 +370,7 @@
             gardevoa,
             gartic,
             streameiro,
-         steam,
+			steam,
             karaoke,
             essetop,
             smashFest2014,
@@ -383,7 +383,7 @@
             ygo,
             plugDj,
             harass,
-           mitamores2k,
+           mitamores,
 		   mitrade,
 		   mitopg,
         ]
@@ -610,7 +610,7 @@
         ]
     };
     Myth.pam = {
-        nome: 'PamGrether',
+        nome: 'Pamela',
         tagId: 'pam',
         tagId1: 'pam1',
         faceId: '100003518568433',
@@ -639,6 +639,7 @@
             plugDj,
             mitamores,
             help,
+			maid,
 			mitrade,
 			mitopg,
 			nekomimi,
@@ -746,7 +747,8 @@
 			tumeoEx,
 			tunelaa,
 			mitrade,
-			steam
+			steam,
+			maid,
         ]
     };
     Myth.vidal = {
