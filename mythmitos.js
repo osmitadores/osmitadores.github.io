@@ -431,7 +431,7 @@
 			steam
         ]
     };
-  /*  Myth.herbe = {
+    Myth.herbe = {
         nome: 'Herbe',
         tagId: 'herbe',
         tagId1: 'herbe1',
@@ -452,7 +452,7 @@
             mitamores,
             lendsClub
         ]
-    }; */
+    };
     Myth.karen = {
         nome: 'Karen',
         tagId: 'karen',
