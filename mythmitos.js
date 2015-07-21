@@ -134,7 +134,7 @@
         ]
     };
     
-    Myth.barbara = {
+   /* Myth.barbara = {
         nome: 'Bárbara Bárbara',
         tagId: 'barbara',
         tagId1: 'barbara1',
@@ -145,7 +145,7 @@
             mythFresh,
             cDouglas
         ]
-    };
+    };*/
     
     Myth.bruna = {
         nome: 'Bruna',
