@@ -22,7 +22,7 @@
             preHistoric
         ]
     };
-    Myth.agatha = {
+    /*Myth.agatha = {
         nome: 'Agatha',
         tagId: 'agatha',
         tagId1: 'agatha1',
@@ -40,7 +40,7 @@
             vassouraWielder,
             defiance
         ]
-    };
+    }; */
     Myth.ana = {
         nome: 'Ana',
         tagId: 'yomiell',
