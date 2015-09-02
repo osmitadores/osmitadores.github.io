@@ -176,6 +176,9 @@ Badgelist.mythDiamond = createBadge('Mitador Diamond: Amor à camisa', 'diamond'
 'Entre nos Mitadores por meio de seleção aleatória de um Evento');
      Badgelist.nonethless = createBadge('nodesc',
 '               ');
+     Badgelist.deceased = createBadge('Mitador Aposentado','deceased','Mitador Aposentado','Reserved',
+'Grandes Mitadores que não mais fazem parte do grupo ou do chat mas ainda fazem parte da família e sempre estarão nos nossos kokoros!');
+
 
 //Crests
     var cVinicius = createBadge('The Piano Key: Vinicius Crest', 'vkps');

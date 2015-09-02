@@ -71,7 +71,7 @@
     var miauCaralho = createBadge('Ana exclusive \'MIAO CARALHO\' Badge');
     var ajudeiro = createBadge('Ajudeiro - Ele não é o Luciano, mas também ajuda pra caramba!');
     var redCoder = createBadge('Red Coder: Coder Lendário','redcoder');
-    var goldenPen = createBadge('Golden Pen: Desenheiro Lendário');
+    var goldenPen = createBadge('Golden Pen: Desenheiro Lendário','pen');
     var wataZomb = createBadge('Watanabe Exclusive \'Japanese Horror Movie\' Badge','akuma');
     var preHistoric = createBadge('Mitador Jurássico - Os Mitadores Pré-Históricos','jurassic');
     var musicist = createBadge('Musiqueiro','music');
@@ -114,7 +114,7 @@
 		var drillsoura = createBadge('Arthur Exclusive - Drillsoura that will Pierce the Heavens');
 				var steam = createBadge('Steamitos','steam');
 		
-		
+		var deceased = createBadge('Mitador Aposentado','deceased');
 			var cleosvaldo = createBadge('Vinicius Exclusive - Cleosvaldo Badge');
 		
     var skgPart = createBadge('Skull Girls Tournament - Participei... mas não ganhei. Pq sou noob','skgpt');

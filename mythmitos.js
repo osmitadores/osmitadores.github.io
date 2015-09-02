@@ -59,6 +59,7 @@
             jogueiro,
             hangouteiro,
             desenheiro,
+			goldenPen,
             cah,
             vassouraWielder,
             _3dsPlay,
@@ -67,6 +68,7 @@
             idea,
             gartic,
 			nekomimi,
+			deceased
 			
         ]
     };
@@ -88,7 +90,7 @@
         tagId: 'aragao',
         tagId1: 'aragao1',
         faceId: '100002629782907',
-        tier: tierGold,
+        tier: tierLegacy,
         ano: '2013 Setembro',
 		race: "Human",
 		skill: "???",
@@ -96,7 +98,6 @@
 		alias: "Aragorness",
         badges: [
             mythLegacy,
-            mythGold,
             hangouteiro,
             jogueiro,
             gartic,
@@ -105,7 +106,8 @@
             pauHd,
             skgPart,
             ygo,
-			steam
+			steam,
+			deceased
         ]
     };
     Myth.arthur = {
@@ -147,7 +149,7 @@
         ]
     };*/
     
-    Myth.bruna = {
+  /*  Myth.bruna = {
         nome: 'Bruna',
         tagId: 'bruna',
         tagId1: 'bruna1',
@@ -162,7 +164,7 @@
             mythGuest,
             cFlicky
         ]
-    };
+    }; */
     
     
     
@@ -450,7 +452,8 @@
             harass,
             _3dsPlay,
             mitamores,
-            lendsClub
+            lendsClub,
+			deceased
         ]
     };
     Myth.karen = {
@@ -496,7 +499,8 @@
             jogueiro,
             skgPart,
             plugDj,
-			steam
+			steam,
+			deceased
         ]
     };
 
@@ -520,10 +524,11 @@
             harass,
             frukiFest,
             mitamores,
-            lendsClub
+            lendsClub,
+			deceased
         ]
     };
-    Myth.luiggi = {
+  /*  Myth.luiggi = {
         nome: 'Mario Verde',
         tagId: 'luiggi',
         tagId1: 'luiggi1',
@@ -538,7 +543,7 @@
             mythFresh,
             cGarland
         ]
-    };
+    }; */
     Myth.marcela = {
         nome: 'Marcela',
         tagId: 'marcela',
@@ -630,6 +635,7 @@
             desenheiro,
             rplay,
             essetop,
+			goldenPen,
             jogueiro,
             hangouteiro,
             idea,
@@ -662,7 +668,11 @@
             cHerbe,
             nennys,
             defiance,
+			ygo,
 			desenheiro,
+			hangouteiro,
+			_3dsPlay,
+			deceased,
         ]
 	};
      Myth.romulo = {
@@ -726,14 +736,15 @@
         tagId: 'tunel',
         tagId1: 'tunel1',
         faceId: '100001156867316',
-        tier: tierDiamond,
+         tier: tierMinister,
         ano: '2015 Abril ',
 		race: "Construção Pública",
 		skill: "???",
 		fullname: "William Tuméo",
 		alias: "Túnel",
         badges: [
-            mythPlatinum,
+            mythDiamond,
+			mythMinister,
             merito,
             programeiro,
             kanaFest,
@@ -818,7 +829,7 @@
         tagId: 'gors',
         tagId1: 'gors1',
         faceId: '100003656546830',
-        tier: tierMinister,
+        tier: tierDiamond,
         ano: '2013 Outubro ',
         crest:['The Bullet Head: Gors Crest', 'gors'],
 		race: "Projectile",
@@ -827,8 +838,7 @@
 		alias: "Gorsal",
         badges: [
             mythLegacy,
-			mythMinister,
-            mythDiamond,
+			mythDiamond,
             preHistoric,
             desenheiro,
             jogueiro,
@@ -847,6 +857,7 @@
             kanaFest,
             musicist,
             likeBomb,
+			goldenPen,
 	    help,
 		mitrade,
         ]
