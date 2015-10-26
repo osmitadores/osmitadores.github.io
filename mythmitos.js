@@ -69,7 +69,7 @@
             gartic,
 			nekomimi,
 			deceased
-			
+
         ]
     };
     /*    Myth.anaErrada = {
@@ -107,7 +107,7 @@
             skgPart,
             ygo,
 			steam,
-			deceased
+			//deceased
         ]
     };
     Myth.arthur = {
@@ -135,7 +135,7 @@
 			steam
         ]
     };
-    
+
    /* Myth.barbara = {
         nome: 'Bárbara Bárbara',
         tagId: 'barbara',
@@ -148,7 +148,7 @@
             cDouglas
         ]
     };*/
-    
+
   /*  Myth.bruna = {
         nome: 'Bruna',
         tagId: 'bruna',
@@ -165,9 +165,9 @@
             cFlicky
         ]
     }; */
-    
-    
-    
+
+
+
      Myth.cpaolluci = {
         nome: 'Camila',
         tagId: 'cpaolucci',
@@ -185,8 +185,8 @@
 			mitopg
         ]
     };
-    
-  
+
+
     Myth.cesar = {
         nome: 'Cesar',
         tagId: 'rasec',
@@ -258,7 +258,7 @@
         tier: tierLegacy,
         ano: '2013 Setembro',
 		race: "Fairy",
-		
+
 		skill: "Cupid",
 		fullname: "Felipe Coelho",
 		alias: "BlackLabHorus, Estragaonofre",
@@ -276,7 +276,7 @@
             elder
         ]
     };
-	
+
     Myth.davi = {
         nome: 'Davi',
         tagId: 'davi',
@@ -291,11 +291,11 @@
         badges: [
             mythFresh,
             cClaro,
-     
+
         ]
-    };	
-	
-	
+    };
+
+
     Myth.douglas = {
         nome: 'Douglas',
         tagId: 'douglas',
@@ -650,13 +650,14 @@
 			mitopg,
 			nekomimi,
 			steam,
+            lendsClub
         ]
     };
 	    Myth.raptor = {
         nome: 'Raptor',
         tagId: 'raptor',
         tagId1: 'raptor1',
-        faceId: '100002980734271',
+        faceId: '100010429817165'//'100002980734271',
         tier: tierSilver,
         ano: '2015 Junho ',
 		race: "Dinossauro",
@@ -672,7 +673,7 @@
 			desenheiro,
 			hangouteiro,
 			_3dsPlay,
-			deceased,
+			//deceased,
         ]
 	};
      Myth.romulo = {
