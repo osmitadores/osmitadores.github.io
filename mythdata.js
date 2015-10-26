@@ -105,7 +105,7 @@
     var harass = createBadge('Harasser: Bulinadores Profissionais','harass');
     var qqq = createBadge('Dogolas Exclusive Q Badge','qqq');
 	var plugDj = createBadge('DJ assíduo nas pistas mitadoras','plugdj');
-	var tumeoEx = createBadge('Tumeo Exclusive Black&Purple for no Reason Badge','tumeocoisa');
+	var tumeoEx = createBadge('Tumeo Exclusive Black & Purple for no Reason Badge','tumeocoisa');
 	var maid = createBadge('The Maid - Alguém tem que limpar essa bagaça','maid');
 	var nekomimi = createBadge("Trust me, I'm a cat!",'nekomimi');
 	var mitrade = createBadge("Trader de Mitos Raros, compro e vendo",'mitrade');
@@ -113,13 +113,14 @@
 	var mitopg = createBadge('MitoPG - RPG com Mitadores','mitopg');
 		var drillsoura = createBadge('Arthur Exclusive - Drillsoura that will Pierce the Heavens');
 				var steam = createBadge('Steamitos','steam');
-		
+
 		var deceased = createBadge('Mitador Aposentado','deceased');
 			var cleosvaldo = createBadge('Vinicius Exclusive - Cleosvaldo Badge');
-		
+
     var skgPart = createBadge('Skull Girls Tournament - Participei... mas não ganhei. Pq sou noob','skgpt');
     var skullGirls = createBadge('Skull Girls Tournament - 1o Lugar!!!','skg');
     var mythEvent = createBadge('Mitador de Evento');
+    var punTime = createBadge('[EVENTO] Pun Time!!');
     var nonethless = createBadge('nodesc');
 
 //Crests
@@ -169,8 +170,8 @@ function createTable(mito) {
         crest = ['Este Mitador ainda não possui Crest própria','none'];
     }
 
-mito.nome 
-	
+mito.nome
+
     return ('<table  class="tg" style="table-layout: margin-bottom: 10px; fixed; width: 100%"> \
   <colgroup>\
   <col style="width: 50px"><col style="width: 150px">\
