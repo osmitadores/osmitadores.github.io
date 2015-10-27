@@ -657,7 +657,7 @@
         nome: 'Raptor',
         tagId: 'raptor',
         tagId1: 'raptor1',
-        faceId: '100010429817165'//'100002980734271',
+        faceId: '100010429817165',//'100002980734271',
         tier: tierSilver,
         ano: '2015 Junho ',
 		race: "Dinossauro",
