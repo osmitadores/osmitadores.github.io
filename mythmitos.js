@@ -451,7 +451,6 @@
             smashFest2014,
             harass,
             _3dsPlay,
-            mitamores,
             lendsClub,
 			deceased
         ]
@@ -523,7 +522,6 @@
             radiant,
             harass,
             frukiFest,
-            mitamores,
             lendsClub,
 			deceased
         ]
