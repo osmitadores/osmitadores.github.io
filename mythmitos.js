@@ -412,6 +412,24 @@
             plugDj
         ]
     };
+    
+           Myth.gabriell = {
+        nome: 'Gabriell',
+        tagId: 'gabriell',
+        tagId1: 'gabriel2',
+        faceId: '100001122246638',
+        tier: tierFreshman,
+        ano: '2015 Dezembro ',
+		race: "Human",
+		skill: "Inútil",
+		fullname: "Gabriel Henrique",
+		alias: "Henrique, Gabriel",
+        badges: [
+            mythFresh,
+            cDouglas
+        ]
+    };
+    
     Myth.garland = {
         nome: 'Garland',
         tagId: 'garland',
@@ -709,6 +727,19 @@
             kanaFest
         ]
     };
+    
+  Myth.tairine = {
+        nome: 'Tairine',
+        tagId: 'tairine',
+        tagId1: 'tairine1',
+        faceId: '100000251671306',
+        tier: tierFreshman,
+        ano: '2015',
+        badges: [
+            mythFresh 
+        ]
+    };
+    
  Myth.toshiaki = {
         nome: 'Toshiaki',
         tagId: 'toshiaki',
