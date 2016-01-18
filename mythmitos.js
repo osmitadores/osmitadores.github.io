@@ -207,6 +207,7 @@
             encontroMyth,
             smashFesteiro,
             smashFest2014,
+            doraFest2015,
             lendsClub,
             jogueiro,
             skgPart
@@ -376,6 +377,7 @@
             karaoke,
             essetop,
             smashFest2014,
+            doraFest2015,
             kanaFest,
             programeiro,
             _3dsPlay,
@@ -467,6 +469,7 @@
             vassouraWielder,
             essetop,
             smashFest2014,
+            doraFest2015,
             harass,
             _3dsPlay,
             lendsClub,
@@ -666,7 +669,8 @@
 			mitopg,
 			nekomimi,
 			steam,
-            lendsClub
+            lendsClub,
+            doraFest2015
         ]
     };
 	    Myth.raptor = {
@@ -736,7 +740,8 @@
         tier: tierFreshman,
         ano: '2015',
         badges: [
-            mythFresh 
+            mythFresh,
+            doraFest2015
         ]
     };
     
@@ -790,6 +795,7 @@
 			mitrade,
 			steam,
 			maid,
+	    doraFest2015
         ]
     };
     Myth.vidal = {
@@ -809,6 +815,7 @@
             cHerbe,
             smashFesteiro,
             smashFest2014,
+            doraFest2015,
             matricialPrint,
             _3dsPlay,
             likeBomb,
@@ -846,6 +853,7 @@
             encontroMyth,
             smashFesteiro,
             smashFest2014,
+            doraFest2015,
             _3dsPlay,
             lendsClub,
             cah,
