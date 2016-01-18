@@ -241,6 +241,14 @@ Badges.smashFest2014 = {
     desc: 'Badge exclusiva para quem frequentou o Ano Novo Mitador de 2014 - Smashfest (Unobtainable)',
     obtain: 'inobtivel'
 };
+Badges.smashFest2014 = {
+    titulo: 'Newyear 2015: Dorafest - Eu fui!',
+    img: '',
+    nome: 'Newyear 2015',
+    tipo: 'Landmark',
+    desc: 'Badge exclusiva para quem frequentou o Ano Novo Mitador de 2015 - Dorafest (Unobtainable)',
+    obtain: 'inobtivel'
+};
 Badges.mechanicPunch = {
     titulo: 'Claro exclusive \'Mechanic Punch\' Badge',
     img: 'soc',
@@ -490,7 +498,7 @@ Badges.fuQuest = {
     img: 'fq',
     nome: 'Fuquest',
     tipo: 'Projeto',
-    desc: 'Participe do desenvolvimento do nosso joguinho dos Mitadores, atualmente em Hiatus',
+    desc: 'Participe do desenvolvimento do nosso joguinho dos Mitadores, atualmente de volta a mesa de planejamento',
     obtain: 'sim'
 };
 Badges.radiant = {
