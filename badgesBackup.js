@@ -241,7 +241,7 @@ Badges.smashFest2014 = {
     desc: 'Badge exclusiva para quem frequentou o Ano Novo Mitador de 2014 - Smashfest (Unobtainable)',
     obtain: 'inobtivel'
 };
-Badges.smashFest2014 = {
+Badges.doraFest2014 = {
     titulo: 'Newyear 2015: Dorafest - Eu fui!',
     img: '',
     nome: 'Newyear 2015',
