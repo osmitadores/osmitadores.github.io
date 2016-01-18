@@ -50,6 +50,7 @@
     var encontroMyth = createBadge('Encontro Mitador: eu fui!', 'group');
     var smashFesteiro = createBadge('Smashfesteiro', 'ssb');
     var smashFest2014 = createBadge('Newyear 2014: Smashfest - Eu fui!', '2014');
+    var smashFest2015 = createBadge('Newyear 2015: Dorafest - Eu fui!');
     var mechanicPunch = createBadge('Claro exclusive \'Mechanic Punch\' Badge', 'soc');
     var programeiro = createBadge('Programeiro: Ajuda a codar paradas mitadoras', 'code');
     var frukiFest = createBadge('Newyear 2013: Frukifest - Eu fui!', '2013');
