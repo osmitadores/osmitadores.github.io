@@ -54,6 +54,8 @@ Badgelist.mythDiamond = createBadge('Mitador Diamond: Amor à camisa', 'diamond'
 'Smashfests são mini-eventos onde se joga Smash Bros durante a noite, jogadores assiduos de SSB que tenham participado de pelo menos uma, recebe esta badge.');
      Badgelist.smashFest2014 = createBadge('Newyear 2014: Smashfest - Eu fui!', '2014','Newyear 2014','Landmark',
 'Badge exclusiva para quem frequentou o Ano Novo Mitador de 2014 - Smashfest (Unobtainable)');
+     Badgelist.doraFest2015 = createBadge('Newyear 2015: Dorafest - Eu fui!', undefined,'Newyear 2015','Landmark',
+'Badge exclusiva para quem frequentou o Ano Novo Mitador de 2015 - Dorafest (Unobtainable)');
      Badgelist.mechanicPunch = createBadge('Claro exclusive \'Mechanic Punch\' Badge', 'soc','Luva de Boxe','Exclusiva',
 'Exclusiva do Claro, porque a Luva de Boxe mecânica é sua trademark. (Unobtainable)');
      Badgelist.programeiro = createBadge('Programeiro: Ajuda a codar paradas mitadoras', 'code','Programeiro','Utilidade',
@@ -116,7 +118,7 @@ Badgelist.mythDiamond = createBadge('Mitador Diamond: Amor à camisa', 'diamond'
      Badgelist.mariEx = createBadge('Pall exclusive \'!!!\' Badge','excla','!!!','Exclusiva',
 'Exclusiva da Pall por receber qualquer noticias com esse sinal gráfico (Unobtainable)');
      Badgelist.fuQuest = createBadge('Fuquest/OsMitadores the Game: Devteam','fq','Fuquest','Projeto',
-'Participe do desenvolvimento do nosso joguinho dos Mitadores, atualmente em Hiatus');
+'Participe do desenvolvimento do nosso joguinho dos Mitadores, atualmente de volta a mesa de planejamento');
      Badgelist.radiant = createBadge('Radiant Historia 11k','historia','Radiant Historia 11k','Landmark',
 'Participantes do épico post de Radiant Historia de 2012 que recebeu mais de 11 mil comentários totalmente fora de nexo. (Unobtainable)');
      Badgelist.genesis = createBadge('Anfitrião de SEGA Genesis','genesis','Genesis','Social',
