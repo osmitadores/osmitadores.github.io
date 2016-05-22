@@ -3,9 +3,11 @@ layout: mainboard
 ---
 
 <h1><center>UNDER MAINTENANCE</center></h1>
+<h2><center>Last build: {{ site.time }}</center></h2>
 
 {% for myth in site.data.myths %}
-<table  class="tg" style="table-layout: margin-bottom: 10px; fixed; width: 100%">
+<span id="{{ myth.tagId }}"></span>
+<table class="tg active-{{ myth.active }}" style="table-layout: margin-bottom: 10px; fixed; width: 100%">
     <colgroup>
         <col style="width: 50px">
         <col style="width: 150px">
@@ -17,13 +19,11 @@ layout: mainboard
             {% if myth.crest == crest.id %}
             <img class="crestpic" title="{{ crest.title }}" src="{{ site.assets }}/crests/{{ crest.id }}.png">
                 {% break %}
-            {% else %}
-                {% continue %}
             {% endif %}
         {% endfor %}
         </th>
         <!-- NAME -->
-        <th align="left" class="name" colspan="3">{{ myth.nome }}</th> <!-- Espacinho -->
+        <th align="left" class="name" colspan="3"><a href="#{{ myth.tagId }}">{{ myth.nome }}</a></th> <!-- Espacinho -->
         <!-- TIER -->
         <th align="left" class="tiername">
     {% for tier in site.data.tiers %}
@@ -34,8 +34,6 @@ layout: mainboard
                 <img class="tier" title="{{ tier.title }}" src="{{ site.assets }}/tiers/{{ tier.img }}.png">
             </div>
             {% break %}
-        {% else %}
-            {% continue %}
         {% endif %}
     {% endfor %}
         </th>
@@ -61,16 +59,15 @@ layout: mainboard
         </tr>
         <tr>
             <!-- BADGES -->
-            <td class="badges" id="{{ myth.tagId }}" colspan="4">
-    {% strip %}
+            <td class="badges" id="{{ myth.tagId }}-badges" colspan="4">
     {% for badge in myth.badges %}
         {% for badgeinfo in site.data.badges %}
             {% if badge == badgeinfo.id %}
                 <img class="badgeicon" title="{{ badgeinfo.title }}" src="{{ site.assets }}/badges/{{ badgeinfo.img }}.png">
+                {% break %}
             {% endif %}
         {% endfor %}
     {% endfor %}
-    {% endstrip %}
             </td>
         </tr>
         <tr>
@@ -78,7 +75,7 @@ layout: mainboard
             <td class="badges"></td>
             <td colspan="2" align="right" class="badges2">
                 <i>Badges Coletadas:</i>
-                <b id="{{ myth.tagId }}1">{{ myth.badges | size }}</b>
+                <b id="{{ myth.tagId }}-badge-count">{{ myth.badges | size }}</b>
             </td>
         </tr>
     </tbody>

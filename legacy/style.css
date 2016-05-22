@@ -347,12 +347,3 @@ background-color: #00F;
 table.tg.active-false {
     opacity: 0.3;
 }
-
-.name a{
-    text-decoration: none;
-    color: white;
-}
-
-.name a:visited {
-    color: inherit;
-}

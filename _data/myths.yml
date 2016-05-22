@@ -2,6 +2,7 @@
 -   nome: Alex
     tagId: foffano
     tier: tierUnicorn
+    active: true
     faceId: 100003209675392
     ano: 2013 Novembro
     race: Doge
@@ -13,8 +14,26 @@
         - mythUnicorn
         - preHistoric
 
+-   nome: Agatha
+    tagId: agatha
+    active: false
+    faceId: 100006709956847
+    tier: tierFreshman
+    ano: 2015 Julho
+    race: Human
+    skill: ???
+    fullname: Agatha Klein
+    alias: Gatha
+    badges:
+        - cClaro
+        - mythFresh
+        - mythHonorary
+        - vassouraWielder
+        - defiance
+
 -   nome: Ana
     tagId: yomiell
+    active: false
     faceId: 100002387089895
     tier: tierGhost
     ano: 2014 Novembro
@@ -39,3 +58,61 @@
         - gartic
         - nekomimi
         - deceased
+
+-   nome: Ana Errada
+    tagId: anaerrada
+    active: false
+    faceId: 100007384087758
+    tier: tierUnicorn
+    ano: 2015
+    badges:
+        - mythUnicorn
+        - cVinicius
+        - gartic
+
+-   nome: Aragão
+    tagId: aragao
+    active: true
+    faceId: 100002629782907
+    tier: tierLegacy
+    ano: 2013 Setembro
+    race: Human
+    skill: ???
+    fullname: Sérgio Aragão
+    alias: Aragorness
+    badges:
+        - mythLegacy
+        - hangouteiro
+        - jogueiro
+        - gartic
+        - vassouraWielder
+        - streameiro
+        - pauHd
+        - skgPart
+        - ygo
+        - steam
+
+-   nome: Arthur Zero
+    tagId: arthur
+    active: true
+    faceId: 100000504458978
+    tier: tierGold
+    ano: 2015 Maio
+    crest:
+        - The Dimensional Zero - Arthur Crest
+        - zero
+    race: Human
+    skill: Fazer Pipoca
+    fullname: Arthur Lima
+    alias: Zero
+    badges:
+        - mythGold
+        - cFlicky
+        - jogueiro
+        - pipoqueiro
+        - cah
+        - idea
+        - plugDj
+        - mitopg
+        - drillsoura
+        - steam
