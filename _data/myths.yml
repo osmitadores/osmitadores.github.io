@@ -116,3 +116,67 @@
         - mitopg
         - drillsoura
         - steam
+
+-   nome: Bárbara Bárbara
+    tagId: barbara
+    active: false
+    faceId: 100002486446403
+    tier: tierFreshman
+    ano: 2015
+    badges:
+        - mythFresh
+        - cDouglas
+
+-   nome: Bruna
+    tagId: bruna
+    active: false
+    faceId: 100004056698492
+    tier: tierGuest
+    ano: 2015 Abril
+    race: Tree
+    skill: Sou
+    fullname: Bruna Elias
+    alias: Yggydrasil
+    badges:
+        - mythGuest
+        - cFlicky
+
+-   nome: Camila
+    tagId: cpaolucci
+    active: true
+    faceId: 100003844416725
+    tier: tierLurker
+    ano: 2015 Junho
+    race: Human
+    skill: ???
+    fullname: Camila Paolucci
+    alias: Milla, Lucci
+    badges:
+        - mythLurker
+        - cZero
+        - mitopg
+
+-   nome: Cesar
+    tagId: rasec
+    faceId: 100011628151642
+    tier: tierHonorary
+    ano: 2014 Junho
+    crest:
+        - The Rockstar Sneakers - Rasec Crest
+        - rasec
+    race: Human
+    skill: ???
+    fullname: César Augusto
+    alias: Rasecsyn
+    badges:
+        - mythHonorary
+        - cFlicky
+        - mythLurker
+        - radiant
+        - encontroMyth
+        - smashFesteiro
+        - smashFest2014
+        - doraFest2015
+        - lendsClub
+        - jogueiro
+        - skgPart
