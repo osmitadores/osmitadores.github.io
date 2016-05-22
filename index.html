@@ -1,62 +1,77 @@
+---
+layout: mainboard
+---
 
-<!--
-> MITHYBOARD
-> VERSION: 2.4.1
-> BUILD: 0629-20
-> ALTERAÇÕES:
-    > Mitadores separados por comentários;
-    > Addeados links para o perfil do mitador;
-    > Addeado <meta>;
-    > Tabelas reestruturadas
-    > Adicionado contador de badges <- Deprecated!
-    > Fotos giram on Hover
-    > Hover animation em badges
-    > Scripts adicionados!!!
-    > Flike pegou o arquivo errado sem o Matsuna :V
-    > Agora o script é externo!
-    > Automatizando todo o sistema
-    > Arrumado escrita via DOM
-    > Nova função de ordenar por alfabetic
-    > Added ordenar por quantidade de badges
-    > Added tabela das badges
--->
+<h1><center>UNDER MAINTENANCE</center></h1>
 
-<head>
-    <meta charset="utf-8">
-    <title>Os Mitadores - Mythboard</title>
-    <meta property="og:title" content="Os Mitadores">
-    <meta property="og:type" content="company">
-    <meta property="og:url" content="http://osmitadores.github.io/">
-    <meta property="og:image" content="myth.png">
-    <meta property="og:site_name" content="Os Mitadores">
-    <fb:like href="https://www.facebook.com/osmitadoresoficial" width="450" height="80">
-
-    <link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" href="stylesheet.css" type="text/css" charset="utf-8" />
-</head>
-              <div style="text-align:center ;font-family:Mythosmeister; font-size:35px; color:white;">   <img src="img/lecrest.png"> <br> THE MYTHBOARD </div>
-<div id="titl" class="tit"></div>
-<div id="hidden"><b>Sort</b></div>
-
-<div id="hidden2"><b>Badges</b></div>
-
-<div id="tabelas"></div><br>
-<div id="videoobject" style="width:1px;height:1px;overflow:hidden;"></div>
-<div id="flikegay" style="text-align:center; display: none;font-family:Mythosmeister; font-size:25px; position:fixed; z-index:1001; border:solid pink; padding:20px; box-shadow: 5px 10px 10px #200a4d; left: 25%; top:50%; right:25%; border-radius:10px; background-color: #ff00f5; color: white">
-
-</div>
-    <script type="text/javascript" src="tinysort.js"></script>
-    <script type="text/javascript" src="gayQuery.js"></script>
-    <script type="text/javascript" src="mythdata.js"></script>
-    <script type="text/javascript" src="mythmitos.js"></script>
-    <script type="text/javascript" src="mythcore.js"></script>
-
-
-<div id="buttalfa" class="button">Léxico</div>
-<div id="buttbadge" class="button">Badges</div>
-<div id="butttier" class="button">Tier</div>
-<div id="buttrandom" class="button">Random</div>
-<div id="buttano" class="button">Ano</div>
-<div id="buttgay" class="button">Gay</div>
-<div id="xis">X</div>
-<!-- **************************************************************************************************** -->
+{% for myth in site.data.myths %}
+<table  class="tg" style="table-layout: margin-bottom: 10px; fixed; width: 100%">
+    <colgroup>
+        <col style="width: 50px">
+        <col style="width: 150px">
+    </colgroup>
+    <thead>
+    <!-- CREST ICON -->
+        <th class="crest">
+            <img class="crestpic" title="{{ myth.crest[0] }}" src="{{ site.assets }}/{{ myth.crest[1] }}.png">
+        </th>
+        <!-- NAME -->
+        <th align="left" class="name" colspan="3">{{ myth.nome }}</th> <!-- Espacinho -->
+        <!-- TIER -->
+        <th align="left" class="tiername">
+    {% for tier in site.data.tiers %}
+        {% if myth.tier == tier.id %}
+            <span class="tierlevel">{{ tier.level }}</span>Tier: <strong>{{ tier.title }}</strong></th>
+        <th align="right" class="tiericon">
+            <div>
+                <img class="tier" title="{{ tier.title }}" src="{{ site.assets }}/tiers/{{ tier.img }}.png">
+            </div>
+            {% break %}
+        {% else %}
+            {% continue %}
+        {% endif %}
+    {% endfor %}
+        </th>
+    </thead>
+    <tbody>
+        <tr>
+            <!-- PROFILE PIC -->
+            <td align="center" class="profilepic" colspan="2" rowspan="5">
+                <a target="_blank" href="https://www.facebook.com/{{ myth.faceId }}">
+                    <img class="profile" src="http://graph.facebook.com/{{ myth.faceId }}/picture?width=151&height=151">
+                </a>
+            </td>
+            <tr>
+                <td HEIGHT="1px" colspan="2" ></td>
+            </tr>
+            <td class="tg-e3zv">
+                Badges
+            </td>
+            <td class="tg-031e"></td>
+            <td class="since" align="right"  colspan="3" >
+                Mitando since  <strong class="mythano">{{ myth.ano }}</strong>
+            </td>
+        </tr>
+        <tr>
+            <!-- BADGES -->
+            <td class="badges" id="{{ myth.tagId }}" colspan="4">
+    {% for badge in myth.badges %}{% for badgeinfo in site.data.badges %}{% if badge == badgeinfo.id %}<img class="badgeicon" title="{{ badgeinfo.title }}" src="{{ site.assets }}/badges/{{ badgeinfo.img }}.png">
+                {% break %}
+            {% else %}
+                {% continue %}
+            {% endif %}
+        {% endfor %}
+    {% endfor %}
+            </td>
+        </tr>
+        <tr>
+            <td class="badges"></td>
+            <td class="badges"></td>
+            <td colspan="2" align="right" class="badges2">
+                <i>Badges Coletadas:</i>
+                <b id="{{ myth.tagId }}1"></b>
+            </td>
+        </tr>
+    </tbody>
+</table>
+{% endfor %}

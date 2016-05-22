@@ -1,0 +1,64 @@
+
+-   id: mythUnicorn
+    title: Mitador Unicorn - Raros porém participativos
+    img: uni
+
+-   id: preHistoric
+    title: Mitador Jurássico - Os Mitadores Pré-Históricos
+    img: jurassic
+
+-   id: mythGhost
+    title: Mitador Ghost - Inativo há mais de um mês
+    img: ghost
+
+-   id: jogueiro
+    title: Jogueiros - Sempre presentes nas jogatinas míticas
+    img: joy
+
+-   id: hangouteiro
+    title: Hangouteiro - Sempre marcando presença nos Hangouts!
+    img: hang
+
+-   id: desenheiro
+    title: Desenheiro - Depictador dos melhores momentos
+    img: pen
+
+-   id: goldenPen
+    title: Golden Pen - Desenheiro Lendário
+    img: pen
+
+-   id: cah
+    title: Mitadores Contra a Humanidade!
+    img: cah
+
+-   id: vassouraWielder
+    title: Vassoura Wielder - Já vassourou alguém em uma situação realmente necessária
+    img: broom
+
+-   id: 3dsPlay
+    title: 3DS Teamplay - Jogou com mitadores via Nintendo 3DS
+    img: 3ds
+
+-   id: defiance
+    title: Defiance - Sem medo de umas vassouradas
+    img: defiance
+
+-   id: miauCaralho
+    title: Ana exclusive 'MIAO CARALHO' Badge
+    img: badge
+
+-   id: idea
+    title: Badger - Até eu criei uma Badge e você não!
+    img: badgeidea
+
+-   id: gartic
+    title: Círculo Mitador de Gartic
+    img: gartic
+
+-   id: nekomimi
+    title: Trust me, I'm a cat!
+    img: nekomimi
+
+-   id: deceased
+    title: Mitador Aposentado
+    img: deceased

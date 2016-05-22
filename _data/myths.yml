@@ -1,0 +1,45 @@
+
+-   nome: Alex
+    tagId: foffano
+    tier: tierUnicorn
+    faceId: 100003209675392
+    ano: 2013 Novembro
+    race: Doge
+    skill: ???
+    fullname: Alex Carvalho
+    alias: Foffano
+    crest:
+        - "No Crest"
+        - nocrest
+    badges:
+        - mythUnicorn
+        - preHistoric
+
+-   nome: Ana
+    tagId: yomiell
+    faceId: 100002387089895
+    tier: tierGhost
+    ano: 2014 Novembro
+    race: Cat
+    skill: Dormir
+    fullname: Ana Beatriz Silva Oliveira
+    alias: Yomiell
+    crest:
+        - "Yomiell Hankerchief: Ana Crest"
+        - yomi
+    badges:
+        - mythGhost
+        - preHistoric
+        - jogueiro
+        - hangouteiro
+        - desenheiro
+        - goldenPen
+        - cah
+        - vassouraWielder
+        - 3dsPlay
+        - defiance
+        - miauCaralho
+        - idea
+        - gartic
+        - nekomimi
+        - deceased

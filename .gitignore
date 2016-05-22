@@ -25,3 +25,7 @@
 *.bak
 *.pdf
 *.db
+_
+_site
+.sass-cache
+.jekyll-metadata

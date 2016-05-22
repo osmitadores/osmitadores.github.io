@@ -1,0 +1,10 @@
+
+-   id: tierUnicorn
+    title: Mitador Unicorn
+    img: uni
+    level: 0
+
+-   id: tierGhost
+    title: Mitador Ghost
+    img: ghost
+    level: 1
