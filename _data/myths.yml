@@ -8,9 +8,7 @@
     skill: ???
     fullname: Alex Carvalho
     alias: Foffano
-    crest:
-        - "No Crest"
-        - nocrest
+    crest: nocrest
     badges:
         - mythUnicorn
         - preHistoric
@@ -24,9 +22,7 @@
     skill: Dormir
     fullname: Ana Beatriz Silva Oliveira
     alias: Yomiell
-    crest:
-        - "Yomiell Hankerchief: Ana Crest"
-        - yomi
+    crest: yomi
     badges:
         - mythGhost
         - preHistoric

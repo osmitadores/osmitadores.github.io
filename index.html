@@ -13,7 +13,14 @@ layout: mainboard
     <thead>
     <!-- CREST ICON -->
         <th class="crest">
-            <img class="crestpic" title="{{ myth.crest[0] }}" src="{{ site.assets }}/crests/{{ myth.crest[1] }}.png">
+        {% for crest in site.data.crests %}
+            {% if myth.crest == crest.id %}
+            <img class="crestpic" title="{{ crest.title }}" src="{{ site.assets }}/crests/{{ crest.id }}.png">
+                {% break %}
+            {% else %}
+                {% continue %}
+            {% endif %}
+        {% endfor %}
         </th>
         <!-- NAME -->
         <th align="left" class="name" colspan="3">{{ myth.nome }}</th> <!-- Espacinho -->
@@ -55,7 +62,10 @@ layout: mainboard
         <tr>
             <!-- BADGES -->
             <td class="badges" id="{{ myth.tagId }}" colspan="4">
-    {% for badge in myth.badges %}{% for badgeinfo in site.data.badges %}{% if badge == badgeinfo.id %}<img class="badgeicon" title="{{ badgeinfo.title }}" src="{{ site.assets }}/badges/{{ badgeinfo.img }}.png">
+    {% for badge in myth.badges %}
+        {% for badgeinfo in site.data.badges %}
+            {% if badge == badgeinfo.id %}
+                <img class="badgeicon" title="{{ badgeinfo.title }}" src="{{ site.assets }}/badges/{{ badgeinfo.img }}.png">
                 {% break %}
             {% else %}
                 {% continue %}
@@ -69,7 +79,7 @@ layout: mainboard
             <td class="badges"></td>
             <td colspan="2" align="right" class="badges2">
                 <i>Badges Coletadas:</i>
-                <b id="{{ myth.tagId }}1"></b>
+                <b id="{{ myth.tagId }}1">{{ myth.badges | size }}</b>
             </td>
         </tr>
     </tbody>
