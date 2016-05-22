@@ -62,16 +62,15 @@ layout: mainboard
         <tr>
             <!-- BADGES -->
             <td class="badges" id="{{ myth.tagId }}" colspan="4">
+    {% strip %}
     {% for badge in myth.badges %}
         {% for badgeinfo in site.data.badges %}
             {% if badge == badgeinfo.id %}
                 <img class="badgeicon" title="{{ badgeinfo.title }}" src="{{ site.assets }}/badges/{{ badgeinfo.img }}.png">
-                {% break %}
-            {% else %}
-                {% continue %}
             {% endif %}
         {% endfor %}
     {% endfor %}
+    {% endstrip %}
             </td>
         </tr>
         <tr>
