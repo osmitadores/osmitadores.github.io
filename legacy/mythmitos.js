@@ -58,7 +58,7 @@
             "jogueiro",
             "hangouteiro",
             "desenheiro",
-			goldenPen,
+			"goldenPen",
             "cah",
             "vassouraWielder",
             _"3dsPlay",
@@ -66,7 +66,7 @@
             miauCaralho,
             "idea",
             "gartic",
-			nekomimi,
+			"nekomimi",
 			"deceased"
 
         ]
@@ -578,7 +578,6 @@
     Myth.pall = {
         "nome": "Pall",
         "tagId": "pall",
-        "tagId":1: "pall1",
         "faceId": "1591210799",
         "tier": "tierLegacy",
         "ano": " 2013 Setembro",
@@ -599,10 +598,10 @@
             "hangouteiro",
             "cah",
             "streameiro",
-            _"3dsPlay",
+            "3dsPlay",
             "likeBomb",
-            ps4,
-            mariEx,
+            "ps4",
+            "mariEx",
             "plugDj",
 			"mitrade",
 			"mitopg"
@@ -611,38 +610,37 @@
     Myth.pam = {
         "nome": "Pamela",
         "tagId": "pam",
-        "tagId":1: "pam1",
         "faceId": "100003518568433",
 		"crest": ["The Whiskas Tin", "pam"],
         "tier": "tierMinister",
         "ano": "2015 Maio ",
 		"race": "Demi-Cat",
-		"skill": "Poke",
+		"skill": "poke",
 		"fullname": "Pamela Grether",
 		"alias": "PamGreta, Kerria",
         "badges": [
-            mythDiamond,
+            "mythDiamond",
             "mythMinister",
-            cPall,
+            "cPall",
             "defiance",
             "vassouraWielder",
             "desenheiro",
             "rplay",
             "essetop",
-			goldenPen,
+			"goldenPen",
             "jogueiro",
             "hangouteiro",
             "idea",
             "harass",
             "gartic",
-            poke,
+            "poke",
             "plugDj",
             "mitamores",
             "help",
 			"maid",
 			"mitrade",
 			"mitopg",
-			nekomimi,
+			"nekomimi",
 			"steam",
             "lendsClub",
             "doraFest2015"
@@ -651,7 +649,6 @@
 	    Myth.raptor = {
         "nome": "Raptor",
         "tagId": "raptor",
-        "tagId":1: "raptor1",
         "faceId": "100010429817165",//"100002980734271",
         "tier": "tierSilver",
         "ano": "2015 Junho ",
@@ -661,20 +658,19 @@
 		"alias": "Raptor",
         "badges": [
             "mythSilver",
-            cHerbe,
-            nennys,
+            "cHerbe",
+            "nennys",
             "defiance",
 			"ygo",
 			"desenheiro",
 			"hangouteiro",
-			_"3dsPlay",
-			//"deceased",
+			"3dsPlay",
+			"deceased"
         ]
 	};
      Myth.romulo = {
         "nome": "Rômulo",
         "tagId": "romulo",
-        "tagId":1: "romulo1",
         "faceId": "100001228879580",
         "tier": "tierGhost",
         "ano": " 2015 Junho",
@@ -686,13 +682,12 @@
             "mythLurker",
             "cClaro",
             "pepe",
-            frog
+            "frog"
         ]
     };
     Myth.rubens = {
         "nome": "Switch",
         "tagId": "rubens",
-        "tagId":1: "rubens1",
         "faceId": "100002312675503",
         "tier": "tierUnicorn",
         "ano": " 2015 Março",
@@ -710,7 +705,6 @@
   Myth.tairine = {
         "nome": "Tairine",
         "tagId": "tairine",
-        "tagId":1: "tairine1",
         "faceId": "100000251671306",
         "tier": "tierFreshman",
         "ano": "2015",
@@ -753,7 +747,7 @@
 		"fullname": "William Tuméo",
 		"alias": "Túnel",
         "badges": [
-            mythDiamond,
+            "mythDiamond",
 			"mythMinister",
             "merito",
             "programeiro",
@@ -787,7 +781,7 @@
         "badges": [
             "mythSilver",
             "encontroMyth",
-            cHerbe,
+            "cHerbe",
             "smashFesteiro",
             "smashFest2014",
             "doraFest2015",
@@ -851,7 +845,7 @@
 		"alias": "Gorsal",
         "badges": [
             "mythLegacy",
-			mythDiamond,
+			"mythDiamond",
             "preHistoric",
             "desenheiro",
             "jogueiro",
@@ -870,7 +864,7 @@
             "kanaFest",
             musicist,
             "likeBomb",
-			goldenPen,
+			"goldenPen",
 	    "help",
 		"mitrade",
         ]

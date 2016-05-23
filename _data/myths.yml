@@ -553,6 +553,7 @@
 
 -   nome: Pamela
     tagId: pam
+    active: true
     faceId: 100003518568433
     crest:
         - The Whiskas Tin
@@ -563,7 +564,7 @@
     skill: poke
     fullname: Pamela Grether
     alias: PamGreta, Kerria
-    badges: 
+    badges:
         - mythDiamond
         - mythMinister
         - cPall
@@ -588,4 +589,115 @@
         - nekomimi
         - steam
         - lendsClub
+        - doraFest2015
+
+-   nome: Raptor
+    tagId: raptor
+    active: true
+    faceId: 100010429817165
+    tier: tierSilver
+    ano: 2015 Junho
+    race: Dinossauro
+    skill: Birutisse
+    fullname: David Raptor, O Mascote
+    alias: Raptor
+    badges:
+        - mythSilver
+        - cHerbe
+        - nennys
+        - defiance
+        - ygo
+        - desenheiro
+        - hangouteiro
+        - 3dsPlay
+        - deceased
+
+-   nome: Rômulo
+    tagId: romulo
+    active: true
+    faceId: 100001228879580
+    tier: tierGhost
+    ano:  2015 Junho
+    race: Human
+    skill: Samangada
+    fullname: Rômulo Ventura
+    alias: Romulosama
+    badges:
+        - mythLurker
+        - cClaro
+        - pepe
+        - frog
+
+-   nome: Switch
+    tagId: rubens
+    active: true
+    faceId: 100002312675503
+    tier: tierUnicorn
+    ano:  2015 Março
+    race: Android
+    skill: ???
+    fullname: Rubens Salvador
+    alias: Switch Z
+    badges:
+        - mythUnicorn
+        - cClaro
+        - kanaFest
+
+-   nome: Tairine
+    tagId: tairine
+    active: true
+    faceId: 100000251671306
+    tier: tierFreshman
+    ano: 2015
+    badges:
+        - mythFresh
+        - doraFest2015
+
+-   nome: Toshiaki
+    tagId: toshiaki
+    active: false
+    faceId: 100000410405406
+    tier: tierUnicorn
+    ano: 2015 Março
+    race: Human
+    skill: Toshiakadas
+    fullname: Thiago Toshiaki
+    alias: ToshiakiBR, Teriyaki
+    badges:
+        - mythUnicorn
+        - jogueiro
+        - likeBomb
+        - help
+        - karaoke
+        - encontroMyth
+        - steam
+
+-   nome: Tumeo
+    tagId: tunel
+    active: true
+    faceId: 100001156867316
+    tier: tierMinister
+    ano: 2015 Abril
+    race: Construção Pública
+    skill: ???
+    fullname: William Tuméo
+    alias: Túnel
+    badges:
+        - mythDiamond
+        - mythMinister
+        - merito
+        - programeiro
+        - kanaFest
+        - essetop
+        - redCoder
+        - vassouraWielder
+        - jogueiro
+        - help
+        - idea
+        - gartic
+        - tumeoEx
+        - tunelaa
+        - mitrade
+        - steam
+        - maid
         - doraFest2015
