@@ -158,6 +158,7 @@
 
 -   nome: Cesar
     tagId: rasec
+    active: true
     faceId: 100011628151642
     tier: tierHonorary
     ano: 2014 Junho
@@ -180,3 +181,170 @@
         - lendsClub
         - jogueiro
         - skgPart
+
+-   nome: Claro
+    tagId: claro
+    active: true
+    faceId: 100000481675563
+    tier: tierPlatinum
+    ano: 2014 Dezembro
+    crest:
+        - Com o Claro você fala ilimitado! Claro Crest
+        - claro
+    race: Titan
+    skill: Soco Mecânico
+    fullname: Matheus Claro
+    alias: Spyril4
+    badges:
+        - mythPlatinum
+        - mechanicPunch
+        - hangouteiro
+        - defiance
+        - cah
+        - vassouraWielder
+        - cGors
+        - programeiro
+        - jogueiro
+        - skgPart
+        - essetop
+        - ygo
+        - idea
+        - help
+        - pepe
+        - gartic
+        - rplay
+        - likeBomb
+        - plugDj
+        - harass
+        - mitopg
+        - mitrade
+        - steam
+
+-   nome: Coelho
+    tagId: coelho
+    active: false
+    faceId: 741852426
+    tier: tierLegacy
+    ano: 2013 Setembro
+    race: Fairy
+    skill: Cupid
+    fullname: Felipe Coelho
+    alias: BlackLabHorus, Estragaonofre
+    badges:
+        - mythLegacy
+        - mythGhost
+        - cupidRab
+        - ps2
+        - ps3
+        - frukiFest
+        - streameiro
+        - karaoke
+        - smashFest2014
+        - 3dsPlay
+        - elder
+
+    nome: Davi
+    tagId: davi
+    active: true
+    faceId: 100000350561525
+    tier: tierFreshman
+    ano: 2015 Julho
+    race: Human
+    skill: ???
+    fullname: Davi Carvalhido
+    alias: Liu Kang
+    badges:
+        - mythFresh
+        - cClaro
+
+-   nome: Douglas
+    tagId: douglas
+    active: true
+    faceId: 100002084300385
+    tier: tierGold
+    ano: 2015 Maio
+    race: Human
+    skill: Q
+    fullname: Douglas Savi Mondo Fogaça
+    alias: Dogolas
+    crest:
+        - Q? Douglas Crest
+        - qqq
+    badges:
+        - mythGold
+        - merito
+        - hangouteiro
+        - ygo
+        - qqq
+        - plugDj
+        - rplay
+        - desenheiro
+        - mitrade
+        - maid
+
+-   nome: Fernando
+    tagId: duodyn
+    active: false
+    faceId: 100000141297181
+    tier: tierHonorary
+    ano: 2014 Abril
+    race: Maverick
+    skill: ???
+    fullname: Fernando Lopes
+    alias: DuoDynamo
+    badges:
+        - mythHonorary
+        - mythGhost
+        - essetop
+        - cGors
+        - hangouteiro
+        - karaoke
+
+-   nome: Flicky
+    tagId: flike
+    active: true
+    faceId: 1489576273
+    tier: tierMinister
+    ano: 2013 Agosto
+    crest:
+        - The Mighy Red Hood - Flicky Crest
+        - hood
+    race: Machine
+    skill: Todas menos Algumas
+    fullname: Lucas Flicky
+    alias: Flocos
+    badges:
+        - mythPrime
+        - mythMinister
+        - desenheiro
+        - preHistoric
+        - jogueiro
+        - radiant
+        - fuQuest
+        - hangouteiro
+        - cah
+        - help
+        - genesis
+        - frukiFest
+        - vassouraWielder
+        - encontroMyth
+        - gardevoa
+        - gartic
+        - streameiro
+        - steam
+        - karaoke
+        - essetop
+        - smashFest2014
+        - doraFest2015
+        - kanaFest
+        - programeiro
+        - 3dsPlay
+        - lendsClub
+        - rplay
+        - skgPart
+        - ygo
+        - plugDj
+        - harass
+        - mitamores
+        - mitrade
+        - mitopg
