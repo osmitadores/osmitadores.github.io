@@ -701,3 +701,119 @@
         - steam
         - maid
         - doraFest2015
+
+-   nome: Vidal
+    tagId: vidal
+    active: true
+    faceId: 100000652608528
+    tier: tierSilver
+    ano:  2015 Janeiro
+    race: Relativista
+    skill: P-p-p-pessoas
+    fullname: Ricardo Vidal
+    alias: RicsVidal
+    badges:
+        - mythSilver
+        - encontroMyth
+        - cHerbe
+        - smashFesteiro
+        - smashFest2014
+        - doraFest2015
+        - matricialPrint
+        - 3dsPlay
+        - likeBomb
+        - vidalGt
+        - lendsClub
+        - vidalFdp
+        - plugDj
+        - mitopg
+
+-   nome: Vinicius
+    tagId: vinicius
+    active: true
+    faceId: 100002623130922
+    crest:
+        - The Piano Key - Vinicius Crest
+        - vkps
+    tier: tierUnicorn
+    ano:  2013 Outubro
+    race: Human
+    skill: VSF
+    fullname: Vinicius Kleinsorgen
+    alias: Vinólia, Vinóculos, Vkps
+    badges:
+        - mythLegacy
+        - mythUnicorn
+        - preHistoric
+        - jogueiro
+        - fuQuest
+        - wii
+        - radiant
+        - frukiFest
+        - hangouteiro
+        - musicist
+        - gartic
+        - encontroMyth
+        - smashFesteiro
+        - smashFest2014
+        - doraFest2015
+        - 3dsPlay
+        - lendsClub
+        - cah
+        - mitrade
+        - cleosvaldo
+        - steam
+
+-   nome: Watanabe
+    tagId: gors
+    active: true
+    faceId: 100003656546830
+    tier: tierDiamond
+    ano: 2013 Outubro
+    crest:
+        - The Bullet Head - Gors Crest
+        - gors
+    race: Projectile
+    skill: Overmito
+    fullname: William Watanabe
+    alias: Gorsal
+    badges:
+        - mythLegacy
+        - mythDiamond
+        - preHistoric
+        - desenheiro
+        - jogueiro
+        - fuQuest
+        - frukiFest
+        - radiant
+        - hangouteiro
+        - gartic
+        - encontroMyth
+        - streameiro
+        - smashFesteiro
+        - cah
+        - 3dsPlay
+        - smashFest2014
+        - wataZomb
+        - kanaFest
+        - musicist
+        - likeBomb
+        - goldenPen
+        - help
+        - mitrade
+
+-   nome: Wolvie
+    tagId: wolvie
+    active: true
+    faceId: 100003103308138
+    tier: tierLurker
+    ano: 2015 Abril
+    race: Viking
+    skill: Batata
+    fullname: Douglas Medeiros
+    alias: Wolvie
+    badges:
+        - mythLurker
+        - cCesar
+        - encontroMyth
+        - mitopg
