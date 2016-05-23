@@ -517,3 +517,75 @@
     badges:
         - mythGhost
         - cFlicky
+
+-   nome: Pall
+    tagId: pall
+    active: true
+    faceId: 1591210799
+    tier: tierLegacy
+    ano:  2013 Setembro
+    crest:
+        - The Kawaii Stick Pall Crest
+        - pall
+    race: Human
+    skill: '!!!'
+    fullname: Mariana Espinosa Pall
+    alias: Maripall
+    badges:
+        - mythLegacy
+        - mythSilver
+        - desenheiro
+        - mitamores
+        - karaoke
+        - gartic
+        - jogueiro
+        - ps3
+        - hangouteiro
+        - cah
+        - streameiro
+        - 3dsPlay
+        - likeBomb
+        - ps4
+        - mariEx
+        - plugDj
+        - mitrade
+        - mitopg
+
+-   nome: Pamela
+    tagId: pam
+    faceId: 100003518568433
+    crest:
+        - The Whiskas Tin
+        - pam
+    tier: tierMinister
+    ano: 2015 Maio
+    race: Demi-Cat
+    skill: poke
+    fullname: Pamela Grether
+    alias: PamGreta, Kerria
+    badges: 
+        - mythDiamond
+        - mythMinister
+        - cPall
+        - defiance
+        - vassouraWielder
+        - desenheiro
+        - rplay
+        - essetop
+        - goldenPen
+        - jogueiro
+        - hangouteiro
+        - idea
+        - harass
+        - gartic
+        - poke
+        - plugDj
+        - mitamores
+        - help
+        - maid
+        - mitrade
+        - mitopg
+        - nekomimi
+        - steam
+        - lendsClub
+        - doraFest2015
