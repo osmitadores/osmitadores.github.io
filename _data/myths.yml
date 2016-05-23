@@ -24,6 +24,7 @@
     skill: ???
     fullname: Agatha Klein
     alias: Gatha
+    crest: nocrest
     badges:
         - cClaro
         - mythFresh
@@ -65,6 +66,7 @@
     faceId: 100007384087758
     tier: tierUnicorn
     ano: 2015
+    crest: nocrest
     badges:
         - mythUnicorn
         - cVinicius
@@ -80,6 +82,7 @@
     skill: ???
     fullname: Sérgio Aragão
     alias: Aragorness
+    crest: nocrest
     badges:
         - mythLegacy
         - hangouteiro
@@ -98,9 +101,7 @@
     faceId: 100000504458978
     tier: tierGold
     ano: 2015 Maio
-    crest:
-        - The Dimensional Zero - Arthur Crest
-        - zero
+    crest: zero
     race: Human
     skill: Fazer Pipoca
     fullname: Arthur Lima
@@ -123,6 +124,7 @@
     faceId: 100002486446403
     tier: tierFreshman
     ano: 2015
+    crest: nocrest
     badges:
         - mythFresh
         - cDouglas
@@ -137,6 +139,7 @@
     skill: Sou
     fullname: Bruna Elias
     alias: Yggydrasil
+    crest: nocrest
     badges:
         - mythGuest
         - cFlicky
@@ -151,6 +154,7 @@
     skill: ???
     fullname: Camila Paolucci
     alias: Milla, Lucci
+    crest: nocrest
     badges:
         - mythLurker
         - cZero
@@ -162,9 +166,7 @@
     faceId: 100011628151642
     tier: tierHonorary
     ano: 2014 Junho
-    crest:
-        - The Rockstar Sneakers - Rasec Crest
-        - rasec
+    crest: rasec
     race: Human
     skill: ???
     fullname: César Augusto
@@ -188,9 +190,7 @@
     faceId: 100000481675563
     tier: tierPlatinum
     ano: 2014 Dezembro
-    crest:
-        - Com o Claro você fala ilimitado! Claro Crest
-        - claro
+    crest: claro
     race: Titan
     skill: Soco Mecânico
     fullname: Matheus Claro
@@ -230,6 +230,7 @@
     skill: Cupid
     fullname: Felipe Coelho
     alias: BlackLabHorus, Estragaonofre
+    crest: nocrest
     badges:
         - mythLegacy
         - mythGhost
@@ -253,6 +254,7 @@
     skill: ???
     fullname: Davi Carvalhido
     alias: Liu Kang
+    crest: nocrest
     badges:
         - mythFresh
         - cClaro
@@ -267,9 +269,7 @@
     skill: Q
     fullname: Douglas Savi Mondo Fogaça
     alias: Dogolas
-    crest:
-        - Q? Douglas Crest
-        - qqq
+    crest: qqq
     badges:
         - mythGold
         - merito
@@ -292,6 +292,7 @@
     skill: ???
     fullname: Fernando Lopes
     alias: DuoDynamo
+    crest: nocrest
     badges:
         - mythHonorary
         - mythGhost
@@ -306,9 +307,7 @@
     faceId: 1489576273
     tier: tierMinister
     ano: 2013 Agosto
-    crest:
-        - The Mighy Red Hood - Flicky Crest
-        - hood
+    crest: hood
     race: Machine
     skill: Todas menos Algumas
     fullname: Lucas Flicky
@@ -359,6 +358,7 @@
     skill: Mandar Nudes
     fullname: Gabriel Freire
     alias: Freire, Biel
+    crest: nocrest
     badges:
         - mythEvent
         - mythSilver
@@ -378,6 +378,7 @@
     skill: Inútil
     fullname: Gabriel Henrique
     alias: Henrique, Gabriel
+    crest: nocrest
     badges:
         - mythFresh
         - cDouglas
@@ -388,9 +389,7 @@
     faceId: 100003138536144
     tier: tierHonorary
     ano:  2014 Outubro
-    crest:
-        - Crest Title - Garland Crest
-        - mage
+    crest: mage
     race: Mage
     skill: Bruxaria
     fullname: Bernardo Alvarez Braga
@@ -409,9 +408,7 @@
     faceId: 100000980181670
     tier: tierGhost
     ano: 2013
-    crest:
-        - A Erva da Alegria - Herbe Crest
-        - herb
+    crest: herb
     badges:
         - mythPrime
         - frukiFest
@@ -436,6 +433,7 @@
     skill: ???
     fullname: Karen Sama
     alias: Carem
+    crest: nocrest
     badges:
         - mythGhost
         - preHistoric
@@ -457,6 +455,7 @@
     skill: Print
     fullname: Keidi Hasegawa
     alias: Keig
+    crest: nocrest
     badges:
         - mythUnicorn
         - cAna
@@ -479,6 +478,7 @@
     skill: Dois Potes
     fullname: Luana Reis
     alias: _reisluana
+    crest: nocrest
     badges:
         - mythHonorary
         - encontroMyth
@@ -500,6 +500,7 @@
     skill: ???
     fullname: Luiggi Ligocky
     alias: Afro
+    crest: nocrest
     badges:
         - mythFresh
         - cGarland
@@ -514,6 +515,7 @@
     skill: ???
     fullname: Marcela Marcelino
     alias: Marceline
+    crest: nocrest
     badges:
         - mythGhost
         - cFlicky
@@ -524,9 +526,7 @@
     faceId: 1591210799
     tier: tierLegacy
     ano:  2013 Setembro
-    crest:
-        - The Kawaii Stick Pall Crest
-        - pall
+    crest: pall
     race: Human
     skill: '!!!'
     fullname: Mariana Espinosa Pall
@@ -555,9 +555,7 @@
     tagId: pam
     active: true
     faceId: 100003518568433
-    crest:
-        - The Whiskas Tin
-        - pam
+    crest: pam
     tier: tierMinister
     ano: 2015 Maio
     race: Demi-Cat
@@ -601,6 +599,7 @@
     skill: Birutisse
     fullname: David Raptor, O Mascote
     alias: Raptor
+    crest: nocrest
     badges:
         - mythSilver
         - cHerbe
@@ -622,6 +621,7 @@
     skill: Samangada
     fullname: Rômulo Ventura
     alias: Romulosama
+    crest: nocrest
     badges:
         - mythLurker
         - cClaro
@@ -638,6 +638,7 @@
     skill: ???
     fullname: Rubens Salvador
     alias: Switch Z
+    crest: nocrest
     badges:
         - mythUnicorn
         - cClaro
@@ -649,6 +650,7 @@
     faceId: 100000251671306
     tier: tierFreshman
     ano: 2015
+    crest: nocrest
     badges:
         - mythFresh
         - doraFest2015
@@ -663,6 +665,7 @@
     skill: Toshiakadas
     fullname: Thiago Toshiaki
     alias: ToshiakiBR, Teriyaki
+    crest: nocrest
     badges:
         - mythUnicorn
         - jogueiro
@@ -682,6 +685,7 @@
     skill: ???
     fullname: William Tuméo
     alias: Túnel
+    crest: nocrest
     badges:
         - mythDiamond
         - mythMinister
@@ -712,6 +716,7 @@
     skill: P-p-p-pessoas
     fullname: Ricardo Vidal
     alias: RicsVidal
+    crest: nocrest
     badges:
         - mythSilver
         - encontroMyth
@@ -732,9 +737,7 @@
     tagId: vinicius
     active: true
     faceId: 100002623130922
-    crest:
-        - The Piano Key - Vinicius Crest
-        - vkps
+    crest: vkps
     tier: tierUnicorn
     ano:  2013 Outubro
     race: Human
@@ -770,9 +773,7 @@
     faceId: 100003656546830
     tier: tierDiamond
     ano: 2013 Outubro
-    crest:
-        - The Bullet Head - Gors Crest
-        - gors
+    crest: gors
     race: Projectile
     skill: Overmito
     fullname: William Watanabe
@@ -812,6 +813,7 @@
     skill: Batata
     fullname: Douglas Medeiros
     alias: Wolvie
+    crest: nocrest
     badges:
         - mythLurker
         - cCesar
