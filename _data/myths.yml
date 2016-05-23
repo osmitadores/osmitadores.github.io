@@ -348,3 +348,172 @@
         - mitamores
         - mitrade
         - mitopg
+
+-   nome: Gabriel
+    tagId: gabriel
+    active: true
+    faceId: 100003090554200
+    tier: tierSilver
+    ano: 2015 Junho
+    race: Porteiro
+    skill: Mandar Nudes
+    fullname: Gabriel Freire
+    alias: Freire, Biel
+    badges:
+        - mythEvent
+        - mythSilver
+        - gartic
+        - jogueiro
+        - hangouteiro
+        - harass
+        - plugDj
+
+-   nome: Gabriell
+    tagId: gabriell
+    active: true
+    faceId: 100001122246638
+    tier: tierFreshman
+    ano: 2015 Dezembro
+    race: Human
+    skill: Inútil
+    fullname: Gabriel Henrique
+    alias: Henrique, Gabriel
+    badges:
+        - mythFresh
+        - cDouglas
+
+-   nome: Garland
+    tagId: garland
+    active: true
+    faceId: 100003138536144
+    tier: tierHonorary
+    ano:  2014 Outubro
+    crest:
+        - Crest Title - Garland Crest
+        - mage
+    race: Mage
+    skill: Bruxaria
+    fullname: Bernardo Alvarez Braga
+    alias: Bê
+    badges:
+        - mythHonorary
+        - encontroMyth
+        - mythLurker
+        - cFlicky
+        - smashFest2014
+        - steam
+
+-   nome: Herbe
+    tagId: herbe
+    active: true
+    faceId: 100000980181670
+    tier: tierGhost
+    ano: 2013
+    crest:
+        - A Erva da Alegria - Herbe Crest
+        - herb
+    badges:
+        - mythPrime
+        - frukiFest
+        - encontroMyth
+        - smashFesteiro
+        - vassouraWielder
+        - essetop
+        - smashFest2014
+        - doraFest2015
+        - harass
+        - 3dsPlay
+        - lendsClub
+        - deceased
+
+-   nome: Karen
+    tagId: karen
+    active: true
+    faceId: 100002543640185
+    tier: tierGhost
+    ano: 2014 Maio
+    race: Human
+    skill: ???
+    fullname: Karen Sama
+    alias: Carem
+    badges:
+        - mythGhost
+        - preHistoric
+        - n64
+        - cah
+        - happyDoor
+        - radiant
+        - smashFesteiro
+        - encontroMyth
+        - smashFest2014
+
+-   nome: Keidi
+    tagId: keidi
+    active: false
+    faceId: 100000119298271
+    tier: tierUnicorn
+    ano: 2015 Maio
+    race: Mijão
+    skill: Print
+    fullname: Keidi Hasegawa
+    alias: Keig
+    badges:
+        - mythUnicorn
+        - cAna
+        - keidiPint
+        - streameiro
+        - kanaFest
+        - jogueiro
+        - skgPart
+        - plugDj
+        - steam
+        - deceased
+
+-   nome: Luana
+    tagId: luana
+    active: true
+    faceId: 100001019850664
+    tier: tierHonorary
+    ano:  2014 Fevereiro
+    race: Human
+    skill: Dois Potes
+    fullname: Luana Reis
+    alias: _reisluana
+    badges:
+        - mythHonorary
+        - encontroMyth
+        - doisPotes
+        - cFlicky
+        - radiant
+        - harass
+        - frukiFest
+        - lendsClub
+        - deceased
+
+-   nome: Mario Verde
+    tagId: luiggi
+    active: false
+    faceId: 1413967158
+    tier: tierFreshman
+    ano: 2015 Junho
+    race: Human
+    skill: ???
+    fullname: Luiggi Ligocky
+    alias: Afro
+    badges:
+        - mythFresh
+        - cGarland
+
+-   nome: Marcela
+    tagId: marcela
+    active: true
+    faceId: 100002119416291
+    tier: tierGhost
+    ano:  2014 Novembro
+    race: Undead
+    skill: ???
+    fullname: Marcela Marcelino
+    alias: Marceline
+    badges:
+        - mythGhost
+        - cFlicky

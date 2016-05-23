@@ -36,7 +36,7 @@
             "cClaro",
             "mythFresh",
             "mythHonorary",
-            "vassouraWi"elder"",
+            "vassouraWielder",
             "defiance"
         ]
     }; */
@@ -45,7 +45,7 @@
         "tagId": "yomiell",
         "tagId":1: "yomiell1",
         "faceId": "100002387089895",
-        "tier": tierGhost,
+        "tier": "tierGhost",
         "ano": "2014 Novembro ",
 		"race": "Cat",
 		"skill": "Dormir",
@@ -60,14 +60,14 @@
             "desenheiro",
 			goldenPen,
             "cah",
-            "vassouraWi"elder"",
+            "vassouraWielder",
             _"3dsPlay",
             "defiance",
             miauCaralho,
             "idea",
             "gartic",
 			nekomimi,
-			deceased
+			"deceased"
 
         ]
     };
@@ -99,7 +99,7 @@
             ""hangouteiro"",
             ""jogueiro"",
             ""gartic"",
-            ""vassouraWi"elder""",
+            ""vassouraWielder"",
             ""streameiro"",
             "pauHd",
             ""skgPart"",
@@ -222,7 +222,7 @@
             "hangouteiro",
             "defiance",
             "cah",
-            "vassouraWi"elder"",
+            "vassouraWielder",
             "cGors",
             "programeiro",
             "jogueiro",
@@ -331,9 +331,7 @@
     Myth.flicky = {
         "nome": "Flicky",
         "tagId": "flike",
-        "tagId":1: "flike1",
         "faceId": "1489576273",
-       // "faceId": "100009602507641",
         "tier": "tierMinister",
         "ano": "2013 Agosto",
         "crest":["The Mighy Red Hood: Flicky Crest", "hood"],
@@ -348,15 +346,15 @@
             "preHistoric",
             "jogueiro",
             "radiant",
-            fuQuest,
+            "fuQuest",
             "hangouteiro",
             "cah",
 			"help",
-            genesis,
+            "genesis",
             "frukiFest",
-            "vassouraWi"elder"",
+            "vassouraWielder",
             "encontroMyth",
-            gardevoa,
+            "gardevoa",
             "gartic",
             "streameiro",
 			"steam",
@@ -364,35 +362,34 @@
             "essetop",
             "smashFest2014",
             "doraFest2015",
-            kanaFest,
+            "kanaFest",
             "programeiro",
-            _"3dsPlay",
+            "3dsPlay",
             "lendsClub",
             "rplay",
             "skgPart",
             "ygo",
             "plugDj",
             "harass",
-           mitamores,
+           "mitamores",
 		   "mitrade",
-		   "mitopg",
+		   "mitopg"
         ]
     };
 
        Myth.gabriel = {
         "nome": "Gabriel",
         "tagId": "gabriel",
-        "tagId":1: "gabriel1",
         "faceId": "100003090554200",
-        "tier": tierSilver,
+        "tier": "tierSilver",
         "ano": "2015 Junho ",
 		"race": "Porteiro",
 		"skill": "Mandar Nudes",
 		"fullname": "Gabriel Freire",
 		"alias": "Freire, Biel",
         "badges": [
-            mythEvent,
-            mythSilver,
+            "mythEvent",
+            "mythSilver",
             "gartic",
             "jogueiro",
             "hangouteiro",
@@ -404,7 +401,6 @@
            Myth.gabriell = {
         "nome": "Gabriell",
         "tagId": "gabriell",
-        "tagId":1: "gabriel2",
         "faceId": "100001122246638",
         "tier": "tierFreshman",
         "ano": "2015 Dezembro ",
@@ -421,7 +417,6 @@
     Myth.garland = {
         "nome": "Garland",
         "tagId": "garland",
-        "tagId":1: "garland1",
         "faceId": "100003138536144",
         "tier": "tierHonorary",
         "ano": " 2014 Outubro",
@@ -442,9 +437,8 @@
     Myth.herbe = {
         "nome": "Herbe",
         "tagId": "herbe",
-        "tagId":1: "herbe1",
         "faceId": "100000980181670",
-        "tier": tierGhost,
+        "tier": "tierGhost",
         "ano": "2013",
         "crest":["A Erva da Alegria: Herbe Crest", "herb"],
         "badges": [
@@ -452,22 +446,21 @@
             "frukiFest",
             "encontroMyth",
             "smashFesteiro",
-            "vassouraWi"elder"",
+            "vassouraWielder",
             "essetop",
             "smashFest2014",
             "doraFest2015",
             "harass",
-            _"3dsPlay",
+            "3dsPlay",
             "lendsClub",
-			deceased
+			"deceased"
         ]
     };
     Myth.karen = {
         "nome": "Karen",
         "tagId": "karen",
-        "tagId":1: "karen1",
         "faceId": "100002543640185",
-        "tier": tierGhost,
+        "tier": "tierGhost",
         "ano": "2014 Maio ",
 		"race": "Human",
 		"skill": "???",
@@ -476,9 +469,9 @@
         "badges": [
             "mythGhost",
             "preHistoric",
-            n64,
+            "n64",
             "cah",
-            happyDoor,
+            "happyDoor",
             "radiant",
             "smashFesteiro",
             "encontroMyth",
@@ -488,7 +481,6 @@
     Myth.keidi = {
         "nome": "Keidi",
         "tagId": "keidi",
-        "tagId":1: "keidi1",
         "faceId": "100000119298271",
         "tier": "tierUnicorn",
         "ano": "2015 Maio ",
@@ -498,22 +490,21 @@
 		"alias": "Keig",
         "badges": [
             "mythUnicorn",
-            cAna,
-            keidiPint,
+            "cAna",
+            "keidiPint",
             "streameiro",
-            kanaFest,
+            "kanaFest",
             "jogueiro",
             "skgPart",
             "plugDj",
 			"steam",
-			deceased
+			"deceased"
         ]
     };
 
     Myth.luana = {
         "nome": "Luana",
         "tagId": "luana",
-        "tagId":1: "luana1",
         "faceId": "100001019850664",
         "tier": "tierHonorary",
         "ano": " 2014 Fevereiro",
@@ -524,19 +515,18 @@
         "badges": [
             "mythHonorary",
             "encontroMyth",
-            doisPotes,
+            "doisPotes",
             "cFlicky",
             "radiant",
             "harass",
             "frukiFest",
             "lendsClub",
-			deceased
+			"deceased"
         ]
     };
-  /*  Myth.luiggi = {
+  *  Myth.luiggi = {
         "nome": "Mario Verde",
         "tagId": "luiggi",
-        "tagId":1: "luiggi1",
         "faceId": "1413967158",
         "tier": "tierFreshman",
         "ano": "2015 Junho",
@@ -546,15 +536,14 @@
 		"alias": "Afro",
         "badges": [
             "mythFresh",
-            cGarland
+            "cGarland"
         ]
     }; */
     Myth.marcela = {
         "nome": "Marcela",
         "tagId": "marcela",
-        "tagId":1: "marcela1",
         "faceId": "100002119416291",
-        "tier": tierGhost,
+        "tier": "tierGhost",
         "ano": " 2014 Novembro",
 		"race": "Undead",
 		"skill": "???",
@@ -600,9 +589,9 @@
 		"alias": "Maripall",
         "badges": [
             "mythLegacy",
-            mythSilver,
+            "mythSilver",
             "desenheiro",
-            mitamores,
+            "mitamores",
             "karaoke",
             "gartic",
             "jogueiro",
@@ -636,7 +625,7 @@
             "mythMinister",
             cPall,
             "defiance",
-            "vassouraWi"elder"",
+            "vassouraWielder",
             "desenheiro",
             "rplay",
             "essetop",
@@ -648,7 +637,7 @@
             "gartic",
             poke,
             "plugDj",
-            mitamores,
+            "mitamores",
             "help",
 			"maid",
 			"mitrade",
@@ -664,14 +653,14 @@
         "tagId": "raptor",
         "tagId":1: "raptor1",
         "faceId": "100010429817165",//"100002980734271",
-        "tier": tierSilver,
+        "tier": "tierSilver",
         "ano": "2015 Junho ",
 		"race": "Dinossauro",
 		"skill": "Birutisse",
 		"fullname": "David Raptor, O Mascote",
 		"alias": "Raptor",
         "badges": [
-            mythSilver,
+            "mythSilver",
             cHerbe,
             nennys,
             "defiance",
@@ -679,7 +668,7 @@
 			"desenheiro",
 			"hangouteiro",
 			_"3dsPlay",
-			//deceased,
+			//"deceased",
         ]
 	};
      Myth.romulo = {
@@ -687,7 +676,7 @@
         "tagId": "romulo",
         "tagId":1: "romulo1",
         "faceId": "100001228879580",
-        "tier": tierGhost,
+        "tier": "tierGhost",
         "ano": " 2015 Junho",
 		"race": "Human",
 		"skill": "Samangada",
@@ -714,7 +703,7 @@
         "badges": [
             "mythUnicorn",
             "cClaro",
-            kanaFest
+            "kanaFest"
         ]
     };
 
@@ -768,10 +757,10 @@
 			"mythMinister",
             "merito",
             "programeiro",
-            kanaFest,
+            "kanaFest",
             "essetop",
             redCoder,
-            "vassouraWi"elder"",
+            "vassouraWielder",
             "jogueiro",
             "help",
             "idea",
@@ -789,14 +778,14 @@
         "tagId": "vidal",
         "tagId":1: "vidal1",
         "faceId": "100000652608528",
-        "tier": tierSilver,
+        "tier": "tierSilver",
         "ano": " 2015 Janeiro",
 		"race": "Relativista",
 		"skill": "P-p-p-pessoas",
 		"fullname": "Ricardo Vidal",
 		"alias": "RicsVidal",
         "badges": [
-            mythSilver,
+            "mythSilver",
             "encontroMyth",
             cHerbe,
             "smashFesteiro",
@@ -829,7 +818,7 @@
             "mythUnicorn",
             "preHistoric",
             "jogueiro",
-            fuQuest,
+            "fuQuest",
             wii,
             "radiant",
             "frukiFest",
@@ -866,7 +855,7 @@
             "preHistoric",
             "desenheiro",
             "jogueiro",
-            fuQuest,
+            "fuQuest",
             "frukiFest",
             "radiant",
             "hangouteiro",
@@ -878,7 +867,7 @@
             _"3dsPlay",
             "smashFest2014",
             wataZomb,
-            kanaFest,
+            "kanaFest",
             musicist,
             "likeBomb",
 			goldenPen,
