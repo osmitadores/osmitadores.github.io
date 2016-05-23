@@ -1,4 +1,6 @@
-
+####################
+#  Mitos Database  #
+####################
 -   nome: Alex
     tagId: foffano
     tier: tierUnicorn
@@ -244,7 +246,7 @@
         - 3dsPlay
         - elder
 
-    nome: Davi
+-   nome: Davi
     tagId: davi
     active: true
     faceId: 100000350561525
