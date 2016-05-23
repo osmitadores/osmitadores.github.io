@@ -6,7 +6,14 @@ layout: mainboard
 <h2><center>Last build: {{ site.time }}</center></h2>
 
 {% for myth in site.data.myths %}
-<span id="{{ myth.tagId }}"></span>
+{% if myth.tagId == 'flike' %}
+    <span id="agatha"></span>
+    <span id="{{ myth.tagId }}"></span>
+{% elsif myth.tagId == 'agatha' %}
+    <span id="dead"></span>
+{% else %}
+    <span id="{{ myth.tagId }}"></span>
+{% endif %}
 <table class="tg active-{{ myth.active }}" style="table-layout: margin-bottom: 10px; fixed; width: 100%">
     <colgroup>
         <col style="width: 50px">

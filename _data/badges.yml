@@ -1,15 +1,57 @@
-
+#####################
+#  Badges Database  #
+#####################
 -   id: mythUnicorn
     title: Mitador Unicorn - Raros porém participativos
     img: uni
 
--   id: preHistoric
-    title: Mitador Jurássico - Os Mitadores Pré-Históricos
-    img: jurassic
+-   id: mythPlatinum
+    title: Mitador Platinum
+    img: plat
+
+-   id: mythDiamond
+    title: Mitador Diamond - Amor à camisa
+    img: diamond
+
+-   id: mythMinister
+    title: Mythnister - Leading the path of strife!
+    img: minister
+
+-   id: mythSilver
+    title: Mitador Silver
+    img: silver
+
+-   id: mythLegacy
+    title: Mitador Legacy - Veterano dos primórdios!
+    img: legacy
+
+-   id: mythFresh
+    title: Freshman - Mitadores Trainee
+    img: fresh
+
+-   id: mythGuest
+    title: Guest - Não-mitador que convive na casa.
+    img: guest
+
+-   id: mythHonorary
+    title: Mitador Honorary - Protegido pessoal de um Prime ou Platinum
+    img: honor
+
+-   id: mythLurker
+    title: Lurker - Sempre nas sombras, eventualmente se pronuncia.
+    img: lurk
+
+-   id: mythGold
+    title: Mitador Gold
+    img: gold
 
 -   id: mythGhost
-    title: Mitador Ghost - Inativo há mais de um mês
+    title: Mitador Ghost - Inativo há mais de um mês.
     img: ghost
+
+-   id: mythPrime
+    title: Mitador Prime - Os primeiros Mitadores, criadores da porra toda.
+    img: prime
 
 -   id: jogueiro
     title: Jogueiros - Sempre presentes nas jogatinas míticas
@@ -20,22 +62,14 @@
     img: hang
 
 -   id: desenheiro
-    title: Desenheiro - Depictador dos melhores momentos
+    title: Desenheiro - Depictador dos melhores momentos.
     img: pen
-
--   id: goldenPen
-    title: Golden Pen - Desenheiro Lendário
-    img: pen
-
--   id: cah
-    title: Mitadores Contra a Humanidade!
-    img: cah
 
 -   id: vassouraWielder
     title: Vassoura Wielder - Já vassourou alguém em uma situação realmente necessária
     img: broom
 
--   id: 3dsPlay
+-   id: _3dsPlay
     title: 3DS Teamplay - Jogou com mitadores via Nintendo 3DS
     img: 3ds
 
@@ -43,22 +77,342 @@
     title: Defiance - Sem medo de umas vassouradas
     img: defiance
 
+-   id: pipoqueiro
+    title: Arthur exclusive 'Pipoqueiro Badge'
+    img: pop
+
+-   id: encontroMyth
+    title: Encontro Mitador - eu fui!
+    img: group
+
+-   id: smashFesteiro
+    title: Smashfesteiro
+    img: ssb
+
+-   id: smashFest2014
+    title: Newyear 2014 - Smashfest - Eu fui!
+    img: 2014
+
+-   id: doraFest2015
+    title: Newyear 2015 - Dorafest - Eu fui!
+    img: badge
+
+-   id: mechanicPunch
+    title: Claro exclusive 'Mechanic Punch' Badge
+    img: soc
+
+-   id: programeiro
+    title: Programeiro - Ajuda a codar paradas mitadoras
+    img: code
+
+-   id: frukiFest
+    title: Newyear 2013 - Frukifest - Eu fui!
+    img: 2013
+
+-   id: streameiro
+    title: Streameiro - Ocasionalmente promove Livestreams
+    img: live
+
+-   id: gardevoa
+    title: Flicky exclusive 'Gardevobadge'
+    img: garde
+
+-   id: mitamores
+    title: Os Mitamores - Casais Mitadores são lindos
+    img: mitamores
+
+-   id: doisPotes
+    title: Luana exclusive 'Doooois Pooootes' Badge
+    img: pots
+
+-   id: mitamores2k
+    title: Os Mitamores - Casais Mitadores são lindos
+    img: mitamores2k
+
+-   id: lendsClub
+    title: Lends Club - Board Games com Mitadores
+    img: lends
+
+-   id: badgeWhore
+    title: Badge Whore - Faço tudo por badges!
+    img: badwho
+
+-   id: kanaFest
+    title: Kanafester - Gênios do Pseudo-Japonês
+    img: kana
+
+-   id: cupidRab
+    title: Coelho exclusive 'Official Cupid' Badge
+    img: cupid
+
+-   id: pauHd
+    title: Aragão exclusive 'Pau em HD' Badge
+    img: pauhd
+
+-   id: likeBomb
+    title: Like Bomb - Top da balada
+    img: likebomb
+
+-   id: vidalGt
+    title: Vidal exclusive 'Greentext' Badge
+    img: greentxt
+
+-   id: vidalFdp
+    title: Vidal exclusive 'Filhadaputópolis' Badge
+    img: catan
+
 -   id: miauCaralho
     title: Ana exclusive 'MIAO CARALHO' Badge
     img: badge
 
--   id: idea
-    title: Badger - Até eu criei uma Badge e você não!
-    img: badgeidea
+-   id: ajudeiro
+    title: Ajudeiro - Ele não é o Luciano, mas também ajuda pra caramba!
+    img: badge
+
+-   id: redCoder
+    title: Red Coder - Coder Lendário
+    img: redcoder
+
+-   id: goldenPen
+    title: Golden Pen - Desenheiro Lendário
+    img: pen
+
+-   id: wataZomb
+    title: Watanabe Exclusive 'Japanese Horror Movie' Badge
+    img: akuma
+
+-   id: preHistoric
+    title: Mitador Jurássico - Os Mitadores Pré-Históricos
+    img: jurassic
+
+-   id: musicist
+    title: Musiqueiro
+    img: music
+
+-   id: keidiPint
+    title: Keidi exclusive 'Pinteiro' Badge
+    img: print
+
+-   id: merito
+    title: Mitador por mérito - Admin/Community pick
+    img: merito
+
+-   id: matricialPrint
+    title: Vidal exclusive 'Impressora Matricial' Badge
+    img: printer
+
+-   id: happyDoor
+    title: Karen exclusive 'Porta Feliz' Badge
+    img: hpydoa
+
+-   id: satanicat
+    title: Matsuna exclusive 'Satanicat' Badge
+    img: satanicat
+
+-   id: karaoke
+    title: Karaokê Mitador - Eu fui!
+    img: karaoke
+
+-   id: nennys
+    title: Mitador Nennys - o mais novo
+    img: nennys
+
+-   id: elder
+    title: Mitador Ancião - o mais velho
+    img: ancient
+
+-   id: mariEx
+    title: Pall exclusive '!!!' Badge
+    img: excla
+
+-   id: fuQuest
+    title: Fuquest/OsMitadores the Game - Devteam
+    img: fq
+
+-   id: radiant
+    title: Radiant Historia 11k
+    img: historia
+
+-   id: genesis
+    title: Anfitrião de SEGA Genesis
+    img: genesis
+
+-   id: n64
+    title: Anfitrião de Nintendo 64
+    img: n64
+
+-   id: ps2
+    title: Anfitrião de Playstation 2
+    img: ps2
+
+-   id: ps3
+    title: Anfitrião de Playstation 3
+    img: ps3
+
+-   id: ps4
+    title: Anfitrião de Playstation 4
+    img: ps4
+
+-   id: wii
+    title: Anfitrião de Nintendo Wii
+    img: wii
+
+-   id: rplay
+    title: Roleplay Masters - *flies away*
+    img: rp
+
+-   id: cah
+    title: Mitadores Contra a Humanidade!
+    img: cah
+
+-   id: essetop
+    title: "[Evento] ESSE TÓPICO É PRA VOCÊ...."
+    img: essetop
+
+-   id: ygo
+    title: Duelista
+    img: ygo
 
 -   id: gartic
     title: Círculo Mitador de Gartic
     img: gartic
 
+-   id: pepe
+    title: Rare Pepe Trader Certificado
+    img: pepe
+
+-   id: frog
+    title: Romulo Exclusive Samango Frog Badge
+    img: frog
+
+-   id: poke
+    title: Pam Exclusive *poke poke* Badge
+    img: poke
+
+-   id: idea
+    title: Badger - Até eu criei uma Badge e você não!
+    img: badgeidea
+
+-   id: help
+    title: Ajudeiro - Resolver problemas é com eles!
+    img: ajudeiro
+
+-   id: harass
+    title: Harasser - Bulinadores Profissionais
+    img: harass
+
+-   id: qqq
+    title: Dogolas Exclusive Q Badge
+    img: qqq
+
+-   id: plugDj
+    title: DJ assíduo nas pistas mitadoras
+    img: plugdj
+
+-   id: tumeoEx
+    title: Tumeo Exclusive Black & Purple for no Reason Badge
+    img: tumeocoisa
+
+-   id: maid
+    title: The Maid - Alguém tem que limpar essa bagaça
+    img: maid
+
 -   id: nekomimi
     title: Trust me, I'm a cat!
     img: nekomimi
 
+-   id: mitrade
+    title: Trader de Mitos Raros, compro e vendo
+    img: mitrade
+
+-   id: tunelaa
+    title: Tumeo exclusive Golden Gears Badge
+    img: goldgear
+
+-   id: mitopg
+    title: MitoPG - RPG com Mitadores
+    img: mitopg
+
+-   id: drillsoura
+    title: Arthur Exclusive - Drillsoura that will Pierce the Heavens
+    img: badge
+
+-   id: steam
+    title: Steamitos
+    img: steam
+
 -   id: deceased
     title: Mitador Aposentado
     img: badge
+
+-   id: cleosvaldo
+    title: Vinicius Exclusive - Cleosvaldo Badge
+    img: badge
+
+-   id: skgPart
+    title: Skull Girls Tournament - Participei... mas não ganhei. Pq sou noob
+    img: skgpt
+
+-   id: skullGirls
+    title: Skull Girls Tournament - 1o Lugar!!!
+    img: skg
+
+-   id: mythEvent
+    title: Mitador de Evento
+    img: badge
+
+-   id: punTime
+    title: "[EVENTO] Pun Time!!"
+    img: badge
+
+-   id: nonethless
+    title: nodesc
+    img: badge
+
+-   id: cVinicius
+    title: The Piano Key - Vinicius Crest
+    img: vkps
+
+-   id: cFlicky
+    title: The Mighy Red Hood - Flicky Crest
+    img: hood
+
+-   id: cGors
+    title: The Bullet Head - Gors Crest
+    img: gors
+
+-   id: cAna
+    title: Yomiell Hankerchief - Ana Crest
+    img: yomi
+
+-   id: cPall
+    title: The Kawaii Stick Pall Crest
+    img: pall
+
+-   id: cClaro
+    title: Com o Claro você fala ilimitado! Claro Crest
+    img: claro
+
+-   id: cHerbe
+    title: A Erva da Alegria - Herbe Crest
+    img: herb
+
+-   id: cCesar
+    title: The Rockstar Sneakers - Rasec Crest
+    img: rasec
+
+-   id: cGarland
+    title: The Black Mage - Garland Crest
+    img: mage
+
+-   id: cZero
+    title: The Dimensional Zero - Arthur Crest
+    img: zero
+
+-   id: cPam
+    title: The Whiskas Tin - Grether Crest
+    img: pam
+
+-   id: cDouglas
+    title: Q - Douglas Crest
+    img: qqq
