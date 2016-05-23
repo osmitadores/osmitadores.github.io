@@ -348,6 +348,10 @@ table.tg.active-false {
     opacity: 0.3;
 }
 
+table.tg.active-dead {
+    display: none;
+}
+
 .name a{
     text-decoration: none;
     color: white;
