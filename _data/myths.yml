@@ -246,6 +246,25 @@
         - 3dsPlay
         - elder
 
+-   nome: Dani
+    tagId: danimee
+    active: true
+    faceId: 100001088191597
+    tier: tierFreshman
+    ano: 2016 Julho
+    race: Elfo
+    skill: Botar muita pilha
+    fullname: Dani Martins
+    alias: Liu Kang
+    crest: nocrest
+    badges:
+        - mythFresh
+        - cFlicky
+        - gartic
+        - hangouteiro
+        - desenheiro
+        - plugDj
+
 -   nome: Davi
     tagId: davi
     active: true
