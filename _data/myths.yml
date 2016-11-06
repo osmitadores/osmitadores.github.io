@@ -13,6 +13,7 @@
     alias: Foffano
     crest: nocrest
     badges:
+        - mythSilver
         - mythUnicorn
         - preHistoric
 
@@ -176,14 +177,12 @@
     fullname: César Augusto
     alias: Rasecsyn
     badges:
-        - mythHonorary
         - cFlicky
         - mythLurker
         - radiant
         - encontroMyth
         - smashFesteiro
         - smashFest2014
-        - doraFest2015
         - lendsClub
         - jogueiro
         - skgPart
@@ -321,7 +320,6 @@
     alias: DuoDynamo
     crest: nocrest
     badges:
-        - mythHonorary
         - mythGhost
         - essetop
         - cGors
@@ -409,7 +407,7 @@
     alias: Henrique, Gabriel
     crest: nocrest
     badges:
-        - mythFresh
+        - mythSilver
         - cDouglas
 
 -   nome: Garland
@@ -424,7 +422,6 @@
     fullname: Bernardo Alvarez Braga
     alias: Bê
     badges:
-        - mythHonorary
         - encontroMyth
         - mythLurker
         - cFlicky
@@ -446,11 +443,12 @@
         - vassouraWielder
         - essetop
         - smashFest2014
-        - doraFest2015
         - harass
         - 3dsPlay
         - lendsClub
         - doraFest2015
+        - hangouteiro
+        - gartic
 
 -   nome: Karen
     tagId: karen
@@ -486,7 +484,7 @@
     alias: Keig
     crest: nocrest
     badges:
-        - mythUnicorn
+        - mythSilver
         - cAna
         - keidiPint
         - streameiro
@@ -510,7 +508,6 @@
     alias: _reisluana
     crest: nocrest
     badges:
-        - mythHonorary
         - encontroMyth
         - doisPotes
         - cFlicky
@@ -621,6 +618,7 @@
         - doraFest2015
         - karaoke
         - likeBomb
+        - ps3
 
 -   nome: Raptor
     tagId: raptor
@@ -642,7 +640,6 @@
         - desenheiro
         - hangouteiro
         - 3dsPlay
-        - deceased
         - gartic
 
 -   nome: Rômulo
@@ -807,7 +804,7 @@
     alias: Vinólia, Vinóculos, Vkps
     badges:
         - mythLegacy
-        - mythUnicorn
+        - mythGold
         - preHistoric
         - jogueiro
         - fuQuest
@@ -820,7 +817,6 @@
         - encontroMyth
         - smashFesteiro
         - smashFest2014
-        - doraFest2015
         - 3dsPlay
         - lendsClub
         - cah
