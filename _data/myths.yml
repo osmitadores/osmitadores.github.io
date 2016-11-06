@@ -148,7 +148,7 @@
 
 -   nome: Camila
     tagId: cpaolucci
-    active: true
+    active: false
     faceId: 100003844416725
     tier: tierLurker
     ano: 2015 Junho
@@ -188,7 +188,7 @@
 
 -   nome: Claro
     tagId: claro
-    active: true
+    active: false
     faceId: 100000481675563
     tier: tierPlatinum
     ano: 2014 Dezembro
@@ -248,7 +248,7 @@
 
 -   nome: Dani
     tagId: danimee
-    active: true
+    active: false
     faceId: 100001088191597
     tier: tierFreshman
     ano: 2016 Julho
@@ -267,7 +267,7 @@
 
 -   nome: Davi
     tagId: davi
-    active: true
+    active: false
     faceId: 100000350561525
     tier: tierFreshman
     ano: 2015 Julho
@@ -282,7 +282,7 @@
 
 -   nome: Douglas
     tagId: douglas
-    active: true
+    active: false
     faceId: 100002084300385
     tier: tierGold
     ano: 2015 Maio
@@ -468,7 +468,7 @@
 
 -   nome: Keidi
     tagId: keidi
-    active: false
+    active: true
     faceId: 100000119298271
     tier: tierUnicorn
     ano: 2015 Maio
@@ -491,7 +491,7 @@
 
 -   nome: Luana
     tagId: luana
-    active: true
+    active: false
     faceId: 100001019850664
     tier: tierHonorary
     ano:  2014 Fevereiro
@@ -580,7 +580,7 @@
     tier: tierMinister
     ano: 2015 Maio
     race: Demi-Cat
-    skill: poke
+    skill: animadora
     fullname: Pamela Grether
     alias: PamGreta, Kerria
     badges:
@@ -634,7 +634,7 @@
 
 -   nome: Rômulo
     tagId: romulo
-    active: true
+    active: false
     faceId: 100001228879580
     tier: tierGhost
     ano:  2015 Junho
@@ -667,7 +667,7 @@
 
 -   nome: Tairine
     tagId: tairine
-    active: true
+    active: false
     faceId: 100000251671306
     tier: tierFreshman
     ano: 2015
@@ -790,7 +790,7 @@
 
 -   nome: Watanabe
     tagId: gors
-    active: true
+    active: false
     faceId: 100003656546830
     tier: tierDiamond
     ano: 2013 Outubro
