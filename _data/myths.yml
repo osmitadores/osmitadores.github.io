@@ -703,7 +703,7 @@
     ano: 2015 Abril
     race: Construção Pública
     skill: ???
-    fullname: William Tuméo
+    fullname: William Tumeo
     alias: Túnel
     crest: nocrest
     badges:
@@ -725,6 +725,9 @@
         - maid
         - encontroMyth
         - doraFest2015
+        - lendsClub
+        - streameiro
+        - plugDj
 
 -   nome: Vidal
     tagId: vidal
