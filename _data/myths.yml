@@ -13,8 +13,6 @@
     alias: Foffano
     crest: nocrest
     badges:
-        - mythSilver
-        - mythUnicorn
         - preHistoric
 
 
@@ -30,7 +28,6 @@
     alias: Yomiell
     crest: yomi
     badges:
-        - mythGhost
         - preHistoric
         - jogueiro
         - hangouteiro
@@ -39,11 +36,11 @@
         - cah
         - vassouraWielder
         - 3dsPlay
-        - defiance
         - miauCaralho
         - idea
         - gartic
         - nekomimi
+        - encontroMyth
         - deceased
 
 -   nome: Ana Errada
@@ -54,9 +51,9 @@
     ano: 2015
     crest: nocrest
     badges:
-        - mythUnicorn
         - cVinicius
         - gartic
+        - deceased
 
 -   nome: Aragão
     tagId: aragao
@@ -70,7 +67,6 @@
     alias: Aragorness
     crest: nocrest
     badges:
-        - mythLegacy
         - hangouteiro
         - jogueiro
         - gartic
@@ -85,7 +81,7 @@
     tagId: arthur
     active: true
     faceId: 100000504458978
-    tier: tierGold
+    tier: tierDiamond
     ano: 2015 Maio
     crest: zero
     race: Human
@@ -93,7 +89,6 @@
     fullname: Arthur Lima
     alias: Zero
     badges:
-        - mythGold
         - cFlicky
         - jogueiro
         - pipoqueiro
@@ -104,6 +99,7 @@
         - drillsoura
         - steam
         - gartic
+        - jogueiro
 
 -   nome: Bárbara Bárbara
     tagId: barbara
@@ -128,8 +124,8 @@
     alias: Yggydrasil
     crest: nocrest
     badges:
-        - mythGuest
         - cFlicky
+        - encontroMyth
 
 -   nome: Camila
     tagId: cpaolucci
@@ -143,7 +139,6 @@
     alias: Milla, Lucci
     crest: nocrest
     badges:
-        - mythLurker
         - cZero
         - mitopg
         - deceased
@@ -161,7 +156,6 @@
     alias: Rasecsyn
     badges:
         - cFlicky
-        - mythLurker
         - radiant
         - encontroMyth
         - smashFesteiro
@@ -170,6 +164,7 @@
         - jogueiro
         - skgPart
         - doraFest2015
+        - jogueiro
 
 -   nome: Claro
     tagId: claro
@@ -183,10 +178,8 @@
     fullname: Matheus Claro
     alias: Spyril4
     badges:
-        - mythPlatinum
         - mechanicPunch
         - hangouteiro
-        - defiance
         - cah
         - vassouraWielder
         - cGors
@@ -219,8 +212,6 @@
     alias: BlackLabHorus, Estragaonofre
     crest: nocrest
     badges:
-        - mythLegacy
-        - mythGhost
         - cupidRab
         - ps2
         - ps3
@@ -230,6 +221,7 @@
         - smashFest2014
         - 3dsPlay
         - elder
+        - encontroMyth
         - deceased
 
 -   nome: Dani
@@ -244,12 +236,12 @@
     alias: Liu Kang
     crest: nocrest
     badges:
-        - mythFresh
         - cFlicky
         - gartic
         - hangouteiro
         - desenheiro
         - plugDj
+        - jogueiro
         - deceased
 
 -   nome: Davi
@@ -264,7 +256,6 @@
     alias: Liu Kang
     crest: nocrest
     badges:
-        - mythFresh
         - cClaro
         - deceased
 
@@ -280,7 +271,6 @@
     alias: Dogolas
     crest: qqq
     badges:
-        - mythGold
         - merito
         - hangouteiro
         - ygo
@@ -290,6 +280,7 @@
         - desenheiro
         - mitrade
         - maid
+        - jogueiro
 
 -   nome: Fernando
     tagId: duodyn
@@ -303,11 +294,11 @@
     alias: DuoDynamo
     crest: nocrest
     badges:
-        - mythGhost
         - essetop
         - cGors
         - hangouteiro
         - karaoke
+        - encontroMyth
         - deceased
 
 -   nome: Flicky
@@ -323,7 +314,7 @@
     alias: Flocos
     badges:
         - mythPrime
-        - mythMinister
+        - mythDiamond
         - desenheiro
         - preHistoric
         - jogueiro
@@ -343,7 +334,6 @@
         - karaoke
         - essetop
         - smashFest2014
-        - doraFest2015
         - kanaFest
         - programeiro
         - 3dsPlay
@@ -356,6 +346,7 @@
         - mitamores
         - mitrade
         - mitopg
+        - doraFest2015
         - menem
 
 -   nome: Gabriel
@@ -371,7 +362,6 @@
     crest: nocrest
     badges:
         - mythEvent
-        - mythSilver
         - gartic
         - jogueiro
         - hangouteiro
@@ -382,7 +372,7 @@
     tagId: gabriell
     active: true
     faceId: 100001122246638
-    tier: tierFreshman
+    tier: tierSilver
     ano: 2015 Dezembro
     race: Human
     skill: Inútil
@@ -390,8 +380,9 @@
     alias: Henrique, Gabriel
     crest: nocrest
     badges:
-        - mythSilver
         - cDouglas
+        - jogueiro
+        - hangouteiro
 
 -   nome: Garland
     tagId: garland
@@ -406,7 +397,6 @@
     alias: Bê
     badges:
         - encontroMyth
-        - mythLurker
         - cFlicky
         - smashFest2014
         - steam
@@ -415,7 +405,7 @@
     tagId: herbe
     active: true
     faceId: 100000980181670
-    tier: tierGhost
+    tier: tierGold
     ano: 2013
     crest: herb
     badges:
@@ -445,7 +435,6 @@
     alias: Carem
     crest: nocrest
     badges:
-        - mythGhost
         - preHistoric
         - n64
         - cah
@@ -459,7 +448,7 @@
     tagId: keidi
     active: true
     faceId: 100000119298271
-    tier: tierUnicorn
+    tier: tierSilver
     ano: 2015 Maio
     race: Mijão
     skill: Print
@@ -467,7 +456,6 @@
     alias: Keig
     crest: nocrest
     badges:
-        - mythSilver
         - cAna
         - keidiPint
         - streameiro
@@ -477,8 +465,8 @@
         - plugDj
         - steam
         - desenheiro
+        - gartic
        
-
 -   nome: Luana
     tagId: luana
     active: false
@@ -498,6 +486,7 @@
         - harass
         - frukiFest
         - lendsClub
+        - jogueiro
         - deceased
 
 -   nome: Mario Verde
@@ -512,7 +501,6 @@
     alias: Afro
     crest: nocrest
     badges:
-        - mythFresh
         - cGarland
         - deceased
 
@@ -528,7 +516,6 @@
     alias: Marceline
     crest: nocrest
     badges:
-        - mythGhost
         - cFlicky
 
 -   nome: Pall
@@ -543,8 +530,6 @@
     fullname: Mariana Espinosa Pall
     alias: Maripall
     badges:
-        - mythLegacy
-        - mythSilver
         - desenheiro
         - mitamores
         - karaoke
@@ -561,6 +546,7 @@
         - plugDj
         - mitrade
         - mitopg
+        - encontroMyth
 
 -   nome: Pamela
     tagId: pam
@@ -574,10 +560,7 @@
     fullname: Pamela Grether
     alias: PamGreta, Kerria
     badges:
-        - mythDiamond
-        - mythMinister
         - cPall
-        - defiance
         - vassouraWielder
         - desenheiro
         - rplay
@@ -602,12 +585,13 @@
         - karaoke
         - likeBomb
         - ps3
+        - encontroMyth
 
 -   nome: Raptor
     tagId: raptor
     active: true
     faceId: 100010429817165
-    tier: tierSilver
+    tier: tierGold
     ano: 2015 Junho
     race: Dinossauro
     skill: Birutisse
@@ -615,7 +599,6 @@
     alias: Raptor
     crest: nocrest
     badges:
-        - mythSilver
         - cHerbe
         - nennys
         - defiance
@@ -624,6 +607,7 @@
         - hangouteiro
         - 3dsPlay
         - gartic
+        - jogueiro
 
 -   nome: Rômulo
     tagId: romulo
@@ -637,7 +621,6 @@
     alias: Romulosama
     crest: nocrest
     badges:
-        - mythLurker
         - cClaro
         - pepe
         - frog
@@ -649,15 +632,13 @@
     active: true
     faceId: 1072955195
     crest: nocrest
-    tier: tierUnicorn
+    tier: tierGold
     ano:  2016 Janeiro
     race: Human
     skill: Cobrar dinheiro
     fullname: Vinicius Sesti
     alias: MEU DINHEIRO
     badges:
-        - mythUnicorn
-        - jogueiro
         - gartic
         - encontroMyth
         - doraFest2015
@@ -665,13 +646,14 @@
         - lendsClub
         - n64
         - ps3
+        - jogueiro
 
 
 -   nome: Switch
     tagId: rubens
     active: true
     faceId: 100002312675503
-    tier: tierUnicorn
+    tier: tierSilver
     ano:  2015 Março
     race: Android
     skill: ???
@@ -679,7 +661,6 @@
     alias: Switch Z
     crest: nocrest
     badges:
-        - mythUnicorn
         - cClaro
         - kanaFest
 
@@ -691,8 +672,8 @@
     ano: 2015
     crest: nocrest
     badges:
-        - mythFresh
         - doraFest2015
+        - encontroMyth
         - deceased
 
 -   nome: Toshiaki
@@ -707,7 +688,6 @@
     alias: ToshiakiBR, Teriyaki
     crest: nocrest
     badges:
-        - mythUnicorn
         - jogueiro
         - likeBomb
         - help
@@ -729,7 +709,6 @@
     crest: nocrest
     badges:
         - mythDiamond
-        - mythMinister
         - merito
         - programeiro
         - kanaFest
@@ -745,13 +724,14 @@
         - mitrade
         - steam
         - maid
+        - encontroMyth
         - doraFest2015
 
 -   nome: Vidal
     tagId: vidal
     active: true
     faceId: 100000652608528
-    tier: tierSilver
+    tier: tierGold
     ano:  2015 Janeiro
     race: Relativista
     skill: P-p-p-pessoas
@@ -759,7 +739,6 @@
     alias: RicsVidal
     crest: nocrest
     badges:
-        - mythSilver
         - encontroMyth
         - cHerbe
         - smashFesteiro
@@ -772,6 +751,7 @@
         - vidalFdp
         - plugDj
         - mitopg
+        - jogueiro
         - doraFest2015
 
 -   nome: Vinicius
@@ -779,15 +759,13 @@
     active: true
     faceId: 100002623130922
     crest: vkps
-    tier: tierUnicorn
+    tier: tierLegacy
     ano:  2013 Outubro
     race: Human
     skill: VSF
     fullname: Vinicius Kleinsorgen
     alias: Vinólia, Vinóculos, Vkps
     badges:
-        - mythLegacy
-        - mythGold
         - preHistoric
         - jogueiro
         - fuQuest
@@ -812,7 +790,7 @@
     tagId: gors
     active: false
     faceId: 100003656546830
-    tier: tierDiamond
+    tier: tierLegacy
     ano: 2013 Outubro
     crest: gors
     race: Projectile
@@ -820,8 +798,6 @@
     fullname: William Watanabe
     alias: Gorsal
     badges:
-        - mythLegacy
-        - mythDiamond
         - preHistoric
         - desenheiro
         - jogueiro
@@ -856,7 +832,6 @@
     alias: Wolvie
     crest: nocrest
     badges:
-        - mythLurker
         - cCesar
         - encontroMyth
         - mitopg
