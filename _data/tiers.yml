@@ -8,3 +8,48 @@
     title: Mitador Ghost
     img: ghost
     level: 1
+
+-   id: tierSilver
+    title: Mitador Silver
+    img: silver
+    level: 0
+
+-   id: tierGold
+    title: Mitador Gold
+    img: gold
+    level: 0
+    
+-   id: tierPlatinum
+    title: Mitador Platinum
+    img: plat
+    level: 0
+
+-   id: tierDiamond
+    title: Mitador Diamond
+    img: diamond
+    level: 0
+
+-   id: tierLegacy
+    title: Mitador Legacy
+    img: legacy
+    level: 0
+
+-   id: tierFresh
+    title: Freshman
+    img: fresh
+    level: 0
+
+-   id: tierGuest
+    title: Guest
+    img: guest
+    level: 0
+
+-   id: tierLurker
+    title: Lurker
+    img: lurk
+    level: 0
+    
+-   id: tierPrime
+    title: Mitador Prime
+    img: prime
+    level: 0
