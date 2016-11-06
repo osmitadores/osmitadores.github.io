@@ -109,7 +109,6 @@
     ano: 2015
     crest: nocrest
     badges:
-        - mythFresh
         - cDouglas
 
 -   nome: Bruna
@@ -601,7 +600,6 @@
     badges:
         - cHerbe
         - nennys
-        - defiance
         - ygo
         - desenheiro
         - hangouteiro
