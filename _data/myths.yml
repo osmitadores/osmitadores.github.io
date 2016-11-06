@@ -119,6 +119,7 @@
         - mitopg
         - drillsoura
         - steam
+        - gartic
 
 -   nome: Bárbara Bárbara
     tagId: barbara
@@ -161,6 +162,7 @@
         - mythLurker
         - cZero
         - mitopg
+        - deceased
 
 -   nome: Cesar
     tagId: rasec
@@ -185,6 +187,7 @@
         - lendsClub
         - jogueiro
         - skgPart
+        - doraFest2015
 
 -   nome: Claro
     tagId: claro
@@ -245,6 +248,7 @@
         - smashFest2014
         - 3dsPlay
         - elder
+        - deceased
 
 -   nome: Dani
     tagId: danimee
@@ -264,6 +268,7 @@
         - hangouteiro
         - desenheiro
         - plugDj
+        - deceased
 
 -   nome: Davi
     tagId: davi
@@ -279,6 +284,7 @@
     badges:
         - mythFresh
         - cClaro
+        - deceased
 
 -   nome: Douglas
     tagId: douglas
@@ -321,6 +327,7 @@
         - cGors
         - hangouteiro
         - karaoke
+        - deceased
 
 -   nome: Flicky
     tagId: flike
@@ -368,6 +375,7 @@
         - mitamores
         - mitrade
         - mitopg
+        - menem
 
 -   nome: Gabriel
     tagId: gabriel
@@ -442,7 +450,7 @@
         - harass
         - 3dsPlay
         - lendsClub
-        - deceased
+        - doraFest2015
 
 -   nome: Karen
     tagId: karen
@@ -487,7 +495,8 @@
         - skgPart
         - plugDj
         - steam
-        - deceased
+        - desenheiro
+       
 
 -   nome: Luana
     tagId: luana
@@ -525,6 +534,7 @@
     badges:
         - mythFresh
         - cGarland
+        - deceased
 
 -   nome: Marcela
     tagId: marcela
@@ -609,6 +619,8 @@
         - steam
         - lendsClub
         - doraFest2015
+        - karaoke
+        - likeBomb
 
 -   nome: Raptor
     tagId: raptor
@@ -631,6 +643,7 @@
         - hangouteiro
         - 3dsPlay
         - deceased
+        - gartic
 
 -   nome: Rômulo
     tagId: romulo
@@ -648,6 +661,7 @@
         - cClaro
         - pepe
         - frog
+        - deceased
 
 -   nome: Switch
     tagId: rubens
@@ -675,6 +689,7 @@
     badges:
         - mythFresh
         - doraFest2015
+        - deceased
 
 -   nome: Toshiaki
     tagId: toshiaki
@@ -695,6 +710,7 @@
         - karaoke
         - encontroMyth
         - steam
+        - deceased
 
 -   nome: Tumeo
     tagId: tunel
@@ -753,6 +769,7 @@
         - vidalFdp
         - plugDj
         - mitopg
+        - doraFest2015
 
 -   nome: Vinicius
     tagId: vinicius
@@ -787,6 +804,7 @@
         - mitrade
         - cleosvaldo
         - steam
+        - doraFest2015
 
 -   nome: Watanabe
     tagId: gors
