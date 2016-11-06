@@ -17,23 +17,6 @@
         - mythUnicorn
         - preHistoric
 
--   nome: Agatha
-    tagId: agatha
-    active: dead
-    faceId: 100006709956847
-    tier: tierFreshman
-    ano: 2015 Julho
-    race: Human
-    skill: ???
-    fullname: Agatha Klein
-    alias: Gatha
-    crest: nocrest
-    badges:
-        - cClaro
-        - mythFresh
-        - mythHonorary
-        - vassouraWielder
-        - defiance
 
 -   nome: Ana
     tagId: yomiell
