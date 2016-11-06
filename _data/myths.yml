@@ -663,6 +663,30 @@
         - frog
         - deceased
 
+
+-   nome: Sesti
+    tagId: sesti
+    active: true
+    faceId: 1072955195
+    crest: nocrest
+    tier: tierUnicorn
+    ano:  2016 Janeiro
+    race: Human
+    skill: Cobrar dinheiro
+    fullname: Vinicius Sesti
+    alias: MEU DINHEIRO
+    badges:
+        - mythUnicorn
+        - jogueiro
+        - gartic
+        - encontroMyth
+        - doraFest2015
+        - programeiro
+        - lendsClub
+        - n64
+        - ps3
+
+
 -   nome: Switch
     tagId: rubens
     active: true
