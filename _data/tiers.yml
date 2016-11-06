@@ -34,7 +34,7 @@
     img: legacy
     level: 0
 
--   id: tierFresh
+-   id: tierFreshman
     title: Freshman
     img: fresh
     level: 0
@@ -52,4 +52,9 @@
 -   id: tierPrime
     title: Mitador Prime
     img: prime
+    level: 0
+
+-   id: tierMinister
+    title: Mythnister
+    img: minister
     level: 0
